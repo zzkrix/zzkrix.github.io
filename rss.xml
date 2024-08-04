@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 04 Aug 2024 05:03:41 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sun, 04 Aug 2024 05:43:26 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zzkrix.com/rss.xml" />
         
@@ -1674,73 +1674,6 @@
             </item>
         
             <item>
-                <title>软著注意事项</title>
-                <link>https://zzkrix.com/posts/%E8%BD%AF%E8%91%97%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</link>
-                <guid isPermaLink="true">https://zzkrix.com/posts/%E8%BD%AF%E8%91%97%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</guid>
-                <pubDate>Fri, 12 Jan 2024 15:33:23 &#43;0000</pubDate>
-                
-                    <author>zzkrix56@gmail.com (zzkrix)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;需要提交以下两个文件&lt;/p&gt;
-&lt;h2 id=&#34;软著文档&#34;&gt;软著文档&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;页数控制在 13 页以上&lt;/li&gt;
-&lt;li&gt;不要有太多图片，图片文字占比不要超过 1:1，一张图片不要占用太多空间&lt;/li&gt;
-&lt;li&gt;不要粘贴配置文件、代码凑篇幅&lt;/li&gt;
-&lt;li&gt;要有页眉 (软著标题和版本号)、页码&lt;/li&gt;
-&lt;li&gt;使用说明书不能出现架构图、时序图、流程图等软件开发设计阶段的图。&lt;/li&gt;
-&lt;li&gt;设计说明书不能出现软件截图&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;源码文件&#34;&gt;源码文件&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;总共 60 页，每页 50 行
-&lt;ul&gt;
-&lt;li&gt;第 30 页必须是某个模块的结束，可以不够 50 行&lt;/li&gt;
-&lt;li&gt;第 31 页必须是某个模块的开始&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;不要出现空白行&lt;/li&gt;
-&lt;li&gt;不要有注释&lt;/li&gt;
-&lt;li&gt;可以找开源代码
-&lt;ul&gt;
-&lt;li&gt;注意选择&lt;code&gt;MIT&lt;/code&gt;协议的代码&lt;/li&gt;
-&lt;li&gt;尽量不要粘贴开源项目中业务相关的代码&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/categories/%E5%85%B6%E4%BB%96/">其他</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/%E5%85%B6%E4%BB%96/">其他</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
                 <title>vim 中数字增加或减少</title>
                 <link>https://zzkrix.com/posts/vim%E4%B8%AD%E6%95%B0%E5%AD%97%E5%A2%9E%E5%8A%A0%E6%88%96%E5%87%8F%E5%B0%91/</link>
                 <guid isPermaLink="true">https://zzkrix.com/posts/vim%E4%B8%AD%E6%95%B0%E5%AD%97%E5%A2%9E%E5%8A%A0%E6%88%96%E5%87%8F%E5%B0%91/</guid>
@@ -2381,98 +2314,17 @@
             </item>
         
             <item>
-                <title>专利注意事项</title>
-                <link>https://zzkrix.com/posts/%E4%B8%93%E5%88%A9%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</link>
-                <guid isPermaLink="true">https://zzkrix.com/posts/%E4%B8%93%E5%88%A9%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</guid>
-                <pubDate>Fri, 22 Dec 2023 16:21:12 &#43;0000</pubDate>
-                
-                    <author>zzkrix56@gmail.com (zzkrix)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;h2 id=&#34;费减备案&#34;&gt;费减备案&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;官费全额3450元
-
-费减条件：
-    单位：看所得税纳税申报表，应纳税所得额小于100万
-    个人：需提供个人年收入小于6万的证明
-
-申请人数量：
-    一个申请人：
-        符合费减要求560元
-    多个申请人：
-        必须都符合费减要求，才能享受费减政策
-        且多申请人的情况，官费从560提高到1070
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;申请流程比较&#34;&gt;申请流程比较&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;正常流程：出结果最慢，1年以上或更长
-优先审查：出结果适中，但拿申请号快，审核相对预审宽松（包括领域匹配度等）
-预审：  审核最严格，出结果最快，3-4个月出结果
-
-拿到申请号时间： 优先审查 = 正常流程 &amp;lt; 预审
-拿到结果时间：  预审 &amp;lt; 优先审查 &amp;lt; 正常流程
-
-                                 ________正常流程_______提交给专利局 -----&amp;gt; 第二天出专利申请号 -----&amp;gt;大概一年以上出结果，甚至3，4年都有可能
-                                ｜
-提交给代理--------大概10个工作日----|_______优先审查________提交给专利局 -----&amp;gt; 第二天出专利申请号 -----&amp;gt;大概一年左右出结果
-                                ｜
-                                ｜_______预审___________提交预审中心 -----&amp;gt; 大概一周后出结果 ----&amp;gt; 提交给专利局 ----&amp;gt; 第二天出专利申请号 -----&amp;gt;大概3-4个月出结果
-
-备注：在最终结果出来之前，会有2-3次的修改机会
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;专利申请人要求&#34;&gt;专利申请人要求&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;专利申请人可以写多个，但是不同流程对申请人有要求：
-
-    正常流程：
-        可以有个人，也可以排在第一位
-
-    优先审查：
-        可以有个人，但是如果个人排在第一位，需要去个人身份归属地去提交，但是有些地方不接受以个人名义走优先审查（比如河北）
-
-    预审：
-        只能以单位名义提交，不能包含个人
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
-&lt;p&gt;山东预审中心地址：&lt;a href=&#34;https://cnippc.cn/ippc-web-dzsq/entry.html&#34;&gt;https://cnippc.cn/ippc-web-dzsq/entry.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;北京预审中心地址：&lt;a href=&#34;http://www.bjippc.cn/&#34;&gt;http://www.bjippc.cn/&lt;/a&gt;&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/categories/%E5%85%B6%E4%BB%96/">其他</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/%E5%85%B6%E4%BB%96/">其他</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>awk</title>
-                <link>https://zzkrix.com/posts/awk/</link>
-                <guid isPermaLink="true">https://zzkrix.com/posts/awk/</guid>
+                <title>Linux 命令备忘录</title>
+                <link>https://zzkrix.com/posts/linux-cmd/</link>
+                <guid isPermaLink="true">https://zzkrix.com/posts/linux-cmd/</guid>
                 <pubDate>Fri, 22 Dec 2023 16:17:59 &#43;0000</pubDate>
                 
                     <author>zzkrix56@gmail.com (zzkrix)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;awk 指定多个分隔符 &lt;code&gt;awk -F &#39;[;:]&#39;&lt;/code&gt;（使用&lt;code&gt;;&lt;/code&gt;或&lt;code&gt;:&lt;/code&gt;进行分割）&lt;/p&gt;
+                    <description>&lt;h2 id=&#34;awk&#34;&gt;awk&lt;/h2&gt;
+&lt;p&gt;awk 指定多个分隔符 &lt;code&gt;awk -F &#39;[;:]&#39;&lt;/code&gt;（使用&lt;code&gt;;&lt;/code&gt;或&lt;code&gt;:&lt;/code&gt;进行分割）&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231212230106796.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -2484,53 +2336,22 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{print $NF}&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/%E5%91%BD%E4%BB%A4/">命令</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>xargs</title>
-                <link>https://zzkrix.com/posts/xargs/</link>
-                <guid isPermaLink="true">https://zzkrix.com/posts/xargs/</guid>
-                <pubDate>Fri, 22 Dec 2023 16:03:59 &#43;0000</pubDate>
-                
-                    <author>zzkrix56@gmail.com (zzkrix)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# xargs -t # 在执行前先打印处要执行的命令
+&lt;/div&gt;&lt;h2 id=&#34;find&#34;&gt;find&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;find . -type f -name &amp;quot;*.png&amp;quot; -exec ls -l {} \;&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;{}&lt;/code&gt; 是一个替换符，表示前面找到的内容
+&lt;code&gt;\;&lt;/code&gt; 是&lt;code&gt;exec&lt;/code&gt;的默认结尾标识符&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231213090218543.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;find /sys/devices/virtual/net -name iflink -exec grep -H -w 11 {} \;&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;grep 增加&lt;code&gt;-H&lt;/code&gt;选项后，可以显示文件名&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231214091431297.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;如果目录下有软连接的外部文件夹，默认 find 不会显示软连接里的内容，如果需要可以加上&lt;code&gt;-L&lt;/code&gt;，但是注意，如果软连接有循环，则会不停的输出，慎用，比如：
+&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231214092531133.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;xargs&#34;&gt;xargs&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# xargs -t # 在执行前先打印处要执行的命令
 # xargs -I {} # 设置一个符号{}表示管道前面的某一行输出内容，以便后续复杂命令进行替换
 # xargs -P `nproc` # 并发数，默认为1，如果置0表示让xargs使用尽可能多的并发数，这里`nproc`是cpu核数
 
@@ -2540,7 +2361,72 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
 
 # 最后的 grep -H 表示查找到内容后显示对应的文件名
 docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name iflink | xargs -I {} grep -w 14 {} -H&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;grep&#34;&gt;grep&lt;/h2&gt;
+&lt;p&gt;或运算：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;-E&lt;/code&gt; 参数加上&lt;code&gt;|&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;lsof -i | grep -E &#39;epc-ims:|IPv6&#39;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231213161825123.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;与运算：&lt;/p&gt;
+&lt;p&gt;实际上就是正则&lt;code&gt;.+&lt;/code&gt;表示任意 N 个字符&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;lsof -i | grep -E &amp;quot;8323.+38911&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231213161727296.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lsof&#34;&gt;lsof&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;lsof = list open file&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-i  &lt;span class=&#34;c1&#34;&gt;# 查看网络&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-c  &lt;span class=&#34;c1&#34;&gt;# 某进程打开的文件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-p  &lt;span class=&#34;c1&#34;&gt;# 某进程号打开的文件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-r  &lt;span class=&#34;c1&#34;&gt;# 重复执行时间间隔，单位秒&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-n  &lt;span class=&#34;c1&#34;&gt;# 将出现的主机名转换成IP显示&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;lsof -i tcp&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;lsof -i udp&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;lsof -n -i tcp&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;lsof -c 进程名&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;lsof -p pid&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;lsof -r 1&lt;/code&gt; 每秒执行一次&lt;/p&gt;
+&lt;h2 id=&#34;curl&#34;&gt;curl&lt;/h2&gt;
+&lt;p&gt;自动重定向：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl qq.com -L 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;只显示请求头：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl qq.com -I 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;添加请求头：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 请求头的名字最好都按规范首字母大写&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl 192.168.190.1 -H &lt;span class=&#34;s2&#34;&gt;&amp;#34;Host: a.b.c&amp;#34;&lt;/span&gt; -H &lt;span class=&#34;s2&#34;&gt;&amp;#34;User-Agent: Chrome&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
                 
                 
                 
@@ -2690,119 +2576,6 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
                                 
                                 
                                     <category domain="https://zzkrix.com/tags/%E7%BD%91%E7%BB%9C/">网络</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>grep</title>
-                <link>https://zzkrix.com/posts/grep/</link>
-                <guid isPermaLink="true">https://zzkrix.com/posts/grep/</guid>
-                <pubDate>Wed, 13 Dec 2023 16:04:04 &#43;0000</pubDate>
-                
-                    <author>zzkrix56@gmail.com (zzkrix)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;h2 id=&#34;或运算&#34;&gt;或运算&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;-E&lt;/code&gt; 参数加上&lt;code&gt;|&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;lsof -i | grep -E &#39;epc-ims:|IPv6&#39;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231213161825123.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;与运算&#34;&gt;与运算&lt;/h2&gt;
-&lt;p&gt;实际上就是正则&lt;code&gt;.+&lt;/code&gt;表示任意 N 个字符&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;lsof -i | grep -E &amp;quot;8323.+38911&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231213161727296.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/%E5%91%BD%E4%BB%A4/">命令</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>find</title>
-                <link>https://zzkrix.com/posts/find/</link>
-                <guid isPermaLink="true">https://zzkrix.com/posts/find/</guid>
-                <pubDate>Tue, 12 Dec 2023 20:04:05 &#43;0000</pubDate>
-                
-                    <author>zzkrix56@gmail.com (zzkrix)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;&lt;code&gt;find . -type f -name &amp;quot;*.png&amp;quot; -exec ls -l {} \;&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;{}&lt;/code&gt; 是一个替换符，表示前面找到的内容
-&lt;code&gt;\;&lt;/code&gt; 是&lt;code&gt;exec&lt;/code&gt;的默认结尾标识符&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231213090218543.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;find /sys/devices/virtual/net -name iflink -exec grep -H -w 11 {} \;&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;grep 增加&lt;code&gt;-H&lt;/code&gt;选项后，可以显示文件名&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231214091431297.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;如果目录下有软连接的外部文件夹，默认 find 不会显示软连接里的内容，如果需要可以加上&lt;code&gt;-L&lt;/code&gt;，但是注意，如果软连接有循环，则会不停的输出，慎用，比如：
-&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231214092531133.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/%E5%91%BD%E4%BB%A4/">命令</category>
                                 
                             
                         
@@ -5662,77 +5435,6 @@ M：操作系统线程&lt;/p&gt;
             </item>
         
             <item>
-                <title>lsof</title>
-                <link>https://zzkrix.com/posts/lsof/</link>
-                <guid isPermaLink="true">https://zzkrix.com/posts/lsof/</guid>
-                <pubDate>Tue, 18 Apr 2023 17:54:01 &#43;0000</pubDate>
-                
-                    <author>zzkrix56@gmail.com (zzkrix)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;blockquote&gt;
-&lt;p&gt;lsof = list open file&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-i  &lt;span class=&#34;c1&#34;&gt;# 查看网络&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-c  &lt;span class=&#34;c1&#34;&gt;# 某进程打开的文件&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-p  &lt;span class=&#34;c1&#34;&gt;# 某进程号打开的文件&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-r  &lt;span class=&#34;c1&#34;&gt;# 重复执行时间间隔，单位秒&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-n  &lt;span class=&#34;c1&#34;&gt;# 将出现的主机名转换成IP显示&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;code&gt;lsof -i tcp&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;lsof -i udp&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;lsof -n -i tcp&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;lsof -c 进程名&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;lsof -p pid&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;lsof -r 1&lt;/code&gt; 每秒执行一次&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/%E5%91%BD%E4%BB%A4/">命令</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
                 <title>systemctl</title>
                 <link>https://zzkrix.com/posts/systemctl/</link>
                 <guid isPermaLink="true">https://zzkrix.com/posts/systemctl/</guid>
@@ -6297,146 +5999,9 @@ M：操作系统线程&lt;/p&gt;
             </item>
         
             <item>
-                <title>redis 状态查看</title>
-                <link>https://zzkrix.com/posts/redis%E7%8A%B6%E6%80%81%E6%9F%A5%E7%9C%8B/</link>
-                <guid isPermaLink="true">https://zzkrix.com/posts/redis%E7%8A%B6%E6%80%81%E6%9F%A5%E7%9C%8B/</guid>
-                <pubDate>Fri, 10 Mar 2023 21:11:22 &#43;0000</pubDate>
-                
-                    <author>zzkrix56@gmail.com (zzkrix)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;h2 id=&#34;查看大-key&#34;&gt;查看大 key&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;redis-cli -h 127.0.0.1 -p 6379 --bigkeys&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;使用 scan 扫描，对性能影响较小&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230310212039340.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;查看状态&#34;&gt;查看状态&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;redis-cli -h 127.0.0.1 -p 6379 --stat -i 3&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;-i 3 每隔 3 秒输出一次&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230310213230350.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/categories/redis/">Redis</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/redis/">Redis</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>redis re-hash 过程</title>
-                <link>https://zzkrix.com/posts/redis-rehash/</link>
-                <guid isPermaLink="true">https://zzkrix.com/posts/redis-rehash/</guid>
-                <pubDate>Fri, 10 Mar 2023 20:11:06 &#43;0000</pubDate>
-                
-                    <author>zzkrix56@gmail.com (zzkrix)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;数据结构里存放了两个 hash 结构，一个是当前的，一个是 rehash 时候使用的。&lt;/p&gt;
-&lt;p&gt;数据从旧结构往新结构迁移，为了不影响查询和插入，是渐进式的，新数据写新结构。&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/categories/redis/">Redis</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/redis/">Redis</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>redis 热点 key</title>
-                <link>https://zzkrix.com/posts/redis%E7%83%AD%E7%82%B9key/</link>
-                <guid isPermaLink="true">https://zzkrix.com/posts/redis%E7%83%AD%E7%82%B9key/</guid>
-                <pubDate>Fri, 10 Mar 2023 20:01:32 &#43;0000</pubDate>
-                
-                    <author>zzkrix56@gmail.com (zzkrix)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;单机 QPS 瓶颈后，可以用集群分片，来分担请求压力，但是如果一个 key 就是在某一个分片上形成了热点 key 怎么办。&lt;/p&gt;
-&lt;p&gt;对 key 的值在业务上拆分，使其分散到更多的分片上。&lt;/p&gt;
-&lt;p&gt;或者如果 key 对应的数据允许有一定的误差，可以将该值存在进程内存里，做二级缓存，定时同步 redis 即可。&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/categories/redis/">Redis</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/redis/">Redis</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>redis 集群</title>
-                <link>https://zzkrix.com/posts/redis%E9%9B%86%E7%BE%A4/</link>
-                <guid isPermaLink="true">https://zzkrix.com/posts/redis%E9%9B%86%E7%BE%A4/</guid>
+                <title>redis 备忘录</title>
+                <link>https://zzkrix.com/posts/redis%E5%A4%87%E5%BF%98%E5%BD%95/</link>
+                <guid isPermaLink="true">https://zzkrix.com/posts/redis%E5%A4%87%E5%BF%98%E5%BD%95/</guid>
                 <pubDate>Fri, 10 Mar 2023 09:55:54 &#43;0000</pubDate>
                 
                     <author>zzkrix56@gmail.com (zzkrix)</author>
@@ -6455,6 +6020,25 @@ M：操作系统线程&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230310102213209.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;集群模式是去中心化的，随便请求到哪个 master 后，判断 key 属于哪个 hash 槽以及在哪个机器上，进行请求路由。&lt;/p&gt;
+&lt;h2 id=&#34;redis-热点-key&#34;&gt;redis 热点 key&lt;/h2&gt;
+&lt;p&gt;单机 QPS 瓶颈后，可以用集群分片，来分担请求压力，但是如果一个 key 就是在某一个分片上形成了热点 key 怎么办。&lt;/p&gt;
+&lt;p&gt;对 key 的值在业务上拆分，使其分散到更多的分片上。&lt;/p&gt;
+&lt;p&gt;或者如果 key 对应的数据允许有一定的误差，可以将该值存在进程内存里，做二级缓存，定时同步 redis 即可。&lt;/p&gt;
+&lt;h2 id=&#34;查看大-key&#34;&gt;查看大 key&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;redis-cli -h 127.0.0.1 -p 6379 --bigkeys&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;使用 scan 扫描，对性能影响较小&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230310212039340.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;查看状态&#34;&gt;查看状态&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;redis-cli -h 127.0.0.1 -p 6379 --stat -i 3&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;-i 3 每隔 3 秒输出一次&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230310213230350.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;re-hash-过程&#34;&gt;re-hash 过程&lt;/h2&gt;
+&lt;p&gt;数据结构里存放了两个 hash 结构，一个是当前的，一个是 rehash 时候使用的。&lt;/p&gt;
+&lt;p&gt;数据从旧结构往新结构迁移，为了不影响查询和插入，是渐进式的，新数据写新结构。&lt;/p&gt;
 &lt;h2 id=&#34;问题&#34;&gt;问题&lt;/h2&gt;
 &lt;p&gt;Q：怎么保证高性能、高可用和数据不丢失&lt;/p&gt;
 &lt;p&gt;使用集群分片保证请求的离散来突破单机 QOS 瓶颈。&lt;/p&gt;
@@ -6483,81 +6067,6 @@ M：操作系统线程&lt;/p&gt;
                                 
                                 
                                     <category domain="https://zzkrix.com/tags/redis/">Redis</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>curl</title>
-                <link>https://zzkrix.com/posts/curl/</link>
-                <guid isPermaLink="true">https://zzkrix.com/posts/curl/</guid>
-                <pubDate>Thu, 02 Mar 2023 11:25:27 &#43;0000</pubDate>
-                
-                    <author>zzkrix56@gmail.com (zzkrix)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;h2 id=&#34;自动重定向&#34;&gt;自动重定向&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl qq.com -L 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;只显示请求头&#34;&gt;只显示请求头&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl qq.com -I 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;添加请求头&#34;&gt;添加请求头&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 请求头的名字最好都按规范首字母大写&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;curl 192.168.190.1 -H &lt;span class=&#34;s2&#34;&gt;&amp;#34;Host: a.b.c&amp;#34;&lt;/span&gt; -H &lt;span class=&#34;s2&#34;&gt;&amp;#34;User-Agent: Chrome&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://zzkrix.com/tags/%E5%91%BD%E4%BB%A4/">命令</category>
                                 
                             
                         
