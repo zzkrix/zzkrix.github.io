@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 26 Aug 2024 09:20:31 &#43;0000</lastBuildDate>
+        <lastBuildDate>Mon, 26 Aug 2024 09:22:05 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zzkrix.com/rss.xml" />
         
@@ -41,7 +41,7 @@
                     <description>&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
 &lt;p&gt;官方文档： &lt;a href=&#34;https://wiki.wireshark.org/Development/sharkd&#34;&gt;https://wiki.wireshark.org/Development/sharkd&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;sharkd 用来解析数据包，并提供接口用于数据查询（tcp 或本地 socket）。&lt;/p&gt;
-&lt;p&gt;可能是文档太久未更新，官方文档中的使用方法有错误，通过查看 &lt;a href=&#34;https://gitlab.com/wireshark/wireshark/-/blob/master/sharkd.c?ref_type=heads&#34;&gt;sharkd 源码&lt;/a&gt;，&lt;/p&gt;
+&lt;p&gt;可能是文档太久未更新，官方文档中的使用方法有错误，通过查看 &lt;a href=&#34;https://github.com/wireshark/wireshark/blob/master/sharkd.c&#34;&gt;sharkd 源码&lt;/a&gt;，&lt;/p&gt;
 &lt;p&gt;发现所有发送给 sharkd 的请求格式都应该是类似 &lt;code&gt;{&amp;quot;jsonrpc&amp;quot;:&amp;quot;2.0&amp;quot;,&amp;quot;id&amp;quot;:1, &amp;quot;method&amp;quot;: &amp;quot;xxx&amp;quot;}&lt;/code&gt;，而不是官方文档中的 &lt;code&gt;{&amp;quot;req&amp;quot;: &amp;quot;xxx&amp;quot;}&lt;/code&gt;。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;官方示例中的 req 应该替换成 method。&lt;/p&gt;
