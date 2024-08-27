@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">避风港</title>
     <subtitle type="html"></subtitle>
-    <updated>2024-08-26T12:59:11&#43;00:00</updated>
+    <updated>2024-08-27T03:38:18&#43;00:00</updated>
     <id>https://zzkrix.com/</id>
     <link rel="alternate" type="text/html" href="https://zzkrix.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://zzkrix.com/atom.xml" />
@@ -15,12 +15,12 @@
                 <email>zzkrix56@gmail.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.133.0">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.133.1">Hugo</generator>
         <entry>
             <title type="text">wireshark 之 sharkd 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/sharkd/" />
             <id>https://zzkrix.com/posts/sharkd/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-08-26T17:04:45&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -186,7 +186,7 @@
             <title type="text">AI Agent 和 workflow 介绍</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/ai-agent-workflow/" />
             <id>https://zzkrix.com/posts/ai-agent-workflow/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-08-23T15:05:38&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -296,7 +296,7 @@
             <title type="text">CPU 模式下 comfyUI 运行 flux</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/comfyui-flux-demo/" />
             <id>https://zzkrix.com/posts/comfyui-flux-demo/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-08-05T22:07:13&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -438,7 +438,7 @@
             <title type="text">Mac 安装 Windows 双系统</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mac-win10/" />
             <id>https://zzkrix.com/posts/mac-win10/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-08-04T12:34:11&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -500,7 +500,7 @@
             <title type="text">本地部署大模型</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/ollama-llama/" />
             <id>https://zzkrix.com/posts/ollama-llama/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-07-25T16:10:28&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -645,7 +645,7 @@
             <title type="text">Linux 作业控制</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/linux-jobs/" />
             <id>https://zzkrix.com/posts/linux-jobs/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-06-30T23:17:03&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -771,7 +771,7 @@
             <title type="text">批量修改 git 仓库提交人信息</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/git-filter-branch/" />
             <id>https://zzkrix.com/posts/git-filter-branch/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-06-24T15:22:41&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -875,7 +875,7 @@
             <title type="text">虚拟机中使用 Mac 快捷键</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mac-windows-autohotkey/" />
             <id>https://zzkrix.com/posts/mac-windows-autohotkey/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-06-24T09:47:05&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -889,7 +889,423 @@
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-06-24-09-56-zgZaVp.png&#34; alt=&#34;2024-06-24-09-56-zgZaVp&#34;&gt;&lt;/p&gt;
 &lt;p&gt;从 GitHub 上下载一个脚本&lt;a href=&#34;https://github.com/stroebjo/autohotkey-windows-mac-keyboard&#34;&gt;https://github.com/stroebjo/autohotkey-windows-mac-keyboard&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;把里面的&lt;code&gt;MacKeyboard.ahk&lt;/code&gt;这个文件下载下来。&lt;/p&gt;
-&lt;p&gt;windows 里快捷键 &lt;code&gt;win + r&lt;/code&gt;，输入 &lt;code&gt;shell:startup&lt;/code&gt;，回车后会打开开机启动文件夹。&lt;/p&gt;
+&lt;p&gt;用编辑器打开&lt;code&gt;MacKeyboard.ahk&lt;/code&gt;文件，可以看到里面实际上是做了一些映射。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 45
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 46
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 47
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 48
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 49
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 50
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 51
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 52
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 53
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 54
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 55
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 56
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 57
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 58
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 59
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 60
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 61
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 62
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 63
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 64
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 65
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 66
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 67
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 68
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 69
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 70
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 71
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 72
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 73
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 74
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 75
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 76
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 77
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 78
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 79
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 80
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 81
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 82
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 83
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 84
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 85
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 86
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 87
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 88
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 89
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 90
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 91
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 92
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 93
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 94
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 95
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 96
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 97
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 98
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 99
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;100
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;101
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;102
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;103
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;104
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;105
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;106
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;107
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;108
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;109
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;110
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;111
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;112
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;113
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;114
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;115
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;116
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;117
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;118
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;119
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;120
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;121
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;122
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;123
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;124
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;125
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;126
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;127
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;128
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;129
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;130
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;131
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;132
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;133
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;134
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;135
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;136
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;137
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;138
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;139
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;140
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;141
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;142
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;143
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;144
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;145
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;146
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;147
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;148
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;149
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;150
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;151
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;152
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;153
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;154
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;155
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;156
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;157
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;158
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;159
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;160
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;161
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;162
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;163
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;164
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;165
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;166
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;167
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;168
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;169
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;170
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;171
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;172
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;173
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;174
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;175
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;176
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;177
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;178
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;179
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;180
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;181
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;182
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;183
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;184
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;185
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;186
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;187
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;188
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;-----------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Mac keyboard to Windows Key Mappings
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=========================================&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; NOTES
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; ! &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; ALT
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; ^ &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; CTRL
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; + &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; SHIFT
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# = WIN&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Debug action snippet: MsgBox You pressed Control-A &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; Notepad is active.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#InstallKeybdHook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#SingleInstance force&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SetTitleMatchMode &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;SendMode Input
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Mac-like screenshots in Windows &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;requires Windows &lt;span class=&#34;m&#34;&gt;10&lt;/span&gt; Snip &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; Sketch&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Capture entire screen with CMD/WIN + SHIFT + &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#+3::send #{PrintScreen}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Capture portion of the screen with CMD/WIN + SHIFT + &lt;span class=&#34;m&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#+4::#+s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; media/function keys all mapped to the right option key
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RAlt &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; F7::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;Media_Prev&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RAlt &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; F8::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;Media_Play_Pause&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;RAlt &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; F9::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;Media_Next&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;F10::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;Volume_Mute&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;F11::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;Volume_Down&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;F12::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;Volume_Up&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; swap left command/windows key with left alt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;LWin::LAlt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;LAlt::LWin &lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; add a semicolon in front of this line &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; you want to disable the windows key
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Remap Windows + Left OR Right to &lt;span class=&#34;nb&#34;&gt;enable&lt;/span&gt; previous or next web page
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Use only &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; swapping left command/windows key with left alt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;Lwin &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; Left::Send, !&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;Left&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;Lwin &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; Right::Send, !&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;Right&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Eject Key
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;F20::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;Insert&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; F20 doesn&lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt;t show up on AHK anymore, see &lt;span class=&#34;c1&#34;&gt;#3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; F13-15, standard windows mapping
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;F13::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;PrintScreen&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;F14::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;ScrollLock&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;F15::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;Pause&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;F16-19 custom app launchers, see http://www.autohotkey.com/docs/Tutorial.htm &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; usage info
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;F16::Run http://twitter.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;F17::Run http://tumblr.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;F18::Run http://www.reddit.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;F19::Run https://facebook.com
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; OS X system shortcuts
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Make Ctrl + S work with cmd &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;windows&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; key
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#s::Send, ^s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Selecting
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#a::Send, ^a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Copying
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#c::Send, ^c&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Pasting
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#v::Send, ^v&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Cutting
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#x::Send, ^x&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Opening
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#o::Send ^o&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Finding
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#f::Send ^f&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Undo
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#z::Send ^z&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Redo
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#y::Send ^y&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; New tab
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#t::Send ^t&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; close tab
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#w::Send ^w&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Close windows &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;cmd + q to Alt + F4&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#q::Send !{F4}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Remap Windows + Tab to Alt + Tab.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Lwin &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; Tab::AltTab
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; minimize windows
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#m::WinMinimize,a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; OS X keyboard mappings &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; special chars
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + L to @
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!l::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;@&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + N to &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;+!7::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + N to ©
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!g::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;©&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + o to ø
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!o::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;ø&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt; to &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!5::SendInput &lt;span class=&#34;o&#34;&gt;{[}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + &lt;span class=&#34;m&#34;&gt;6&lt;/span&gt; to &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!6::SendInput &lt;span class=&#34;o&#34;&gt;{]}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + E to €
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!e::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;€&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + - to –
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!-::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;–&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + &lt;span class=&#34;m&#34;&gt;8&lt;/span&gt; to &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!8::SendInput &lt;span class=&#34;o&#34;&gt;{{}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + &lt;span class=&#34;m&#34;&gt;9&lt;/span&gt; to &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!9::SendInput &lt;span class=&#34;o&#34;&gt;{}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + - to ±
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!+::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;±&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + R to ®
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!r::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;®&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + N to &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!7::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + W to ∑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!w::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;∑&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + N to ~
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!n::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;~&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Map Alt + &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt; to &lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;!3::SendInput &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Custom mappings &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; special chars
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#ö::SendInput {[} &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;#ä::SendInput {]} &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;^ö::SendInput &lt;span class=&#34;o&#34;&gt;{{}&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;^ä::SendInput &lt;span class=&#34;o&#34;&gt;{}}&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Application specific
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; --------------------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Google Chrome
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#IfWinActive, ahk_class Chrome_WidgetWin_1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Show Web Developer Tools with cmd + alt + i
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#!i::Send {F12}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; Show &lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; code with cmd + alt + u
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#!u::Send ^u&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#IfWinActive&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;;&lt;/code&gt; 开头的表示注释。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;+&lt;/code&gt; 表示 &lt;code&gt;SHIFT&lt;/code&gt; 键&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;#&lt;/code&gt; 表示 &lt;code&gt;win&lt;/code&gt; 键&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;!&lt;/code&gt; 表示 &lt;code&gt;ALT&lt;/code&gt; 键&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;^&lt;/code&gt; 表示 &lt;code&gt;CTRL&lt;/code&gt; 键&lt;/p&gt;
+&lt;p&gt;所以 &lt;code&gt;#1::Send ^1&lt;/code&gt; 表示将 &lt;code&gt;win + 1&lt;/code&gt; 或者 &lt;code&gt;cmd + 1&lt;/code&gt; 快捷键映射成 &lt;code&gt;ctrl + 1&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;这里我增加了以下内容，用于多标签页窗口（chrome、文件浏览器等）中使用 &lt;code&gt;cmd + 数字&lt;/code&gt;切换标签。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; 选择标签页
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#1::Send ^1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#2::Send ^2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#3::Send ^3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#4::Send ^4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#5::Send ^5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#6::Send ^6&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#7::Send ^7&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#8::Send ^8&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#9::Send ^9&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后，windows 里快捷键 &lt;code&gt;win + r&lt;/code&gt;，输入 &lt;code&gt;shell:startup&lt;/code&gt;，回车后会打开开机启动文件夹。&lt;/p&gt;
 &lt;p&gt;将上面的&lt;code&gt;MacKeyboard.ahk&lt;/code&gt;文件拖到打开的文件夹里，重启电脑即可。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-06-24-10-03-G9bHyM.png&#34; alt=&#34;2024-06-24-10-03-G9bHyM&#34;&gt;&lt;/p&gt;
 </content>
@@ -938,7 +1354,7 @@
             <title type="text">Mac 下为 Python 安装 mysqlclinet</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mac-python-mysqlclinet/" />
             <id>https://zzkrix.com/posts/mac-python-mysqlclinet/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-05-06T14:24:49&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -1017,7 +1433,7 @@
             <title type="text">Linux &amp; iterm2 常用快捷键</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/linux-shortkeys/" />
             <id>https://zzkrix.com/posts/linux-shortkeys/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-04-02T17:53:53&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -1140,7 +1556,7 @@
             <title type="text">Mac 原生输入法配置</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mac-input-shift/" />
             <id>https://zzkrix.com/posts/mac-input-shift/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-03-22T15:19:35&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -1334,7 +1750,7 @@
             <title type="text">解决 vscode 终端乱码</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/vscode-terminal-settings/" />
             <id>https://zzkrix.com/posts/vscode-terminal-settings/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-01-26T09:53:02&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -1387,7 +1803,7 @@
             <title type="text">Python 语法糖</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/python-tips/" />
             <id>https://zzkrix.com/posts/python-tips/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-01-21T22:46:01&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -1667,7 +2083,7 @@
             <title type="text">Mac 下使用 iterm2 配置 ssh</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mac-iterm2-ssh/" />
             <id>https://zzkrix.com/posts/mac-iterm2-ssh/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-01-21T22:24:12&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -1785,7 +2201,7 @@
             <title type="text">使用 hugo&#43;github 部署静态博客</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/hugo-github-pages/" />
             <id>https://zzkrix.com/posts/hugo-github-pages/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-01-21T00:23:12&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2000,7 +2416,7 @@
             <title type="text">serverless 基础</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/serverless%E5%9F%BA%E7%A1%80/" />
             <id>https://zzkrix.com/posts/serverless%E5%9F%BA%E7%A1%80/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-01-15T20:20:42&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2049,7 +2465,7 @@
             <title type="text">reset-ssh-key</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/reset-ssh-key/" />
             <id>https://zzkrix.com/posts/reset-ssh-key/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-01-14T20:20:24&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2125,7 +2541,7 @@
             <title type="text">vim 中数字增加或减少</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/vim%E4%B8%AD%E6%95%B0%E5%AD%97%E5%A2%9E%E5%8A%A0%E6%88%96%E5%87%8F%E5%B0%91/" />
             <id>https://zzkrix.com/posts/vim%E4%B8%AD%E6%95%B0%E5%AD%97%E5%A2%9E%E5%8A%A0%E6%88%96%E5%87%8F%E5%B0%91/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-01-09T16:55:39&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2208,7 +2624,7 @@
             <title type="text">将 helm chart 推送到 harbor</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/helm-chart-to-harbor/" />
             <id>https://zzkrix.com/posts/helm-chart-to-harbor/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2024-01-05T15:02:35&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2278,7 +2694,7 @@
             <title type="text">离线部署 k3s 集群</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2k3s%E9%9B%86%E7%BE%A4/" />
             <id>https://zzkrix.com/posts/%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2k3s%E9%9B%86%E7%BE%A4/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-29T14:22:11&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2774,7 +3190,7 @@
             <title type="text">Linux 命令备忘录</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/linux-cmd/" />
             <id>https://zzkrix.com/posts/linux-cmd/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-22T16:17:59&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2926,7 +3342,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">iptables</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/iptables/" />
             <id>https://zzkrix.com/posts/iptables/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-15T11:03:42&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2978,7 +3394,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">查找虚拟设备对对端位置</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E6%9F%A5%E6%89%BE%E8%99%9A%E6%8B%9F%E8%AE%BE%E5%A4%87%E5%AF%B9%E5%AF%B9%E7%AB%AF%E4%BD%8D%E7%BD%AE/" />
             <id>https://zzkrix.com/posts/%E6%9F%A5%E6%89%BE%E8%99%9A%E6%8B%9F%E8%AE%BE%E5%A4%87%E5%AF%B9%E5%AF%B9%E7%AB%AF%E4%BD%8D%E7%BD%AE/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-14T10:33:04&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3053,7 +3469,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">文件权限</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90/" />
             <id>https://zzkrix.com/posts/%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-12T16:03:29&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3112,7 +3528,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">docker compose</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/docker-compose/" />
             <id>https://zzkrix.com/posts/docker-compose/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-11T14:45:57&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3182,7 +3598,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">查看机器上的网卡</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E6%9F%A5%E7%9C%8B%E6%9C%BA%E5%99%A8%E4%B8%8A%E7%9A%84%E7%BD%91%E5%8D%A1/" />
             <id>https://zzkrix.com/posts/%E6%9F%A5%E7%9C%8B%E6%9C%BA%E5%99%A8%E4%B8%8A%E7%9A%84%E7%BD%91%E5%8D%A1/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-11T13:59:45&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3243,7 +3659,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">释放 docker 占用空间</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E9%87%8A%E6%94%BEdocker%E5%8D%A0%E7%94%A8%E7%A9%BA%E9%97%B4/" />
             <id>https://zzkrix.com/posts/%E9%87%8A%E6%94%BEdocker%E5%8D%A0%E7%94%A8%E7%A9%BA%E9%97%B4/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-09T22:43:23&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3376,7 +3792,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">docker 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/docker%E4%BD%BF%E7%94%A8/" />
             <id>https://zzkrix.com/posts/docker%E4%BD%BF%E7%94%A8/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-08T10:00:39&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3509,7 +3925,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">dockerfile 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/dockerfile%E4%BD%BF%E7%94%A8/" />
             <id>https://zzkrix.com/posts/dockerfile%E4%BD%BF%E7%94%A8/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-07T22:59:49&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3746,7 +4162,7 @@ ADD ubuntu-xenial-core-cloudimg-amd64-root.tar.gz /
             <title type="text">docker 安装</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/docker%E5%AE%89%E8%A3%85/" />
             <id>https://zzkrix.com/posts/docker%E5%AE%89%E8%A3%85/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-07T16:04:42&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3818,7 +4234,7 @@ ADD ubuntu-xenial-core-cloudimg-amd64-root.tar.gz /
             <title type="text">Linux 修改磁盘大小</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/linux-disk-change/" />
             <id>https://zzkrix.com/posts/linux-disk-change/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-07T15:03:34&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3883,7 +4299,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;
             <title type="text">Oracle 服务器使用 netboot 重装系统</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/oracle-server-netboot/" />
             <id>https://zzkrix.com/posts/oracle-server-netboot/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-07T13:30:25&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3970,7 +4386,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;
             <title type="text">tcp 保活</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/tcp%E4%BF%9D%E6%B4%BB/" />
             <id>https://zzkrix.com/posts/tcp%E4%BF%9D%E6%B4%BB/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-04T20:11:39&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4042,7 +4458,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;
             <title type="text">用户和用户组</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E7%94%A8%E6%88%B7%E5%92%8C%E7%94%A8%E6%88%B7%E7%BB%84/" />
             <id>https://zzkrix.com/posts/%E7%94%A8%E6%88%B7%E5%92%8C%E7%94%A8%E6%88%B7%E7%BB%84/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-12-01T23:03:26&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4164,7 +4580,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">rsync 文件同步</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/rsync%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5/" />
             <id>https://zzkrix.com/posts/rsync%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-11-19T11:33:08&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4282,7 +4698,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">命令行内容输出到剪贴板</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%86%85%E5%AE%B9%E8%BE%93%E5%87%BA%E5%88%B0%E5%89%AA%E8%B4%B4%E6%9D%BF/" />
             <id>https://zzkrix.com/posts/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%86%85%E5%AE%B9%E8%BE%93%E5%87%BA%E5%88%B0%E5%89%AA%E8%B4%B4%E6%9D%BF/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-11-09T21:26:54&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4359,7 +4775,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">hping3 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/hping3%E4%BD%BF%E7%94%A8/" />
             <id>https://zzkrix.com/posts/hping3%E4%BD%BF%E7%94%A8/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-11-04T11:39:44&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4424,7 +4840,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">临时修改网卡地址</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E4%B8%B4%E6%97%B6%E4%BF%AE%E6%94%B9%E7%BD%91%E5%8D%A1%E5%9C%B0%E5%9D%80/" />
             <id>https://zzkrix.com/posts/%E4%B8%B4%E6%97%B6%E4%BF%AE%E6%94%B9%E7%BD%91%E5%8D%A1%E5%9C%B0%E5%9D%80/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-11-01T13:03:49&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4493,7 +4909,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 依赖注入</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/" />
             <id>https://zzkrix.com/posts/go%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-09-23T11:20:06&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4541,7 +4957,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 时区问题</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-timezone/" />
             <id>https://zzkrix.com/posts/go-timezone/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-09-17T13:44:09&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4708,7 +5124,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">命令行启动 wireshark 抓包</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8wireshark%E6%8A%93%E5%8C%85/" />
             <id>https://zzkrix.com/posts/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8wireshark%E6%8A%93%E5%8C%85/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-09-06T12:15:41&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4783,7 +5199,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Golang 的 generate stringer</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-generate-stringr/" />
             <id>https://zzkrix.com/posts/go-generate-stringr/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-09-03T17:07:06&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5176,7 +5592,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">docker 仓库</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/docker%E4%BB%93%E5%BA%93/" />
             <id>https://zzkrix.com/posts/docker%E4%BB%93%E5%BA%93/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-07-29T22:01:35&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5243,7 +5659,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 竞态检测</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-race/" />
             <id>https://zzkrix.com/posts/go-race/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-07-27T19:04:14&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5314,7 +5730,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 编译 tips</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-cc-tips/" />
             <id>https://zzkrix.com/posts/go-cc-tips/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-07-27T09:00:19&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5501,7 +5917,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">开源协议区别</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE%E5%8C%BA%E5%88%AB/" />
             <id>https://zzkrix.com/posts/%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE%E5%8C%BA%E5%88%AB/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-07-04T09:55:25&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5545,7 +5961,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 的 gc</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-gc/" />
             <id>https://zzkrix.com/posts/go-gc/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-06-19T23:04:12&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5590,7 +6006,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">分布式锁提前过期</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%8F%90%E5%89%8D%E8%BF%87%E6%9C%9F/" />
             <id>https://zzkrix.com/posts/%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%8F%90%E5%89%8D%E8%BF%87%E6%9C%9F/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-06-13T17:01:37&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5636,7 +6052,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">LRU</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/lru/" />
             <id>https://zzkrix.com/posts/lru/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-05-17T21:35:01&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5687,7 +6103,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 的 GPM 模型</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-gpm/" />
             <id>https://zzkrix.com/posts/go-gpm/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-05-17T21:30:24&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5737,7 +6153,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">Go 内存逃逸</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go%E5%86%85%E5%AD%98%E9%80%83%E9%80%B8/" />
             <id>https://zzkrix.com/posts/go%E5%86%85%E5%AD%98%E9%80%83%E9%80%B8/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-05-15T11:33:20&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5848,7 +6264,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">rocketmq 事务消息</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/rocketmq%E4%BA%8B%E5%8A%A1%E6%B6%88%E6%81%AF/" />
             <id>https://zzkrix.com/posts/rocketmq%E4%BA%8B%E5%8A%A1%E6%B6%88%E6%81%AF/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-05-14T12:30:46&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5902,7 +6318,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">本地消息表</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E6%9C%AC%E5%9C%B0%E6%B6%88%E6%81%AF%E8%A1%A8/" />
             <id>https://zzkrix.com/posts/%E6%9C%AC%E5%9C%B0%E6%B6%88%E6%81%AF%E8%A1%A8/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-05-14T09:02:01&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5953,7 +6369,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">map-reduce</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/map-reduce/" />
             <id>https://zzkrix.com/posts/map-reduce/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-04-27T17:01:23&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5997,7 +6413,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">systemctl</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/systemctl/" />
             <id>https://zzkrix.com/posts/systemctl/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-04-18T16:12:56&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6056,7 +6472,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">间隙锁和死锁</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E9%97%B4%E9%9A%99%E9%94%81%E5%92%8C%E6%AD%BB%E9%94%81/" />
             <id>https://zzkrix.com/posts/%E9%97%B4%E9%9A%99%E9%94%81%E5%92%8C%E6%AD%BB%E9%94%81/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-04-01T15:03:02&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6113,7 +6529,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL count(*)、count(1)、count(列) 的区别</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mysql-count/" />
             <id>https://zzkrix.com/posts/mysql-count/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-03-25T10:29:26&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6182,7 +6598,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL8 创建用户和授权</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mysql-create-user-auth/" />
             <id>https://zzkrix.com/posts/mysql-create-user-auth/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-03-22T17:30:59&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6282,7 +6698,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL 允许 root 远程访问</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mysql-remote-root/" />
             <id>https://zzkrix.com/posts/mysql-remote-root/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-03-22T16:09:45&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6345,7 +6761,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL 事务</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mysql-transaction/" />
             <id>https://zzkrix.com/posts/mysql-transaction/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-03-19T21:15:03&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6422,7 +6838,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL 常识</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mysql-common/" />
             <id>https://zzkrix.com/posts/mysql-common/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-03-18T11:24:45&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6541,7 +6957,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">Go sync map 实现</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-sync-map/" />
             <id>https://zzkrix.com/posts/go-sync-map/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-03-16T21:20:16&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6585,7 +7001,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">redis 备忘录</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/redis%E5%A4%87%E5%BF%98%E5%BD%95/" />
             <id>https://zzkrix.com/posts/redis%E5%A4%87%E5%BF%98%E5%BD%95/</id>
-            <updated>2024-08-26T12:59:08&#43;00:00</updated>
+            <updated>2024-08-27T03:38:14&#43;00:00</updated>
             <published>2023-03-10T09:55:54&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
