@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 01 Sep 2024 02:57:51 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sun, 01 Sep 2024 03:09:45 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zzkrix.com/rss.xml" />
         
         
             <item>
                 <title>Conda 安装和使用</title>
-                <link>https://zzkrix.com/posts/python-conda/</link>
-                <guid isPermaLink="true">https://zzkrix.com/posts/python-conda/</guid>
+                <link>https://zzkrix.com/posts/conda/</link>
+                <guid isPermaLink="true">https://zzkrix.com/posts/conda/</guid>
                 <pubDate>Fri, 30 Aug 2024 14:23:24 &#43;0800</pubDate>
                 
                     <author>zzkrix56@gmail.com (zzkrix)</author>
@@ -235,13 +235,14 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda deactivate
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;conda--venv&#34;&gt;conda &amp;amp; venv&lt;/h2&gt;
+&lt;/div&gt;&lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
+&lt;h3 id=&#34;conda--venv&#34;&gt;conda &amp;amp; venv&lt;/h3&gt;
 &lt;p&gt;conda 管理的是 python 多版本，venv 管理的是多项目的依赖。&lt;/p&gt;
 &lt;p&gt;这俩并不冲突，可以理解成 conda 管理的比 venv 高一层。&lt;/p&gt;
 &lt;p&gt;你可以在某一个 conda 环境里在使用 venv 创建项目的虚拟环境。&lt;/p&gt;
 &lt;p&gt;并且在创建完虚拟环境后，也可以在 conda 环境之外进入该虚拟环境。&lt;/p&gt;
 &lt;p&gt;在该虚拟环境里安装的包，只在该虚拟环境内有效。&lt;/p&gt;
-&lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
+&lt;h3 id=&#34;多语言支持&#34;&gt;多语言支持&lt;/h3&gt;
 &lt;p&gt;实际上，conda 不仅可以用来管理 python，还可以管理「&lt;a href=&#34;https://github.com/conda/conda/blob/ef93541d0132837ede502a2b62e88d9169cdc872/conda/base/constants.py#L286-L303&#34;&gt;其他语言&lt;/a&gt;」。比如创建一个 go1.21 的 conda 环境：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -256,19 +257,18 @@
 &lt;p&gt;2、将语言依赖包集中在 conda 自己的 channel 去下载，并提供一些优化支持。比如可以用 &lt;code&gt;conda install numpy=1.21&lt;/code&gt; 替代 &lt;code&gt;pip install numpy==1.21&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;个人觉得第一点是比较好的，确实某些时候有这个需要。&lt;/p&gt;
 &lt;p&gt;至于第二点，嗯。。。反正我没这个需求。&lt;/p&gt;
-&lt;hr&gt;
+&lt;h3 id=&#34;商用风险&#34;&gt;商用风险&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.anaconda.com/miniconda/&#34;&gt;官方说明&lt;/a&gt;里有这么一段话：
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-30-17-26-KL5Xuy.png&#34; alt=&#34;2024-08-30-17-26-KL5Xuy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;翻译过来就是：&lt;/p&gt;
 &lt;p&gt;Miniconda 可供任何人免费使用！但是，只有个人和小型组织（少于 200 名员工）才能免费访问 Anaconda 的公共软件包存储库。大型组织和任何嵌入或镜像 Anaconda 存储库的人都需要付费许可证。有关详细信息，请参阅 &lt;a href=&#34;https://legal.anaconda.com/policies/en/&#34;&gt;TOS&lt;/a&gt;。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;还有一个和 conda 类似的社区驱动的项目：&lt;/p&gt;
-&lt;p&gt;miniforge:
-&lt;a href=&#34;https://github.com/conda-forge/miniforge&#34;&gt;https://github.com/conda-forge/miniforge&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;miniforge&#34;&gt;Miniforge&lt;/h3&gt;
+&lt;p&gt;还有一个和 conda 类似的社区驱动的项目 miniforge:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/conda-forge/miniforge&#34;&gt;https://github.com/conda-forge/miniforge&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://conda-forge.org/docs/user/introduction/&#34;&gt;https://conda-forge.org/docs/user/introduction/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;据了解是为了解决 conda 在包管理方面的问题（主要是慢、分散），以及对 arm 平台的支持，用法和 conda 一样。如果只用来管理语言多版本环境，这俩没啥区别。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.anaconda.com/anaconda/install/uninstall/&#34;&gt;卸载 conda&lt;/a&gt;:&lt;/p&gt;
+&lt;h3 id=&#34;卸载&#34;&gt;卸载&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.anaconda.com/anaconda/install/uninstall/&#34;&gt;https://docs.anaconda.com/anaconda/install/uninstall/&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
