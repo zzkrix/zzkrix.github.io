@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 30 Aug 2024 09:30:46 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sun, 01 Sep 2024 02:01:55 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zzkrix.com/rss.xml" />
         
@@ -242,11 +242,21 @@
 &lt;p&gt;并且在创建完虚拟环境后，也可以在 conda 环境之外进入该虚拟环境。&lt;/p&gt;
 &lt;p&gt;在该虚拟环境里安装的包，只在该虚拟环境内有效。&lt;/p&gt;
 &lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
+&lt;p&gt;实际上，conda 不仅可以用来管理 python，还可以管理其他语言。&lt;/p&gt;
+&lt;p&gt;比如创建一个 go1.21 的 conda 环境：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda create --name go1.21 &lt;span class=&#34;nv&#34;&gt;go&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;1.21
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;更多支持语言看&lt;a href=&#34;https://github.com/conda/conda/blob/ef93541d0132837ede502a2b62e88d9169cdc872/conda/base/constants.py#L286-L303&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.anaconda.com/miniconda/&#34;&gt;官方说明&lt;/a&gt;里有这么一段话：
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-30-17-26-KL5Xuy.png&#34; alt=&#34;2024-08-30-17-26-KL5Xuy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;翻译过来就是：&lt;/p&gt;
 &lt;p&gt;Miniconda 可供任何人免费使用！但是，只有个人和小型组织（少于 200 名员工）才能免费访问 Anaconda 的公共软件包存储库。大型组织和任何嵌入或镜像 Anaconda 存储库的人都需要付费许可证。有关详细信息，请参阅 &lt;a href=&#34;https://legal.anaconda.com/policies/en/&#34;&gt;TOS&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;啊，恶心🤢～&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://docs.anaconda.com/anaconda/install/uninstall/&#34;&gt;卸载 conda&lt;/a&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
