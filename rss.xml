@@ -10,7 +10,7 @@
         <title>避风港</title>
         <link>https://zzkrix.com/</link>
         <description></description>
-        <generator>Hugo 0.133.1 https://gohugo.io/</generator>
+        <generator>Hugo 0.134.0 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,10 +23,51 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 01 Sep 2024 03:09:45 &#43;0000</lastBuildDate>
+        <lastBuildDate>Thu, 05 Sep 2024 09:49:39 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zzkrix.com/rss.xml" />
         
+        
+            <item>
+                <title>霍去病关系图谱</title>
+                <link>https://zzkrix.com/posts/history-huoqubing/</link>
+                <guid isPermaLink="true">https://zzkrix.com/posts/history-huoqubing/</guid>
+                <pubDate>Thu, 05 Sep 2024 17:39:02 &#43;0800</pubDate>
+                
+                    <author>zzkrix56@gmail.com (zzkrix)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-38-6ITZ97.png&#34; alt=&#34;2024-09-05-17-38-6ITZ97&#34;&gt;&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://zzkrix.com/categories/%E5%8E%86%E5%8F%B2/">历史</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://zzkrix.com/tags/%E5%8E%86%E5%8F%B2/">历史</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Conda 安装和使用</title>
