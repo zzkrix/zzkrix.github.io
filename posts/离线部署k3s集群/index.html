@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.134.0"><meta name="theme-color" content="#16171d" />
+    <meta name="generator" content="Hugo 0.134.2"><meta name="theme-color" content="#16171d" />
     <meta name="color-scheme" content="light dark">
 
     
@@ -33,6 +33,8 @@
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
     <meta name="author" content="zzkrix" /><meta name="description" content="环境初始化 参考文档 k3s 离线部署：https://docs.k3s.io/zh/installation/airgap
+kube-vip：https://kube-vip.io/docs/usage/k3s/
+部署环境 1 2 3 4 5 6 7 8 9 10 11 # 需要使用hostnamectl set-hostname xxx对所有机器修改主机名 # 3台server 172.16.99.11 server01 172.16.99.12 server02 172.16.99.13 server03 # 3台agent 172.16.99.14 agent01 172.16.99.15 agent02 172.16.99.16 agent03 准备一个和 server 同网段且空闲的虚拟 IP 给 kube-vip，本文档以 172.16.99.100 为例。
 " />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -60,10 +62,10 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2023-12-29T14:22:11+00:00",
-        "dateModified": "2024-09-05T09:51:46+00:00",
+        "dateModified": "2024-09-19T06:35:43+00:00",
         "url": "https://zzkrix.com/posts/%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2k3s%E9%9B%86%E7%BE%A4/",
         "headline": "离线部署 k3s 集群",
-        "description": "环境初始化 参考文档 k3s 离线部署：https://docs.k3s.io/zh/installation/airgap\n",
+        "description": "环境初始化 参考文档 k3s 离线部署：https://docs.k3s.io/zh/installation/airgap\nkube-vip：https://kube-vip.io/docs/usage/k3s/\n部署环境 1 2 3 4 5 6 7 8 9 10 11 # 需要使用hostnamectl set-hostname xxx对所有机器修改主机名 # 3台server 172.16.99.11 server01 172.16.99.12 server02 172.16.99.13 server03 # 3台agent 172.16.99.14 agent01 172.16.99.15 agent02 172.16.99.16 agent03 准备一个和 server 同网段且空闲的虚拟 IP 给 kube-vip，本文档以 172.16.99.100 为例。\n",
         "inLanguage" : "zh-CN",
         "articleSection": "posts",
         "wordCount":  1499 ,
@@ -105,13 +107,15 @@
 
 <meta property="og:title" content="离线部署 k3s 集群" />
 <meta property="og:description" content="环境初始化 参考文档 k3s 离线部署：https://docs.k3s.io/zh/installation/airgap
+kube-vip：https://kube-vip.io/docs/usage/k3s/
+部署环境 1 2 3 4 5 6 7 8 9 10 11 # 需要使用hostnamectl set-hostname xxx对所有机器修改主机名 # 3台server 172.16.99.11 server01 172.16.99.12 server02 172.16.99.13 server03 # 3台agent 172.16.99.14 agent01 172.16.99.15 agent02 172.16.99.16 agent03 准备一个和 server 同网段且空闲的虚拟 IP 给 kube-vip，本文档以 172.16.99.100 为例。
 " />
 <meta property="og:url" content="https://zzkrix.com/posts/%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2k3s%E9%9B%86%E7%BE%A4/" />
 <meta property="og:site_name" content="避风港" />
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231229182703110.png" />
 <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2023-12-29T14:22:11&#43;00:00" />
-    <meta property="article:modified_time" content="2024-09-05T09:51:46&#43;00:00" />
+    <meta property="article:modified_time" content="2024-09-19T06:35:43&#43;00:00" />
     
     <meta property="article:section" content="posts" />
 

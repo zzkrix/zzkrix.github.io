@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.134.0"><meta name="theme-color" content="#16171d" />
+    <meta name="generator" content="Hugo 0.134.2"><meta name="theme-color" content="#16171d" />
     <meta name="color-scheme" content="light dark">
 
     
@@ -38,6 +38,7 @@ https://developer.aliyun.com/article/928903
 使用 map &#43; 双向链表的方式实现 LRU：
 双向链表存储数据
 map 存储链表的指针
+更新时，map 判断在不在链表里，在的话将该节点放到头部，使用双向指针找到前后的节点并连接起来。
 " />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -65,10 +66,10 @@ map 存储链表的指针
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2023-05-17T21:35:01+00:00",
-        "dateModified": "2024-09-05T09:51:46+00:00",
+        "dateModified": "2024-09-19T06:35:43+00:00",
         "url": "https://zzkrix.com/posts/lru/",
         "headline": "LRU",
-        "description": "参考：\nhttps://halfrost.com/lru_lfu_interview/\nhttps://developer.aliyun.com/article/928903\n使用 map + 双向链表的方式实现 LRU：\n双向链表存储数据\nmap 存储链表的指针\n",
+        "description": "参考：\nhttps://halfrost.com/lru_lfu_interview/\nhttps://developer.aliyun.com/article/928903\n使用 map + 双向链表的方式实现 LRU：\n双向链表存储数据\nmap 存储链表的指针\n更新时，map 判断在不在链表里，在的话将该节点放到头部，使用双向指针找到前后的节点并连接起来。\n",
         "inLanguage" : "zh-CN",
         "articleSection": "posts",
         "wordCount":  85 ,
@@ -115,13 +116,14 @@ https://developer.aliyun.com/article/928903
 使用 map &#43; 双向链表的方式实现 LRU：
 双向链表存储数据
 map 存储链表的指针
+更新时，map 判断在不在链表里，在的话将该节点放到头部，使用双向指针找到前后的节点并连接起来。
 " />
 <meta property="og:url" content="https://zzkrix.com/posts/lru/" />
 <meta property="og:site_name" content="避风港" />
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517213556168.png" />
 <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2023-05-17T21:35:01&#43;00:00" />
-    <meta property="article:modified_time" content="2024-09-05T09:51:46&#43;00:00" />
+    <meta property="article:modified_time" content="2024-09-19T06:35:43&#43;00:00" />
     
     <meta property="article:section" content="posts" />
 

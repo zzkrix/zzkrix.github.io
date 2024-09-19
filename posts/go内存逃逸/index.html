@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.134.0"><meta name="theme-color" content="#16171d" />
+    <meta name="generator" content="Hugo 0.134.2"><meta name="theme-color" content="#16171d" />
     <meta name="color-scheme" content="light dark">
 
     
@@ -33,6 +33,7 @@
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
     <meta name="author" content="zzkrix" /><meta name="description" content="概念 所谓内存逃逸，指的是原来应该分配在栈上的变量，被分配到了堆上。
+为什么需要关注内存逃逸 栈上的内存不需要 GC，堆上的内存需要 GC。 堆上分配的内存的效率低于栈。 安全问题。。。？ 所以内存逃逸分析有助于减少 GC 压力。
 " />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -60,10 +61,10 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2023-05-15T11:33:20+00:00",
-        "dateModified": "2024-09-05T09:51:46+00:00",
+        "dateModified": "2024-09-19T06:35:43+00:00",
         "url": "https://zzkrix.com/posts/go%E5%86%85%E5%AD%98%E9%80%83%E9%80%B8/",
         "headline": "Go 内存逃逸",
-        "description": "概念 所谓内存逃逸，指的是原来应该分配在栈上的变量，被分配到了堆上。\n",
+        "description": "概念 所谓内存逃逸，指的是原来应该分配在栈上的变量，被分配到了堆上。\n为什么需要关注内存逃逸 栈上的内存不需要 GC，堆上的内存需要 GC。 堆上分配的内存的效率低于栈。 安全问题。。。？ 所以内存逃逸分析有助于减少 GC 压力。\n",
         "inLanguage" : "zh-CN",
         "articleSection": "posts",
         "wordCount":  209 ,
@@ -105,13 +106,14 @@
 
 <meta property="og:title" content="Go 内存逃逸" />
 <meta property="og:description" content="概念 所谓内存逃逸，指的是原来应该分配在栈上的变量，被分配到了堆上。
+为什么需要关注内存逃逸 栈上的内存不需要 GC，堆上的内存需要 GC。 堆上分配的内存的效率低于栈。 安全问题。。。？ 所以内存逃逸分析有助于减少 GC 压力。
 " />
 <meta property="og:url" content="https://zzkrix.com/posts/go%E5%86%85%E5%AD%98%E9%80%83%E9%80%B8/" />
 <meta property="og:site_name" content="避风港" />
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230515165225898.png" />
 <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2023-05-15T11:33:20&#43;00:00" />
-    <meta property="article:modified_time" content="2024-09-05T09:51:46&#43;00:00" />
+    <meta property="article:modified_time" content="2024-09-19T06:35:43&#43;00:00" />
     
     <meta property="article:section" content="posts" />
 

@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">避风港</title>
     <subtitle type="html"></subtitle>
-    <updated>2024-09-05T09:51:49&#43;00:00</updated>
+    <updated>2024-09-19T06:35:47&#43;00:00</updated>
     <id>https://zzkrix.com/</id>
     <link rel="alternate" type="text/html" href="https://zzkrix.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://zzkrix.com/atom.xml" />
@@ -15,12 +15,12 @@
                 <email>zzkrix56@gmail.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.134.0">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.134.2">Hugo</generator>
         <entry>
             <title type="text">霍去病关系图谱</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/history-huoqubing/" />
             <id>https://zzkrix.com/posts/history-huoqubing/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-09-05T17:39:02&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -30,7 +30,8 @@
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;无意中看到战神的这段介绍时懵逼了。
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-45-0FpAiy.png&#34; alt=&#34;2024-09-05-17-45-0FpAiy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;所以理了下人物关系图谱，嗯，清晰很多。
-&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-38-6ITZ97.png&#34; alt=&#34;2024-09-05-17-38-6ITZ97&#34;&gt;&lt;/p&gt;</summary>
+&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-38-6ITZ97.png&#34; alt=&#34;2024-09-05-17-38-6ITZ97&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-43-SsgDDY.png&#34; alt=&#34;2024-09-05-17-43-SsgDDY&#34;&gt;&lt;/p&gt;</summary>
             
                 <content type="html">&lt;p&gt;无意中看到战神的这段介绍时懵逼了。
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-45-0FpAiy.png&#34; alt=&#34;2024-09-05-17-45-0FpAiy&#34;&gt;&lt;/p&gt;
@@ -71,7 +72,7 @@
             <title type="text">Conda 安装和使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/conda/" />
             <id>https://zzkrix.com/posts/conda/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-08-30T14:23:24&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -375,7 +376,7 @@
             <title type="text">wireshark 之 sharkd 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/sharkd/" />
             <id>https://zzkrix.com/posts/sharkd/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-08-26T17:04:45&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -384,7 +385,8 @@
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
 &lt;p&gt;官方接口文档：&lt;a href=&#34;https://wiki.wireshark.org/sharkd-JSON-RPC&#34;&gt;https://wiki.wireshark.org/sharkd-JSON-RPC&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;sharkd 是 wireshark 里用来解析数据包的模块，可以单独编译和使用。&lt;/p&gt;</summary>
+&lt;p&gt;sharkd 是 wireshark 里用来解析数据包的模块，可以单独编译和使用。&lt;/p&gt;
+&lt;p&gt;sharkd 可执行文件未包含在标准 Wireshark 二进制包（Windows MSI 等）中，因此必须从源代码构建。&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
 &lt;p&gt;官方接口文档：&lt;a href=&#34;https://wiki.wireshark.org/sharkd-JSON-RPC&#34;&gt;https://wiki.wireshark.org/sharkd-JSON-RPC&lt;/a&gt;&lt;/p&gt;
@@ -543,7 +545,7 @@
             <title type="text">AI Agent 和 workflow 介绍</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/ai-agent-workflow/" />
             <id>https://zzkrix.com/posts/ai-agent-workflow/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-08-23T15:05:38&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -657,7 +659,7 @@
             <title type="text">CPU 模式下 comfyUI 运行 flux</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/comfyui-flux-demo/" />
             <id>https://zzkrix.com/posts/comfyui-flux-demo/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-08-05T22:07:13&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -676,7 +678,61 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
-&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/comfyanonymous/ComfyUI.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 启动 python 虚拟环境&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ComfyUI/ 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python3 -m vevn venv &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;source&lt;/span&gt; ./venv/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 安装依赖&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;安装-comfyui-manager&#34;&gt;安装 comfyUI-Manager&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ComfyUI/custom_nodes/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/ltdrdata/ComfyUI-Manager.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ComfyUI/custom_nodes/ComfyUI-Manager
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;下载模型&#34;&gt;下载模型&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ComfyUI/models/checkpoints
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ComfyUI/models/vae
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.sft
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;启动&#34;&gt;启动&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python main.py --cpu --listen 0.0.0.0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;浏览器访问 &lt;a href=&#34;http://localhost:8188&#34;&gt;http://localhost:8188&lt;/a&gt;&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;下载-comfyui&#34;&gt;下载 comfyUI&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -811,7 +867,7 @@
             <title type="text">Mac 安装 Windows 双系统</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mac-win10/" />
             <id>https://zzkrix.com/posts/mac-win10/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-08-04T12:34:11&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -874,7 +930,7 @@
             <title type="text">本地部署大模型</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/ollama-llama/" />
             <id>https://zzkrix.com/posts/ollama-llama/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-07-25T16:10:28&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -882,7 +938,16 @@
                     <email>zzkrix56@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h2 id=&#34;部署-ollama&#34;&gt;部署 ollama&lt;/h2&gt;
-&lt;p&gt;ollama 是一个运行大模型的框架，这里选择使用 docker 的方式启动 ollama:&lt;/p&gt;</summary>
+&lt;p&gt;ollama 是一个运行大模型的框架，这里选择使用 docker 的方式启动 ollama:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker run -d -v ./ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;启动成功后，选择想要的模型，这里以阿里通义千问最小的模型 (352M) 为例：&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;部署-ollama&#34;&gt;部署 ollama&lt;/h2&gt;
 &lt;p&gt;ollama 是一个运行大模型的框架，这里选择使用 docker 的方式启动 ollama:&lt;/p&gt;
@@ -1020,7 +1085,7 @@
             <title type="text">Linux 作业控制</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/linux-jobs/" />
             <id>https://zzkrix.com/posts/linux-jobs/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-06-30T23:17:03&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -1034,7 +1099,28 @@
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ctrl + z
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;查看当前被暂停的作业列表&#34;&gt;查看当前被暂停的作业列表&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;jobs&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;输出的每一个作业都有一个序号，可以被 &lt;code&gt;bg&lt;/code&gt; 和 &lt;code&gt;fg&lt;/code&gt; 使用。&lt;/p&gt;
+&lt;h2 id=&#34;将暂停的进程放到后台继续运行bg&#34;&gt;将暂停的进程放到后台继续运行（bg）&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;bg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;默认是将最近一个被暂停的进程恢复运行并放到后台。&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;暂停当前的前台进程&#34;&gt;暂停当前的前台进程&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1153,7 +1239,7 @@
             <title type="text">批量修改 git 仓库提交人信息</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/git-filter-branch/" />
             <id>https://zzkrix.com/posts/git-filter-branch/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-06-24T15:22:41&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -1191,7 +1277,36 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
-&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/sh
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git filter-branch --env-filter &lt;span class=&#34;s1&#34;&gt;&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    an=&amp;#34;$GIT_AUTHOR_NAME&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    am=&amp;#34;$GIT_AUTHOR_EMAIL&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    cn=&amp;#34;$GIT_COMMITTER_NAME&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    cm=&amp;#34;$GIT_COMMITTER_EMAIL&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    if [ &amp;#34;$GIT_COMMITTER_EMAIL&amp;#34; = &amp;#34;&amp;lt;old_user&amp;gt;@gmail.com&amp;#34; ]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    then
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;        cn=&amp;#34;&amp;lt;new_user&amp;gt;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;        cm=&amp;#34;&amp;lt;new_user&amp;gt;@gmail.com&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    fi
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    if [ &amp;#34;$GIT_AUTHOR_EMAIL&amp;#34; = &amp;#34;&amp;lt;old_user&amp;gt;@outlook.com&amp;#34; ]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    then
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;        an=&amp;#34;&amp;lt;new_user&amp;gt;&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;        am=&amp;#34;&amp;lt;new_user&amp;gt;@gmail.com&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    fi
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    export GIT_AUTHOR_NAME=&amp;#34;$an&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    export GIT_AUTHOR_EMAIL=&amp;#34;$am&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    export GIT_COMMITTER_NAME=&amp;#34;$cn&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    export GIT_COMMITTER_EMAIL=&amp;#34;$cm&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;修改完以后 &lt;code&gt;git push --force&lt;/code&gt;。&lt;/p&gt;</summary>
             
                 <content type="html">&lt;blockquote&gt;
 &lt;p&gt;仅限在可控状态下使用，否则会被别人打死。&lt;/p&gt;
@@ -1288,7 +1403,7 @@
             <title type="text">虚拟机中使用 Mac 快捷键</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mac-windows-autohotkey/" />
             <id>https://zzkrix.com/posts/mac-windows-autohotkey/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-06-24T09:47:05&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -1768,7 +1883,7 @@
             <title type="text">Mac 下为 Python 安装 mysqlclinet</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mac-python-mysqlclinet/" />
             <id>https://zzkrix.com/posts/mac-python-mysqlclinet/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-05-06T14:24:49&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -1782,7 +1897,15 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install mysql-client
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 必须加这个环境变量，否则后面pip安装还是会报错，可以将这个加到 ~/.bash_profile 或者 ～/.zshrc 中&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;PKG_CONFIG_PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;brew --prefix&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/opt/mysql-client/lib/pkgconfig&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后再执行：&lt;/p&gt;</summary>
             
                 <content type="html">&lt;p&gt;如果直接执行&lt;code&gt;pip install mysqlclient&lt;/code&gt;，会报错，需要先安装依赖：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1854,7 +1977,7 @@
             <title type="text">Linux &amp; iterm2 常用快捷键</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/linux-shortkeys/" />
             <id>https://zzkrix.com/posts/linux-shortkeys/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-04-02T17:53:53&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -1884,7 +2007,9 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ctrl + p    上一条命令
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ctrl + a/e  到行首/行尾
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Iterm2 快捷键：&lt;/p&gt;</summary>
             
                 <content type="html">&lt;p&gt;Linux 命令行快捷键：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -2000,7 +2125,7 @@
             <title type="text">Mac 原生输入法配置</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mac-input-shift/" />
             <id>https://zzkrix.com/posts/mac-input-shift/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-03-22T15:19:35&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2195,7 +2320,7 @@
             <title type="text">解决 vscode 终端乱码</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/vscode-terminal-settings/" />
             <id>https://zzkrix.com/posts/vscode-terminal-settings/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-01-26T09:53:02&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2207,7 +2332,12 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;terminal.integrated.fontFamily&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;MesloLGS NF&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</summary>
             
                 <content type="html">&lt;p&gt;我的终端使用的是 zsh，在 vscode 里打开时显示有乱码。&lt;/p&gt;
 &lt;p&gt;解决办法是在 &lt;code&gt;settings.json&lt;/code&gt; 中加入：&lt;/p&gt;
@@ -2253,7 +2383,7 @@
             <title type="text">Python 语法糖</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/python-tips/" />
             <id>https://zzkrix.com/posts/python-tips/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-01-21T22:46:01&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2534,7 +2664,7 @@
             <title type="text">Mac 下使用 iterm2 配置 ssh</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mac-iterm2-ssh/" />
             <id>https://zzkrix.com/posts/mac-iterm2-ssh/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-01-21T22:24:12&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2653,7 +2783,7 @@
             <title type="text">使用 hugo&#43;github 部署静态博客</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/hugo-github-pages/" />
             <id>https://zzkrix.com/posts/hugo-github-pages/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-01-21T00:23:12&#43;08:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2869,7 +2999,7 @@
             <title type="text">serverless 基础</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/serverless%E5%9F%BA%E7%A1%80/" />
             <id>https://zzkrix.com/posts/serverless%E5%9F%BA%E7%A1%80/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-01-15T20:20:42&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2921,7 +3051,7 @@
             <title type="text">reset-ssh-key</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/reset-ssh-key/" />
             <id>https://zzkrix.com/posts/reset-ssh-key/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-01-14T20:20:24&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -2997,7 +3127,7 @@
             <title type="text">vim 中数字增加或减少</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/vim%E4%B8%AD%E6%95%B0%E5%AD%97%E5%A2%9E%E5%8A%A0%E6%88%96%E5%87%8F%E5%B0%91/" />
             <id>https://zzkrix.com/posts/vim%E4%B8%AD%E6%95%B0%E5%AD%97%E5%A2%9E%E5%8A%A0%E6%88%96%E5%87%8F%E5%B0%91/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-01-09T16:55:39&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3086,7 +3216,7 @@
             <title type="text">将 helm chart 推送到 harbor</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/helm-chart-to-harbor/" />
             <id>https://zzkrix.com/posts/helm-chart-to-harbor/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2024-01-05T15:02:35&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3156,7 +3286,7 @@
             <title type="text">离线部署 k3s 集群</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2k3s%E9%9B%86%E7%BE%A4/" />
             <id>https://zzkrix.com/posts/%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2k3s%E9%9B%86%E7%BE%A4/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-29T14:22:11&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3165,7 +3295,38 @@
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h2 id=&#34;环境初始化&#34;&gt;环境初始化&lt;/h2&gt;
 &lt;h3 id=&#34;参考文档&#34;&gt;参考文档&lt;/h3&gt;
-&lt;p&gt;k3s 离线部署：&lt;a href=&#34;https://docs.k3s.io/zh/installation/airgap&#34;&gt;https://docs.k3s.io/zh/installation/airgap&lt;/a&gt;&lt;/p&gt;</summary>
+&lt;p&gt;k3s 离线部署：&lt;a href=&#34;https://docs.k3s.io/zh/installation/airgap&#34;&gt;https://docs.k3s.io/zh/installation/airgap&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;kube-vip：&lt;a href=&#34;https://kube-vip.io/docs/usage/k3s/&#34;&gt;https://kube-vip.io/docs/usage/k3s/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;部署环境&#34;&gt;部署环境&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 需要使用hostnamectl set-hostname xxx对所有机器修改主机名&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 3台server&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;172.16.99.11 server01
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;172.16.99.12 server02
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;172.16.99.13 server03
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 3台agent&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;172.16.99.14 agent01
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;172.16.99.15 agent02
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;172.16.99.16 agent03
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;准备一个和 server 同网段且空闲的虚拟 IP 给 kube-vip，本文档以 &lt;code&gt;172.16.99.100&lt;/code&gt; 为例。&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;环境初始化&#34;&gt;环境初始化&lt;/h2&gt;
 &lt;h3 id=&#34;参考文档&#34;&gt;参考文档&lt;/h3&gt;
@@ -3654,7 +3815,7 @@
             <title type="text">Linux 命令备忘录</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/linux-cmd/" />
             <id>https://zzkrix.com/posts/linux-cmd/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-22T16:17:59&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3668,7 +3829,14 @@
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;获取最后一列
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{print $NF}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;find&#34;&gt;find&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;find . -type f -name &amp;quot;*.png&amp;quot; -exec ls -l {} \;&lt;/code&gt;&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;awk&#34;&gt;awk&lt;/h2&gt;
 &lt;p&gt;awk 指定多个分隔符 &lt;code&gt;awk -F &#39;[;:]&#39;&lt;/code&gt;（使用&lt;code&gt;;&lt;/code&gt;或&lt;code&gt;:&lt;/code&gt;进行分割）&lt;/p&gt;
@@ -3813,7 +3981,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">iptables</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/iptables/" />
             <id>https://zzkrix.com/posts/iptables/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-15T11:03:42&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3867,7 +4035,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">查找虚拟设备对对端位置</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E6%9F%A5%E6%89%BE%E8%99%9A%E6%8B%9F%E8%AE%BE%E5%A4%87%E5%AF%B9%E5%AF%B9%E7%AB%AF%E4%BD%8D%E7%BD%AE/" />
             <id>https://zzkrix.com/posts/%E6%9F%A5%E6%89%BE%E8%99%9A%E6%8B%9F%E8%AE%BE%E5%A4%87%E5%AF%B9%E5%AF%B9%E7%AB%AF%E4%BD%8D%E7%BD%AE/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-14T10:33:04&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3882,7 +4050,17 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 某虚拟设备对在`当前`机器 / 容器的ID编号&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/sys/devices/virtual/net/***/ifindex
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 某虚拟设备对在`对方`机器 / 容器的ID编号&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/sys/devices/virtual/net/***/iflink
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;以虚拟设备&lt;code&gt;vethdedb37c&lt;/code&gt;为例：
+&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231214110714291.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</summary>
             
                 <content type="html">&lt;p&gt;主要依赖两个文件，这两个文件在宿主机和容器内都有&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -3950,7 +4128,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">文件权限</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90/" />
             <id>https://zzkrix.com/posts/%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-12T16:03:29&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -3962,7 +4140,8 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231212165251576.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;可读（4）
 可写（2）
-可执行（1）&lt;/p&gt;</summary>
+可执行（1）&lt;/p&gt;
+&lt;p&gt;755 表示只有属主有读写执行权限，其他人只能读 (4) 和执行 (1)&lt;/p&gt;</summary>
             
                 <content type="html">&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231212164637559.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;文件类型 -- 属主 -- 属组 -- 其他用户&lt;/p&gt;
@@ -4014,7 +4193,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">docker compose</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/docker-compose/" />
             <id>https://zzkrix.com/posts/docker-compose/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-11T14:45:57&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4088,7 +4267,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">查看机器上的网卡</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E6%9F%A5%E7%9C%8B%E6%9C%BA%E5%99%A8%E4%B8%8A%E7%9A%84%E7%BD%91%E5%8D%A1/" />
             <id>https://zzkrix.com/posts/%E6%9F%A5%E7%9C%8B%E6%9C%BA%E5%99%A8%E4%B8%8A%E7%9A%84%E7%BD%91%E5%8D%A1/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-11T13:59:45&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4152,7 +4331,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">释放 docker 占用空间</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E9%87%8A%E6%94%BEdocker%E5%8D%A0%E7%94%A8%E7%A9%BA%E9%97%B4/" />
             <id>https://zzkrix.com/posts/%E9%87%8A%E6%94%BEdocker%E5%8D%A0%E7%94%A8%E7%A9%BA%E9%97%B4/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-09T22:43:23&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4162,7 +4341,37 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;使用下面的命令可以释放 docker 产生的无用的空间。&lt;/p&gt;
 &lt;h2 id=&#34;清理未使用的构建缓存&#34;&gt;清理未使用的构建缓存&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;docker builder prune -a&lt;/code&gt;&lt;/p&gt;</summary>
+&lt;p&gt;&lt;code&gt;docker builder prune -a&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ docker &lt;span class=&#34;nb&#34;&gt;help&lt;/span&gt; builder prune
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Usage:  docker builder prune
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Remove build cache
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Options:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  -a, --all                  Remove all unused build cache, not just dangling ones
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      --filter filter        Provide filter values &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;e.g. &lt;span class=&#34;s2&#34;&gt;&amp;#34;until=24h&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  -f, --force                Do not prompt &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; confirmation
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      --keep-storage bytes   Amount of disk space to keep &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; cache
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;清理未使用的镜像&#34;&gt;清理未使用的镜像&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;docker image prune -a&lt;/code&gt;&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;使用下面的命令可以释放 docker 产生的无用的空间。&lt;/p&gt;
@@ -4288,7 +4497,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">docker 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/docker%E4%BD%BF%E7%94%A8/" />
             <id>https://zzkrix.com/posts/docker%E4%BD%BF%E7%94%A8/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-08T10:00:39&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4422,7 +4631,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">dockerfile 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/dockerfile%E4%BD%BF%E7%94%A8/" />
             <id>https://zzkrix.com/posts/dockerfile%E4%BD%BF%E7%94%A8/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-07T22:59:49&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4660,7 +4869,7 @@ ADD ubuntu-xenial-core-cloudimg-amd64-root.tar.gz /
             <title type="text">docker 安装</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/docker%E5%AE%89%E8%A3%85/" />
             <id>https://zzkrix.com/posts/docker%E5%AE%89%E8%A3%85/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-07T16:04:42&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4678,7 +4887,25 @@ ADD ubuntu-xenial-core-cloudimg-amd64-root.tar.gz /
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sudo sh get-docker.sh --mirror Aliyun
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;建立 &lt;code&gt;docker&lt;/code&gt; 组：&lt;/p&gt;</summary>
+&lt;/div&gt;&lt;p&gt;建立 &lt;code&gt;docker&lt;/code&gt; 组：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sudo groupadd docker
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;将当前用户加入 &lt;code&gt;docker&lt;/code&gt; 组：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sudo usermod -aG docker &lt;span class=&#34;nv&#34;&gt;$USER&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</summary>
             
                 <content type="html">&lt;p&gt;安装 docker&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -4743,7 +4970,7 @@ ADD ubuntu-xenial-core-cloudimg-amd64-root.tar.gz /
             <title type="text">Linux 修改磁盘大小</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/linux-disk-change/" />
             <id>https://zzkrix.com/posts/linux-disk-change/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-07T15:03:34&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4808,7 +5035,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;
             <title type="text">Oracle 服务器使用 netboot 重装系统</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/oracle-server-netboot/" />
             <id>https://zzkrix.com/posts/oracle-server-netboot/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-07T13:30:25&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4816,7 +5043,8 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;
                     <email>zzkrix56@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
-&lt;p&gt;oracle 免费服务器不支持在界面上更换操作系统，这里借助第三方工具&lt;a href=&#34;https://boot.netboot.xyz&#34;&gt;boot.netboot.xyz&lt;/a&gt;重装。&lt;/p&gt;</summary>
+&lt;p&gt;oracle 免费服务器不支持在界面上更换操作系统，这里借助第三方工具&lt;a href=&#34;https://boot.netboot.xyz&#34;&gt;boot.netboot.xyz&lt;/a&gt;重装。&lt;/p&gt;
+&lt;p&gt;对于不能 ssh 登录的机器参考这个：&lt;a href=&#34;https://ooly.cc/archives/linux/361/&#34;&gt;https://ooly.cc/archives/linux/361/&lt;/a&gt;&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;oracle 免费服务器不支持在界面上更换操作系统，这里借助第三方工具&lt;a href=&#34;https://boot.netboot.xyz&#34;&gt;boot.netboot.xyz&lt;/a&gt;重装。&lt;/p&gt;
@@ -4896,7 +5124,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;
             <title type="text">tcp 保活</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/tcp%E4%BF%9D%E6%B4%BB/" />
             <id>https://zzkrix.com/posts/tcp%E4%BF%9D%E6%B4%BB/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-04T20:11:39&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -4923,7 +5151,9 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;最多发几次保活探测包
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/proc/sys/net/ipv4/tcp_keepalive_probes
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://juejin.cn/post/7142654287493988359&#34;&gt;https://juejin.cn/post/7142654287493988359&lt;/a&gt;&lt;/p&gt;</summary>
             
                 <content type="html">&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -4988,7 +5218,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;
             <title type="text">用户和用户组</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E7%94%A8%E6%88%B7%E5%92%8C%E7%94%A8%E6%88%B7%E7%BB%84/" />
             <id>https://zzkrix.com/posts/%E7%94%A8%E6%88%B7%E5%92%8C%E7%94%A8%E6%88%B7%E7%BB%84/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-12-01T23:03:26&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5114,7 +5344,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">rsync 文件同步</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/rsync%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5/" />
             <id>https://zzkrix.com/posts/rsync%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-11-19T11:33:08&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5232,7 +5462,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">命令行内容输出到剪贴板</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%86%85%E5%AE%B9%E8%BE%93%E5%87%BA%E5%88%B0%E5%89%AA%E8%B4%B4%E6%9D%BF/" />
             <id>https://zzkrix.com/posts/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%86%85%E5%AE%B9%E8%BE%93%E5%87%BA%E5%88%B0%E5%89%AA%E8%B4%B4%E6%9D%BF/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-11-09T21:26:54&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5260,7 +5490,9 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;// 将剪切板中的内容粘贴至文件
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ pbpaste &amp;gt; remade.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Linux:&lt;/p&gt;</summary>
             
                 <content type="html">&lt;p&gt;Mac:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -5330,7 +5562,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">hping3 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/hping3%E4%BD%BF%E7%94%A8/" />
             <id>https://zzkrix.com/posts/hping3%E4%BD%BF%E7%94%A8/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-11-04T11:39:44&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5356,7 +5588,9 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-S 攻击类型是Syn flood
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hping3 192.168.190.1 -c &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -p &lt;span class=&#34;m&#34;&gt;6106&lt;/span&gt; -S -a 172.22.0.27 -s &lt;span class=&#34;m&#34;&gt;31399&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;hping3 192.168.190.1 -c 1 -p 6109 -S -a 172.22.0.29 -s 31683&lt;/p&gt;</summary>
             
                 <content type="html">&lt;p&gt;发送伪造 syn 握手包：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -5414,7 +5648,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">临时修改网卡地址</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E4%B8%B4%E6%97%B6%E4%BF%AE%E6%94%B9%E7%BD%91%E5%8D%A1%E5%9C%B0%E5%9D%80/" />
             <id>https://zzkrix.com/posts/%E4%B8%B4%E6%97%B6%E4%BF%AE%E6%94%B9%E7%BD%91%E5%8D%A1%E5%9C%B0%E5%9D%80/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-11-01T13:03:49&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5439,7 +5673,9 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#删除&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ip addr del 192.168.0.1/16 dev enp22s0f3
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</summary>
             
                 <content type="html">&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -5501,7 +5737,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 依赖注入</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/" />
             <id>https://zzkrix.com/posts/go%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-09-23T11:20:06&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5553,7 +5789,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 时区问题</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-timezone/" />
             <id>https://zzkrix.com/posts/go-timezone/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-09-17T13:44:09&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5722,7 +5958,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">命令行启动 wireshark 抓包</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8wireshark%E6%8A%93%E5%8C%85/" />
             <id>https://zzkrix.com/posts/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8wireshark%E6%8A%93%E5%8C%85/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-09-06T12:15:41&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5740,7 +5976,16 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/Applications/Wireshark.app/Contents/MacOS/Wireshark
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;或者
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;open -n /Applications/Wireshark.app
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;启动 wireshark 并且直接开始抓包：&lt;/p&gt;</summary>
             
                 <content type="html">&lt;p&gt;只启动 wireshark&lt;/p&gt;
 &lt;blockquote&gt;
@@ -5808,7 +6053,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Golang 的 generate stringer</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-generate-stringr/" />
             <id>https://zzkrix.com/posts/go-generate-stringr/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-09-03T17:07:06&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -5833,7 +6078,26 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
-&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-golang&#34; data-lang=&#34;golang&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;type&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Code&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;OK&lt;/span&gt;           &lt;span class=&#34;nx&#34;&gt;Code&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;BadRequest&lt;/span&gt;   &lt;span class=&#34;nx&#34;&gt;Code&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;InvalidParam&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Code&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;BadRequest&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;运行结果：&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;普通代码&#34;&gt;普通代码&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -6219,7 +6483,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">docker 仓库</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/docker%E4%BB%93%E5%BA%93/" />
             <id>https://zzkrix.com/posts/docker%E4%BB%93%E5%BA%93/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-07-29T22:01:35&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6238,7 +6502,19 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
-&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;registry-mirrors&amp;#34;&lt;/span&gt;: &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://a.b.c&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;s2&#34;&gt;&amp;#34;insecure-registries&amp;#34;&lt;/span&gt;: &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s2&#34;&gt;&amp;#34;192.168.199.100:5000&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;配置自定义仓库地址&#34;&gt;配置自定义仓库地址&lt;/h2&gt;
 &lt;p&gt;Linux 下创建并修改 &lt;code&gt;/etc/docker/daemon.json&lt;/code&gt;&lt;/p&gt;
@@ -6298,7 +6574,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 竞态检测</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-race/" />
             <id>https://zzkrix.com/posts/go-race/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-07-27T19:04:14&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6327,7 +6603,9 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;#&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;直接允许也可以添加&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;go&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;run&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;race&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;go&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;该方法是运行时检测，而非静态代码检测。跑 test 和跑程序时都可以添加该参数来检测。&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;方法&#34;&gt;方法&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.pengrl.com/p/41755/&#34;&gt;https://www.pengrl.com/p/41755/&lt;/a&gt;&lt;/p&gt;
@@ -6391,7 +6669,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 编译 tips</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-cc-tips/" />
             <id>https://zzkrix.com/posts/go-cc-tips/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-07-27T09:00:19&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6413,7 +6691,22 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Go&#34; data-lang=&#34;Go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Version&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;undefined&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Version:&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Version&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;第一种用法：&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;go-build--ldflags&#34;&gt;&lt;code&gt;go build -ldflags&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;有如下示例代码：&lt;/p&gt;
@@ -6593,7 +6886,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">开源协议区别</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE%E5%8C%BA%E5%88%AB/" />
             <id>https://zzkrix.com/posts/%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE%E5%8C%BA%E5%88%AB/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-07-04T09:55:25&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6637,7 +6930,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 的 gc</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-gc/" />
             <id>https://zzkrix.com/posts/go-gc/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-06-19T23:04:12&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6683,7 +6976,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">分布式锁提前过期</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%8F%90%E5%89%8D%E8%BF%87%E6%9C%9F/" />
             <id>https://zzkrix.com/posts/%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%8F%90%E5%89%8D%E8%BF%87%E6%9C%9F/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-06-13T17:01:37&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6729,7 +7022,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">LRU</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/lru/" />
             <id>https://zzkrix.com/posts/lru/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-05-17T21:35:01&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6741,7 +7034,8 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
 &lt;p&gt;&lt;a href=&#34;https://developer.aliyun.com/article/928903&#34;&gt;https://developer.aliyun.com/article/928903&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;使用 map + 双向链表的方式实现 LRU：&lt;/p&gt;
 &lt;p&gt;双向链表存储数据&lt;/p&gt;
-&lt;p&gt;map 存储链表的指针&lt;/p&gt;</summary>
+&lt;p&gt;map 存储链表的指针&lt;/p&gt;
+&lt;p&gt;更新时，map 判断在不在链表里，在的话将该节点放到头部，使用双向指针找到前后的节点并连接起来。&lt;/p&gt;</summary>
             
                 <content type="html">&lt;p&gt;参考：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://halfrost.com/lru_lfu_interview/&#34;&gt;https://halfrost.com/lru_lfu_interview/&lt;/a&gt;&lt;/p&gt;
@@ -6785,7 +7079,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 的 GPM 模型</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-gpm/" />
             <id>https://zzkrix.com/posts/go-gpm/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-05-17T21:30:24&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6841,7 +7135,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">Go 内存逃逸</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go%E5%86%85%E5%AD%98%E9%80%83%E9%80%B8/" />
             <id>https://zzkrix.com/posts/go%E5%86%85%E5%AD%98%E9%80%83%E9%80%B8/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-05-15T11:33:20&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -6849,7 +7143,15 @@ M：操作系统线程&lt;/p&gt;
                     <email>zzkrix56@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h2 id=&#34;概念&#34;&gt;概念&lt;/h2&gt;
-&lt;p&gt;所谓内存逃逸，指的是原来应该分配在栈上的变量，被分配到了堆上。&lt;/p&gt;</summary>
+&lt;p&gt;所谓内存逃逸，指的是原来应该分配在栈上的变量，被分配到了堆上。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230515165225898.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;为什么需要关注内存逃逸&#34;&gt;为什么需要关注内存逃逸&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;栈上的内存不需要 GC，堆上的内存需要 GC。&lt;/li&gt;
+&lt;li&gt;堆上分配的内存的效率低于栈。&lt;/li&gt;
+&lt;li&gt;安全问题。。。？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;所以内存逃逸分析有助于减少 GC 压力。&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;概念&#34;&gt;概念&lt;/h2&gt;
 &lt;p&gt;所谓内存逃逸，指的是原来应该分配在栈上的变量，被分配到了堆上。&lt;/p&gt;
@@ -6953,7 +7255,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">rocketmq 事务消息</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/rocketmq%E4%BA%8B%E5%8A%A1%E6%B6%88%E6%81%AF/" />
             <id>https://zzkrix.com/posts/rocketmq%E4%BA%8B%E5%8A%A1%E6%B6%88%E6%81%AF/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-05-14T12:30:46&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -7009,7 +7311,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">本地消息表</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E6%9C%AC%E5%9C%B0%E6%B6%88%E6%81%AF%E8%A1%A8/" />
             <id>https://zzkrix.com/posts/%E6%9C%AC%E5%9C%B0%E6%B6%88%E6%81%AF%E8%A1%A8/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-05-14T09:02:01&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -7065,7 +7367,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">map-reduce</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/map-reduce/" />
             <id>https://zzkrix.com/posts/map-reduce/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-04-27T17:01:23&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -7109,7 +7411,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">systemctl</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/systemctl/" />
             <id>https://zzkrix.com/posts/systemctl/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-04-18T16:12:56&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -7130,7 +7432,9 @@ M：操作系统线程&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 屏蔽服务，无法使用systemctl start YOUR_SERVICE&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ systemctl mask YOUR_SERVICE
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</summary>
             
                 <content type="html">&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -7182,7 +7486,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">间隙锁和死锁</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/%E9%97%B4%E9%9A%99%E9%94%81%E5%92%8C%E6%AD%BB%E9%94%81/" />
             <id>https://zzkrix.com/posts/%E9%97%B4%E9%9A%99%E9%94%81%E5%92%8C%E6%AD%BB%E9%94%81/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-04-01T15:03:02&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -7245,7 +7549,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL count(*)、count(1)、count(列) 的区别</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mysql-count/" />
             <id>https://zzkrix.com/posts/mysql-count/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-03-25T10:29:26&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -7314,7 +7618,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL8 创建用户和授权</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mysql-create-user-auth/" />
             <id>https://zzkrix.com/posts/mysql-create-user-auth/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-03-22T17:30:59&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -7328,7 +7632,37 @@ M：操作系统线程&lt;/p&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-mysql&#34; data-lang=&#34;mysql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;mysql&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;user&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;创建用户&#34;&gt;创建用户&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-mysql&#34; data-lang=&#34;mysql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;CREATE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;USER&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;testuser&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;IDENTIFIED&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;BY&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;password&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;CREATE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;USER&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;testuser&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;192.168.10.100&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;IDENTIFIED&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;BY&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;password&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;CREATE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;USER&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;testuser&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;%&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;IDENTIFIED&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;BY&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;password&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;授权&#34;&gt;授权&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-mysql&#34; data-lang=&#34;mysql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;GRANT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ALL&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;PRIVILEGES&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ON&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;testdb&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;TO&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;testuser&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;GRANT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ALL&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;PRIVILEGES&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ON&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;TO&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;testuser&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;GRANT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;INSERT&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;DELETE&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ON&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;testdb1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;TO&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;testuser&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;持久化权限配置&#34;&gt;持久化权限配置&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一般不需要执行&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;查看用户&#34;&gt;查看用户&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -7421,7 +7755,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL 允许 root 远程访问</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mysql-remote-root/" />
             <id>https://zzkrix.com/posts/mysql-remote-root/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-03-22T16:09:45&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -7446,7 +7780,9 @@ M：操作系统线程&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;gt; GRANT ALL PRIVILEGES ON *.* TO &lt;span class=&#34;s1&#34;&gt;&amp;#39;root&amp;#39;&lt;/span&gt;@&lt;span class=&#34;s1&#34;&gt;&amp;#39;%&amp;#39;&lt;/span&gt; IDENTIFIED BY &lt;span class=&#34;s1&#34;&gt;&amp;#39;123456&amp;#39;&lt;/span&gt; WITH GRANT OPTION&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;gt; FLUSH PRIVILEGES&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</summary>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</summary>
             
                 <content type="html">&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -7502,7 +7838,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL 事务</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mysql-transaction/" />
             <id>https://zzkrix.com/posts/mysql-transaction/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-03-19T21:15:03&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -7512,7 +7848,14 @@ M：操作系统线程&lt;/p&gt;
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 &lt;p&gt;讲的比较清晰的：&lt;a href=&#34;https://www.51cto.com/article/679914.html&#34;&gt;https://www.51cto.com/article/679914.html&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;理论&#34;&gt;理论&lt;/h2&gt;
-&lt;p&gt;MySQL 中事务的隔离级别一共分为四种，分别如下：&lt;/p&gt;</summary>
+&lt;p&gt;MySQL 中事务的隔离级别一共分为四种，分别如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;序列化 (SERIALIZABLE)&lt;/li&gt;
+&lt;li&gt;可重复读 (REPEATABLE READ)&lt;/li&gt;
+&lt;li&gt;提交读 (READ COMMITTED)&lt;/li&gt;
+&lt;li&gt;未提交读 (READ UNCOMMITTED)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;四种不同的隔离级别含义分别如下：&lt;/p&gt;</summary>
             
                 <content type="html">&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
 &lt;p&gt;讲的比较清晰的：&lt;a href=&#34;https://www.51cto.com/article/679914.html&#34;&gt;https://www.51cto.com/article/679914.html&lt;/a&gt;&lt;/p&gt;
@@ -7582,7 +7925,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL 常识</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/mysql-common/" />
             <id>https://zzkrix.com/posts/mysql-common/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-03-18T11:24:45&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -7704,7 +8047,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">Go sync map 实现</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/go-sync-map/" />
             <id>https://zzkrix.com/posts/go-sync-map/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-03-16T21:20:16&#43;00:00</published>
             <author>
                     <name>zzkrix</name>
@@ -7748,7 +8091,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">redis 备忘录</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/posts/redis%E5%A4%87%E5%BF%98%E5%BD%95/" />
             <id>https://zzkrix.com/posts/redis%E5%A4%87%E5%BF%98%E5%BD%95/</id>
-            <updated>2024-09-05T09:51:46&#43;00:00</updated>
+            <updated>2024-09-19T06:35:43&#43;00:00</updated>
             <published>2023-03-10T09:55:54&#43;00:00</published>
             <author>
                     <name>zzkrix</name>

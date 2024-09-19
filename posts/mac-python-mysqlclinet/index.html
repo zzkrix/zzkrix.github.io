@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.134.0"><meta name="theme-color" content="#16171d" />
+    <meta name="generator" content="Hugo 0.134.2"><meta name="theme-color" content="#16171d" />
     <meta name="color-scheme" content="light dark">
 
     
@@ -33,7 +33,8 @@
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
     <meta name="author" content="zzkrix" /><meta name="description" content="如果直接执行pip install mysqlclient，会报错，需要先安装依赖：
-1 2 3 4 " />
+1 2 3 4 brew install mysql-client # 必须加这个环境变量，否则后面pip安装还是会报错，可以将这个加到 ~/.bash_profile 或者 ～/.zshrc 中 export PKG_CONFIG_PATH=&#34;$(brew --prefix)/opt/mysql-client/lib/pkgconfig&#34; 然后再执行：
+" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
@@ -60,10 +61,10 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2024-05-06T14:24:49+08:00",
-        "dateModified": "2024-09-05T09:51:46+00:00",
+        "dateModified": "2024-09-19T06:35:43+00:00",
         "url": "https://zzkrix.com/posts/mac-python-mysqlclinet/",
         "headline": "Mac 下为 Python 安装 mysqlclinet",
-        "description": "如果直接执行pip install mysqlclient，会报错，需要先安装依赖：\n1 2 3 4 ",
+        "description": "如果直接执行pip install mysqlclient，会报错，需要先安装依赖：\n1 2 3 4 brew install mysql-client # 必须加这个环境变量，否则后面pip安装还是会报错，可以将这个加到 ~/.bash_profile 或者 ～/.zshrc 中 export PKG_CONFIG_PATH=\"$(brew --prefix)/opt/mysql-client/lib/pkgconfig\" 然后再执行：\n",
         "inLanguage" : "zh-CN",
         "articleSection": "posts",
         "wordCount":  99 ,
@@ -104,13 +105,14 @@
 
 <meta property="og:title" content="Mac 下为 Python 安装 mysqlclinet" />
 <meta property="og:description" content="如果直接执行pip install mysqlclient，会报错，需要先安装依赖：
-1 2 3 4 " />
+1 2 3 4 brew install mysql-client # 必须加这个环境变量，否则后面pip安装还是会报错，可以将这个加到 ~/.bash_profile 或者 ～/.zshrc 中 export PKG_CONFIG_PATH=&#34;$(brew --prefix)/opt/mysql-client/lib/pkgconfig&#34; 然后再执行：
+" />
 <meta property="og:url" content="https://zzkrix.com/posts/mac-python-mysqlclinet/" />
 <meta property="og:site_name" content="避风港" />
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://zzkrix.com/icons/apple-touch-icon.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2024-05-06T14:24:49&#43;08:00" />
-    <meta property="article:modified_time" content="2024-09-05T09:51:46&#43;00:00" />
+    <meta property="article:modified_time" content="2024-09-19T06:35:43&#43;00:00" />
     
     <meta property="article:section" content="posts" />
 
