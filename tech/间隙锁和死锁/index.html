@@ -60,7 +60,7 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2023-04-01T15:03:02+00:00",
-        "dateModified": "2024-10-08T03:03:29+00:00",
+        "dateModified": "2024-10-08T03:35:10+00:00",
         "url": "https://zzkrix.com/tech/%E9%97%B4%E9%9A%99%E9%94%81%E5%92%8C%E6%AD%BB%E9%94%81/",
         "headline": "间隙锁和死锁",
         "description": "间隙锁产生的条件 使用 \u003e 、 \u003c 、between 等区间条件 delete 不存在的数据 间隙锁的例子 当我们通过一个参数去删除一条记录的时候，如果参数在数据库中存在，那么这个时候产生的是普通行锁，锁住这个记录，然后删除，然后释放锁。如果这条记录不存在，问题就来了，数据库会扫描索引，发现这个记录不存在，这个时候的 delete 语句获取到的就是一个间隙锁，然后数据库会向左扫描扫到第一个比给定参数小的值，向右扫描扫描到第一个比给定参数大的值，然后以此为界，构建一个区间，锁住整个区间内的数据。\n",
@@ -110,7 +110,7 @@
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://zzkrix.com/icons/apple-touch-icon.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2023-04-01T15:03:02&#43;00:00" />
-    <meta property="article:modified_time" content="2024-10-08T03:03:29&#43;00:00" />
+    <meta property="article:modified_time" content="2024-10-08T03:35:10&#43;00:00" />
     
     <meta property="article:section" content="tech" />
 
