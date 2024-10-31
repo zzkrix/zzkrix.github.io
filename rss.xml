@@ -19,7 +19,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 31 Oct 2024 08:58:22 &#43;0000</lastBuildDate>
+        <lastBuildDate>Thu, 31 Oct 2024 09:00:47 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zzkrix.com/rss.xml" />
         
@@ -71,7 +71,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ca_file&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;/etc/harbor/cert/ca.crt&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;mirrors 里的&amp;quot;*&amp;quot; 表示匹配所有镜像请求，即所有容器镜像的拉取请求都会首先尝试从 &lt;a href=&#34;https://harbor.b5g.sdfnri.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://harbor.b5g.sdfnri.com&lt;/a&gt; 下载，如果不可用则退回到 &lt;a href=&#34;https://hub.docker.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hub.docker.com&lt;/a&gt;。&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;mirrors 里的&amp;quot;*&amp;quot; 表示匹配所有镜像请求，即所有容器镜像的拉取请求都会首先尝试从 &lt;a href=&#34;https://your-private-repo.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://your-private-repo.com&lt;/a&gt; 下载，如果不可用则退回到 &lt;a href=&#34;https://hub.docker.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hub.docker.com&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;其中 mirrors 可以配置多项：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;div class=&#34;table-container&#34;&gt;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;

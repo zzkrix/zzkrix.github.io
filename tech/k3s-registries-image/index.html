@@ -61,7 +61,7 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2024-10-31T13:25:38+08:00",
-        "dateModified": "2024-10-31T08:58:18+00:00",
+        "dateModified": "2024-10-31T09:00:43+00:00",
         "url": "https://zzkrix.com/tech/k3s-registries-image/",
         "headline": "k3s 镜像重写",
         "description": "背景 在 k3s 中部署应用时，因为网络等原因，常遇到有些镜像拉不下来。\n如果有私有仓库的话，可以手动把镜像放入私有仓库，让 k3s 去私有仓库拉取。\n",
@@ -109,7 +109,7 @@
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://zzkrix.com/icons/apple-touch-icon.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2024-10-31T13:25:38&#43;08:00" />
-    <meta property="article:modified_time" content="2024-10-31T08:58:18&#43;00:00" />
+    <meta property="article:modified_time" content="2024-10-31T09:00:43&#43;00:00" />
     
     <meta property="article:section" content="tech" />
 
@@ -321,7 +321,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">ca_file</span><span class="p">:</span><span class="w"> </span><span class="l">/etc/harbor/cert/ca.crt</span><span class="w">
 </span></span></span></code></pre></td></tr></table></div>
 </div>
-</div><p>mirrors 里的&quot;*&quot; 表示匹配所有镜像请求，即所有容器镜像的拉取请求都会首先尝试从 <a href="https://harbor.b5g.sdfnri.com" target="_blank" rel="noopener">https://harbor.b5g.sdfnri.com</a> 下载，如果不可用则退回到 <a href="https://hub.docker.com" target="_blank" rel="noopener">https://hub.docker.com</a>。</p>
+</div><p>mirrors 里的&quot;*&quot; 表示匹配所有镜像请求，即所有容器镜像的拉取请求都会首先尝试从 <a href="https://your-private-repo.com" target="_blank" rel="noopener">https://your-private-repo.com</a> 下载，如果不可用则退回到 <a href="https://hub.docker.com" target="_blank" rel="noopener">https://hub.docker.com</a>。</p>
 <p>其中 mirrors 可以配置多项：</p>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
