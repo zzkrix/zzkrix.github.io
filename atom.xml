@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">避风港</title>
     <subtitle type="html"></subtitle>
-    <updated>2025-02-11T08:34:28&#43;00:00</updated>
+    <updated>2025-02-11T09:43:13&#43;00:00</updated>
     <id>https://zzkrix.com/</id>
     <link rel="alternate" type="text/html" href="https://zzkrix.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://zzkrix.com/atom.xml" />
@@ -15,16 +15,16 @@
             <title type="text">浏览器跨域请求机制</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/web-cross-origin/" />
             <id>https://zzkrix.com/tech/web-cross-origin/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2025-02-11T14:27:28&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-11-15-19-2aKAtG.png&#34; alt=&#34;2025-02-11-15-19-2aKAtG&#34;&gt;&lt;/p&gt;
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-11-17-16-XR4S9O.png&#34; alt=&#34;2025-02-11-17-16-XR4S9O&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;浏览器同源策略&#34;&gt;浏览器同源策略&lt;/h2&gt;
 &lt;p&gt;同源策略是浏览器的一个安全功能。简单来说，它是一种限制不同“源”之间相互访问资源的规则。“源”主要包括协议（比如 http、https）、域名（如 example.com、another - site.com）和端口号（像 80、443 等）。如果这三个要素都相同，就被认为是同源的。&lt;/p&gt;</summary>
             
-                <content type="html">&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-11-15-19-2aKAtG.png&#34; alt=&#34;2025-02-11-15-19-2aKAtG&#34;&gt;&lt;/p&gt;
+                <content type="html">&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-11-17-16-XR4S9O.png&#34; alt=&#34;2025-02-11-17-16-XR4S9O&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;浏览器同源策略&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#浏览器同源策略&#34; class=&#34;anchor-link&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#contents:浏览器同源策略&#34; class=&#34;headings&#34;&gt;浏览器同源策略&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;同源策略是浏览器的一个安全功能。简单来说，它是一种限制不同“源”之间相互访问资源的规则。“源”主要包括协议（比如 http、https）、域名（如 example.com、another - site.com）和端口号（像 80、443 等）。如果这三个要素都相同，就被认为是同源的。&lt;/p&gt;
 &lt;p&gt;举个例子，假设你有两个网站，一个是 &lt;code&gt;http://www.example.com&lt;/code&gt;，另一个是&lt;code&gt;http://shop.example.com&lt;/code&gt;。虽然它们的域名主体部分相似，但由于子域名不同（一个是“www”，一个是“shop”），它们就被认为是不同源的。再比如，&lt;code&gt;http://www.example.com:80&lt;/code&gt; 和 &lt;code&gt;http://www.example.com:3000&lt;/code&gt;，因为端口号不同，也是不同源的。&lt;/p&gt;
@@ -396,7 +396,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;代码测试结果&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#代码测试结果&#34; class=&#34;anchor-link&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#contents:代码测试结果&#34; class=&#34;headings&#34;&gt;代码测试结果&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;&lt;p&gt;测试结果：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-11-16-22-JDGTlL.png&#34; alt=&#34;2025-02-11-16-22-JDGTlL&#34;&gt;&lt;/p&gt;
 &lt;p&gt;当在浏览器中点击&lt;code&gt;Fetch Data&lt;/code&gt;的时候，server1 收到了一个 GET 请求，server2 收到的是 OPTIONS 请求，并且返回了 403。&lt;/p&gt;
 &lt;p&gt;这是因为：&lt;/p&gt;
@@ -408,7 +408,7 @@
 &lt;p&gt;请求 server2 时，浏览器判断这个请求是&lt;code&gt;非简单请求&lt;/code&gt;，需要先发送一个&lt;code&gt;预检请求 OPTIONS&lt;/code&gt;，所以浏览器自动发送了一个&lt;code&gt;OPTIONS&lt;/code&gt;请求给 server2。server2 判断&lt;code&gt;http://localhost:8000&lt;/code&gt;不允许跨域访问，所以返回了 403。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;简单请求simple-requests&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#简单请求simple-requests&#34; class=&#34;anchor-link&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#contents:简单请求simple-requests&#34; class=&#34;headings&#34;&gt;简单请求（Simple Requests）&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;简单请求simple-requests&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#简单请求simple-requests&#34; class=&#34;anchor-link&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#contents:简单请求simple-requests&#34; class=&#34;headings&#34;&gt;简单请求（Simple Requests）&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;对于简单请求，浏览器会直接发送实际请求，而不会发送 OPTIONS 预检请求。简单请求需要满足以下条件：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;请求方法：GET、HEAD 或 POST。&lt;/li&gt;
@@ -423,7 +423,7 @@
 &lt;li&gt;请求体：如果是 POST 请求，请求体必须符合上述 Content-Type 的限制。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;在这种情况下，浏览器会直接发送请求到服务器，并在请求头中添加 Origin 字段，表示请求的来源。服务器需要在响应头中设置 Access-Control-Allow-Origin 字段，以允许跨域访问&lt;/p&gt;
-&lt;h3 id=&#34;预检请求preflight-request&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#预检请求preflight-request&#34; class=&#34;anchor-link&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#contents:预检请求preflight-request&#34; class=&#34;headings&#34;&gt;预检请求（Preflight Request）&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id=&#34;预检请求preflight-request&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#预检请求preflight-request&#34; class=&#34;anchor-link&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#contents:预检请求preflight-request&#34; class=&#34;headings&#34;&gt;预检请求（Preflight Request）&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;对于非简单请求（复杂请求），浏览器会先发送一个 OPTIONS 预检请求，以确定服务器是否允许跨域访问。非简单请求包括以下情况：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;请求方法：PUT、DELETE、PATCH 等非简单方法。&lt;/li&gt;
@@ -439,6 +439,10 @@
 &lt;li&gt;Access-Control-Max-Age：预检请求的结果可以被缓存的时间。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;如果服务器允许跨域访问，浏览器会继续发送实际请求；否则，浏览器会阻止请求并抛出 CORS 错误。&lt;/p&gt;
+&lt;p&gt;需要注意的是，浏览器会缓存 OPTIONS 请求结果，所以抓包时可以看到，非简单请求不会每次都发送 OPTIONS。&lt;/p&gt;
+&lt;p&gt;浏览器缓存 OPTIONS 请求结果的时间主要由服务器返回的 Access-Control-Max-Age 字段决定。Access-Control-Max-Age 字段用于指定预检请求（OPTIONS 请求）的结果可以缓存的时间，单位是秒。&lt;/p&gt;
+&lt;p&gt;例如，如果服务器返回 Access-Control-Max-Age: 1800，那么浏览器会在接下来的 1800 秒（30 分钟）内缓存该 OPTIONS 请求的结果。在此期间，相同的跨域请求（URL 和 header 字段都相同）不会再触发预检请求。&lt;/p&gt;
+&lt;p&gt;浏览器可能会有自己的默认最大缓存时间限制，实际缓存时间会取 Access-Control-Max-Age 和浏览器默认限制的较小值。&lt;/p&gt;
 </content>
             
             
@@ -473,7 +477,7 @@
             <title type="text">TypeScript - export 用法</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/ts-export/" />
             <id>https://zzkrix.com/tech/ts-export/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2025-02-10T13:14:17&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -635,7 +639,7 @@
             <title type="text">TypeScript - 函数重载</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/ts-overloading/" />
             <id>https://zzkrix.com/tech/ts-overloading/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2025-02-08T16:18:57&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -850,7 +854,7 @@
             <title type="text">k3s 镜像重写</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/k3s-registries-image/" />
             <id>https://zzkrix.com/tech/k3s-registries-image/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-10-31T13:25:38&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -973,7 +977,7 @@
             <title type="text">2024 国庆游记</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/life/travel-2024-10/" />
             <id>https://zzkrix.com/life/travel-2024-10/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-10-05T11:36:09&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -1186,7 +1190,7 @@
             <title type="text">霍去病关系图谱</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/life/history-huoqubing/" />
             <id>https://zzkrix.com/life/history-huoqubing/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-09-05T17:39:02&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -1236,7 +1240,7 @@
             <title type="text">Conda 安装和使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/conda/" />
             <id>https://zzkrix.com/tech/conda/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-08-30T14:23:24&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -1538,7 +1542,7 @@
             <title type="text">wireshark 之 sharkd 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/sharkd/" />
             <id>https://zzkrix.com/tech/sharkd/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-08-26T17:04:45&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -1704,7 +1708,7 @@
             <title type="text">AI Agent 和 workflow 介绍</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/ai-agent-workflow/" />
             <id>https://zzkrix.com/tech/ai-agent-workflow/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-08-23T15:05:38&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -1813,7 +1817,7 @@
             <title type="text">CPU 模式下 comfyUI 运行 flux</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/comfyui-flux-demo/" />
             <id>https://zzkrix.com/tech/comfyui-flux-demo/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-08-05T22:07:13&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -2019,7 +2023,7 @@
             <title type="text">Mac 安装 Windows 双系统</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mac-win10/" />
             <id>https://zzkrix.com/tech/mac-win10/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-08-04T12:34:11&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -2080,7 +2084,7 @@
             <title type="text">本地部署大模型</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/ollama-llama/" />
             <id>https://zzkrix.com/tech/ollama-llama/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-07-25T16:10:28&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -2232,7 +2236,7 @@
             <title type="text">Linux 作业控制</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-jobs/" />
             <id>https://zzkrix.com/tech/linux-jobs/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-06-30T23:17:03&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -2383,7 +2387,7 @@
             <title type="text">批量修改 git 仓库提交人信息</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/git-filter-branch/" />
             <id>https://zzkrix.com/tech/git-filter-branch/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-06-24T15:22:41&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -2543,7 +2547,7 @@
             <title type="text">虚拟机中使用 Mac 快捷键</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mac-windows-autohotkey/" />
             <id>https://zzkrix.com/tech/mac-windows-autohotkey/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-06-24T09:47:05&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -3021,7 +3025,7 @@
             <title type="text">Mac 下为 Python 安装 mysqlclinet</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mac-python-mysqlclinet/" />
             <id>https://zzkrix.com/tech/mac-python-mysqlclinet/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-05-06T14:24:49&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -3113,7 +3117,7 @@
             <title type="text">Linux &amp; iterm2 常用快捷键</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-shortkeys/" />
             <id>https://zzkrix.com/tech/linux-shortkeys/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-04-02T17:53:53&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -3259,7 +3263,7 @@
             <title type="text">Mac 原生输入法配置</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mac-input-shift/" />
             <id>https://zzkrix.com/tech/mac-input-shift/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-03-22T15:19:35&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -3452,7 +3456,7 @@
             <title type="text">解决 vscode 终端乱码</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/vscode-terminal-settings/" />
             <id>https://zzkrix.com/tech/vscode-terminal-settings/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-01-26T09:53:02&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -3513,7 +3517,7 @@
             <title type="text">Python 语法糖</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/python-tips/" />
             <id>https://zzkrix.com/tech/python-tips/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-01-21T22:46:01&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -3791,7 +3795,7 @@
             <title type="text">Mac 下使用 iterm2 配置 ssh</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mac-iterm2-ssh/" />
             <id>https://zzkrix.com/tech/mac-iterm2-ssh/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-01-21T22:24:12&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -3907,7 +3911,7 @@
             <title type="text">使用 hugo&#43;github 部署静态博客</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/hugo-github-pages/" />
             <id>https://zzkrix.com/tech/hugo-github-pages/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-01-21T00:23:12&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -4119,7 +4123,7 @@
             <title type="text">serverless 基础</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/serverless%E5%9F%BA%E7%A1%80/" />
             <id>https://zzkrix.com/tech/serverless%E5%9F%BA%E7%A1%80/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-01-15T20:20:42&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -4169,7 +4173,7 @@
             <title type="text">reset-ssh-key</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/reset-ssh-key/" />
             <id>https://zzkrix.com/tech/reset-ssh-key/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-01-14T20:20:24&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -4243,7 +4247,7 @@
             <title type="text">vim 中数字增加或减少</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/vim%E4%B8%AD%E6%95%B0%E5%AD%97%E5%A2%9E%E5%8A%A0%E6%88%96%E5%87%8F%E5%B0%91/" />
             <id>https://zzkrix.com/tech/vim%E4%B8%AD%E6%95%B0%E5%AD%97%E5%A2%9E%E5%8A%A0%E6%88%96%E5%87%8F%E5%B0%91/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-01-09T16:55:39&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -4330,7 +4334,7 @@
             <title type="text">将 helm chart 推送到 harbor</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/helm-chart-to-harbor/" />
             <id>https://zzkrix.com/tech/helm-chart-to-harbor/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2024-01-05T15:02:35&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -4398,7 +4402,7 @@
             <title type="text">离线部署 k3s 集群</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2k3s%E9%9B%86%E7%BE%A4/" />
             <id>https://zzkrix.com/tech/%E7%A6%BB%E7%BA%BF%E9%83%A8%E7%BD%B2k3s%E9%9B%86%E7%BE%A4/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-29T14:22:11&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -4916,7 +4920,7 @@
             <title type="text">Linux 命令备忘录</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-cmd/" />
             <id>https://zzkrix.com/tech/linux-cmd/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-22T16:17:59&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5077,7 +5081,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">iptables</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/iptables/" />
             <id>https://zzkrix.com/tech/iptables/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-15T11:03:42&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5129,7 +5133,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">查找虚拟设备对对端位置</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/%E6%9F%A5%E6%89%BE%E8%99%9A%E6%8B%9F%E8%AE%BE%E5%A4%87%E5%AF%B9%E5%AF%B9%E7%AB%AF%E4%BD%8D%E7%BD%AE/" />
             <id>https://zzkrix.com/tech/%E6%9F%A5%E6%89%BE%E8%99%9A%E6%8B%9F%E8%AE%BE%E5%A4%87%E5%AF%B9%E5%AF%B9%E7%AB%AF%E4%BD%8D%E7%BD%AE/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-14T10:33:04&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5220,7 +5224,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">文件权限</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90/" />
             <id>https://zzkrix.com/tech/%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-12T16:03:29&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5283,7 +5287,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">docker compose</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/docker-compose/" />
             <id>https://zzkrix.com/tech/docker-compose/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-11T14:45:57&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5353,7 +5357,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">查看机器上的网卡</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/%E6%9F%A5%E7%9C%8B%E6%9C%BA%E5%99%A8%E4%B8%8A%E7%9A%84%E7%BD%91%E5%8D%A1/" />
             <id>https://zzkrix.com/tech/%E6%9F%A5%E7%9C%8B%E6%9C%BA%E5%99%A8%E4%B8%8A%E7%9A%84%E7%BD%91%E5%8D%A1/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-11T13:59:45&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5414,7 +5418,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">释放 docker 占用空间</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/%E9%87%8A%E6%94%BEdocker%E5%8D%A0%E7%94%A8%E7%A9%BA%E9%97%B4/" />
             <id>https://zzkrix.com/tech/%E9%87%8A%E6%94%BEdocker%E5%8D%A0%E7%94%A8%E7%A9%BA%E9%97%B4/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-09T22:43:23&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5578,7 +5582,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">docker 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/docker%E4%BD%BF%E7%94%A8/" />
             <id>https://zzkrix.com/tech/docker%E4%BD%BF%E7%94%A8/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-08T10:00:39&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5710,7 +5714,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
             <title type="text">dockerfile 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/dockerfile%E4%BD%BF%E7%94%A8/" />
             <id>https://zzkrix.com/tech/dockerfile%E4%BD%BF%E7%94%A8/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-07T22:59:49&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5945,7 +5949,7 @@ ADD ubuntu-xenial-core-cloudimg-amd64-root.tar.gz /
             <title type="text">docker 安装</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/docker%E5%AE%89%E8%A3%85/" />
             <id>https://zzkrix.com/tech/docker%E5%AE%89%E8%A3%85/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-07T16:04:42&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6044,7 +6048,7 @@ ADD ubuntu-xenial-core-cloudimg-amd64-root.tar.gz /
             <title type="text">Linux 修改磁盘大小</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-disk-change/" />
             <id>https://zzkrix.com/tech/linux-disk-change/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-07T15:03:34&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6106,7 +6110,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;&lt;/blockqu
             <title type="text">Oracle 服务器使用 netboot 重装系统</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/oracle-server-netboot/" />
             <id>https://zzkrix.com/tech/oracle-server-netboot/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-07T13:30:25&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6193,7 +6197,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;&lt;/blockqu
             <title type="text">tcp 保活</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/tcp%E4%BF%9D%E6%B4%BB/" />
             <id>https://zzkrix.com/tech/tcp%E4%BF%9D%E6%B4%BB/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-04T20:11:39&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6285,7 +6289,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;&lt;/blockqu
             <title type="text">用户和用户组</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/%E7%94%A8%E6%88%B7%E5%92%8C%E7%94%A8%E6%88%B7%E7%BB%84/" />
             <id>https://zzkrix.com/tech/%E7%94%A8%E6%88%B7%E5%92%8C%E7%94%A8%E6%88%B7%E7%BB%84/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-12-01T23:03:26&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6409,7 +6413,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">rsync 文件同步</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/rsync%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5/" />
             <id>https://zzkrix.com/tech/rsync%E6%96%87%E4%BB%B6%E5%90%8C%E6%AD%A5/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-11-19T11:33:08&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6525,7 +6529,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">命令行内容输出到剪贴板</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%86%85%E5%AE%B9%E8%BE%93%E5%87%BA%E5%88%B0%E5%89%AA%E8%B4%B4%E6%9D%BF/" />
             <id>https://zzkrix.com/tech/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%86%85%E5%AE%B9%E8%BE%93%E5%87%BA%E5%88%B0%E5%89%AA%E8%B4%B4%E6%9D%BF/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-11-09T21:26:54&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6623,7 +6627,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">hping3 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/hping3%E4%BD%BF%E7%94%A8/" />
             <id>https://zzkrix.com/tech/hping3%E4%BD%BF%E7%94%A8/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-11-04T11:39:44&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6707,7 +6711,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">临时修改网卡地址</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/%E4%B8%B4%E6%97%B6%E4%BF%AE%E6%94%B9%E7%BD%91%E5%8D%A1%E5%9C%B0%E5%9D%80/" />
             <id>https://zzkrix.com/tech/%E4%B8%B4%E6%97%B6%E4%BF%AE%E6%94%B9%E7%BD%91%E5%8D%A1%E5%9C%B0%E5%9D%80/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-11-01T13:03:49&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6794,7 +6798,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 依赖注入</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/" />
             <id>https://zzkrix.com/tech/go%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-09-23T11:20:06&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6844,7 +6848,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 时区问题</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-timezone/" />
             <id>https://zzkrix.com/tech/go-timezone/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-09-17T13:44:09&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7011,7 +7015,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">命令行启动 wireshark 抓包</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8wireshark%E6%8A%93%E5%8C%85/" />
             <id>https://zzkrix.com/tech/%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%90%AF%E5%8A%A8wireshark%E6%8A%93%E5%8C%85/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-09-06T12:15:41&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7101,7 +7105,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Golang 的 generate stringer</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-generate-stringr/" />
             <id>https://zzkrix.com/tech/go-generate-stringr/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-09-03T17:07:06&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7528,7 +7532,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">docker 仓库</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/docker%E4%BB%93%E5%BA%93/" />
             <id>https://zzkrix.com/tech/docker%E4%BB%93%E5%BA%93/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-07-29T22:01:35&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7617,7 +7621,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 竞态检测</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-race/" />
             <id>https://zzkrix.com/tech/go-race/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-07-27T19:04:14&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7710,7 +7714,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 编译 tips</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-cc-tips/" />
             <id>https://zzkrix.com/tech/go-cc-tips/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-07-27T09:00:19&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7925,7 +7929,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">开源协议区别</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE%E5%8C%BA%E5%88%AB/" />
             <id>https://zzkrix.com/tech/%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE%E5%8C%BA%E5%88%AB/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-07-04T09:55:25&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7967,7 +7971,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 的 gc</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-gc/" />
             <id>https://zzkrix.com/tech/go-gc/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-06-19T23:04:12&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8011,7 +8015,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">分布式锁提前过期</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%8F%90%E5%89%8D%E8%BF%87%E6%9C%9F/" />
             <id>https://zzkrix.com/tech/%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E6%8F%90%E5%89%8D%E8%BF%87%E6%9C%9F/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-06-13T17:01:37&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8055,7 +8059,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">LRU</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/lru/" />
             <id>https://zzkrix.com/tech/lru/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-05-17T21:35:01&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8110,7 +8114,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
             <title type="text">Go 的 GPM 模型</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-gpm/" />
             <id>https://zzkrix.com/tech/go-gpm/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-05-17T21:30:24&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8164,7 +8168,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">Go 内存逃逸</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go%E5%86%85%E5%AD%98%E9%80%83%E9%80%B8/" />
             <id>https://zzkrix.com/tech/go%E5%86%85%E5%AD%98%E9%80%83%E9%80%B8/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-05-15T11:33:20&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8282,7 +8286,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">rocketmq 事务消息</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/rocketmq%E4%BA%8B%E5%8A%A1%E6%B6%88%E6%81%AF/" />
             <id>https://zzkrix.com/tech/rocketmq%E4%BA%8B%E5%8A%A1%E6%B6%88%E6%81%AF/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-05-14T12:30:46&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8336,7 +8340,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">本地消息表</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/%E6%9C%AC%E5%9C%B0%E6%B6%88%E6%81%AF%E8%A1%A8/" />
             <id>https://zzkrix.com/tech/%E6%9C%AC%E5%9C%B0%E6%B6%88%E6%81%AF%E8%A1%A8/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-05-14T09:02:01&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8390,7 +8394,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">map-reduce</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/map-reduce/" />
             <id>https://zzkrix.com/tech/map-reduce/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-04-27T17:01:23&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8432,7 +8436,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">systemctl</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/systemctl/" />
             <id>https://zzkrix.com/tech/systemctl/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-04-18T16:12:56&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8505,7 +8509,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">间隙锁和死锁</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/%E9%97%B4%E9%9A%99%E9%94%81%E5%92%8C%E6%AD%BB%E9%94%81/" />
             <id>https://zzkrix.com/tech/%E9%97%B4%E9%9A%99%E9%94%81%E5%92%8C%E6%AD%BB%E9%94%81/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-04-01T15:03:02&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8566,7 +8570,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL count(*)、count(1)、count(列) 的区别</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mysql-count/" />
             <id>https://zzkrix.com/tech/mysql-count/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-03-25T10:29:26&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8633,7 +8637,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL8 创建用户和授权</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mysql-create-user-auth/" />
             <id>https://zzkrix.com/tech/mysql-create-user-auth/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-03-22T17:30:59&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8767,7 +8771,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL 允许 root 远程访问</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mysql-remote-root/" />
             <id>https://zzkrix.com/tech/mysql-remote-root/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-03-22T16:09:45&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8848,7 +8852,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL 事务</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mysql-transaction/" />
             <id>https://zzkrix.com/tech/mysql-transaction/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-03-19T21:15:03&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8930,7 +8934,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">MySQL 常识</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mysql-common/" />
             <id>https://zzkrix.com/tech/mysql-common/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-03-18T11:24:45&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -9050,7 +9054,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">Go sync map 实现</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-sync-map/" />
             <id>https://zzkrix.com/tech/go-sync-map/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-03-16T21:20:16&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -9092,7 +9096,7 @@ M：操作系统线程&lt;/p&gt;
             <title type="text">redis 备忘录</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/redis%E5%A4%87%E5%BF%98%E5%BD%95/" />
             <id>https://zzkrix.com/tech/redis%E5%A4%87%E5%BF%98%E5%BD%95/</id>
-            <updated>2025-02-11T08:34:23&#43;00:00</updated>
+            <updated>2025-02-11T09:43:04&#43;00:00</updated>
             <published>2023-03-10T09:55:54&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
