@@ -15,7 +15,7 @@
     
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>Oracle 服务器新增挂载卷 | 避风港</title>
+    <title>Oracle 服务器使用块存储 | 避风港</title>
 
     <link rel="stylesheet" href="/css/meme.min.css" />
 
@@ -59,13 +59,13 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2025-02-19T21:09:36+08:00",
-        "dateModified": "2025-02-20T01:11:18+00:00",
+        "dateModified": "2025-02-20T01:19:59+00:00",
         "url": "https://zzkrix.com/tech/oracle-block-volume/",
-        "headline": "Oracle 服务器新增挂载卷",
+        "headline": "Oracle 服务器使用块存储",
         "description": "背景 之前用Oracle 永久免费套餐申请到一台服务器，默认只有 40G 的磁盘存储空间。\n注意到免费套餐里有块存储，研究了一下怎么挂载到服务器里，记录如下。\n",
         "inLanguage" : "zh-CN",
         "articleSection": "tech",
-        "wordCount":  651 ,
+        "wordCount":  696 ,
         "image": ["https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-19-21-19-dZ0WB9.png","https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-19-21-22-PHY7pH.png","https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-19-21-29-khYk0z.png","https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-19-21-39-D2438w.png","https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-19-21-42-MayNcn.png","https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-19-21-44-Z6bFQD.png","https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-19-21-55-6ZVS2E.png","https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-19-22-08-nufJeQ.png"],
         "author": {
             "@type": "Person",
@@ -99,7 +99,7 @@
 
 
 
-<meta property="og:title" content="Oracle 服务器新增挂载卷" />
+<meta property="og:title" content="Oracle 服务器使用块存储" />
 <meta property="og:description" content="背景 之前用Oracle 永久免费套餐申请到一台服务器，默认只有 40G 的磁盘存储空间。
 注意到免费套餐里有块存储，研究了一下怎么挂载到服务器里，记录如下。
 " />
@@ -108,7 +108,7 @@
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-19-21-19-dZ0WB9.png" />
 <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2025-02-19T21:09:36&#43;08:00" />
-    <meta property="article:modified_time" content="2025-02-20T01:11:18&#43;00:00" />
+    <meta property="article:modified_time" content="2025-02-20T01:19:59&#43;00:00" />
     
     <meta property="article:section" content="tech" />
 
@@ -232,7 +232,7 @@
 
         <article class="content post h-entry" data-align="justify" data-type="tech" data-toc-num="true">
 
-            <h1 class="post-title p-name">Oracle 服务器新增挂载卷</h1>
+            <h1 class="post-title p-name">Oracle 服务器使用块存储</h1>
 
             
 
@@ -261,7 +261,7 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="icon post-meta-icon"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticon post-meta-icons, Inc. --><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM111 257.1l26.8 89.2 31.6-90.3c3.4-9.6 12.5-16.1 22.7-16.1s19.3 6.4 22.7 16.1l31.6 90.3L273 257.1c3.8-12.7 17.2-19.9 29.9-16.1s19.9 17.2 16.1 29.9l-48 160c-3 10-12 16.9-22.4 17.1s-19.8-6.2-23.2-16.1L192 336.6l-33.3 95.3c-3.4 9.8-12.8 16.3-23.2 16.1s-19.5-7.1-22.4-17.1l-48-160c-3.8-12.7 3.4-26.1 16.1-29.9s26.1 3.4 29.9 16.1z"/></svg>&nbsp;651</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="icon post-meta-icon"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticon post-meta-icons, Inc. --><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM111 257.1l26.8 89.2 31.6-90.3c3.4-9.6 12.5-16.1 22.7-16.1s19.3 6.4 22.7 16.1l31.6 90.3L273 257.1c3.8-12.7 17.2-19.9 29.9-16.1s19.9 17.2 16.1 29.9l-48 160c-3 10-12 16.9-22.4 17.1s-19.8-6.2-23.2-16.1L192 336.6l-33.3 95.3c-3.4 9.8-12.8 16.3-23.2 16.1s-19.5-7.1-22.4-17.1l-48-160c-3.8-12.7 3.4-26.1 16.1-29.9s26.1 3.4 29.9 16.1z"/></svg>&nbsp;696</span>
     
     
         
@@ -292,7 +292,7 @@
 <p><img src="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-19-21-22-PHY7pH.png" alt="2025-02-19-21-22-PHY7pH"></p>
 <h2 id="挂载块存储"><a href="#挂载块存储" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:挂载块存储" class="headings">挂载块存储</a></h2>
 <p>创建好块存储后，在创建好的快存储详情页面，选择“附加的实例” -&gt; “附加到实例”。</p>
-<p>选择要挂载到的实例，“设备路径”选一个你目标机器不存在的目录即可。</p>
+<p>选择要挂载到的实例，“设备路径”选一个与你目标机器不冲突的目录即可。</p>
 <p><img src="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-19-21-29-khYk0z.png" alt="2025-02-19-21-29-khYk0z"></p>
 <p>然后跳转到目标实例，查看“附加的块存储卷”，在对应的块存储卷上选择“iSCSI 命令和信息”</p>
 <p><img src="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-19-21-39-D2438w.png" alt="2025-02-19-21-39-D2438w"></p>
@@ -355,6 +355,20 @@
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ fdisk -l
+</span></span><span class="line"><span class="cl">...
+</span></span><span class="line"><span class="cl">Device     Boot Start       End   Sectors Size Id Type
+</span></span><span class="line"><span class="cl">/dev/sdb1        <span class="m">2048</span> <span class="m">104857599</span> <span class="m">104855552</span>  50G <span class="m">83</span> Linux
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div><div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
 </span><span class="lnt">5
 </span><span class="lnt">6
 </span><span class="lnt">7
@@ -383,7 +397,7 @@
 </div>
 </div><p>注意事项：</p>
 <blockquote>
-<p><code>_netdev,nofail</code> 这两个选项要加上。</p>
+<p><code>_netdev,nofail</code> 在“iSCSI 命令和信息”里面 Oracle 已经提示了这两个选项要加上。</p>
 <p><code>_netdev</code> 表示这是一个依赖网络的挂载，挂载操作需要在网络服务启动后再进行（oracle 的这个块存储默认是用网络访问的）。</p>
 <p><code>nofail</code> 表示即使挂载失败，也不会影响系统启动。</p></blockquote>
 
