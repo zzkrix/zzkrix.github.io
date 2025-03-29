@@ -10,7 +10,7 @@
         <title>避风港</title>
         <link>https://zzkrix.com/</link>
         <description></description>
-        <generator>Hugo 0.144.2 https://gohugo.io/</generator>
+        <generator>Hugo 0.145.0 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -19,7 +19,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 20 Feb 2025 01:20:03 &#43;0000</lastBuildDate>
+        <lastBuildDate>Sat, 29 Mar 2025 07:01:19 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zzkrix.com/rss.xml" />
         
@@ -6137,7 +6137,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;&lt;/blockqu
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/%E5%85%B6%E4%BB%96/">其他</category>
+                                    <category domain="https://zzkrix.com/categories/oracle/">Oracle</category>
                                 
                             
                         
@@ -6147,7 +6147,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;&lt;/blockqu
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/%E5%85%B6%E4%BB%96/">其他</category>
+                                    <category domain="https://zzkrix.com/tags/oracle/">Oracle</category>
                                 
                             
                         
