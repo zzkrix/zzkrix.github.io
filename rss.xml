@@ -19,7 +19,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 07 Apr 2025 07:53:11 &#43;0000</lastBuildDate>
+        <lastBuildDate>Mon, 07 Apr 2025 08:34:47 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zzkrix.com/rss.xml" />
         
@@ -53,7 +53,7 @@
 &lt;p&gt;然后根据你内网的环境类型，获取客户端安装命令，去你需要被代理的机器上执行。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-04-07-15-29-9pFGPf.png&#34; alt=&#34;2025-04-07-15-29-9pFGPf&#34;&gt;&lt;/p&gt;
 &lt;p&gt;然后点击上面的&lt;code&gt;公共主机名&lt;/code&gt;，去配置公网域名，填写刚才购买的域名和你内网要代理的地址，这里我用的测试地址是 &lt;a href=&#34;http://192.168.1.165:8000%E3%80%82&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://192.168.1.165:8000。&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-04-07-15-34-WQkvEw.png&#34; alt=&#34;2025-04-07-15-34-WQkvEw&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-04-07-15-56-xNTvYz.png&#34; alt=&#34;2025-04-07-15-56-xNTvYz&#34;&gt;&lt;/p&gt;
 &lt;p&gt;之后就可以在浏览器通过配置的域名访问到你的内网服务了，Okk～。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-04-07-15-40-IEK2d4.png&#34; alt=&#34;2025-04-07-15-40-IEK2d4&#34;&gt;&lt;/p&gt;
 </description>
