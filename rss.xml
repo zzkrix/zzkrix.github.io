@@ -19,13 +19,13 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 07 Apr 2025 07:48:42 &#43;0000</lastBuildDate>
+        <lastBuildDate>Mon, 07 Apr 2025 07:49:46 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zzkrix.com/rss.xml" />
         
         
             <item>
-                <title>借助 Cloudflare 实现内网穿透</title>
+                <title>借助 Cloudflare 实现高速内网穿透</title>
                 <link>https://zzkrix.com/tech/cloudflare-zero-trust/</link>
                 <guid isPermaLink="true">https://zzkrix.com/tech/cloudflare-zero-trust/</guid>
                 <pubDate>Mon, 07 Apr 2025 15:00:08 &#43;0800</pubDate>
