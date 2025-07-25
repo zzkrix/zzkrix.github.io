@@ -19,10 +19,209 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Wed, 23 Jul 2025 07:28:32 &#43;0000</lastBuildDate>
+        <lastBuildDate>Fri, 25 Jul 2025 15:04:09 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zzkrix.com/rss.xml" />
         
+        
+            <item>
+                <title>vim 快捷键</title>
+                <link>https://zzkrix.com/tech/vim-shortkeys/</link>
+                <guid isPermaLink="true">https://zzkrix.com/tech/vim-shortkeys/</guid>
+                <pubDate>Fri, 25 Jul 2025 23:01:24 &#43;0800</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>&lt;div class=&#34;table-container&#34;&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;快捷键&lt;/th&gt;
+          &lt;th&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;i&lt;/td&gt;
+          &lt;td&gt;在光标前进入插入模式&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;a&lt;/td&gt;
+          &lt;td&gt;在光标后进入插入模式&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;o&lt;/td&gt;
+          &lt;td&gt;在光标下一行进入插入模式&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;shift i&lt;/td&gt;
+          &lt;td&gt;在当前行首进入插入模式&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;shifit a&lt;/td&gt;
+          &lt;td&gt;在当前行尾进入插入模式&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;shift o&lt;/td&gt;
+          &lt;td&gt;在上一行进入插入模式&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;gi&lt;/td&gt;
+          &lt;td&gt;进入上一次进行插入的位置继续&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;数字+G&lt;/td&gt;
+          &lt;td&gt;跳转到指定行，示例：99G&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;: + 数字&lt;/td&gt;
+          &lt;td&gt;跳转到指定行&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;vim +数字 filename&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;打开文件并跳到指定行，示例：vim +999 main. c&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;跳到当前行行首&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$&lt;/td&gt;
+          &lt;td&gt;跳到当前行行尾&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;^&lt;/td&gt;
+          &lt;td&gt;跳到当前行第一个非空字符&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;g_&lt;/td&gt;
+          &lt;td&gt;跳到当前行最后一个非空字符&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;f + 字符&lt;/td&gt;
+          &lt;td&gt;跳转到当前位置之后第一个出现的某字符 (; 往后查找， ,往前查找)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;F + 字符&lt;/td&gt;
+          &lt;td&gt;跳转到当前位置之前第一个出现的某字符 (; 往后查找， ,往前查找)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;w&lt;/td&gt;
+          &lt;td&gt;跳到下一个单词的开头，可以前面加数字跳到第 N 个位置&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;b&lt;/td&gt;
+          &lt;td&gt;跳到上一个单词的开头，可以前面加数字跳到第 N 个位置&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;e&lt;/td&gt;
+          &lt;td&gt;跳到下一个单词的结尾，可以前面加数字跳到第 N 个位置&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;W、B、E&lt;/td&gt;
+          &lt;td&gt;和小写类似，只是以空格作为分隔符&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;D or d$&lt;/td&gt;
+          &lt;td&gt;删除当前光标到行尾的内容&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;d0&lt;/td&gt;
+          &lt;td&gt;删除当前光标到行首的内容&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;d^&lt;/td&gt;
+          &lt;td&gt;删除当前光标到行首非空字符的内容&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;dw&lt;/td&gt;
+          &lt;td&gt;删除当前位置到单词末尾&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;dW&lt;/td&gt;
+          &lt;td&gt;删除当前位置所属内容到下一个空格处&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;dip&lt;/td&gt;
+          &lt;td&gt;删除当前段落，即上一个空行到下一个空行之间的内容。p：段落&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;diw&lt;/td&gt;
+          &lt;td&gt;删除当前单词&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;diW&lt;/td&gt;
+          &lt;td&gt;删除当前内容（前后两空格之间的内容）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;di&amp;quot;&lt;/td&gt;
+          &lt;td&gt;删除当前位置被双引号包围起来的内容&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;di&#39;&lt;/td&gt;
+          &lt;td&gt;删除当前位置被单引号包围起来的内容&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;di{&lt;/td&gt;
+          &lt;td&gt;删除当前位置所属的{}范围内的内容&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;di(&lt;/td&gt;
+          &lt;td&gt;删除当前位置所属的 () 范围内的内容&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;yi[pwW&amp;quot;&#39;{}()]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;区域复制，同 &lt;code&gt;di[x]&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;vi[pwW&amp;quot;&#39;{}()]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;区域选择，同 &lt;code&gt;di[x]&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;ci[pwW&amp;quot;&#39;{}()]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;区域替换，同 &lt;code&gt;di[x]&lt;/code&gt;，但自动进入插入模式。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;y[0^$wW]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;行内复制，同 &lt;code&gt;d[0^$wW]&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;v[0^$wW]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;行内选择，同 &lt;code&gt;d[0^$wW]&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;c[0^$wW]&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;行内替换，同 &lt;code&gt;d[0^$wW]&lt;/code&gt;，但自动进入插入模式。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://zzkrix.com/categories/vim/">Vim</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://zzkrix.com/tags/vim/">Vim</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Gin 框架中的 c.Next() 的作用</title>

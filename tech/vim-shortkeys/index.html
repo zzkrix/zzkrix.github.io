@@ -15,7 +15,7 @@
     
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>vim 中数字增加或减少 | 避风港</title>
+    <title>vim 快捷键 | 避风港</title>
 
     <link rel="stylesheet" href="/css/meme.min.css" />
 
@@ -32,9 +32,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="" /><meta name="description" content="光标放在数字上：
-ctrl &#43; a 数字加 1 ctrl &#43; x 数字减 1 将某一列数字递增的加 1： 选中该列，按g，再按ctrl &#43; a
-" />
+    <meta name="author" content="" /><meta name="description" content=" 快捷键 描述 i 在光标前进入插入模式 a 在光标后进入插入模式 o 在光标下一行进入插入模式 shift i 在当前行首进入插入模式 shifit a 在当前行尾进入插入模式 shift o 在上一行进入插入模式 gi 进入上一次进行插入的位置继续 数字&#43;G 跳转到指定行，示例：99G : &#43; 数字 跳转到指定行 vim &#43;数字 filename 打开文件并跳到指定行，示例：vim &#43;999 main. c 0 跳到当前行行首 $ 跳到当前行行尾 ^ 跳到当前行第一个非空字符 g_ 跳到当前行最后一个非空字符 f &#43; 字符 跳转到当前位置之后第一个出现的某字符 (; 往后查找， ,往前查找) F &#43; 字符 跳转到当前位置之前第一个出现的某字符 (; 往后查找， ,往前查找) w 跳到下一个单词的开头，可以前面加数字跳到第 N 个位置 b 跳到上一个单词的开头，可以前面加数字跳到第 N 个位置 e 跳到下一个单词的结尾，可以前面加数字跳到第 N 个位置 W、B、E 和小写类似，只是以空格作为分隔符 D or d$ 删除当前光标到行尾的内容 d0 删除当前光标到行首的内容 d^ 删除当前光标到行首非空字符的内容 dw 删除当前位置到单词末尾 dW 删除当前位置所属内容到下一个空格处 dip 删除当前段落，即上一个空行到下一个空行之间的内容。p：段落 diw 删除当前单词 diW 删除当前内容（前后两空格之间的内容） di&#34; 删除当前位置被双引号包围起来的内容 di&#39; 删除当前位置被单引号包围起来的内容 di{ 删除当前位置所属的{}范围内的内容 di( 删除当前位置所属的 () 范围内的内容 yi[pwW&#34;&#39;{}()] 区域复制，同 di[x] vi[pwW&#34;&#39;{}()] 区域选择，同 di[x] ci[pwW&#34;&#39;{}()] 区域替换，同 di[x]，但自动进入插入模式。 y[0^$wW] 行内复制，同 d[0^$wW] v[0^$wW] 行内选择，同 d[0^$wW] c[0^$wW] 行内替换，同 d[0^$wW]，但自动进入插入模式。 " />
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg" />
@@ -51,21 +49,21 @@ ctrl &#43; a 数字加 1 ctrl &#43; x 数字减 1 将某一列数字递增的加
     
 
     
-        <link rel="canonical" href="https://zzkrix.com/tech/vim-ctrl-a/" />
+        <link rel="canonical" href="https://zzkrix.com/tech/vim-shortkeys/" />
     
 
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "datePublished": "2024-01-09T16:55:39+00:00",
+        "datePublished": "2025-07-25T23:01:24+08:00",
         "dateModified": "2025-07-25T15:04:05+00:00",
-        "url": "https://zzkrix.com/tech/vim-ctrl-a/",
-        "headline": "vim 中数字增加或减少",
-        "description": "光标放在数字上：\nctrl + a 数字加 1 ctrl + x 数字减 1 将某一列数字递增的加 1： 选中该列，按g，再按ctrl + a\n",
+        "url": "https://zzkrix.com/tech/vim-shortkeys/",
+        "headline": "vim 快捷键",
+        "description": " 快捷键 描述 i 在光标前进入插入模式 a 在光标后进入插入模式 o 在光标下一行进入插入模式 shift i 在当前行首进入插入模式 shifit a 在当前行尾进入插入模式 shift o 在上一行进入插入模式 gi 进入上一次进行插入的位置继续 数字+G 跳转到指定行，示例：99G : + 数字 跳转到指定行 vim +数字 filename 打开文件并跳到指定行，示例：vim +999 main. c 0 跳到当前行行首 $ 跳到当前行行尾 ^ 跳到当前行第一个非空字符 g_ 跳到当前行最后一个非空字符 f + 字符 跳转到当前位置之后第一个出现的某字符 (; 往后查找， ,往前查找) F + 字符 跳转到当前位置之前第一个出现的某字符 (; 往后查找， ,往前查找) w 跳到下一个单词的开头，可以前面加数字跳到第 N 个位置 b 跳到上一个单词的开头，可以前面加数字跳到第 N 个位置 e 跳到下一个单词的结尾，可以前面加数字跳到第 N 个位置 W、B、E 和小写类似，只是以空格作为分隔符 D or d$ 删除当前光标到行尾的内容 d0 删除当前光标到行首的内容 d^ 删除当前光标到行首非空字符的内容 dw 删除当前位置到单词末尾 dW 删除当前位置所属内容到下一个空格处 dip 删除当前段落，即上一个空行到下一个空行之间的内容。p：段落 diw 删除当前单词 diW 删除当前内容（前后两空格之间的内容） di\" 删除当前位置被双引号包围起来的内容 di' 删除当前位置被单引号包围起来的内容 di{ 删除当前位置所属的{}范围内的内容 di( 删除当前位置所属的 () 范围内的内容 yi[pwW\"'{}()] 区域复制，同 di[x] vi[pwW\"'{}()] 区域选择，同 di[x] ci[pwW\"'{}()] 区域替换，同 di[x]，但自动进入插入模式。 y[0^$wW] 行内复制，同 d[0^$wW] v[0^$wW] 行内选择，同 d[0^$wW] c[0^$wW] 行内替换，同 d[0^$wW]，但自动进入插入模式。 ",
         "inLanguage" : "zh-CN",
         "articleSection": "tech",
-        "wordCount":  73 ,
+        "wordCount":  638 ,
         "image": "https://zzkrix.com/icons/apple-touch-icon.png",
         "author": {
             "@type": "Person",
@@ -98,15 +96,13 @@ ctrl &#43; a 数字加 1 ctrl &#43; x 数字减 1 将某一列数字递增的加
 
 
 
-<meta property="og:title" content="vim 中数字增加或减少" />
-<meta property="og:description" content="光标放在数字上：
-ctrl &#43; a 数字加 1 ctrl &#43; x 数字减 1 将某一列数字递增的加 1： 选中该列，按g，再按ctrl &#43; a
-" />
-<meta property="og:url" content="https://zzkrix.com/tech/vim-ctrl-a/" />
+<meta property="og:title" content="vim 快捷键" />
+<meta property="og:description" content=" 快捷键 描述 i 在光标前进入插入模式 a 在光标后进入插入模式 o 在光标下一行进入插入模式 shift i 在当前行首进入插入模式 shifit a 在当前行尾进入插入模式 shift o 在上一行进入插入模式 gi 进入上一次进行插入的位置继续 数字&#43;G 跳转到指定行，示例：99G : &#43; 数字 跳转到指定行 vim &#43;数字 filename 打开文件并跳到指定行，示例：vim &#43;999 main. c 0 跳到当前行行首 $ 跳到当前行行尾 ^ 跳到当前行第一个非空字符 g_ 跳到当前行最后一个非空字符 f &#43; 字符 跳转到当前位置之后第一个出现的某字符 (; 往后查找， ,往前查找) F &#43; 字符 跳转到当前位置之前第一个出现的某字符 (; 往后查找， ,往前查找) w 跳到下一个单词的开头，可以前面加数字跳到第 N 个位置 b 跳到上一个单词的开头，可以前面加数字跳到第 N 个位置 e 跳到下一个单词的结尾，可以前面加数字跳到第 N 个位置 W、B、E 和小写类似，只是以空格作为分隔符 D or d$ 删除当前光标到行尾的内容 d0 删除当前光标到行首的内容 d^ 删除当前光标到行首非空字符的内容 dw 删除当前位置到单词末尾 dW 删除当前位置所属内容到下一个空格处 dip 删除当前段落，即上一个空行到下一个空行之间的内容。p：段落 diw 删除当前单词 diW 删除当前内容（前后两空格之间的内容） di&#34; 删除当前位置被双引号包围起来的内容 di&#39; 删除当前位置被单引号包围起来的内容 di{ 删除当前位置所属的{}范围内的内容 di( 删除当前位置所属的 () 范围内的内容 yi[pwW&#34;&#39;{}()] 区域复制，同 di[x] vi[pwW&#34;&#39;{}()] 区域选择，同 di[x] ci[pwW&#34;&#39;{}()] 区域替换，同 di[x]，但自动进入插入模式。 y[0^$wW] 行内复制，同 d[0^$wW] v[0^$wW] 行内选择，同 d[0^$wW] c[0^$wW] 行内替换，同 d[0^$wW]，但自动进入插入模式。 " />
+<meta property="og:url" content="https://zzkrix.com/tech/vim-shortkeys/" />
 <meta property="og:site_name" content="避风港" />
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://zzkrix.com/icons/apple-touch-icon.png" />
     <meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2024-01-09T16:55:39&#43;00:00" />
+    <meta property="article:published_time" content="2025-07-25T23:01:24&#43;08:00" />
     <meta property="article:modified_time" content="2025-07-25T15:04:05&#43;00:00" />
     
     <meta property="article:section" content="tech" />
@@ -231,7 +227,7 @@ ctrl &#43; a 数字加 1 ctrl &#43; x 数字减 1 将某一列数字递增的加
 
         <article class="content post h-entry" data-align="justify" data-type="tech" data-toc-num="true">
 
-            <h1 class="post-title p-name">vim 中数字增加或减少</h1>
+            <h1 class="post-title p-name">vim 快捷键</h1>
 
             
 
@@ -245,7 +241,7 @@ ctrl &#43; a 数字加 1 ctrl &#43; x 数字减 1 将某一列数字递增的加
 <div class="post-meta">
     
         
-        <time datetime="2024-01-09T16:55:39&#43;00:00" class="post-meta-item published dt-published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2024.1.9</time>
+        <time datetime="2025-07-25T23:01:24&#43;08:00" class="post-meta-item published dt-published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2025.7.25</time>
     
     
     
@@ -260,11 +256,11 @@ ctrl &#43; a 数字加 1 ctrl &#43; x 数字减 1 将某一列数字递增的加
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="icon post-meta-icon"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticon post-meta-icons, Inc. --><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM111 257.1l26.8 89.2 31.6-90.3c3.4-9.6 12.5-16.1 22.7-16.1s19.3 6.4 22.7 16.1l31.6 90.3L273 257.1c3.8-12.7 17.2-19.9 29.9-16.1s19.9 17.2 16.1 29.9l-48 160c-3 10-12 16.9-22.4 17.1s-19.8-6.2-23.2-16.1L192 336.6l-33.3 95.3c-3.4 9.8-12.8 16.3-23.2 16.1s-19.5-7.1-22.4-17.1l-48-160c-3.8-12.7 3.4-26.1 16.1-29.9s26.1 3.4 29.9 16.1z"/></svg>&nbsp;73</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="icon post-meta-icon"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticon post-meta-icons, Inc. --><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM111 257.1l26.8 89.2 31.6-90.3c3.4-9.6 12.5-16.1 22.7-16.1s19.3 6.4 22.7 16.1l31.6 90.3L273 257.1c3.8-12.7 17.2-19.9 29.9-16.1s19.9 17.2 16.1 29.9l-48 160c-3 10-12 16.9-22.4 17.1s-19.8-6.2-23.2-16.1L192 336.6l-33.3 95.3c-3.4 9.8-12.8 16.3-23.2 16.1s-19.5-7.1-22.4-17.1l-48-160c-3.8-12.7 3.4-26.1 16.1-29.9s26.1 3.4 29.9 16.1z"/></svg>&nbsp;638</span>
     
     
         
-        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;1&nbsp;</span>
+        <span class="post-meta-item reading-time"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;2&nbsp;</span>
     
     
         
@@ -278,47 +274,169 @@ ctrl &#43; a 数字加 1 ctrl &#43; x 数字减 1 将某一列数字递增的加
             
 
             <nav class="contents"></nav><div class="post-body e-content">
-                <p>光标放在数字上：</p>
-<ul>
-<li><code>ctrl + a</code> 数字加 1</li>
-<li><code>ctrl + x</code> 数字减 1</li>
-</ul>
-<p>将某一列数字递增的加 1：
-选中该列，按<code>g</code>，再按<code>ctrl + a</code></p>
-<div class="highlight"><div class="chroma">
-<div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-vim" data-lang="vim"><span class="line"><span class="cl"><span class="m">1</span>
-</span></span><span class="line"><span class="cl"><span class="m">1</span>
-</span></span><span class="line"><span class="cl"><span class="m">1</span>
-</span></span><span class="line"><span class="cl"><span class="m">1</span>
-</span></span><span class="line"><span class="cl"><span class="m">1</span>
-</span></span></code></pre></td></tr></table></div>
-</div>
-</div><p>将变成</p>
-<div class="highlight"><div class="chroma">
-<div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-vim" data-lang="vim"><span class="line"><span class="cl"><span class="m">2</span>
-</span></span><span class="line"><span class="cl"><span class="m">3</span>
-</span></span><span class="line"><span class="cl"><span class="m">4</span>
-</span></span><span class="line"><span class="cl"><span class="m">5</span>
-</span></span><span class="line"><span class="cl"><span class="m">6</span>
-</span></span></code></pre></td></tr></table></div>
-</div>
-</div>
+                <div class="table-container"><table>
+  <thead>
+      <tr>
+          <th>快捷键</th>
+          <th>描述</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>i</td>
+          <td>在光标前进入插入模式</td>
+      </tr>
+      <tr>
+          <td>a</td>
+          <td>在光标后进入插入模式</td>
+      </tr>
+      <tr>
+          <td>o</td>
+          <td>在光标下一行进入插入模式</td>
+      </tr>
+      <tr>
+          <td>shift i</td>
+          <td>在当前行首进入插入模式</td>
+      </tr>
+      <tr>
+          <td>shifit a</td>
+          <td>在当前行尾进入插入模式</td>
+      </tr>
+      <tr>
+          <td>shift o</td>
+          <td>在上一行进入插入模式</td>
+      </tr>
+      <tr>
+          <td>gi</td>
+          <td>进入上一次进行插入的位置继续</td>
+      </tr>
+      <tr>
+          <td>数字+G</td>
+          <td>跳转到指定行，示例：99G</td>
+      </tr>
+      <tr>
+          <td>: + 数字</td>
+          <td>跳转到指定行</td>
+      </tr>
+      <tr>
+          <td><code>vim +数字 filename</code></td>
+          <td>打开文件并跳到指定行，示例：vim +999 main. c</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>跳到当前行行首</td>
+      </tr>
+      <tr>
+          <td>$</td>
+          <td>跳到当前行行尾</td>
+      </tr>
+      <tr>
+          <td>^</td>
+          <td>跳到当前行第一个非空字符</td>
+      </tr>
+      <tr>
+          <td>g_</td>
+          <td>跳到当前行最后一个非空字符</td>
+      </tr>
+      <tr>
+          <td>f + 字符</td>
+          <td>跳转到当前位置之后第一个出现的某字符 (; 往后查找， ,往前查找)</td>
+      </tr>
+      <tr>
+          <td>F + 字符</td>
+          <td>跳转到当前位置之前第一个出现的某字符 (; 往后查找， ,往前查找)</td>
+      </tr>
+      <tr>
+          <td>w</td>
+          <td>跳到下一个单词的开头，可以前面加数字跳到第 N 个位置</td>
+      </tr>
+      <tr>
+          <td>b</td>
+          <td>跳到上一个单词的开头，可以前面加数字跳到第 N 个位置</td>
+      </tr>
+      <tr>
+          <td>e</td>
+          <td>跳到下一个单词的结尾，可以前面加数字跳到第 N 个位置</td>
+      </tr>
+      <tr>
+          <td>W、B、E</td>
+          <td>和小写类似，只是以空格作为分隔符</td>
+      </tr>
+      <tr>
+          <td>D or d$</td>
+          <td>删除当前光标到行尾的内容</td>
+      </tr>
+      <tr>
+          <td>d0</td>
+          <td>删除当前光标到行首的内容</td>
+      </tr>
+      <tr>
+          <td>d^</td>
+          <td>删除当前光标到行首非空字符的内容</td>
+      </tr>
+      <tr>
+          <td>dw</td>
+          <td>删除当前位置到单词末尾</td>
+      </tr>
+      <tr>
+          <td>dW</td>
+          <td>删除当前位置所属内容到下一个空格处</td>
+      </tr>
+      <tr>
+          <td>dip</td>
+          <td>删除当前段落，即上一个空行到下一个空行之间的内容。p：段落</td>
+      </tr>
+      <tr>
+          <td>diw</td>
+          <td>删除当前单词</td>
+      </tr>
+      <tr>
+          <td>diW</td>
+          <td>删除当前内容（前后两空格之间的内容）</td>
+      </tr>
+      <tr>
+          <td>di&quot;</td>
+          <td>删除当前位置被双引号包围起来的内容</td>
+      </tr>
+      <tr>
+          <td>di'</td>
+          <td>删除当前位置被单引号包围起来的内容</td>
+      </tr>
+      <tr>
+          <td>di{</td>
+          <td>删除当前位置所属的{}范围内的内容</td>
+      </tr>
+      <tr>
+          <td>di(</td>
+          <td>删除当前位置所属的 () 范围内的内容</td>
+      </tr>
+      <tr>
+          <td><code>yi[pwW&quot;'{}()]</code></td>
+          <td>区域复制，同 <code>di[x]</code></td>
+      </tr>
+      <tr>
+          <td><code>vi[pwW&quot;'{}()]</code></td>
+          <td>区域选择，同 <code>di[x]</code></td>
+      </tr>
+      <tr>
+          <td><code>ci[pwW&quot;'{}()]</code></td>
+          <td>区域替换，同 <code>di[x]</code>，但自动进入插入模式。</td>
+      </tr>
+      <tr>
+          <td><code>y[0^$wW]</code></td>
+          <td>行内复制，同 <code>d[0^$wW]</code></td>
+      </tr>
+      <tr>
+          <td><code>v[0^$wW]</code></td>
+          <td>行内选择，同 <code>d[0^$wW]</code></td>
+      </tr>
+      <tr>
+          <td><code>c[0^$wW]</code></td>
+          <td>行内替换，同 <code>d[0^$wW]</code>，但自动进入插入模式。</td>
+      </tr>
+  </tbody>
+</table></div>
+
             </div>
 
             
@@ -345,7 +463,7 @@ ctrl &#43; a 数字加 1 ctrl &#43; x 数字减 1 将某一列数字递增的加
             <ul class="related-list">
                 
                     <li class="related-item">
-                        <a href="/tech/vim-shortkeys/" class="related-link">vim 快捷键</a>
+                        <a href="/tech/vim-ctrl-a/" class="related-link">vim 中数字增加或减少</a>
                     </li>
                 
             </ul>
@@ -387,13 +505,9 @@ ctrl &#43; a 数字加 1 ctrl &#43; x 数字减 1 将某一列数字递增的加
     
         <ul class="post-nav">
             
-                <li class="post-nav-prev">
-                    <a href="/tech/reset-ssh-key/" rel="prev">&lt; reset-ssh-key</a>
-                </li>
-            
             
                 <li class="post-nav-next">
-                    <a href="/tech/helm-chart-to-harbor/" rel="next">将 helm chart 推送到 harbor &gt;</a>
+                    <a href="/tech/go-gin-next/" rel="next">Gin 框架中的 c.Next() 的作用 &gt;</a>
                 </li>
             
         </ul>
