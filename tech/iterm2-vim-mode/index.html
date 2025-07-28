@@ -15,7 +15,7 @@
     
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>Mac 安装 Windows 双系统 | 避风港</title>
+    <title>命令行 vi 模式快捷键冲突解决 | 避风港</title>
 
     <link rel="stylesheet" href="/css/meme.min.css" />
 
@@ -32,8 +32,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="" /><meta name="description" content="使用 Mac 的”启动转换助理“安装 windows 双系统时，走到最后一步了，出现如下错误：
-Windows 无法更新计算机的启动配置，安装无法继续。
+    <meta name="author" content="" /><meta name="description" content="默认配置了 vi 模式后，ctrl &#43; a / ctrl &#43; e / ctrl &#43; r 这三个命令是不生效的。需在~/.zshrc中配置下面的内容：
 " />
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -51,22 +50,22 @@ Windows 无法更新计算机的启动配置，安装无法继续。
     
 
     
-        <link rel="canonical" href="https://zzkrix.com/tech/mac-win10/" />
+        <link rel="canonical" href="https://zzkrix.com/tech/iterm2-vim-mode/" />
     
 
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "datePublished": "2024-08-04T12:34:11+08:00",
+        "datePublished": "2025-07-28T13:43:39+08:00",
         "dateModified": "2025-07-28T05:48:26+00:00",
-        "url": "https://zzkrix.com/tech/mac-win10/",
-        "headline": "Mac 安装 Windows 双系统",
-        "description": "使用 Mac 的”启动转换助理“安装 windows 双系统时，走到最后一步了，出现如下错误：\nWindows 无法更新计算机的启动配置，安装无法继续。\n",
+        "url": "https://zzkrix.com/tech/iterm2-vim-mode/",
+        "headline": "命令行 vi 模式快捷键冲突解决",
+        "description": "默认配置了 vi 模式后，ctrl + a / ctrl + e / ctrl + r 这三个命令是不生效的。需在~/.zshrc中配置下面的内容：\n",
         "inLanguage" : "zh-CN",
         "articleSection": "tech",
-        "wordCount":  233 ,
-        "image": ["https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-40-pyYSEB.png","https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-57-bkHJ7q.png"],
+        "wordCount":  113 ,
+        "image": "https://zzkrix.com/icons/apple-touch-icon.png",
         "author": {
             "@type": "Person",
             "url": "https://zzkrix.com/",
@@ -91,23 +90,21 @@ Windows 无法更新计算机的启动配置，安装无法继续。
 
     
 
-<meta name="twitter:card" content="summary_large_image" />
-
+<meta name="twitter:card" content="summary" />
 
 
     
 
 
 
-<meta property="og:title" content="Mac 安装 Windows 双系统" />
-<meta property="og:description" content="使用 Mac 的”启动转换助理“安装 windows 双系统时，走到最后一步了，出现如下错误：
-Windows 无法更新计算机的启动配置，安装无法继续。
+<meta property="og:title" content="命令行 vi 模式快捷键冲突解决" />
+<meta property="og:description" content="默认配置了 vi 模式后，ctrl &#43; a / ctrl &#43; e / ctrl &#43; r 这三个命令是不生效的。需在~/.zshrc中配置下面的内容：
 " />
-<meta property="og:url" content="https://zzkrix.com/tech/mac-win10/" />
+<meta property="og:url" content="https://zzkrix.com/tech/iterm2-vim-mode/" />
 <meta property="og:site_name" content="避风港" />
-<meta property="og:locale" content="zh" /><meta property="og:image" content="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-40-pyYSEB.png" />
-<meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2024-08-04T12:34:11&#43;08:00" />
+<meta property="og:locale" content="zh" /><meta property="og:image" content="https://zzkrix.com/icons/apple-touch-icon.png" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2025-07-28T13:43:39&#43;08:00" />
     <meta property="article:modified_time" content="2025-07-28T05:48:26&#43;00:00" />
     
     <meta property="article:section" content="tech" />
@@ -232,7 +229,7 @@ Windows 无法更新计算机的启动配置，安装无法继续。
 
         <article class="content post h-entry" data-align="justify" data-type="tech" data-toc-num="true">
 
-            <h1 class="post-title p-name">Mac 安装 Windows 双系统</h1>
+            <h1 class="post-title p-name">命令行 vi 模式快捷键冲突解决</h1>
 
             
 
@@ -246,7 +243,7 @@ Windows 无法更新计算机的启动配置，安装无法继续。
 <div class="post-meta">
     
         
-        <time datetime="2024-08-04T12:34:11&#43;08:00" class="post-meta-item published dt-published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2024.8.4</time>
+        <time datetime="2025-07-28T13:43:39&#43;08:00" class="post-meta-item published dt-published"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;2025.7.28</time>
     
     
     
@@ -255,13 +252,13 @@ Windows 无法更新计算机的启动配置，安装无法继续。
         
         
             
-                <span class="post-meta-item category"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>&nbsp;<a href="/categories/mac/" class="category-link p-category">Mac</a>/<a href="/categories/windows/" class="category-link p-category">Windows</a></span>
+                <span class="post-meta-item category"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M464 128H272l-54.63-54.63c-6-6-14.14-9.37-22.63-9.37H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zm0 272H48V112h140.12l54.63 54.63c6 6 14.14 9.37 22.63 9.37H464v224z"/></svg>&nbsp;<a href="/categories/" class="category-link p-category">Categories</a></span>
             
         
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="icon post-meta-icon"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticon post-meta-icons, Inc. --><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM111 257.1l26.8 89.2 31.6-90.3c3.4-9.6 12.5-16.1 22.7-16.1s19.3 6.4 22.7 16.1l31.6 90.3L273 257.1c3.8-12.7 17.2-19.9 29.9-16.1s19.9 17.2 16.1 29.9l-48 160c-3 10-12 16.9-22.4 17.1s-19.8-6.2-23.2-16.1L192 336.6l-33.3 95.3c-3.4 9.8-12.8 16.3-23.2 16.1s-19.5-7.1-22.4-17.1l-48-160c-3.8-12.7 3.4-26.1 16.1-29.9s26.1 3.4 29.9 16.1z"/></svg>&nbsp;233</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="icon post-meta-icon"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticon post-meta-icons, Inc. --><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM111 257.1l26.8 89.2 31.6-90.3c3.4-9.6 12.5-16.1 22.7-16.1s19.3 6.4 22.7 16.1l31.6 90.3L273 257.1c3.8-12.7 17.2-19.9 29.9-16.1s19.9 17.2 16.1 29.9l-48 160c-3 10-12 16.9-22.4 17.1s-19.8-6.2-23.2-16.1L192 336.6l-33.3 95.3c-3.4 9.8-12.8 16.3-23.2 16.1s-19.5-7.1-22.4-17.1l-48-160c-3.8-12.7 3.4-26.1 16.1-29.9s26.1 3.4 29.9 16.1z"/></svg>&nbsp;113</span>
     
     
         
@@ -279,14 +276,28 @@ Windows 无法更新计算机的启动配置，安装无法继续。
             
 
             <nav class="contents"></nav><div class="post-body e-content">
-                <p>使用 Mac 的”启动转换助理“安装 windows 双系统时，走到最后一步了，出现如下错误：</p>
-<p>Windows 无法更新计算机的启动配置，安装无法继续。</p>
-<p><img src="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-40-pyYSEB.png" alt="2024-08-04-12-40-pyYSEB"></p>
-<p>搜索了一圈，有说需要重置 SMC 的，有说打电话问 Apple 客服的，这两个方案都试了，无效。</p>
-<p>一开始的镜像是从 <a href="https://msdn.itellyou.cn/" target="_blank" rel="noopener">https://msdn.itellyou.cn/</a> 上随便找了个 win10 下载的，猜测是选的镜像版本太老，有些驱动不支持导致的，所以直接去微软官方下载了最新的 win10 版本，问题解决。
-<img src="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-57-bkHJ7q.png" alt="2024-08-04-12-57-bkHJ7q"></p>
-<p>微软官方 win10 下载地址：<a href="https://www.microsoft.com/zh-cn/software-download/windows10ISO" target="_blank" rel="noopener">https://www.microsoft.com/zh-cn/software-download/windows10ISO</a></p>
-
+                <p>默认配置了 vi 模式后，<code>ctrl + a / ctrl + e / ctrl + r</code> 这三个命令是不生效的。需在<code>~/.zshrc</code>中配置下面的内容：</p>
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">bindkey -v  <span class="c1"># 启用 vi 模式</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 设置 vi 模式下插入态使用 emacs 的快捷键</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ctrl + a / ctrl + e / ctrl + r</span>
+</span></span><span class="line"><span class="cl">bindkey -M viins <span class="s1">&#39;^A&#39;</span> beginning-of-line
+</span></span><span class="line"><span class="cl">bindkey -M viins <span class="s1">&#39;^E&#39;</span> end-of-line
+</span></span><span class="line"><span class="cl">bindkey -M viins <span class="s1">&#39;^R&#39;</span> history-incremental-search-backward
+</span></span></code></pre></td></tr></table></div>
+</div>
+</div>
             </div>
 
             
@@ -313,15 +324,11 @@ Windows 无法更新计算机的启动配置，安装无法继续。
             <ul class="related-list">
                 
                     <li class="related-item">
-                        <a href="/tech/mac-windows-autohotkey/" class="related-link">虚拟机中使用 Mac 快捷键</a>
+                        <a href="/tech/vim-shortkeys/" class="related-link">vim 快捷键</a>
                     </li>
                 
                     <li class="related-item">
-                        <a href="/tech/mac-python-mysqlclinet/" class="related-link">Mac 下为 Python 安装 mysqlclinet</a>
-                    </li>
-                
-                    <li class="related-item">
-                        <a href="/tech/mac-input-shift/" class="related-link">Mac 原生输入法配置</a>
+                        <a href="/tech/linux-shortkeys/" class="related-link">Linux &amp; iterm2 常用快捷键</a>
                     </li>
                 
                     <li class="related-item">
@@ -329,7 +336,7 @@ Windows 无法更新计算机的启动配置，安装无法继续。
                     </li>
                 
                     <li class="related-item">
-                        <a href="/tech/linux-shortkeys/" class="related-link">Linux &amp; iterm2 常用快捷键</a>
+                        <a href="/tech/vim-ctrl-a/" class="related-link">vim 中数字增加或减少</a>
                     </li>
                 
             </ul>
@@ -347,7 +354,7 @@ Windows 无法更新计算机的启动配置，安装无法继续。
                 
                 
                     
-                    <a href="/tags/mac/" rel="tag" class="post-tags-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon tag-icon"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>Mac</a>
+                    <a href="/tags/vim/" rel="tag" class="post-tags-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon tag-icon"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>Vim</a>
                 
             
                 
@@ -355,7 +362,7 @@ Windows 无法更新计算机的启动配置，安装无法继续。
                 
                 
                     
-                    <a href="/tags/windows/" rel="tag" class="post-tags-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon tag-icon"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>Windows</a>
+                    <a href="/tags/iterm2/" rel="tag" class="post-tags-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon tag-icon"><path d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>Iterm2</a>
                 
             
         </div>
@@ -379,13 +386,9 @@ Windows 无法更新计算机的启动配置，安装无法继续。
     
         <ul class="post-nav">
             
-                <li class="post-nav-prev">
-                    <a href="/tech/comfyui-flux-demo/" rel="prev">&lt; CPU 模式下 comfyUI 运行 flux</a>
-                </li>
-            
             
                 <li class="post-nav-next">
-                    <a href="/tech/ollama-llama/" rel="next">本地部署大模型 &gt;</a>
+                    <a href="/tech/vim-shortkeys/" rel="next">vim 快捷键 &gt;</a>
                 </li>
             
         </ul>

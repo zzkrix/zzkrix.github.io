@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.148.1"><meta name="theme-color" content="#16171d" />
+    <meta name="generator" content="Hugo 0.148.2"><meta name="theme-color" content="#16171d" />
     <meta name="color-scheme" content="light dark">
 
     
@@ -58,7 +58,7 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2025-07-25T23:01:24+08:00",
-        "dateModified": "2025-07-26T02:16:20+00:00",
+        "dateModified": "2025-07-28T05:48:26+00:00",
         "url": "https://zzkrix.com/tech/vim-shortkeys/",
         "headline": "vim 快捷键",
         "description": "快捷键 快捷键 描述 i 在光标前进入插入模式 a 在光标后进入插入模式 o 在光标下一行进入插入模式 shift i 在当前行首进入插入模式 shifit a 在当前行尾进入插入模式 shift o 在上一行进入插入模式 gi 进入上一次进行插入的位置继续 数字+G 跳转到指定行，示例：99G : + 数字 跳转到指定行 vim +数字 filename 打开文件并跳到指定行，示例：vim +999 main. c 0 跳到当前行行首 $ 跳到当前行行尾 ^ 跳到当前行第一个非空字符 g_ 跳到当前行最后一个非空字符 f + 字符 跳转到当前位置之后第一个出现的某字符 (; 往后查找， ,往前查找) F + 字符 跳转到当前位置之前第一个出现的某字符 (; 往后查找， ,往前查找) w 跳到下一个单词的开头，可以前面加数字跳到第 N 个位置 b 跳到上一个单词的开头，可以前面加数字跳到第 N 个位置 e 跳到下一个单词的结尾，可以前面加数字跳到第 N 个位置 W、B、E 和小写类似，只是以空格作为分隔符 D or d$ 删除当前光标到行尾的内容 d0 删除当前光标到行首的内容 d^ 删除当前光标到行首非空字符的内容 dw 删除当前位置到单词末尾 dW 删除当前位置所属内容到下一个空格处 dip 删除当前段落，即上一个空行到下一个空行之间的内容。p：段落 diw 删除当前单词 diW 删除当前内容（前后两空格之间的内容） di\" 删除当前位置被双引号包围起来的内容 di' 删除当前位置被单引号包围起来的内容 di{ 删除当前位置所属的{}范围内的内容 di( 删除当前位置所属的 () 范围内的内容 yi[pwW\"'{}()] 区域复制，同 di[x] vi[pwW\"'{}()] 区域选择，同 di[x] ci[pwW\"'{}()] 区域替换，同 di[x]，但自动进入插入模式。 y[0^$wW] 行内复制，同 d[0^$wW] v[0^$wW] 行内选择，同 d[0^$wW] c[0^$wW] 行内替换，同 d[0^$wW]，但自动进入插入模式。 宏录制 q 表示宏录制的开始和结束。 @ 表示执行某个名称的宏。\n",
@@ -105,7 +105,7 @@
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://zzkrix.com/icons/apple-touch-icon.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2025-07-25T23:01:24&#43;08:00" />
-    <meta property="article:modified_time" content="2025-07-26T02:16:20&#43;00:00" />
+    <meta property="article:modified_time" content="2025-07-28T05:48:26&#43;00:00" />
     
     <meta property="article:section" content="tech" />
 
@@ -551,6 +551,10 @@
                         <a href="/tech/vim-ctrl-a/" class="related-link">vim 中数字增加或减少</a>
                     </li>
                 
+                    <li class="related-item">
+                        <a href="/tech/iterm2-vim-mode/" class="related-link">命令行 vi 模式快捷键冲突解决</a>
+                    </li>
+                
             </ul>
         </div>
     
@@ -589,6 +593,10 @@
     
     
         <ul class="post-nav">
+            
+                <li class="post-nav-prev">
+                    <a href="/tech/iterm2-vim-mode/" rel="prev">&lt; 命令行 vi 模式快捷键冲突解决</a>
+                </li>
             
             
                 <li class="post-nav-next">

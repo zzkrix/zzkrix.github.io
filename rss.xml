@@ -10,7 +10,7 @@
         <title>避风港</title>
         <link>https://zzkrix.com/</link>
         <description></description>
-        <generator>Hugo 0.148.1 https://gohugo.io/</generator>
+        <generator>Hugo 0.148.2 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -19,10 +19,74 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sat, 26 Jul 2025 02:16:23 &#43;0000</lastBuildDate>
+        <lastBuildDate>Mon, 28 Jul 2025 05:48:30 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zzkrix.com/rss.xml" />
         
+        
+            <item>
+                <title>命令行 vi 模式快捷键冲突解决</title>
+                <link>https://zzkrix.com/tech/iterm2-vim-mode/</link>
+                <guid isPermaLink="true">https://zzkrix.com/tech/iterm2-vim-mode/</guid>
+                <pubDate>Mon, 28 Jul 2025 13:43:39 &#43;0800</pubDate>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                <description>&lt;p&gt;默认配置了 vi 模式后，&lt;code&gt;ctrl + a / ctrl + e / ctrl + r&lt;/code&gt; 这三个命令是不生效的。需在&lt;code&gt;~/.zshrc&lt;/code&gt;中配置下面的内容：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;div class=&#34;table-container&#34;&gt;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bindkey -v  &lt;span class=&#34;c1&#34;&gt;# 启用 vi 模式&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 设置 vi 模式下插入态使用 emacs 的快捷键&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# ctrl + a / ctrl + e / ctrl + r&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bindkey -M viins &lt;span class=&#34;s1&#34;&gt;&amp;#39;^A&amp;#39;&lt;/span&gt; beginning-of-line
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bindkey -M viins &lt;span class=&#34;s1&#34;&gt;&amp;#39;^E&amp;#39;&lt;/span&gt; end-of-line
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bindkey -M viins &lt;span class=&#34;s1&#34;&gt;&amp;#39;^R&amp;#39;&lt;/span&gt; history-incremental-search-backward
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://zzkrix.com/categories/">Categories</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://zzkrix.com/tags/vim/">Vim</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://zzkrix.com/tags/iterm2/">Iterm2</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>vim 快捷键</title>
