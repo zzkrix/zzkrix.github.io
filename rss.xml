@@ -19,7 +19,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 28 Jul 2025 14:25:57 &#43;0000</lastBuildDate>
+        <lastBuildDate>Mon, 28 Jul 2025 14:38:28 &#43;0000</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://zzkrix.com/rss.xml" />
         
@@ -72,7 +72,7 @@
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/vim/">Vim</category>
+                                    <category domain="https://zzkrix.com/categories/vim/">vim</category>
                                 
                             
                         
@@ -82,13 +82,13 @@
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/vim/">Vim</category>
+                                    <category domain="https://zzkrix.com/tags/vim/">vim</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/iterm2/">Iterm2</category>
+                                    <category domain="https://zzkrix.com/tags/iterm2/">iterm2</category>
                                 
                             
                         
@@ -359,7 +359,7 @@ vim 快捷键</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/vim/">Vim</category>
+                                    <category domain="https://zzkrix.com/categories/vim/">vim</category>
                                 
                             
                         
@@ -369,7 +369,7 @@ vim 快捷键</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/vim/">Vim</category>
+                                    <category domain="https://zzkrix.com/tags/vim/">vim</category>
                                 
                             
                         
@@ -517,7 +517,7 @@ Gin 框架中的 c.Next 的作用</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/categories/golang/">golang</category>
                                 
                             
                         
@@ -527,13 +527,13 @@ Gin 框架中的 c.Next 的作用</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/tags/golang/">golang</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/gin/">Gin</category>
+                                    <category domain="https://zzkrix.com/tags/gin/">gin</category>
                                 
                             
                         
@@ -1280,7 +1280,7 @@ JS 学习 - 函数立即执行</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/cloudflare/">Cloudflare</category>
+                                    <category domain="https://zzkrix.com/categories/cloudflare/">cloudflare</category>
                                 
                             
                                 
@@ -1296,7 +1296,7 @@ JS 学习 - 函数立即执行</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/cloudflare/">Cloudflare</category>
+                                    <category domain="https://zzkrix.com/tags/cloudflare/">cloudflare</category>
                                 
                             
                                 
@@ -1665,7 +1665,7 @@ JS 学习 - 函数立即执行</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/chrome/">Chrome</category>
+                                    <category domain="https://zzkrix.com/categories/chrome/">chrome</category>
                                 
                             
                         
@@ -1675,7 +1675,7 @@ JS 学习 - 函数立即执行</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/chrome/">Chrome</category>
+                                    <category domain="https://zzkrix.com/tags/chrome/">chrome</category>
                                 
                             
                         
@@ -1829,7 +1829,7 @@ Oracle 服务器使用块存储</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/oracle/">Oracle</category>
+                                    <category domain="https://zzkrix.com/categories/oracle/">oracle</category>
                                 
                             
                         
@@ -1839,7 +1839,7 @@ Oracle 服务器使用块存储</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/oracle/">Oracle</category>
+                                    <category domain="https://zzkrix.com/tags/oracle/">oracle</category>
                                 
                             
                         
@@ -2178,7 +2178,7 @@ HTTP Cookie 笔记</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/web/">Web</category>
+                                    <category domain="https://zzkrix.com/categories/web/">web</category>
                                 
                             
                         
@@ -2188,7 +2188,7 @@ HTTP Cookie 笔记</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/web/">Web</category>
+                                    <category domain="https://zzkrix.com/tags/web/">web</category>
                                 
                             
                         
@@ -2642,7 +2642,7 @@ HTTP Cookie 笔记</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/web/">Web</category>
+                                    <category domain="https://zzkrix.com/categories/web/">web</category>
                                 
                             
                         
@@ -2652,7 +2652,7 @@ HTTP Cookie 笔记</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/web/">Web</category>
+                                    <category domain="https://zzkrix.com/tags/web/">web</category>
                                 
                             
                         
@@ -3145,7 +3145,7 @@ k3s 镜像重写</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/k3s/">K3s</category>
+                                    <category domain="https://zzkrix.com/categories/k3s/">k3s</category>
                                 
                             
                         
@@ -3155,7 +3155,7 @@ k3s 镜像重写</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/k3s/">K3s</category>
+                                    <category domain="https://zzkrix.com/tags/k3s/">k3s</category>
                                 
                             
                                 
@@ -3707,13 +3707,13 @@ Conda 安装和使用</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/python/">Python</category>
+                                    <category domain="https://zzkrix.com/categories/python/">python</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/conda/">Conda</category>
+                                    <category domain="https://zzkrix.com/categories/conda/">conda</category>
                                 
                             
                         
@@ -3723,13 +3723,13 @@ Conda 安装和使用</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/python/">Python</category>
+                                    <category domain="https://zzkrix.com/tags/python/">python</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/conda/">Conda</category>
+                                    <category domain="https://zzkrix.com/tags/conda/">conda</category>
                                 
                             
                         
@@ -3886,7 +3886,7 @@ wireshark 之 sharkd 使用</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/sharkd/">Sharkd</category>
+                                    <category domain="https://zzkrix.com/categories/sharkd/">sharkd</category>
                                 
                             
                         
@@ -3896,7 +3896,7 @@ wireshark 之 sharkd 使用</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/sharkd/">Sharkd</category>
+                                    <category domain="https://zzkrix.com/tags/sharkd/">sharkd</category>
                                 
                             
                         
@@ -3996,7 +3996,7 @@ AI Agent 和 workflow 介绍</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/ai/">Ai</category>
+                                    <category domain="https://zzkrix.com/categories/ai/">ai</category>
                                 
                             
                         
@@ -4006,7 +4006,7 @@ AI Agent 和 workflow 介绍</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/ai/">Ai</category>
+                                    <category domain="https://zzkrix.com/tags/ai/">ai</category>
                                 
                             
                         
@@ -4116,19 +4116,19 @@ CPU 模式下 comfyUI 运行 flux</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/ai/">Ai</category>
+                                    <category domain="https://zzkrix.com/categories/ai/">ai</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/comfyui/">ComfyUI</category>
+                                    <category domain="https://zzkrix.com/categories/comfyui/">comfyUI</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/flux/">Flux</category>
+                                    <category domain="https://zzkrix.com/categories/flux/">flux</category>
                                 
                             
                         
@@ -4138,19 +4138,19 @@ CPU 模式下 comfyUI 运行 flux</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/ai/">Ai</category>
+                                    <category domain="https://zzkrix.com/tags/ai/">ai</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/comfyui/">ComfyUI</category>
+                                    <category domain="https://zzkrix.com/tags/comfyui/">comfyUI</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/flux/">Flux</category>
+                                    <category domain="https://zzkrix.com/tags/flux/">flux</category>
                                 
                             
                         
@@ -4192,13 +4192,13 @@ Mac 安装 Windows 双系统</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/mac/">Mac</category>
+                                    <category domain="https://zzkrix.com/categories/mac/">mac</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/windows/">Windows</category>
+                                    <category domain="https://zzkrix.com/categories/windows/">windows</category>
                                 
                             
                         
@@ -4208,13 +4208,13 @@ Mac 安装 Windows 双系统</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/mac/">Mac</category>
+                                    <category domain="https://zzkrix.com/tags/mac/">mac</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/windows/">Windows</category>
+                                    <category domain="https://zzkrix.com/tags/windows/">windows</category>
                                 
                             
                         
@@ -4350,7 +4350,7 @@ Mac 安装 Windows 双系统</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/ai/">Ai</category>
+                                    <category domain="https://zzkrix.com/categories/ai/">ai</category>
                                 
                             
                         
@@ -4360,7 +4360,7 @@ Mac 安装 Windows 双系统</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/ai/">Ai</category>
+                                    <category domain="https://zzkrix.com/tags/ai/">ai</category>
                                 
                             
                         
@@ -4477,7 +4477,7 @@ Linux 作业控制</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -4487,7 +4487,7 @@ Linux 作业控制</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                         
@@ -4582,7 +4582,7 @@ Linux 作业控制</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/git/">Git</category>
+                                    <category domain="https://zzkrix.com/categories/git/">git</category>
                                 
                             
                         
@@ -4592,7 +4592,7 @@ Linux 作业控制</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/git/">Git</category>
+                                    <category domain="https://zzkrix.com/tags/git/">git</category>
                                 
                             
                         
@@ -5052,13 +5052,13 @@ Linux 作业控制</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/mac/">Mac</category>
+                                    <category domain="https://zzkrix.com/categories/mac/">mac</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/tools/">Tools</category>
+                                    <category domain="https://zzkrix.com/categories/tools/">tools</category>
                                 
                             
                         
@@ -5068,13 +5068,13 @@ Linux 作业控制</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/mac/">Mac</category>
+                                    <category domain="https://zzkrix.com/tags/mac/">mac</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/tools/">Tools</category>
+                                    <category domain="https://zzkrix.com/tags/tools/">tools</category>
                                 
                             
                         
@@ -5133,13 +5133,13 @@ Mac 下为 Python 安装 mysqlclinet</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/mac/">Mac</category>
+                                    <category domain="https://zzkrix.com/categories/mac/">mac</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/python/">Python</category>
+                                    <category domain="https://zzkrix.com/categories/python/">python</category>
                                 
                             
                         
@@ -5149,13 +5149,13 @@ Mac 下为 Python 安装 mysqlclinet</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/mac/">Mac</category>
+                                    <category domain="https://zzkrix.com/tags/mac/">mac</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/python/">Python</category>
+                                    <category domain="https://zzkrix.com/tags/python/">python</category>
                                 
                             
                         
@@ -5258,7 +5258,7 @@ Linux &amp; iterm2 常用快捷键</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -5268,19 +5268,19 @@ Linux &amp; iterm2 常用快捷键</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/mac/">Mac</category>
+                                    <category domain="https://zzkrix.com/tags/mac/">mac</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/iterm2/">Iterm2</category>
+                                    <category domain="https://zzkrix.com/tags/iterm2/">iterm2</category>
                                 
                             
                         
@@ -5448,7 +5448,7 @@ Mac 原生输入法配置</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/mac/">Mac</category>
+                                    <category domain="https://zzkrix.com/categories/mac/">mac</category>
                                 
                             
                         
@@ -5458,7 +5458,7 @@ Mac 原生输入法配置</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/mac/">Mac</category>
+                                    <category domain="https://zzkrix.com/tags/mac/">mac</category>
                                 
                             
                                 
@@ -5476,7 +5476,7 @@ Mac 原生输入法配置</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/karabiner/">Karabiner</category>
+                                    <category domain="https://zzkrix.com/tags/karabiner/">karabiner</category>
                                 
                             
                         
@@ -5521,7 +5521,7 @@ Mac 原生输入法配置</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/vscode/">Vscode</category>
+                                    <category domain="https://zzkrix.com/categories/vscode/">vscode</category>
                                 
                             
                         
@@ -5531,7 +5531,7 @@ Mac 原生输入法配置</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/vscode/">Vscode</category>
+                                    <category domain="https://zzkrix.com/tags/vscode/">vscode</category>
                                 
                             
                         
@@ -5802,7 +5802,7 @@ Python 语法糖</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/python/">Python</category>
+                                    <category domain="https://zzkrix.com/categories/python/">python</category>
                                 
                             
                         
@@ -5812,7 +5812,7 @@ Python 语法糖</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/python/">Python</category>
+                                    <category domain="https://zzkrix.com/tags/python/">python</category>
                                 
                             
                         
@@ -5909,7 +5909,7 @@ Mac 下使用 iterm2 配置 ssh</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/mac/">Mac</category>
+                                    <category domain="https://zzkrix.com/categories/mac/">mac</category>
                                 
                             
                         
@@ -5919,19 +5919,19 @@ Mac 下使用 iterm2 配置 ssh</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/iterm2/">Iterm2</category>
+                                    <category domain="https://zzkrix.com/tags/iterm2/">iterm2</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/mac/">Mac</category>
+                                    <category domain="https://zzkrix.com/tags/mac/">mac</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/ssh/">Ssh</category>
+                                    <category domain="https://zzkrix.com/tags/ssh/">ssh</category>
                                 
                             
                         
@@ -6124,7 +6124,7 @@ Mac 下使用 iterm2 配置 ssh</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/blog/">Blog</category>
+                                    <category domain="https://zzkrix.com/categories/blog/">blog</category>
                                 
                             
                         
@@ -6134,19 +6134,19 @@ Mac 下使用 iterm2 配置 ssh</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/blog/">Blog</category>
+                                    <category domain="https://zzkrix.com/tags/blog/">blog</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/github/">Github</category>
+                                    <category domain="https://zzkrix.com/tags/github/">github</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/hugo/">Hugo</category>
+                                    <category domain="https://zzkrix.com/tags/hugo/">hugo</category>
                                 
                             
                         
@@ -6187,7 +6187,7 @@ serverless 基础</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/severless/">Severless</category>
+                                    <category domain="https://zzkrix.com/categories/severless/">severless</category>
                                 
                             
                         
@@ -6197,7 +6197,7 @@ serverless 基础</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/severless/">Severless</category>
+                                    <category domain="https://zzkrix.com/tags/severless/">severless</category>
                                 
                             
                         
@@ -6265,7 +6265,7 @@ reset-ssh-key</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -6275,7 +6275,7 @@ reset-ssh-key</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                         
@@ -6350,7 +6350,7 @@ vim 中数字增加或减少</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/vim/">Vim</category>
+                                    <category domain="https://zzkrix.com/categories/vim/">vim</category>
                                 
                             
                         
@@ -6360,7 +6360,7 @@ vim 中数字增加或减少</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/vim/">Vim</category>
+                                    <category domain="https://zzkrix.com/tags/vim/">vim</category>
                                 
                             
                         
@@ -6422,7 +6422,7 @@ vim 中数字增加或减少</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/k8s/">K8s</category>
+                                    <category domain="https://zzkrix.com/categories/k8s/">k8s</category>
                                 
                             
                         
@@ -6432,7 +6432,7 @@ vim 中数字增加或减少</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/k8s/">K8s</category>
+                                    <category domain="https://zzkrix.com/tags/k8s/">k8s</category>
                                 
                             
                         
@@ -6899,7 +6899,7 @@ vim 中数字增加或减少</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/k8s/">K8s</category>
+                                    <category domain="https://zzkrix.com/categories/k8s/">k8s</category>
                                 
                             
                         
@@ -6909,19 +6909,19 @@ vim 中数字增加或减少</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/k8s/">K8s</category>
+                                    <category domain="https://zzkrix.com/tags/k8s/">k8s</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/k3s/">K3s</category>
+                                    <category domain="https://zzkrix.com/tags/k3s/">k3s</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/kube-vip/">Kube-Vip</category>
+                                    <category domain="https://zzkrix.com/tags/kube-vip/">kube-vip</category>
                                 
                             
                         
@@ -7056,7 +7056,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -7066,7 +7066,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                                 
@@ -7110,7 +7110,7 @@ iptables</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -7120,7 +7120,7 @@ iptables</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                                 
@@ -7187,7 +7187,7 @@ iptables</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -7197,7 +7197,7 @@ iptables</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                                 
@@ -7254,7 +7254,7 @@ iptables</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -7264,7 +7264,7 @@ iptables</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                         
@@ -7325,7 +7325,7 @@ docker compose</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/docker/">Docker</category>
+                                    <category domain="https://zzkrix.com/categories/docker/">docker</category>
                                 
                             
                         
@@ -7335,7 +7335,7 @@ docker compose</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/docker/">Docker</category>
+                                    <category domain="https://zzkrix.com/tags/docker/">docker</category>
                                 
                             
                         
@@ -7381,7 +7381,7 @@ docker compose</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -7391,7 +7391,7 @@ docker compose</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                                 
@@ -7522,7 +7522,7 @@ docker compose</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/docker/">Docker</category>
+                                    <category domain="https://zzkrix.com/categories/docker/">docker</category>
                                 
                             
                         
@@ -7532,7 +7532,7 @@ docker compose</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/docker/">Docker</category>
+                                    <category domain="https://zzkrix.com/tags/docker/">docker</category>
                                 
                             
                         
@@ -7657,7 +7657,7 @@ docker 使用</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/docker/">Docker</category>
+                                    <category domain="https://zzkrix.com/categories/docker/">docker</category>
                                 
                             
                         
@@ -7667,7 +7667,7 @@ docker 使用</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/docker/">Docker</category>
+                                    <category domain="https://zzkrix.com/tags/docker/">docker</category>
                                 
                             
                         
@@ -7895,7 +7895,7 @@ ADD ubuntu-xenial-core-cloudimg-amd64-root.tar.gz /
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/docker/">Docker</category>
+                                    <category domain="https://zzkrix.com/categories/docker/">docker</category>
                                 
                             
                         
@@ -7905,7 +7905,7 @@ ADD ubuntu-xenial-core-cloudimg-amd64-root.tar.gz /
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/docker/">Docker</category>
+                                    <category domain="https://zzkrix.com/tags/docker/">docker</category>
                                 
                             
                         
@@ -7969,7 +7969,7 @@ docker 安装</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/docker/">Docker</category>
+                                    <category domain="https://zzkrix.com/categories/docker/">docker</category>
                                 
                             
                         
@@ -7979,7 +7979,7 @@ docker 安装</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/docker/">Docker</category>
+                                    <category domain="https://zzkrix.com/tags/docker/">docker</category>
                                 
                             
                         
@@ -8035,7 +8035,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;&lt;/blockqu
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -8045,7 +8045,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;&lt;/blockqu
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                         
@@ -8124,7 +8124,7 @@ Oracle 服务器使用 netboot 重装系统</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/oracle/">Oracle</category>
+                                    <category domain="https://zzkrix.com/categories/oracle/">oracle</category>
                                 
                             
                         
@@ -8134,7 +8134,7 @@ Oracle 服务器使用 netboot 重装系统</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/oracle/">Oracle</category>
+                                    <category domain="https://zzkrix.com/tags/oracle/">oracle</category>
                                 
                             
                         
@@ -8192,7 +8192,7 @@ tcp 保活</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -8202,7 +8202,7 @@ tcp 保活</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                                 
@@ -8322,7 +8322,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -8332,7 +8332,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                         
@@ -8442,7 +8442,7 @@ rsync 文件同步</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -8452,7 +8452,7 @@ rsync 文件同步</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                         
@@ -8653,7 +8653,7 @@ hping3 使用</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -8663,7 +8663,7 @@ hping3 使用</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                                 
@@ -8709,7 +8709,7 @@ Go 依赖注入</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/categories/golang/">golang</category>
                                 
                             
                         
@@ -8719,7 +8719,7 @@ Go 依赖注入</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/tags/golang/">golang</category>
                                 
                             
                         
@@ -8878,7 +8878,7 @@ Go 时区问题</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/categories/golang/">golang</category>
                                 
                             
                         
@@ -8888,7 +8888,7 @@ Go 时区问题</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/tags/golang/">golang</category>
                                 
                             
                         
@@ -9341,7 +9341,7 @@ Golang 的 generate stringer</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/categories/golang/">golang</category>
                                 
                             
                         
@@ -9351,7 +9351,7 @@ Golang 的 generate stringer</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/tags/golang/">golang</category>
                                 
                             
                                 
@@ -9416,7 +9416,7 @@ docker 仓库</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/docker/">Docker</category>
+                                    <category domain="https://zzkrix.com/categories/docker/">docker</category>
                                 
                             
                         
@@ -9426,7 +9426,7 @@ docker 仓库</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/docker/">Docker</category>
+                                    <category domain="https://zzkrix.com/tags/docker/">docker</category>
                                 
                             
                         
@@ -9489,7 +9489,7 @@ Go 竞态检测</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/categories/golang/">golang</category>
                                 
                             
                         
@@ -9499,7 +9499,7 @@ Go 竞态检测</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/tags/golang/">golang</category>
                                 
                             
                         
@@ -9678,7 +9678,7 @@ Go 编译 tips</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/categories/golang/">golang</category>
                                 
                             
                         
@@ -9688,7 +9688,7 @@ Go 编译 tips</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/tags/golang/">golang</category>
                                 
                             
                         
@@ -9771,7 +9771,7 @@ Go 的 gc</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/categories/golang/">golang</category>
                                 
                             
                         
@@ -9781,7 +9781,7 @@ Go 的 gc</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/tags/golang/">golang</category>
                                 
                             
                         
@@ -10122,7 +10122,7 @@ Go 的 gc</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/redis/">Redis</category>
+                                    <category domain="https://zzkrix.com/categories/redis/">redis</category>
                                 
                             
                         
@@ -10132,7 +10132,7 @@ Go 的 gc</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/redis/">Redis</category>
+                                    <category domain="https://zzkrix.com/tags/redis/">redis</category>
                                 
                             
                         
@@ -10227,7 +10227,7 @@ M：操作系统线程&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/categories/golang/">golang</category>
                                 
                             
                         
@@ -10237,7 +10237,7 @@ M：操作系统线程&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/tags/golang/">golang</category>
                                 
                             
                         
@@ -10340,7 +10340,7 @@ Go 内存逃逸</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/categories/golang/">golang</category>
                                 
                             
                         
@@ -10350,7 +10350,7 @@ Go 内存逃逸</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/tags/golang/">golang</category>
                                 
                             
                         
@@ -10556,7 +10556,7 @@ systemctl</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/categories/linux/">linux</category>
                                 
                             
                         
@@ -10566,7 +10566,7 @@ systemctl</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/linux/">Linux</category>
+                                    <category domain="https://zzkrix.com/tags/linux/">linux</category>
                                 
                             
                         
@@ -10615,7 +10615,7 @@ systemctl</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/mysql/">Mysql</category>
+                                    <category domain="https://zzkrix.com/categories/mysql/">mysql</category>
                                 
                             
                         
@@ -10625,7 +10625,7 @@ systemctl</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/mysql/">Mysql</category>
+                                    <category domain="https://zzkrix.com/tags/mysql/">mysql</category>
                                 
                             
                         
@@ -10686,7 +10686,7 @@ MySQL count(*)、count(1)、count(列) 的区别</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/mysql/">Mysql</category>
+                                    <category domain="https://zzkrix.com/categories/mysql/">mysql</category>
                                 
                             
                         
@@ -10696,7 +10696,7 @@ MySQL count(*)、count(1)、count(列) 的区别</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/mysql/">Mysql</category>
+                                    <category domain="https://zzkrix.com/tags/mysql/">mysql</category>
                                 
                             
                         
@@ -10787,7 +10787,7 @@ MySQL8 创建用户和授权</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/mysql/">Mysql</category>
+                                    <category domain="https://zzkrix.com/categories/mysql/">mysql</category>
                                 
                             
                         
@@ -10797,7 +10797,7 @@ MySQL8 创建用户和授权</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/mysql/">Mysql</category>
+                                    <category domain="https://zzkrix.com/tags/mysql/">mysql</category>
                                 
                             
                         
@@ -10852,7 +10852,7 @@ MySQL 允许 root 远程访问</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/mysql/">Mysql</category>
+                                    <category domain="https://zzkrix.com/categories/mysql/">mysql</category>
                                 
                             
                         
@@ -10862,7 +10862,7 @@ MySQL 允许 root 远程访问</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/mysql/">Mysql</category>
+                                    <category domain="https://zzkrix.com/tags/mysql/">mysql</category>
                                 
                             
                         
@@ -10928,7 +10928,7 @@ MySQL 事务</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/mysql/">Mysql</category>
+                                    <category domain="https://zzkrix.com/categories/mysql/">mysql</category>
                                 
                             
                         
@@ -10938,7 +10938,7 @@ MySQL 事务</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/mysql/">Mysql</category>
+                                    <category domain="https://zzkrix.com/tags/mysql/">mysql</category>
                                 
                             
                         
@@ -11049,7 +11049,7 @@ MySQL 常识</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/mysql/">Mysql</category>
+                                    <category domain="https://zzkrix.com/categories/mysql/">mysql</category>
                                 
                             
                         
@@ -11059,7 +11059,7 @@ MySQL 常识</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/mysql/">Mysql</category>
+                                    <category domain="https://zzkrix.com/tags/mysql/">mysql</category>
                                 
                             
                         
@@ -11095,7 +11095,7 @@ Go sync map 实现</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/categories/golang/">golang</category>
                                 
                             
                         
@@ -11105,7 +11105,7 @@ Go sync map 实现</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/golang/">Golang</category>
+                                    <category domain="https://zzkrix.com/tags/golang/">golang</category>
                                 
                             
                         
@@ -11176,7 +11176,7 @@ redis 备忘录</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/categories/redis/">Redis</category>
+                                    <category domain="https://zzkrix.com/categories/redis/">redis</category>
                                 
                             
                         
@@ -11186,7 +11186,7 @@ redis 备忘录</title>
                                 
                                 
                                 
-                                    <category domain="https://zzkrix.com/tags/redis/">Redis</category>
+                                    <category domain="https://zzkrix.com/tags/redis/">redis</category>
                                 
                             
                         
