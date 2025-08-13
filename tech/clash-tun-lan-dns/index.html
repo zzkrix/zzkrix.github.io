@@ -60,7 +60,7 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2025-08-13T19:23:43+08:00",
-        "dateModified": "2025-08-13T11:35:04+00:00",
+        "dateModified": "2025-08-13T11:38:52+00:00",
         "url": "https://zzkrix.com/tech/clash-tun-lan-dns/",
         "headline": "\n保持局域网 dns 在 clash tun 模式中有效",
         "description": "\n打开 clash 设置界面，在\"订阅\"-\"全局扩展脚本\"中右键，编辑该文件，填入下面的代码。\n",
@@ -110,7 +110,7 @@
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-08-13-19-28-07-f2okbr.jpg" />
 <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2025-08-13T19:23:43&#43;08:00" />
-    <meta property="article:modified_time" content="2025-08-13T11:35:04&#43;00:00" />
+    <meta property="article:modified_time" content="2025-08-13T11:38:52&#43;00:00" />
     
     <meta property="article:section" content="tech" />
 
@@ -292,7 +292,7 @@
 <p>将 <code>+.private.com</code> 替换成你自己局域网的域名后缀，多个域名后缀可以在数组中追加。</p>
 </li>
 <li>
-<p>将 <code>YOUR-PRIVETE-DNS</code> 替换成你自己局域网的 dns server 地址。</p>
+<p>将 <code>YOUR-PRIVATE-DNS</code> 替换成你自己局域网的 dns server 地址。</p>
 </li>
 </ol></blockquote>
 <div class="highlight"><div class="chroma">
@@ -319,7 +319,7 @@
 </span></span><span class="line"><span class="cl">  <span class="nx">config</span><span class="p">.</span><span class="nx">dns</span><span class="p">[</span><span class="s1">&#39;nameserver-policy&#39;</span><span class="p">]</span> <span class="o">??=</span> <span class="p">{};</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="s1">&#39;+.private1.com&#39;</span><span class="p">,</span> <span class="s1">&#39;+.private2.com&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">d</span> <span class="p">=&gt;</span> <span class="nx">config</span><span class="p">.</span><span class="nx">dns</span><span class="p">[</span><span class="s1">&#39;nameserver-policy&#39;</span><span class="p">][</span><span class="nx">d</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;YOUR-PRIVETE-DNS&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">d</span> <span class="p">=&gt;</span> <span class="nx">config</span><span class="p">.</span><span class="nx">dns</span><span class="p">[</span><span class="s1">&#39;nameserver-policy&#39;</span><span class="p">][</span><span class="nx">d</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;YOUR-PRIVATE-DNS&#39;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">config</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
