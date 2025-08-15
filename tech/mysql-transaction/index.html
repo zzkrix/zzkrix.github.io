@@ -61,7 +61,7 @@ MySQL 事务 | 避风港</title>
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2023-03-19T21:15:03+00:00",
-        "dateModified": "2025-08-15T01:10:20+00:00",
+        "dateModified": "2025-08-15T01:20:33+00:00",
         "url": "https://zzkrix.com/tech/mysql-transaction/",
         "headline": "\nMySQL 事务",
         "description": "参考 讲的比较清晰的：https://www.51cto.com/article/679914.html\n理论 MySQL 中事务的隔离级别一共分为四种，分别如下：\n序列化 (SERIALIZABLE) 可重复读 (REPEATABLE READ) 提交读 (READ COMMITTED) 未提交读 (READ UNCOMMITTED) 四种不同的隔离级别含义分别如下：\n",
@@ -112,7 +112,7 @@ MySQL 事务" />
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230319212216111.png" />
 <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2023-03-19T21:15:03&#43;00:00" />
-    <meta property="article:modified_time" content="2025-08-15T01:10:20&#43;00:00" />
+    <meta property="article:modified_time" content="2025-08-15T01:20:33&#43;00:00" />
     
     <meta property="article:section" content="tech" />
 
@@ -305,7 +305,7 @@ MySQL 事务</h1>
 <p><strong>1）.SERIALIZABLE</strong></p>
 <p>如果隔离级别为序列化，则用户之间通过一个接一个顺序地执行当前的事务，这种隔离级别提供了事务之间最大限度的隔离。</p>
 <p><strong>2）.REPEATABLE READ（默认级别）</strong></p>
-<p>在可重复读在这一隔离级别上，事务不会被看成是一个序列。不过，当前正在执行事务的变化仍然不能被外部看到，也就是说，如果用户在另外一个事务中执行同条 SELECT 语句数次，结果总是相同的。(因为正在执行的事务所产生的数据变化不能被外部看到)。</p>
+<p>在可重复读在这一隔离级别上，事务不会被看成是一个序列。不过，当前正在执行事务的变化仍然不能被外部看到，也就是说，如果用户在另外一个事务中执行同条 SELECT 语句数次，结果总是相同的。（因为正在执行的事务所产生的数据变化不能被外部看到）。</p>
 <p><strong>3）.READ COMMITTED</strong></p>
 <p>READ COMMITTED 隔离级别的安全性比 REPEATABLE READ 隔离级别的安全性要差。处于 READ COMMITTED 级别的事务可以看到其他事务对数据的修改。也就是说，在事务处理期间，如果其他事务修改了相应的表，那么同一个事务的多个 SELECT 语句可能返回不同的结果。</p>
 <p><strong>4）.READ UNCOMMITTED</strong></p>
@@ -355,7 +355,7 @@ MySQL 事务</h1>
                 
                     <li class="related-item">
                         <a href="/tech/mysql-count/" class="related-link">
-MySQL count(*)、count(1)、count(列) 的区别</a>
+MySQL count(*)、count(1)、count（列） 的区别</a>
                     </li>
                 
                     <li class="related-item">

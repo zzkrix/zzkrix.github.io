@@ -59,7 +59,7 @@ TypeScript - export 用法 | 避风港</title>
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2025-02-10T13:14:17+08:00",
-        "dateModified": "2025-08-15T01:10:20+00:00",
+        "dateModified": "2025-08-15T01:20:33+00:00",
         "url": "https://zzkrix.com/tech/ts-export/",
         "headline": "\nTypeScript - export 用法",
         "description": "在 TypeScript 中，import 语句用于从其他模块引入功能。根据所导入内容的不同，import 语句的语法也有所区别，具体体现在是否使用花括号 {}。\n",
@@ -107,7 +107,7 @@ TypeScript - export 用法" />
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://zzkrix.com/icons/apple-touch-icon.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2025-02-10T13:14:17&#43;08:00" />
-    <meta property="article:modified_time" content="2025-08-15T01:10:20&#43;00:00" />
+    <meta property="article:modified_time" content="2025-08-15T01:20:33&#43;00:00" />
     
     <meta property="article:section" content="tech" />
 
@@ -287,7 +287,7 @@ TypeScript - export 用法</h1>
   </ol>
 </nav><div class="post-body e-content">
                 
-<p>在  TypeScript 中，<code>import</code> 语句用于从其他模块引入功能。根据所导入内容的不同，<code>import</code> 语句的语法也有所区别，具体体现在是否使用花括号 <code>{}</code>。</p>
+<p>在 TypeScript 中，<code>import</code> 语句用于从其他模块引入功能。根据所导入内容的不同，<code>import</code> 语句的语法也有所区别，具体体现在是否使用花括号 <code>{}</code>。</p>
 <h2 id="默认导出default-export"><a href="#默认导出default-export" class="anchor-link" aria-label="默认导出default-export"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a><a href="#contents:默认导出default-export" class="headings">默认导出（Default Export）</a></h2>
 <p>当一个模块使用 <code>export default</code> 导出时，导入该模块时不需要使用花括号 <code>{}</code>。默认导出允许每个模块有一个主要导出。</p>
 <p><em>示例：</em></p>
@@ -302,7 +302,7 @@ TypeScript - export 用法</h1>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// 使用 export default 导出
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">export</span> <span class="k">default</span> <span class="kd">function</span> <span class="nx">greet</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Hello, world!&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Hello, world!&#34;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table></div>
 </div>
@@ -316,7 +316,7 @@ TypeScript - export 用法</h1>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// 不使用花括号导入默认导出，导入的对象可以任意重命名
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">import</span> <span class="nx">greetx</span> <span class="nx">from</span> <span class="s1">&#39;./module.js&#39;</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">import</span> <span class="nx">greetx</span> <span class="nx">from</span> <span class="s2">&#34;./module.js&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nx">greetx</span><span class="p">();</span> <span class="c1">// 输出：Hello, world!
 </span></span></span></code></pre></td></tr></table></div>
@@ -337,10 +337,10 @@ TypeScript - export 用法</h1>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// 使用命名导出
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">export</span> <span class="kd">function</span> <span class="nx">greet</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Hello, world!&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Hello, world!&#34;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="kr">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="s1">&#39;Alice&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="kr">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="s2">&#34;Alice&#34;</span><span class="p">;</span>
 </span></span></code></pre></td></tr></table></div>
 </div>
 </div><p><em>导入模块：</em></p>
@@ -354,7 +354,7 @@ TypeScript - export 用法</h1>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// 使用花括号导入命名导出
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">greetx</span><span class="p">,</span> <span class="nx">name</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;./module.js&#39;</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">greetx</span><span class="p">,</span> <span class="nx">name</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&#34;./module.js&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nx">greetx</span><span class="p">();</span> <span class="c1">// 输出：Hello, world!
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">);</span> <span class="c1">// 输出：Alice
@@ -377,11 +377,11 @@ TypeScript - export 用法</h1>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// 默认导出
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">export</span> <span class="k">default</span> <span class="kd">function</span> <span class="nx">greet</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Hello, world!&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Hello, world!&#34;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1">// 命名导出
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">export</span> <span class="kr">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="s1">&#39;Alice&#39;</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">export</span> <span class="kr">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="s2">&#34;Alice&#34;</span><span class="p">;</span>
 </span></span></code></pre></td></tr></table></div>
 </div>
 </div><p><em>导入模块：</em></p>
@@ -395,7 +395,7 @@ TypeScript - export 用法</h1>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// 同时导入默认导出和命名导出
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">import</span> <span class="nx">greetx</span><span class="p">,</span> <span class="p">{</span> <span class="nx">name</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;./module.js&#39;</span><span class="p">;</span>
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kr">import</span> <span class="nx">greetx</span><span class="p">,</span> <span class="p">{</span> <span class="nx">name</span> <span class="p">}</span> <span class="nx">from</span> <span class="s2">&#34;./module.js&#34;</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nx">greetx</span><span class="p">();</span> <span class="c1">// 输出：Hello, world!
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">name</span><span class="p">);</span> <span class="c1">// 输出：Alice
