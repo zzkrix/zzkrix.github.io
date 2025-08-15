@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">避风港</title>
     <subtitle type="html"></subtitle>
-    <updated>2025-08-14T01:09:56&#43;00:00</updated>
+    <updated>2025-08-15T01:10:23&#43;00:00</updated>
     <id>https://zzkrix.com/</id>
     <link rel="alternate" type="text/html" href="https://zzkrix.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://zzkrix.com/atom.xml" />
@@ -16,13 +16,13 @@
 保持局域网 dns 在 clash tun 模式中有效</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/clash-tun-lan-dns/" />
             <id>https://zzkrix.com/tech/clash-tun-lan-dns/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-08-13T19:23:43&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">
-                &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-08-13-19-28-07-f2okbr.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-08-13-19-28-07-f2okbr.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
 &lt;p&gt;打开 clash 设置界面，在&amp;quot;订阅&amp;quot;-&amp;quot;全局扩展脚本&amp;quot;中右键，编辑该文件，填入下面的代码。&lt;/p&gt;
                 
 
@@ -30,17 +30,13 @@
             
                 <content type="html">
                     
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-08-13-19-28-07-f2okbr.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-08-13-19-28-07-f2okbr.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
 &lt;p&gt;打开 clash 设置界面，在&amp;quot;订阅&amp;quot;-&amp;quot;全局扩展脚本&amp;quot;中右键，编辑该文件，填入下面的代码。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;⚠️ 注意&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;将 &lt;code&gt;+.private.com&lt;/code&gt; 替换成你自己局域网的域名后缀，多个域名后缀可以在数组中追加。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;将 &lt;code&gt;YOUR-PRIVATE-DNS&lt;/code&gt; 替换成你自己局域网的 dns server 地址。&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;将 &lt;code&gt;+.private.com&lt;/code&gt; 替换成你自己局域网的域名后缀，多个域名后缀可以在数组中追加。&lt;/li&gt;
+&lt;li&gt;将 &lt;code&gt;YOUR-PRIVATE-DNS&lt;/code&gt; 替换成你自己局域网的 dns server 地址。&lt;/li&gt;
 &lt;/ol&gt;&lt;/blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;div class=&#34;table-container&#34;&gt;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -61,12 +57,12 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Define main function (script entry)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;config&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;profileName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;config&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;dns&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;??=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{};&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;config&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;dns&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;nameserver-policy&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;??=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;config&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;dns&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;nameserver-policy&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;??=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{};&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;+.private1.com&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;+.private2.com&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;forEach&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;d&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;config&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;dns&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;nameserver-policy&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;][&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;YOUR-PRIVATE-DNS&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;+.private1.com&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;+.private2.com&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;].&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;forEach&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;config&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;dns&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;nameserver-policy&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;][&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;YOUR-PRIVATE-DNS&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;config&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
@@ -128,7 +124,7 @@
 lazyvim 简介</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/lazyvim-init/" />
             <id>https://zzkrix.com/tech/lazyvim-init/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-08-03T14:03:11&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -447,7 +443,7 @@ lazyvim 简介</title>
 lua 包管理工具 luarocks</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/lua-luarocks/" />
             <id>https://zzkrix.com/tech/lua-luarocks/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-07-30T12:04:39&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -541,7 +537,7 @@ lua 包管理工具 luarocks</title>
 命令行 vi 模式快捷键冲突解决</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/iterm2-vim-mode/" />
             <id>https://zzkrix.com/tech/iterm2-vim-mode/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-07-28T13:43:39&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -619,7 +615,7 @@ lua 包管理工具 luarocks</title>
 vim 快捷键</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/vim-shortkeys/" />
             <id>https://zzkrix.com/tech/vim-shortkeys/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-07-25T23:01:24&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -789,7 +785,7 @@ vim 快捷键</title>
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;宏录制&#34;&gt;宏录制&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;q&lt;/code&gt; 表示宏录制的开始和结束。
+&lt;p&gt;&lt;code&gt;q&lt;/code&gt; 表示宏录制的开始和结束。&lt;br&gt;
 &lt;code&gt;@&lt;/code&gt; 表示执行某个名称的宏。&lt;/p&gt;
                 
 
@@ -961,7 +957,7 @@ vim 快捷键</title>
   &lt;/tbody&gt;
 &lt;/table&gt;&lt;/div&gt;
 &lt;h2 id=&#34;宏录制&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/vim-shortkeys/#宏录制&#34; class=&#34;anchor-link&#34; aria-label=&#34;宏录制&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/vim-shortkeys/#contents:宏录制&#34; class=&#34;headings&#34;&gt;宏录制&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;q&lt;/code&gt; 表示宏录制的开始和结束。
+&lt;p&gt;&lt;code&gt;q&lt;/code&gt; 表示宏录制的开始和结束。&lt;br&gt;
 &lt;code&gt;@&lt;/code&gt; 表示执行某个名称的宏。&lt;/p&gt;
 &lt;p&gt;第一次 &lt;code&gt;q&lt;/code&gt; 后需要跟一个宏的名称，比如下面例子中的 &lt;code&gt;a&lt;/code&gt;。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1071,7 +1067,7 @@ vim 快捷键</title>
 Gin 框架中的 c.Next 的作用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-gin-next/" />
             <id>https://zzkrix.com/tech/go-gin-next/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-07-10T16:17:27&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -1315,7 +1311,7 @@ Gin 框架中的 c.Next 的作用</title>
 JS 学习 - 细碎知识点</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/js-case/" />
             <id>https://zzkrix.com/tech/js-case/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-04-15T14:21:03&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -1667,7 +1663,7 @@ JS 学习 - 细碎知识点</title>
 一些印象不错的作品</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/life/media/" />
             <id>https://zzkrix.com/life/media/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-04-14T13:28:28&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -2063,7 +2059,7 @@ JS 学习 - 细碎知识点</title>
 JS 学习 - 函数立即执行</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/js-iife/" />
             <id>https://zzkrix.com/tech/js-iife/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-04-10T21:41:42&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -2199,7 +2195,7 @@ JS 学习 - 函数立即执行</title>
 借助 Cloudflare 实现高速内网穿透</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/cloudflare-zero-trust/" />
             <id>https://zzkrix.com/tech/cloudflare-zero-trust/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-04-07T15:00:08&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -2291,7 +2287,7 @@ JS 学习 - 函数立即执行</title>
 浏览器插件 - kimi 历史会话清理助手</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/chrome-extensions-kimi/" />
             <id>https://zzkrix.com/tech/chrome-extensions-kimi/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-03-30T21:24:50&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -2672,7 +2668,7 @@ JS 学习 - 函数立即执行</title>
 Oracle 服务器使用块存储</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/oracle-block-volume/" />
             <id>https://zzkrix.com/tech/oracle-block-volume/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-02-19T21:09:36&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -2844,7 +2840,7 @@ Oracle 服务器使用块存储</title>
 HTTP Cookie 笔记</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/web-cookie/" />
             <id>https://zzkrix.com/tech/web-cookie/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-02-13T09:37:57&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -3201,7 +3197,7 @@ HTTP Cookie 笔记</title>
 浏览器跨域请求机制</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/web-cross-origin/" />
             <id>https://zzkrix.com/tech/web-cross-origin/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-02-11T14:27:28&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -3221,7 +3217,7 @@ HTTP Cookie 笔记</title>
 &lt;p&gt;同源策略是浏览器的一个安全功能。简单来说，它是一种限制不同“源”之间相互访问资源的规则。“源”主要包括协议（比如 http、https）、域名（如 example.com、another - site.com）和端口号（像 80、443 等）。如果这三个要素都相同，就被认为是同源的。&lt;/p&gt;
 &lt;p&gt;举个例子，假设你有两个网站，一个是 &lt;code&gt;http://www.example.com&lt;/code&gt;，另一个是&lt;code&gt;http://shop.example.com&lt;/code&gt;。虽然它们的域名主体部分相似，但由于子域名不同（一个是“www”，一个是“shop”），它们就被认为是不同源的。再比如，&lt;code&gt;http://www.example.com:80&lt;/code&gt; 和 &lt;code&gt;http://www.example.com:3000&lt;/code&gt;，因为端口号不同，也是不同源的。&lt;/p&gt;
 &lt;h2 id=&#34;为什么要使用同源策略&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#为什么要使用同源策略&#34; class=&#34;anchor-link&#34; aria-label=&#34;为什么要使用同源策略&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#contents:为什么要使用同源策略&#34; class=&#34;headings&#34;&gt;为什么要使用同源策略&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;安全是主要原因。想象一下，如果没有同源策略，一个恶意网站就可以随意访问其他网站的用户数据。例如，一个不怀好意的网页可能会获取你在银行网站上的账户信息。
+&lt;p&gt;安全是主要原因。想象一下，如果没有同源策略，一个恶意网站就可以随意访问其他网站的用户数据。例如，一个不怀好意的网页可能会获取你在银行网站上的账户信息。&lt;br&gt;
 &lt;code&gt;http://www.bank.com&lt;/code&gt;，它保存了用户的账户余额等重要信息。同时还有一个购物网站隐私和财产安全就会受到严重威胁。&lt;/p&gt;
 &lt;p&gt;比如，有一个银行网站 &lt;code&gt;http://www.bank.com&lt;/code&gt;，它保存了用户的账户余额等重要信息。同时还有一个购物网站 &lt;code&gt;http://www.shop.com&lt;/code&gt;。如果没有同源策略限制，购物网站的脚本就可以去获取银行网站的数据，这样用户的隐私和财产安全就会受到严重威胁。&lt;/p&gt;
 &lt;h2 id=&#34;跨域解决方案&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#跨域解决方案&#34; class=&#34;anchor-link&#34; aria-label=&#34;跨域解决方案&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/web-cross-origin/#contents:跨域解决方案&#34; class=&#34;headings&#34;&gt;跨域解决方案&lt;/a&gt;&lt;/h2&gt;
@@ -3673,7 +3669,7 @@ HTTP Cookie 笔记</title>
 TypeScript - export 用法</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/ts-export/" />
             <id>https://zzkrix.com/tech/ts-export/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-02-10T13:14:17&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -3845,7 +3841,7 @@ TypeScript - export 用法</title>
 TypeScript - 函数重载</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/ts-overloading/" />
             <id>https://zzkrix.com/tech/ts-overloading/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2025-02-08T16:18:57&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -4070,7 +4066,7 @@ TypeScript - 函数重载</title>
 k3s 镜像重写</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/k3s-registries-image/" />
             <id>https://zzkrix.com/tech/k3s-registries-image/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-10-31T13:25:38&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -4203,7 +4199,7 @@ k3s 镜像重写</title>
 2024 国庆游记</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/life/travel-2024-10/" />
             <id>https://zzkrix.com/life/travel-2024-10/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-10-05T11:36:09&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -4255,9 +4251,9 @@ k3s 镜像重写</title>
 &lt;p&gt;事后看地图，有一个完美的拍摄角度，就在旁边开元大道横跨函关古道的桥上。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-10-07-21-07-BeHhGJ.jpeg&#34; alt=&#34;2024-10-07-21-07-BeHhGJ&#34;&gt;&lt;/p&gt;
 &lt;p&gt;稠桑塬北部现在是连霍高速。&lt;/p&gt;
-&lt;p&gt;东方向：
+&lt;p&gt;东方向：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-10-07-21-10-XdB0WB.jpeg&#34; alt=&#34;2024-10-07-21-10-XdB0WB&#34;&gt;&lt;/p&gt;
-&lt;p&gt;西方向：
+&lt;p&gt;西方向：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-10-07-21-10-eWVYe0.jpeg&#34; alt=&#34;2024-10-07-21-10-eWVYe0&#34;&gt;&lt;/p&gt;
 &lt;p&gt;继续导航到潼关，到了潼关县城后，高德导航让走一个小道，进去之后发现是那种普通的年久失修的水泥路，路两旁是杂草和小树林，周围很黑，大概能判断出是在一个山谷里面，一路下坡。心里想，潼关应该是个景区，不至于没有游客的车啊，高德你有没有搞错，走了大概 7、8 公里终于上了一个大道，来往车辆依然很少。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -4330,7 +4326,7 @@ k3s 镜像重写</title>
 &lt;p&gt;到达中卫沙坡头景区，本想着能飞下无人机看看沙漠的，还没找到合适的起飞场地，太阳就落山了。&lt;/p&gt;
 &lt;p&gt;继续赶路，落脚红寺堡，属于宁夏吴忠市红寺堡区，新城市规划的不错，直接在老城北边新建了一个新区。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-10-07-23-23-jIzK55.jpg&#34; alt=&#34;2024-10-07-23-23-jIzK55&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这一天海拔应该下降了几百米，500 多公里路程，油耗居然跑出了 4.6。
+&lt;p&gt;这一天海拔应该下降了几百米，500 多公里路程，油耗居然跑出了 4.6。&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-10-07-23-31-jccnVL.jpeg&#34; alt=&#34;2024-10-07-23-31-jccnVL&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;day-6&#34;&gt;&lt;a href=&#34;https://zzkrix.com/life/travel-2024-10/#day-6&#34; class=&#34;anchor-link&#34; aria-label=&#34;day-6&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/life/travel-2024-10/#contents:day-6&#34; class=&#34;headings&#34;&gt;DAY 6&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;红寺堡有一个宁夏移民博物馆，本打算去看看，到了发现还没建完。&lt;/p&gt;
@@ -4426,15 +4422,15 @@ k3s 镜像重写</title>
 霍去病关系图谱</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/life/history-huoqubing/" />
             <id>https://zzkrix.com/life/history-huoqubing/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-09-05T17:39:02&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">
-                &lt;p&gt;无意中看到战神的这段介绍时懵逼了。
+                &lt;p&gt;无意中看到战神的这段介绍时懵逼了。&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-45-0FpAiy.png&#34; alt=&#34;2024-09-05-17-45-0FpAiy&#34;&gt;&lt;/p&gt;
-&lt;p&gt;所以理了下人物关系图谱，嗯，清晰很多。
+&lt;p&gt;所以理了下人物关系图谱，嗯，清晰很多。&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-38-6ITZ97.png&#34; alt=&#34;2024-09-05-17-38-6ITZ97&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-43-SsgDDY.png&#34; alt=&#34;2024-09-05-17-43-SsgDDY&#34;&gt;&lt;/p&gt;
                 
@@ -4443,9 +4439,9 @@ k3s 镜像重写</title>
             
                 <content type="html">
                     
-&lt;p&gt;无意中看到战神的这段介绍时懵逼了。
+&lt;p&gt;无意中看到战神的这段介绍时懵逼了。&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-45-0FpAiy.png&#34; alt=&#34;2024-09-05-17-45-0FpAiy&#34;&gt;&lt;/p&gt;
-&lt;p&gt;所以理了下人物关系图谱，嗯，清晰很多。
+&lt;p&gt;所以理了下人物关系图谱，嗯，清晰很多。&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-38-6ITZ97.png&#34; alt=&#34;2024-09-05-17-38-6ITZ97&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-43-SsgDDY.png&#34; alt=&#34;2024-09-05-17-43-SsgDDY&#34;&gt;&lt;/p&gt;
 
@@ -4486,7 +4482,7 @@ k3s 镜像重写</title>
 Conda 安装和使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/conda/" />
             <id>https://zzkrix.com/tech/conda/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-08-30T14:23:24&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -4531,7 +4527,7 @@ Conda 安装和使用</title>
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rm ~/miniconda3/miniconda.sh
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;惊！这个安装用的 shell 脚本竟然有 142M（里面包含一些可执行文件内容）。
+&lt;/div&gt;&lt;p&gt;惊！这个安装用的 shell 脚本竟然有 142M（里面包含一些可执行文件内容）。&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-30-15-11-n20qj4.png&#34; alt=&#34;2024-08-30-15-11-n20qj4&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-30-15-17-xRb7gt.png&#34; alt=&#34;2024-08-30-15-17-xRb7gt&#34;&gt;&lt;/p&gt;
 &lt;p&gt;根据你使用的 shell 类型进行初始化。init 之后，重启下终端，就自动激活 conda 环境了。&lt;/p&gt;
@@ -4721,7 +4717,7 @@ Conda 安装和使用</title>
 &lt;p&gt;个人觉得第一点是比较好的，确实某些时候有这个需要。&lt;/p&gt;
 &lt;p&gt;至于第二点，嗯。。。反正我没这个需求。&lt;/p&gt;
 &lt;h3 id=&#34;商用风险&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/conda/#商用风险&#34; class=&#34;anchor-link&#34; aria-label=&#34;商用风险&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/conda/#contents:商用风险&#34; class=&#34;headings&#34;&gt;商用风险&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.anaconda.com/miniconda/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;官方说明&lt;/a&gt;里有这么一段话：
+&lt;p&gt;&lt;a href=&#34;https://docs.anaconda.com/miniconda/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;官方说明&lt;/a&gt;里有这么一段话：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-30-17-26-KL5Xuy.png&#34; alt=&#34;2024-08-30-17-26-KL5Xuy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;翻译过来就是：&lt;/p&gt;
 &lt;p&gt;Miniconda 可供任何人免费使用！但是，只有个人和小型组织（少于 200 名员工）才能免费访问 Anaconda 的公共软件包存储库。大型组织和任何嵌入或镜像 Anaconda 存储库的人都需要付费许可证。有关详细信息，请参阅 &lt;a href=&#34;https://legal.anaconda.com/policies/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TOS&lt;/a&gt;。&lt;/p&gt;
@@ -4798,7 +4794,7 @@ Conda 安装和使用</title>
 wireshark 之 sharkd 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/sharkd/" />
             <id>https://zzkrix.com/tech/sharkd/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-08-26T17:04:45&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -4819,7 +4815,7 @@ wireshark 之 sharkd 使用</title>
 &lt;p&gt;sharkd 是 wireshark 里用来解析数据包的模块，可以单独编译和使用。&lt;/p&gt;
 &lt;p&gt;sharkd 可执行文件未包含在标准 Wireshark 二进制包（Windows MSI 等）中，因此必须从源代码构建。&lt;/p&gt;
 &lt;p&gt;sharkd 提供了接口用于数据查询（使用 tcp 或本地 socket）。&lt;/p&gt;
-&lt;p&gt;发送给 sharkd 进程的请求格式为 &lt;code&gt;{&amp;quot;jsonrpc&amp;quot;:&amp;quot;2.0&amp;quot;,&amp;quot;id&amp;quot;:1, &amp;quot;method&amp;quot;: &amp;quot;xxx&amp;quot;}&lt;/code&gt;。
+&lt;p&gt;发送给 sharkd 进程的请求格式为 &lt;code&gt;{&amp;quot;jsonrpc&amp;quot;:&amp;quot;2.0&amp;quot;,&amp;quot;id&amp;quot;:1, &amp;quot;method&amp;quot;: &amp;quot;xxx&amp;quot;}&lt;/code&gt;。&lt;br&gt;
 其中的 id 为非 0 的数字，表示请求序号，请求和应答根据 id 进行关联，所以请尽量保证每个请求 id 不重复。&lt;/p&gt;
 &lt;p&gt;编译：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -4974,7 +4970,7 @@ wireshark 之 sharkd 使用</title>
 AI Agent 和 workflow 介绍</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/ai-agent-workflow/" />
             <id>https://zzkrix.com/tech/ai-agent-workflow/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-08-23T15:05:38&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5093,7 +5089,7 @@ AI Agent 和 workflow 介绍</title>
 CPU 模式下 comfyUI 运行 flux</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/comfyui-flux-demo/" />
             <id>https://zzkrix.com/tech/comfyui-flux-demo/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-08-05T22:07:13&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5309,7 +5305,7 @@ CPU 模式下 comfyUI 运行 flux</title>
 Mac 安装 Windows 双系统</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mac-win10/" />
             <id>https://zzkrix.com/tech/mac-win10/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-08-04T12:34:11&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5327,7 +5323,7 @@ Mac 安装 Windows 双系统</title>
 &lt;p&gt;Windows 无法更新计算机的启动配置，安装无法继续。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-40-pyYSEB.png&#34; alt=&#34;2024-08-04-12-40-pyYSEB&#34;&gt;&lt;/p&gt;
 &lt;p&gt;搜索了一圈，有说需要重置 SMC 的，有说打电话问 Apple 客服的，这两个方案都试了，无效。&lt;/p&gt;
-&lt;p&gt;一开始的镜像是从 &lt;a href=&#34;https://msdn.itellyou.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://msdn.itellyou.cn/&lt;/a&gt; 上随便找了个 win10 下载的，猜测是选的镜像版本太老，有些驱动不支持导致的，所以直接去微软官方下载了最新的 win10 版本，问题解决。
+&lt;p&gt;一开始的镜像是从 &lt;a href=&#34;https://msdn.itellyou.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://msdn.itellyou.cn/&lt;/a&gt; 上随便找了个 win10 下载的，猜测是选的镜像版本太老，有些驱动不支持导致的，所以直接去微软官方下载了最新的 win10 版本，问题解决。&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-57-bkHJ7q.png&#34; alt=&#34;2024-08-04-12-57-bkHJ7q&#34;&gt;&lt;/p&gt;
 &lt;p&gt;微软官方 win10 下载地址：&lt;a href=&#34;https://www.microsoft.com/zh-cn/software-download/windows10ISO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.microsoft.com/zh-cn/software-download/windows10ISO&lt;/a&gt;&lt;/p&gt;
 
@@ -5380,7 +5376,7 @@ Mac 安装 Windows 双系统</title>
 本地部署大模型</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/ollama-llama/" />
             <id>https://zzkrix.com/tech/ollama-llama/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-07-25T16:10:28&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5443,7 +5439,7 @@ Mac 安装 Windows 双系统</title>
 &lt;p&gt;点击右上角头像 --- 管理员面板 --- 设置&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-07-25-16-59-LzEDUu.png&#34; alt=&#34;2024-07-25-16-59-LzEDUu&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;其他&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/ollama-llama/#其他&#34; class=&#34;anchor-link&#34; aria-label=&#34;其他&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/ollama-llama/#contents:其他&#34; class=&#34;headings&#34;&gt;其他&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;测试环境为一台无显卡的 oracle 服务器 ( 4 核 24G )。
+&lt;p&gt;测试环境为一台无显卡的 oracle 服务器 ( 4 核 24G )。&lt;br&gt;
 跑大小为 8G 的模型 (llama3.1)，平均每秒输出 4 个字符，勉强能用，再大的就跑不了了。&lt;/p&gt;
 &lt;p&gt;如果选择不使用 docker 部署 ollama, 想修改 ollama 的模型存储路径以及监听地址的话，需要修改文件 &lt;code&gt;/etc/systemd/system/ollama.service&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -5542,7 +5538,7 @@ Mac 安装 Windows 双系统</title>
 Linux 作业控制</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-jobs/" />
             <id>https://zzkrix.com/tech/linux-jobs/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-06-30T23:17:03&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5703,7 +5699,7 @@ Linux 作业控制</title>
 批量修改 git 仓库提交人信息</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/git-filter-branch/" />
             <id>https://zzkrix.com/tech/git-filter-branch/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-06-24T15:22:41&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -5873,7 +5869,7 @@ Linux 作业控制</title>
 虚拟机中使用 Mac 快捷键</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mac-windows-autohotkey/" />
             <id>https://zzkrix.com/tech/mac-windows-autohotkey/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-06-24T09:47:05&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6361,7 +6357,7 @@ Linux 作业控制</title>
 Mac 下为 Python 安装 mysqlclinet</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mac-python-mysqlclinet/" />
             <id>https://zzkrix.com/tech/mac-python-mysqlclinet/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-05-06T14:24:49&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6463,7 +6459,7 @@ Mac 下为 Python 安装 mysqlclinet</title>
 Linux &amp; iterm2 常用快捷键</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-shortkeys/" />
             <id>https://zzkrix.com/tech/linux-shortkeys/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-04-02T17:53:53&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6565,9 +6561,9 @@ Linux &amp; iterm2 常用快捷键</title>
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;command&lt;/span&gt; + &lt;span class=&#34;nb&#34;&gt;shift&lt;/span&gt; + o 快速打开
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;回看历史默认存储大小设置：
+&lt;/div&gt;&lt;p&gt;回看历史默认存储大小设置：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-04-03-09-33-TfbJq4.png&#34; alt=&#34;2024-04-03-09-33-TfbJq4&#34;&gt;&lt;/p&gt;
-&lt;p&gt;如果不小心关闭了窗口，可以使用&lt;code&gt;cmd + z&lt;/code&gt;恢复，超时时间设置位置：
+&lt;p&gt;如果不小心关闭了窗口，可以使用&lt;code&gt;cmd + z&lt;/code&gt;恢复，超时时间设置位置：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-04-03-09-50-CP9eiG.png&#34; alt=&#34;2024-04-03-09-50-CP9eiG&#34;&gt;&lt;/p&gt;
 
                     
@@ -6619,7 +6615,7 @@ Linux &amp; iterm2 常用快捷键</title>
 Mac 原生输入法配置</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mac-input-shift/" />
             <id>https://zzkrix.com/tech/mac-input-shift/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-03-22T15:19:35&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6637,11 +6633,11 @@ Mac 原生输入法配置</title>
 &lt;p&gt;出于信任问题，手机上切换成 iPhone 自带输入法好多年了，无奈因为使用习惯问题 Mac 上一直用的搜狗输入法（实际上只是自带输入法无法实现 shift 切换中英文的小问题）。今天终于研究了下，完美解决。&lt;/p&gt;
 &lt;p&gt;Mac 原生的中英文切换是 Caps Lock 键。&lt;/p&gt;
 &lt;p&gt;但 Caps Lock 除了使用不习惯外，更重要的是，即使习惯了也不能解决下面这个情况：&lt;/p&gt;
-&lt;p&gt;我期望在按完 shift 后，能把 golang 这个字符出现在搜索框里，一般的输入法都是这个逻辑，但 Mac 不行。
+&lt;p&gt;我期望在按完 shift 后，能把 golang 这个字符出现在搜索框里，一般的输入法都是这个逻辑，但 Mac 不行。&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-03-22-15-52-HcAOE0.png&#34; alt=&#34;2024-03-22-15-52-HcAOE0&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;解决方案&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/mac-input-shift/#解决方案&#34; class=&#34;anchor-link&#34; aria-label=&#34;解决方案&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/mac-input-shift/#contents:解决方案&#34; class=&#34;headings&#34;&gt;解决方案&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;使用知名改键神器：&lt;a href=&#34;https://karabiner-elements.pqrs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Karabiner-Elements&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;找到下图位置，添加自定义规则：
+&lt;p&gt;找到下图位置，添加自定义规则：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-03-22-15-21-sqktgV.png&#34; alt=&#34;2024-03-22-15-21-sqktgV&#34;&gt;&lt;/p&gt;
 &lt;p&gt;输入以下内容：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -6760,7 +6756,7 @@ Mac 原生输入法配置</title>
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;然后在下图设置处，使其对自带键盘生效：
+&lt;/div&gt;&lt;p&gt;然后在下图设置处，使其对自带键盘生效：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-03-22-15-22-DLzJf4.png&#34; alt=&#34;2024-03-22-15-22-DLzJf4&#34;&gt;&lt;/p&gt;
 &lt;p&gt;嗯。。。舒服了～&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-03-22-16-35-EOfzwf.gif&#34; alt=&#34;2024-03-22-16-35-EOfzwf&#34;&gt;&lt;/p&gt;
@@ -6822,7 +6818,7 @@ Mac 原生输入法配置</title>
 解决 vscode 终端乱码</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/vscode-terminal-settings/" />
             <id>https://zzkrix.com/tech/vscode-terminal-settings/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-01-26T09:53:02&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -6893,7 +6889,7 @@ Mac 原生输入法配置</title>
 Python 语法糖</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/python-tips/" />
             <id>https://zzkrix.com/tech/python-tips/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-01-21T22:46:01&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7069,7 +7065,7 @@ Python 语法糖</title>
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;上述写法需要自己去调用 close 方法，保证句柄被正常释放。
+&lt;/div&gt;&lt;p&gt;上述写法需要自己去调用 close 方法，保证句柄被正常释放。&lt;br&gt;
 使用 python 中的 with 方法，就不用显示的去调用 close 了，并且即使中间出现异常，也可以。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;div class=&#34;table-container&#34;&gt;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -7181,7 +7177,7 @@ Python 语法糖</title>
 Mac 下使用 iterm2 配置 ssh</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mac-iterm2-ssh/" />
             <id>https://zzkrix.com/tech/mac-iterm2-ssh/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-01-21T22:24:12&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7203,8 +7199,8 @@ Mac 下使用 iterm2 配置 ssh</title>
 &lt;li&gt;&lt;code&gt;shell脚本 + expect + iterm2触发器&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;shell脚本 + sshpass&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;这两种方式都显得很蹩脚，还得用 shell 脚本。
-而且密码还明文暴露在 shell 脚本里。
+&lt;p&gt;这两种方式都显得很蹩脚，还得用 shell 脚本。&lt;br&gt;
+而且密码还明文暴露在 shell 脚本里。&lt;br&gt;
 对密码和 shell 不敏感的小伙伴自己去搜下怎么实现的吧，此处不推荐。&lt;/p&gt;
 &lt;p&gt;这里介绍的方式是&lt;code&gt;纯使用iterm2&lt;/code&gt;实现，可以做到不暴露明文密码，配置非常简单，像使用 xshell 一样丝滑。&lt;/p&gt;
 &lt;h2 id=&#34;演示&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/mac-iterm2-ssh/#演示&#34; class=&#34;anchor-link&#34; aria-label=&#34;演示&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/mac-iterm2-ssh/#contents:演示&#34; class=&#34;headings&#34;&gt;演示&lt;/a&gt;&lt;/h2&gt;
@@ -7219,7 +7215,7 @@ Mac 下使用 iterm2 配置 ssh</title>
 &lt;p&gt;点击&lt;code&gt;iterm2&lt;/code&gt;-&lt;code&gt;Preferences&lt;/code&gt;-&lt;code&gt;Profiles&lt;/code&gt;，按图示配置一个新的 profile。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-01-21-22-33-gpHsMn.jpg&#34; alt=&#34;2024-01-21-22-33-gpHsMn&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;配置密码管理器&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/mac-iterm2-ssh/#配置密码管理器&#34; class=&#34;anchor-link&#34; aria-label=&#34;配置密码管理器&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/mac-iterm2-ssh/#contents:配置密码管理器&#34; class=&#34;headings&#34;&gt;配置密码管理器&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;点击 &lt;code&gt;iterm2&lt;/code&gt;-&lt;code&gt;Window&lt;/code&gt;-&lt;code&gt;Password Manager&lt;/code&gt;，按图示配置一个密码，配置完后可按&lt;code&gt;ESC&lt;/code&gt;键关闭该窗口。
+&lt;p&gt;点击 &lt;code&gt;iterm2&lt;/code&gt;-&lt;code&gt;Window&lt;/code&gt;-&lt;code&gt;Password Manager&lt;/code&gt;，按图示配置一个密码，配置完后可按&lt;code&gt;ESC&lt;/code&gt;键关闭该窗口。&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-01-21-22-34-W8Zk3V.jpg&#34; alt=&#34;2024-01-21-22-34-W8Zk3V&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;配置触发器&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/mac-iterm2-ssh/#配置触发器&#34; class=&#34;anchor-link&#34; aria-label=&#34;配置触发器&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/mac-iterm2-ssh/#contents:配置触发器&#34; class=&#34;headings&#34;&gt;配置触发器&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;找到对应&lt;code&gt;Profiles&lt;/code&gt;里面的&lt;code&gt;Advanced&lt;/code&gt;选项，找到&lt;code&gt;Triggers&lt;/code&gt;，点击&lt;code&gt;Edit&lt;/code&gt;&lt;/p&gt;
@@ -7307,7 +7303,7 @@ Mac 下使用 iterm2 配置 ssh</title>
 使用 hugo&#43;github 部署静态博客</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/hugo-github-pages/" />
             <id>https://zzkrix.com/tech/hugo-github-pages/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-01-21T00:23:12&#43;08:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7529,7 +7525,7 @@ Mac 下使用 iterm2 配置 ssh</title>
 serverless 基础</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/serverless/" />
             <id>https://zzkrix.com/tech/serverless/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-01-15T20:20:42&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7549,7 +7545,7 @@ serverless 基础</title>
 &lt;p&gt;什么是 serverless：h&lt;a href=&#34;https://jimmysong.io/kubernetes-handbook/usecases/understanding-serverless.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://jimmysong.io/kubernetes-handbook/usecases/understanding-serverless.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;serverless 具体是怎么运行的：h&lt;a href=&#34;https://www.cnblogs.com/serverlesscloud/p/13141645.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/serverlesscloud/p/13141645.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;serverless 开发指南：h&lt;a href=&#34;https://cn.serverless.com/blog/sls-dev-suggest-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cn.serverless.com/blog/sls-dev-suggest-1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;关键字：
+&lt;p&gt;关键字：&lt;br&gt;
 &lt;code&gt;无状态&lt;/code&gt; 、&lt;code&gt;函数计算&lt;/code&gt; 、 &lt;code&gt;极致微服务&lt;/code&gt;、&lt;code&gt;冷启动&lt;/code&gt; 、&lt;code&gt;热启动&lt;/code&gt;&lt;/p&gt;
 
                     
@@ -7589,7 +7585,7 @@ serverless 基础</title>
 reset-ssh-key</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/reset-ssh-key/" />
             <id>https://zzkrix.com/tech/reset-ssh-key/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-01-14T20:20:24&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7673,7 +7669,7 @@ reset-ssh-key</title>
 vim 中数字增加或减少</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/vim-ctrl-a/" />
             <id>https://zzkrix.com/tech/vim-ctrl-a/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-01-09T16:55:39&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7684,7 +7680,7 @@ vim 中数字增加或减少</title>
 &lt;li&gt;&lt;code&gt;ctrl + a&lt;/code&gt; 数字加 1&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ctrl + x&lt;/code&gt; 数字减 1&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;将某一列数字递增的加 1：
+&lt;p&gt;将某一列数字递增的加 1：&lt;br&gt;
 选中该列，按&lt;code&gt;g&lt;/code&gt;，再按&lt;code&gt;ctrl + a&lt;/code&gt;&lt;/p&gt;
                 
 
@@ -7697,7 +7693,7 @@ vim 中数字增加或减少</title>
 &lt;li&gt;&lt;code&gt;ctrl + a&lt;/code&gt; 数字加 1&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ctrl + x&lt;/code&gt; 数字减 1&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;将某一列数字递增的加 1：
+&lt;p&gt;将某一列数字递增的加 1：&lt;br&gt;
 选中该列，按&lt;code&gt;g&lt;/code&gt;，再按&lt;code&gt;ctrl + a&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;div class=&#34;table-container&#34;&gt;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -7770,7 +7766,7 @@ vim 中数字增加或减少</title>
 将 helm chart 推送到 harbor</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/helm-chart-to-harbor/" />
             <id>https://zzkrix.com/tech/helm-chart-to-harbor/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2024-01-05T15:02:35&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7808,7 +7804,7 @@ vim 中数字增加或减少</title>
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ helm cm-push --ca-file ca.crt airflow-8.8.0.tgz myrepo
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;效果：
+&lt;/div&gt;&lt;p&gt;效果：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20240105150137144.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
                     
@@ -7848,7 +7844,7 @@ vim 中数字增加或减少</title>
 离线部署 k3s 集群</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/k3s-offline-install/" />
             <id>https://zzkrix.com/tech/k3s-offline-install/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-29T14:22:11&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -7931,7 +7927,7 @@ vim 中数字增加或减少</title>
 &lt;blockquote&gt;
 &lt;p&gt;kube-vip 是为了能用一个固定的虚拟 IP 充当负载均衡器来访问集群，提高集群的可用性&lt;/p&gt;
 &lt;p&gt;这个虚拟 IP 在初始化 server 和 agent 的时候都要用，会添加到三台 server 的 lo 接口&lt;/p&gt;
-&lt;p&gt;最终安装完后的效果
+&lt;p&gt;最终安装完后的效果&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231229182703110.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;开始安装&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/k3s-offline-install/#开始安装&#34; class=&#34;anchor-link&#34; aria-label=&#34;开始安装&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/k3s-offline-install/#contents:开始安装&#34; class=&#34;headings&#34;&gt;开始安装&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;安装初始化&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/k3s-offline-install/#安装初始化&#34; class=&#34;anchor-link&#34; aria-label=&#34;安装初始化&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/k3s-offline-install/#contents:安装初始化&#34; class=&#34;headings&#34;&gt;安装初始化&lt;/a&gt;&lt;/h3&gt;
@@ -8266,8 +8262,8 @@ vim 中数字增加或减少</title>
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;updateStrategy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;{}&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;其中只需要修改这一部分：
-将其中 &lt;code&gt;bgp_peers&lt;/code&gt; 的 &lt;code&gt;value&lt;/code&gt; 中的 IP 地址换成三台 server 的地址。
+&lt;/div&gt;&lt;p&gt;其中只需要修改这一部分：&lt;br&gt;
+将其中 &lt;code&gt;bgp_peers&lt;/code&gt; 的 &lt;code&gt;value&lt;/code&gt; 中的 IP 地址换成三台 server 的地址。&lt;br&gt;
 &lt;code&gt;address&lt;/code&gt;的&lt;code&gt;value&lt;/code&gt; 是前面提到的当前网络中一个未使用的虚拟 IP 地址。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;div class=&#34;table-container&#34;&gt;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -8376,7 +8372,7 @@ vim 中数字增加或减少</title>
 Linux 命令备忘录</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-cmd/" />
             <id>https://zzkrix.com/tech/linux-cmd/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-22T16:17:59&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8419,14 +8415,14 @@ Linux 命令备忘录</title>
 &lt;/div&gt;&lt;h2 id=&#34;find&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/linux-cmd/#find&#34; class=&#34;anchor-link&#34; aria-label=&#34;find&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/linux-cmd/#contents:find&#34; class=&#34;headings&#34;&gt;find&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;find . -type f -name &amp;quot;*.png&amp;quot; -exec ls -l {} \;&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;{}&lt;/code&gt; 是一个替换符，表示前面找到的内容
+&lt;p&gt;&lt;code&gt;{}&lt;/code&gt; 是一个替换符，表示前面找到的内容&lt;br&gt;
 &lt;code&gt;\;&lt;/code&gt; 是&lt;code&gt;exec&lt;/code&gt;的默认结尾标识符&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231213090218543.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;find /sys/devices/virtual/net -name iflink -exec grep -H -w 11 {} \;&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;grep 增加&lt;code&gt;-H&lt;/code&gt;选项后，可以显示文件名&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231214091431297.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;如果目录下有软连接的外部文件夹，默认 find 不会显示软连接里的内容，如果需要可以加上&lt;code&gt;-L&lt;/code&gt;，但是注意，如果软连接有循环，则会不停的输出，慎用，比如：
+&lt;p&gt;如果目录下有软连接的外部文件夹，默认 find 不会显示软连接里的内容，如果需要可以加上&lt;code&gt;-L&lt;/code&gt;，但是注意，如果软连接有循环，则会不停的输出，慎用，比如：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231214092531133.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;xargs&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/linux-cmd/#xargs&#34; class=&#34;anchor-link&#34; aria-label=&#34;xargs&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/linux-cmd/#contents:xargs&#34; class=&#34;headings&#34;&gt;xargs&lt;/a&gt;&lt;/h2&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# xargs -t # 在执行前先打印处要执行的命令
@@ -8547,7 +8543,7 @@ docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;#34;find /sys -name ifli
 iptables</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/iptables/" />
             <id>https://zzkrix.com/tech/iptables/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-15T11:03:42&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8609,7 +8605,7 @@ iptables</title>
 查找虚拟设备对对端位置</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-veth-locate/" />
             <id>https://zzkrix.com/tech/linux-veth-locate/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-14T10:33:04&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8632,7 +8628,7 @@ iptables</title>
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/sys/devices/virtual/net/***/iflink
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;以虚拟设备&lt;code&gt;vethdedb37c&lt;/code&gt;为例：
+&lt;/div&gt;&lt;p&gt;以虚拟设备&lt;code&gt;vethdedb37c&lt;/code&gt;为例：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231214110714291.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
                 
 
@@ -8657,13 +8653,13 @@ iptables</title>
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;/sys/devices/virtual/net/***/iflink
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;以虚拟设备&lt;code&gt;vethdedb37c&lt;/code&gt;为例：
+&lt;/div&gt;&lt;p&gt;以虚拟设备&lt;code&gt;vethdedb37c&lt;/code&gt;为例：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231214110714291.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;ip link show vethdedb37c&lt;/code&gt;显示内容&lt;code&gt;14: vethdedb37c@if13:...&lt;/code&gt;，&lt;code&gt;14&lt;/code&gt;表示当前机器的设备 ID，&lt;code&gt;@if13&lt;/code&gt;中的&lt;code&gt;13&lt;/code&gt;是对端的 ID。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;docker ps -q | xargs -t -I {} docker exec {} sh -c &amp;quot;find /sys -name iflink | xargs grep -w 14&amp;quot;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;查找所有容器，看谁的&lt;code&gt;iflink&lt;/code&gt;值为&lt;code&gt;14&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;定位到虚拟设备另一端在容器&lt;code&gt;0a469babdbc9&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;也可以用&lt;code&gt;ethtool -S vethdedb37c&lt;/code&gt;看到对端的 ID 是&lt;code&gt;13&lt;/code&gt;
+&lt;p&gt;也可以用&lt;code&gt;ethtool -S vethdedb37c&lt;/code&gt;看到对端的 ID 是&lt;code&gt;13&lt;/code&gt;&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231214110211657.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;命令解释：&lt;a href=&#34;../%E5%91%BD%E4%BB%A4/xargs.md&#34;&gt;xargs&lt;/a&gt;&lt;/p&gt;
 
@@ -8710,7 +8706,7 @@ iptables</title>
 文件权限</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-file-perm/" />
             <id>https://zzkrix.com/tech/linux-file-perm/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-12T16:03:29&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8719,8 +8715,8 @@ iptables</title>
                 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231212164637559.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;文件类型 -- 属主 -- 属组 -- 其他用户&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231212165251576.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;可读（4）
-可写（2）
+&lt;p&gt;可读（4）&lt;br&gt;
+可写（2）&lt;br&gt;
 可执行（1）&lt;/p&gt;
 &lt;p&gt;755 表示只有属主有读写执行权限，其他人只能读 (4) 和执行 (1)&lt;/p&gt;
                 
@@ -8732,16 +8728,16 @@ iptables</title>
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231212164637559.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;文件类型 -- 属主 -- 属组 -- 其他用户&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231212165251576.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;可读（4）
-可写（2）
+&lt;p&gt;可读（4）&lt;br&gt;
+可写（2）&lt;br&gt;
 可执行（1）&lt;/p&gt;
 &lt;p&gt;755 表示只有属主有读写执行权限，其他人只能读 (4) 和执行 (1)&lt;/p&gt;
-&lt;p&gt;除了数字另一种表示方法：
-可读（r）
-可写（w）
+&lt;p&gt;除了数字另一种表示方法：&lt;br&gt;
+可读（r）&lt;br&gt;
+可写（w）&lt;br&gt;
 可执行（x）&lt;/p&gt;
-&lt;p&gt;用户：user（u）
-组：group（g）
+&lt;p&gt;用户：user（u）&lt;br&gt;
+组：group（g）&lt;br&gt;
 其他人：other（o）&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;chmod a-x file&lt;/code&gt; 表示把所有人对该文件的执行权限收回&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231212221016093.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -8783,7 +8779,7 @@ iptables</title>
 docker compose</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/docker-compose/" />
             <id>https://zzkrix.com/tech/docker-compose/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-11T14:45:57&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -8791,7 +8787,7 @@ docker compose</title>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">
                 &lt;blockquote&gt;
 &lt;p&gt;docker 命令里已经集成了 compose，所以尽量使用 docker compose 而不是 docker-compose&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;出于数据安全考虑，&lt;code&gt;docker compose&lt;/code&gt; 和 &lt;code&gt;docker&lt;/code&gt;一样，默认不会删除存储卷，如果想删除，可以使用以下命令
+&lt;p&gt;出于数据安全考虑，&lt;code&gt;docker compose&lt;/code&gt; 和 &lt;code&gt;docker&lt;/code&gt;一样，默认不会删除存储卷，如果想删除，可以使用以下命令&lt;br&gt;
 删除镜像和存储卷&lt;/p&gt;
                 
 
@@ -8801,7 +8797,7 @@ docker compose</title>
                     
 &lt;blockquote&gt;
 &lt;p&gt;docker 命令里已经集成了 compose，所以尽量使用 docker compose 而不是 docker-compose&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;出于数据安全考虑，&lt;code&gt;docker compose&lt;/code&gt; 和 &lt;code&gt;docker&lt;/code&gt;一样，默认不会删除存储卷，如果想删除，可以使用以下命令
+&lt;p&gt;出于数据安全考虑，&lt;code&gt;docker compose&lt;/code&gt; 和 &lt;code&gt;docker&lt;/code&gt;一样，默认不会删除存储卷，如果想删除，可以使用以下命令&lt;br&gt;
 删除镜像和存储卷&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;div class=&#34;table-container&#34;&gt;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -8863,15 +8859,15 @@ docker compose</title>
 查看机器上的网卡</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-net-show/" />
             <id>https://zzkrix.com/tech/linux-net-show/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-11T13:59:45&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">
                 &lt;p&gt;使用&lt;code&gt;ip a&lt;/code&gt;或者&lt;code&gt;ifconfig&lt;/code&gt;区分不出来网卡和网桥。&lt;/p&gt;
-&lt;p&gt;使用&lt;code&gt;ls -l /sys/class/net&lt;/code&gt;可以判断
-包含&lt;code&gt;virtual&lt;/code&gt;的应该都是虚拟网桥。
+&lt;p&gt;使用&lt;code&gt;ls -l /sys/class/net&lt;/code&gt;可以判断&lt;br&gt;
+包含&lt;code&gt;virtual&lt;/code&gt;的应该都是虚拟网桥。&lt;br&gt;
 包含&lt;code&gt;pci&lt;/code&gt;的都是物理网卡。&lt;/p&gt;
                 
 
@@ -8880,14 +8876,14 @@ docker compose</title>
                 <content type="html">
                     
 &lt;p&gt;使用&lt;code&gt;ip a&lt;/code&gt;或者&lt;code&gt;ifconfig&lt;/code&gt;区分不出来网卡和网桥。&lt;/p&gt;
-&lt;p&gt;使用&lt;code&gt;ls -l /sys/class/net&lt;/code&gt;可以判断
-包含&lt;code&gt;virtual&lt;/code&gt;的应该都是虚拟网桥。
+&lt;p&gt;使用&lt;code&gt;ls -l /sys/class/net&lt;/code&gt;可以判断&lt;br&gt;
+包含&lt;code&gt;virtual&lt;/code&gt;的应该都是虚拟网桥。&lt;br&gt;
 包含&lt;code&gt;pci&lt;/code&gt;的都是物理网卡。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231211140333396.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;如何区分网桥和虚拟设备对 &lt;code&gt;brctl show&lt;/code&gt;：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;第一列是网桥
-最后一列是虚拟设备对
+&lt;p&gt;第一列是网桥&lt;br&gt;
+最后一列是虚拟设备对&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231214103530867.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;更多关于虚拟设备对参考：&lt;a href=&#34;%E6%9F%A5%E6%89%BE%E8%99%9A%E6%8B%9F%E8%AE%BE%E5%A4%87%E5%AF%B9%E5%AF%B9%E7%AB%AF%E4%BD%8D%E7%BD%AE.md&#34;&gt;查找虚拟设备对对端位置&lt;/a&gt;&lt;/p&gt;
 
@@ -8934,7 +8930,7 @@ docker compose</title>
 释放 docker 占用空间</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/docker-prune/" />
             <id>https://zzkrix.com/tech/docker-prune/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-09T22:43:23&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -9108,7 +9104,7 @@ docker compose</title>
 docker 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/docker-tips/" />
             <id>https://zzkrix.com/tech/docker-tips/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-08T10:00:39&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -9195,9 +9191,9 @@ docker 使用</title>
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;删除镜像和容器&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/docker-tips/#删除镜像和容器&#34; class=&#34;anchor-link&#34; aria-label=&#34;删除镜像和容器&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/docker-tips/#contents:删除镜像和容器&#34; class=&#34;headings&#34;&gt;删除镜像和容器&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;删除所有未使用的镜像&lt;code&gt;docker image prune -a&lt;/code&gt;
+&lt;p&gt;删除所有未使用的镜像&lt;code&gt;docker image prune -a&lt;/code&gt;&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231208105009126.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;删除所有已停止的容器 &lt;code&gt;docker container prune&lt;/code&gt;
+&lt;p&gt;删除所有已停止的容器 &lt;code&gt;docker container prune&lt;/code&gt;&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231208105141141.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;删除数据卷&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/docker-tips/#删除数据卷&#34; class=&#34;anchor-link&#34; aria-label=&#34;删除数据卷&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/docker-tips/#contents:删除数据卷&#34; class=&#34;headings&#34;&gt;删除数据卷&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;数据卷&lt;/code&gt; 是被设计用来持久化数据的，它的生命周期独立于容器，Docker 不会在容器被删除后自动删除 &lt;code&gt;数据卷&lt;/code&gt;，并且也不存在垃圾回收这样的机制来处理没有任何容器引用的 &lt;code&gt;数据卷&lt;/code&gt;。如果需要在删除容器的同时移除数据卷。可以在删除容器的时候使用 &lt;code&gt;docker rm -v&lt;/code&gt; 这个命令。&lt;/p&gt;
@@ -9250,7 +9246,7 @@ docker 使用</title>
 dockerfile 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/dockerfile-tips/" />
             <id>https://zzkrix.com/tech/dockerfile-tips/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-07T22:59:49&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -9495,7 +9491,7 @@ ADD ubuntu-xenial-core-cloudimg-amd64-root.tar.gz /
 docker 安装</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/docker-install/" />
             <id>https://zzkrix.com/tech/docker-install/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-07T16:04:42&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -9604,7 +9600,7 @@ docker 安装</title>
 Linux 修改磁盘大小</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-disk-change/" />
             <id>https://zzkrix.com/tech/linux-disk-change/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-07T15:03:34&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -9620,8 +9616,8 @@ Linux 修改磁盘大小</title>
 &lt;p&gt;根目录下可用磁盘大小为 22G，实际物理磁盘有 46.58G，vgs 可看到还有 21.76（50%）的空间没被使用。&lt;/p&gt;
 &lt;p&gt;扩展逻辑卷，并将&lt;code&gt;VFree&lt;/code&gt;的空间全部分配逻辑卷&lt;code&gt;/dev/mapper/ubuntu--vg-ubuntu--lv&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;这个命令将逻辑卷扩展到卷组中的所有可用空间。如果你只想分配部分可用空间，可以使用 &lt;code&gt;-L&lt;/code&gt; 选项并指定具体的大小，例如 &lt;code&gt;-L +10G&lt;/code&gt; 表示增加 10GB。
-ext4 文件系统使用&lt;code&gt;resize2fs&lt;/code&gt;
+&lt;p&gt;这个命令将逻辑卷扩展到卷组中的所有可用空间。如果你只想分配部分可用空间，可以使用 &lt;code&gt;-L&lt;/code&gt; 选项并指定具体的大小，例如 &lt;code&gt;-L +10G&lt;/code&gt; 表示增加 10GB。&lt;br&gt;
+ext4 文件系统使用&lt;code&gt;resize2fs&lt;/code&gt;&lt;br&gt;
 xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;div class=&#34;table-container&#34;&gt;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -9676,7 +9672,7 @@ xfs 文件系统使用 &lt;code&gt;xfs_growfs&lt;/code&gt;&lt;/p&gt;&lt;/blockqu
 Oracle 服务器使用 netboot 重装系统</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/oracle-server-netboot/" />
             <id>https://zzkrix.com/tech/oracle-server-netboot/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-07T13:30:25&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -9719,14 +9715,14 @@ Oracle 服务器使用 netboot 重装系统</title>
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;启动-cloud-shell-连接&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/oracle-server-netboot/#启动-cloud-shell-连接&#34; class=&#34;anchor-link&#34; aria-label=&#34;启动-cloud-shell-连接&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/oracle-server-netboot/#contents:启动-cloud-shell-连接&#34; class=&#34;headings&#34;&gt;启动 cloud shell 连接&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;在实例详情里选择 &lt;code&gt;控制台连接&lt;/code&gt; -- &lt;code&gt;启动Cloud Shell连接&lt;/code&gt;
-等待显示&lt;code&gt;For more information about troubleshooting ...&lt;/code&gt;即可。
+&lt;p&gt;在实例详情里选择 &lt;code&gt;控制台连接&lt;/code&gt; -- &lt;code&gt;启动Cloud Shell连接&lt;/code&gt;&lt;br&gt;
+等待显示&lt;code&gt;For more information about troubleshooting ...&lt;/code&gt;即可。&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231207140247071.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;重新引导实例&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/oracle-server-netboot/#重新引导实例&#34; class=&#34;anchor-link&#34; aria-label=&#34;重新引导实例&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/oracle-server-netboot/#contents:重新引导实例&#34; class=&#34;headings&#34;&gt;重新引导实例&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;选择&lt;code&gt;重新引导&lt;/code&gt; -- &lt;code&gt;强制重新引导实例&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231207140418750.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;在下方的 Cloud Shell 里按几下&lt;code&gt;ESC&lt;/code&gt;，进入&lt;code&gt;BIOS&lt;/code&gt;后选择 &lt;code&gt;Boot Maintenance Manager&lt;/code&gt; -- &lt;code&gt;Boot From File&lt;/code&gt; -- &lt;code&gt;&amp;lt;EFI&amp;gt;&lt;/code&gt;，再找到对应的 netboot 文件，回车。
-选择&lt;code&gt;Linux Network Installs&lt;/code&gt;，后续安装操作系统即可。
+&lt;p&gt;在下方的 Cloud Shell 里按几下&lt;code&gt;ESC&lt;/code&gt;，进入&lt;code&gt;BIOS&lt;/code&gt;后选择 &lt;code&gt;Boot Maintenance Manager&lt;/code&gt; -- &lt;code&gt;Boot From File&lt;/code&gt; -- &lt;code&gt;&amp;lt;EFI&amp;gt;&lt;/code&gt;，再找到对应的 netboot 文件，回车。&lt;br&gt;
+选择&lt;code&gt;Linux Network Installs&lt;/code&gt;，后续安装操作系统即可。&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231207142703010.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231207141414693.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;忘记密码&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/oracle-server-netboot/#忘记密码&#34; class=&#34;anchor-link&#34; aria-label=&#34;忘记密码&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/oracle-server-netboot/#contents:忘记密码&#34; class=&#34;headings&#34;&gt;忘记密码&lt;/a&gt;&lt;/h2&gt;
@@ -9773,7 +9769,7 @@ Oracle 服务器使用 netboot 重装系统</title>
 tcp 保活</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/tcp-keepalive/" />
             <id>https://zzkrix.com/tech/tcp-keepalive/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-04T20:11:39&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -9875,14 +9871,14 @@ tcp 保活</title>
 用户和用户组</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-user/" />
             <id>https://zzkrix.com/tech/linux-user/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-12-01T23:03:26&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">
                 &lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.runoob.com/linux/linux-user-manage.html&#34;&gt;https://www.runoob.com/linux/linux-user-manage.html&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.runoob.com/linux/linux-user-manage.html&#34;&gt;https://www.runoob.com/linux/linux-user-manage.html&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://www.cnblogs.com/carriezhangyan/p/10552496.html&#34;&gt;https://www.cnblogs.com/carriezhangyan/p/10552496.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;useradd 是一个 linux 命令，但是它提供了很多参数在用户使用的时候根据自己的需要进行设置；&lt;br&gt;
 adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的界面，提供选项让用户填写和选择，这个命令比起 useradd 来说比较简单，也比较傻瓜。&lt;/p&gt;
@@ -9893,7 +9889,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
                 <content type="html">
                     
 &lt;h2 id=&#34;参考&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/linux-user/#参考&#34; class=&#34;anchor-link&#34; aria-label=&#34;参考&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/linux-user/#contents:参考&#34; class=&#34;headings&#34;&gt;参考&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.runoob.com/linux/linux-user-manage.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.runoob.com/linux/linux-user-manage.html&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.runoob.com/linux/linux-user-manage.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.runoob.com/linux/linux-user-manage.html&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://www.cnblogs.com/carriezhangyan/p/10552496.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/carriezhangyan/p/10552496.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;useradd 是一个 linux 命令，但是它提供了很多参数在用户使用的时候根据自己的需要进行设置；&lt;br&gt;
 adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的界面，提供选项让用户填写和选择，这个命令比起 useradd 来说比较简单，也比较傻瓜。&lt;/p&gt;
@@ -10009,7 +10005,7 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
 rsync 文件同步</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/rsync-tips/" />
             <id>https://zzkrix.com/tech/rsync-tips/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-11-19T11:33:08&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -10135,7 +10131,7 @@ rsync 文件同步</title>
 命令行内容输出到剪贴板</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-cmd-clip/" />
             <id>https://zzkrix.com/tech/linux-cmd-clip/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-11-09T21:26:54&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -10243,7 +10239,7 @@ rsync 文件同步</title>
 hping3 使用</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/hping3-tips/" />
             <id>https://zzkrix.com/tech/hping3-tips/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-11-04T11:39:44&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -10337,7 +10333,7 @@ hping3 使用</title>
 临时修改网卡地址</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/linux-ip-addr/" />
             <id>https://zzkrix.com/tech/linux-ip-addr/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-11-01T13:03:49&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -10434,7 +10430,7 @@ hping3 使用</title>
 Go 依赖注入</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-di/" />
             <id>https://zzkrix.com/tech/go-di/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-09-23T11:20:06&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -10494,14 +10490,14 @@ Go 依赖注入</title>
 Go 时区问题</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-timezone/" />
             <id>https://zzkrix.com/tech/go-timezone/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-09-17T13:44:09&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">
                 &lt;h2 id=&#34;utc&#34;&gt;UTC&lt;/h2&gt;
-&lt;p&gt;UTC（Coordinated Universal Time），即协调世界时，对应的是格林尼治标准时间。
+&lt;p&gt;UTC（Coordinated Universal Time），即协调世界时，对应的是格林尼治标准时间。&lt;br&gt;
 国内位于东八区，和 UTC 相差 8 小时，所以时间转换时需要考虑时区问题。&lt;/p&gt;
                 
 
@@ -10510,15 +10506,15 @@ Go 时区问题</title>
                 <content type="html">
                     
 &lt;h2 id=&#34;utc&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/go-timezone/#utc&#34; class=&#34;anchor-link&#34; aria-label=&#34;utc&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/go-timezone/#contents:utc&#34; class=&#34;headings&#34;&gt;UTC&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;UTC（Coordinated Universal Time），即协调世界时，对应的是格林尼治标准时间。
+&lt;p&gt;UTC（Coordinated Universal Time），即协调世界时，对应的是格林尼治标准时间。&lt;br&gt;
 国内位于东八区，和 UTC 相差 8 小时，所以时间转换时需要考虑时区问题。&lt;/p&gt;
 &lt;p&gt;字符串格式的时间 (比如 &amp;quot;2023-09-01 11:22:33&amp;quot;)，转换成 golang 的 &lt;code&gt;time.Time&lt;/code&gt;时默认得到的是 UTC 时间。&lt;/p&gt;
 &lt;h2 id=&#34;标准库&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/go-timezone/#标准库&#34; class=&#34;anchor-link&#34; aria-label=&#34;标准库&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/go-timezone/#contents:标准库&#34; class=&#34;headings&#34;&gt;标准库&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;默认的 &lt;code&gt;time.Parse&lt;/code&gt;在标准库中的实现如下：
+&lt;p&gt;默认的 &lt;code&gt;time.Parse&lt;/code&gt;在标准库中的实现如下：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230917141853665.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;如果要指定时区，需要用到函数 &lt;code&gt;time.LoadLocation&lt;/code&gt;，它在标准库中的实现如下：
+&lt;p&gt;如果要指定时区，需要用到函数 &lt;code&gt;time.LoadLocation&lt;/code&gt;，它在标准库中的实现如下：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230917141814051.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;其中入参 name 的取值可以用命令 &lt;code&gt;timedatectl list-timezones&lt;/code&gt;来查看：
+&lt;p&gt;其中入参 name 的取值可以用命令 &lt;code&gt;timedatectl list-timezones&lt;/code&gt;来查看：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230917141908371.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;除了上述可选的入参外，还有一个特殊参数“Local”，表示让程序根据所在机器的默认时区进行转换。传入“Local”可以使代码更加标准，兼容性更强，但是有些老六不改系统时区，就比较坑了。所以要么你直接写死“Asia/Shanghai”，要么记得使用“timedatectl set-timezone Asia/Shanghai”修改系统时区（注意这里为什么不是 Asia/Beijing？我也不知道。。。它就是没有这个参数）。&lt;/p&gt;
 &lt;h2 id=&#34;测试&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/go-timezone/#测试&#34; class=&#34;anchor-link&#34; aria-label=&#34;测试&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/go-timezone/#contents:测试&#34; class=&#34;headings&#34;&gt;测试&lt;/a&gt;&lt;/h2&gt;
@@ -10631,7 +10627,7 @@ Go 时区问题</title>
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;如果不知道自己的时区，可以使用命令 &lt;code&gt;timedatectl status&lt;/code&gt;看下对应的时区：
+&lt;/div&gt;&lt;p&gt;如果不知道自己的时区，可以使用命令 &lt;code&gt;timedatectl status&lt;/code&gt;看下对应的时区：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230917141705536.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
                     
@@ -10671,7 +10667,7 @@ Go 时区问题</title>
 命令行启动 wireshark 抓包</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/wireshark-cmdline/" />
             <id>https://zzkrix.com/tech/wireshark-cmdline/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-09-06T12:15:41&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -10771,7 +10767,7 @@ Go 时区问题</title>
 Golang 的 generate stringer</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-generate-stringr/" />
             <id>https://zzkrix.com/tech/go-generate-stringr/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-09-03T17:07:06&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -11208,7 +11204,7 @@ Golang 的 generate stringer</title>
 docker 仓库</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/docker-repo/" />
             <id>https://zzkrix.com/tech/docker-repo/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-07-29T22:01:35&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -11307,7 +11303,7 @@ docker 仓库</title>
 Go 竞态检测</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-race/" />
             <id>https://zzkrix.com/tech/go-race/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-07-27T19:04:14&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -11410,7 +11406,7 @@ Go 竞态检测</title>
 Go 编译 tips</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-cc-tips/" />
             <id>https://zzkrix.com/tech/go-cc-tips/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-07-27T09:00:19&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -11635,7 +11631,7 @@ Go 编译 tips</title>
 开源协议区别</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/opensource-license/" />
             <id>https://zzkrix.com/tech/opensource-license/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-07-04T09:55:25&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -11687,7 +11683,7 @@ Go 编译 tips</title>
 Go 的 gc</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-gc/" />
             <id>https://zzkrix.com/tech/go-gc/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-06-19T23:04:12&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -11741,7 +11737,7 @@ Go 的 gc</title>
 分布式锁提前过期</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/redis-lock-keeper/" />
             <id>https://zzkrix.com/tech/redis-lock-keeper/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-06-13T17:01:37&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -12058,7 +12054,7 @@ Go 的 gc</title>
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;参考资料：
+&lt;/div&gt;&lt;p&gt;参考资料：&lt;br&gt;
 &lt;a href=&#34;https://www.51cto.com/article/742568.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.51cto.com/article/742568.html&lt;/a&gt;&lt;/p&gt;
 
                     
@@ -12098,7 +12094,7 @@ Go 的 gc</title>
 LRU</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/lru/" />
             <id>https://zzkrix.com/tech/lru/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-05-17T21:35:01&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -12163,17 +12159,17 @@ LRU</title>
 Go 的 GPM 模型</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-gpm/" />
             <id>https://zzkrix.com/tech/go-gpm/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-05-17T21:30:24&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">
                 &lt;p&gt;参考：&lt;a href=&#34;https://learnku.com/articles/41728&#34;&gt;https://learnku.com/articles/41728&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;G：协程
-P：调度器
+&lt;p&gt;G：协程&lt;br&gt;
+P：调度器&lt;br&gt;
 M：操作系统线程&lt;/p&gt;
-&lt;p&gt;个数关系：
+&lt;p&gt;个数关系：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517214627949.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517223732075.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
                 
@@ -12183,10 +12179,10 @@ M：操作系统线程&lt;/p&gt;
                 <content type="html">
                     
 &lt;p&gt;参考：&lt;a href=&#34;https://learnku.com/articles/41728&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://learnku.com/articles/41728&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;G：协程
-P：调度器
+&lt;p&gt;G：协程&lt;br&gt;
+P：调度器&lt;br&gt;
 M：操作系统线程&lt;/p&gt;
-&lt;p&gt;个数关系：
+&lt;p&gt;个数关系：&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517214627949.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517223732075.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
@@ -12227,7 +12223,7 @@ M：操作系统线程&lt;/p&gt;
 Go 内存逃逸</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-heap/" />
             <id>https://zzkrix.com/tech/go-heap/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-05-15T11:33:20&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -12355,7 +12351,7 @@ Go 内存逃逸</title>
 rocketmq 事务消息</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/rocketmq-tx/" />
             <id>https://zzkrix.com/tech/rocketmq-tx/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-05-14T12:30:46&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -12419,7 +12415,7 @@ rocketmq 事务消息</title>
 本地消息表</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/rocketmq-message-cache/" />
             <id>https://zzkrix.com/tech/rocketmq-message-cache/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-05-14T09:02:01&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -12483,7 +12479,7 @@ rocketmq 事务消息</title>
 map-reduce</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/map-reduce/" />
             <id>https://zzkrix.com/tech/map-reduce/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-04-27T17:01:23&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -12535,7 +12531,7 @@ map-reduce</title>
 systemctl</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/systemctl/" />
             <id>https://zzkrix.com/tech/systemctl/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-04-18T16:12:56&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -12618,7 +12614,7 @@ systemctl</title>
 间隙锁和死锁</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mysql-lock/" />
             <id>https://zzkrix.com/tech/mysql-lock/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-04-01T15:03:02&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -12689,7 +12685,7 @@ systemctl</title>
 MySQL count(*)、count(1)、count(列) 的区别</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mysql-count/" />
             <id>https://zzkrix.com/tech/mysql-count/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-03-25T10:29:26&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -12766,7 +12762,7 @@ MySQL count(*)、count(1)、count(列) 的区别</title>
 MySQL8 创建用户和授权</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mysql-create-user-auth/" />
             <id>https://zzkrix.com/tech/mysql-create-user-auth/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-03-22T17:30:59&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -12910,7 +12906,7 @@ MySQL8 创建用户和授权</title>
 MySQL 允许 root 远程访问</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mysql-remote-root/" />
             <id>https://zzkrix.com/tech/mysql-remote-root/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-03-22T16:09:45&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -13001,7 +12997,7 @@ MySQL 允许 root 远程访问</title>
 MySQL 事务</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mysql-transaction/" />
             <id>https://zzkrix.com/tech/mysql-transaction/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-03-19T21:15:03&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -13043,7 +13039,7 @@ MySQL 事务</title>
 &lt;p&gt;READ COMMITTED 隔离级别的安全性比 REPEATABLE READ 隔离级别的安全性要差。处于 READ COMMITTED 级别的事务可以看到其他事务对数据的修改。也就是说，在事务处理期间，如果其他事务修改了相应的表，那么同一个事务的多个 SELECT 语句可能返回不同的结果。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;4）.READ UNCOMMITTED&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;READ UNCOMMITTED 提供了事务之间最小限度的隔离。除了容易产生虚幻的读操作和不能重复的读操作外，处于这个隔离级的事务可以读到其他事务还没有提交的数据，如果这个事务使用其他事务不提交的变化作为计算的基础，然后那些未提交的变化被它们的父事务撤销，这就导致了大量的数据变化。&lt;/p&gt;
-&lt;p&gt;在 MySQL 数据库中，默认的事务隔离级别是 REPEATABLE READ
+&lt;p&gt;在 MySQL 数据库中，默认的事务隔离级别是 REPEATABLE READ&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230319212216111.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;qa&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/mysql-transaction/#qa&#34; class=&#34;anchor-link&#34; aria-label=&#34;qa&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/mysql-transaction/#contents:qa&#34; class=&#34;headings&#34;&gt;Q&amp;amp;A&lt;/a&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -13093,7 +13089,7 @@ MySQL 事务</title>
 MySQL 常识</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/mysql-common/" />
             <id>https://zzkrix.com/tech/mysql-common/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-03-18T11:24:45&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -13117,7 +13113,7 @@ MySQL 常识</title>
 &lt;h2 id=&#34;什么是索引&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/mysql-common/#什么是索引&#34; class=&#34;anchor-link&#34; aria-label=&#34;什么是索引&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/mysql-common/#contents:什么是索引&#34; class=&#34;headings&#34;&gt;什么是索引&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;索引是 MySQL 为了加快查询速度生成的数据结构，利用空间换时间，每一个索引都对应一颗 B+ 树。&lt;/p&gt;
 &lt;p&gt;索引的缺点是占用磁盘空间、降低数据更新性能。&lt;/p&gt;
-&lt;p&gt;参考：&lt;a href=&#34;https://zhuanlan.zhihu.com/p/481750465&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/481750465&lt;/a&gt;
+&lt;p&gt;参考：&lt;a href=&#34;https://zhuanlan.zhihu.com/p/481750465&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/481750465&lt;/a&gt;&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230318103543200.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;索引有几种类型&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/mysql-common/#索引有几种类型&#34; class=&#34;anchor-link&#34; aria-label=&#34;索引有几种类型&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/mysql-common/#contents:索引有几种类型&#34; class=&#34;headings&#34;&gt;索引有几种类型&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
@@ -13223,7 +13219,7 @@ MySQL 常识</title>
 Go sync map 实现</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/go-sync-map/" />
             <id>https://zzkrix.com/tech/go-sync-map/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-03-16T21:20:16&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -13275,7 +13271,7 @@ Go sync map 实现</title>
 redis 备忘录</title>
             <link rel="alternate" type="text/html" href="https://zzkrix.com/tech/redis-tips/" />
             <id>https://zzkrix.com/tech/redis-tips/</id>
-            <updated>2025-08-14T01:09:52&#43;00:00</updated>
+            <updated>2025-08-15T01:10:20&#43;00:00</updated>
             <published>2023-03-10T09:55:54&#43;00:00</published>
             <author>
                     <uri>https://zzkrix.com/</uri>
@@ -13284,7 +13280,7 @@ redis 备忘录</title>
                 &lt;h2 id=&#34;哨兵&#34;&gt;哨兵&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;参考：&lt;a href=&#34;https://www.cnblogs.com/kevingrace/p/9004460.html&#34;&gt;https://www.cnblogs.com/kevingrace/p/9004460.html&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;sentinel 系统可以监视一个或者多个 redis master 服务，以及这些 master 服务的所有从服务；当某个 master 服务下线时，自动将该 master 下的某个从服务升级为 master 服务替代已下线的 master 服务继续处理请求。
+&lt;p&gt;sentinel 系统可以监视一个或者多个 redis master 服务，以及这些 master 服务的所有从服务；当某个 master 服务下线时，自动将该 master 下的某个从服务升级为 master 服务替代已下线的 master 服务继续处理请求。&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230310095645257.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
                 
 
@@ -13295,7 +13291,7 @@ redis 备忘录</title>
 &lt;h2 id=&#34;哨兵&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/redis-tips/#哨兵&#34; class=&#34;anchor-link&#34; aria-label=&#34;哨兵&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/redis-tips/#contents:哨兵&#34; class=&#34;headings&#34;&gt;哨兵&lt;/a&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;参考：&lt;a href=&#34;https://www.cnblogs.com/kevingrace/p/9004460.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/kevingrace/p/9004460.html&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;sentinel 系统可以监视一个或者多个 redis master 服务，以及这些 master 服务的所有从服务；当某个 master 服务下线时，自动将该 master 下的某个从服务升级为 master 服务替代已下线的 master 服务继续处理请求。
+&lt;p&gt;sentinel 系统可以监视一个或者多个 redis master 服务，以及这些 master 服务的所有从服务；当某个 master 服务下线时，自动将该 master 下的某个从服务升级为 master 服务替代已下线的 master 服务继续处理请求。&lt;br&gt;
 &lt;img src=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230310095645257.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;集群模式下的请求&#34;&gt;&lt;a href=&#34;https://zzkrix.com/tech/redis-tips/#集群模式下的请求&#34; class=&#34;anchor-link&#34; aria-label=&#34;集群模式下的请求&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34; class=&#34;icon anchor-icon&#34;&gt;&lt;path d=&#34;M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z&#34;/&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&#34;https://zzkrix.com/tech/redis-tips/#contents:集群模式下的请求&#34; class=&#34;headings&#34;&gt;集群模式下的请求&lt;/a&gt;&lt;/h2&gt;
 &lt;blockquote&gt;

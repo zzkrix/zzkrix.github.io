@@ -60,13 +60,13 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2025-08-13T19:23:43+08:00",
-        "dateModified": "2025-08-14T01:09:52+00:00",
+        "dateModified": "2025-08-15T01:10:20+00:00",
         "url": "https://zzkrix.com/tech/clash-tun-lan-dns/",
         "headline": "\n保持局域网 dns 在 clash tun 模式中有效",
         "description": "\n打开 clash 设置界面，在\"订阅\"-\"全局扩展脚本\"中右键，编辑该文件，填入下面的代码。\n",
         "inLanguage" : "zh-CN",
         "articleSection": "tech",
-        "wordCount":  151 ,
+        "wordCount":  152 ,
         "image": ["https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-08-13-19-28-07-f2okbr.jpg"],
         "author": {
             "@type": "Person",
@@ -110,7 +110,7 @@
 <meta property="og:locale" content="zh" /><meta property="og:image" content="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-08-13-19-28-07-f2okbr.jpg" />
 <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2025-08-13T19:23:43&#43;08:00" />
-    <meta property="article:modified_time" content="2025-08-14T01:09:52&#43;00:00" />
+    <meta property="article:modified_time" content="2025-08-15T01:10:20&#43;00:00" />
     
     <meta property="article:section" content="tech" />
 
@@ -264,7 +264,7 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="icon post-meta-icon"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticon post-meta-icons, Inc. --><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM111 257.1l26.8 89.2 31.6-90.3c3.4-9.6 12.5-16.1 22.7-16.1s19.3 6.4 22.7 16.1l31.6 90.3L273 257.1c3.8-12.7 17.2-19.9 29.9-16.1s19.9 17.2 16.1 29.9l-48 160c-3 10-12 16.9-22.4 17.1s-19.8-6.2-23.2-16.1L192 336.6l-33.3 95.3c-3.4 9.8-12.8 16.3-23.2 16.1s-19.5-7.1-22.4-17.1l-48-160c-3.8-12.7 3.4-26.1 16.1-29.9s26.1 3.4 29.9 16.1z"/></svg>&nbsp;151</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="icon post-meta-icon"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticon post-meta-icons, Inc. --><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM111 257.1l26.8 89.2 31.6-90.3c3.4-9.6 12.5-16.1 22.7-16.1s19.3 6.4 22.7 16.1l31.6 90.3L273 257.1c3.8-12.7 17.2-19.9 29.9-16.1s19.9 17.2 16.1 29.9l-48 160c-3 10-12 16.9-22.4 17.1s-19.8-6.2-23.2-16.1L192 336.6l-33.3 95.3c-3.4 9.8-12.8 16.3-23.2 16.1s-19.5-7.1-22.4-17.1l-48-160c-3.8-12.7 3.4-26.1 16.1-29.9s26.1 3.4 29.9 16.1z"/></svg>&nbsp;152</span>
     
     
         
@@ -283,17 +283,13 @@
 
             <nav class="contents"></nav><div class="post-body e-content">
                 
-<p><img src="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-08-13-19-28-07-f2okbr.jpg" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-08-13-19-28-07-f2okbr.jpg" alt="img"></p>
 <p>打开 clash 设置界面，在&quot;订阅&quot;-&quot;全局扩展脚本&quot;中右键，编辑该文件，填入下面的代码。</p>
 <blockquote>
 <p>⚠️ 注意</p>
 <ol>
-<li>
-<p>将 <code>+.private.com</code> 替换成你自己局域网的域名后缀，多个域名后缀可以在数组中追加。</p>
-</li>
-<li>
-<p>将 <code>YOUR-PRIVATE-DNS</code> 替换成你自己局域网的 dns server 地址。</p>
-</li>
+<li>将 <code>+.private.com</code> 替换成你自己局域网的域名后缀，多个域名后缀可以在数组中追加。</li>
+<li>将 <code>YOUR-PRIVATE-DNS</code> 替换成你自己局域网的 dns server 地址。</li>
 </ol></blockquote>
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
@@ -314,12 +310,12 @@
 <pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// Define main function (script entry)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>
 </span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">main</span><span class="p">(</span><span class="nx">config</span><span class="p">,</span> <span class="nx">profileName</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="nx">config</span><span class="p">.</span><span class="nx">dns</span> <span class="o">??=</span> <span class="p">{};</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">config</span><span class="p">.</span><span class="nx">dns</span><span class="p">[</span><span class="s1">&#39;nameserver-policy&#39;</span><span class="p">]</span> <span class="o">??=</span> <span class="p">{};</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">config</span><span class="p">.</span><span class="nx">dns</span><span class="p">[</span><span class="s2">&#34;nameserver-policy&#34;</span><span class="p">]</span> <span class="o">??=</span> <span class="p">{};</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="s1">&#39;+.private1.com&#39;</span><span class="p">,</span> <span class="s1">&#39;+.private2.com&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">d</span> <span class="p">=&gt;</span> <span class="nx">config</span><span class="p">.</span><span class="nx">dns</span><span class="p">[</span><span class="s1">&#39;nameserver-policy&#39;</span><span class="p">][</span><span class="nx">d</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;YOUR-PRIVATE-DNS&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">[</span><span class="s2">&#34;+.private1.com&#34;</span><span class="p">,</span> <span class="s2">&#34;+.private2.com&#34;</span><span class="p">].</span><span class="nx">forEach</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="nx">d</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">(</span><span class="nx">config</span><span class="p">.</span><span class="nx">dns</span><span class="p">[</span><span class="s2">&#34;nameserver-policy&#34;</span><span class="p">][</span><span class="nx">d</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&#34;YOUR-PRIVATE-DNS&#34;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">  <span class="p">);</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">config</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
