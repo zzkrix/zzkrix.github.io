@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Sharkd - 标签 - 避风港</title>
+        <link>https://zzkrix.com/tags/sharkd/</link>
+        <description>Sharkd - 标签 - 避风港</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 26 Aug 2024 17:04:45 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/sharkd/" rel="self" type="application/rss+xml" /><item>
+    <title>wireshark 之 sharkd 使用</title>
+    <link>https://zzkrix.com/tech/sharkd/</link>
+    <pubDate>Mon, 26 Aug 2024 17:04:45 &#43;0800</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/sharkd/</guid>
+    <description><![CDATA[<h2 id="介绍" class="headerLink">
+    <a href="#%e4%bb%8b%e7%bb%8d" class="header-mark"></a>介绍</h2><p>官方接口文档：<a href="https://wiki.wireshark.org/sharkd-JSON-RPC" target="_blank" rel="noopener noreferrer">https://wiki.wireshark.org/sharkd-JSON-RPC</a></p>
+<p>sharkd 是 wireshark 里用来解析数据包的模块，可以单独编译和使用。</p>
+<p>sharkd 可执行文件未包含在标准 Wireshark 二进制包（Windows MSI 等）中，因此必须从源代码构建。</p>
+<p>sharkd 提供了接口用于数据查询（使用 tcp 或本地 socket）。</p>]]></description>
+</item></channel>
+</rss>

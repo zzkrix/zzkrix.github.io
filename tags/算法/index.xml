@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>算法 - 标签 - 避风港</title>
+        <link>https://zzkrix.com/tags/%E7%AE%97%E6%B3%95/</link>
+        <description>算法 - 标签 - 避风港</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Wed, 17 May 2023 21:35:01 &#43;0000</lastBuildDate><atom:link href="https://zzkrix.com/tags/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>LRU</title>
+    <link>https://zzkrix.com/tech/lru/</link>
+    <pubDate>Wed, 17 May 2023 21:35:01 &#43;0000</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/lru/</guid>
+    <description><![CDATA[<p>参考：</p>
+<p><a href="https://halfrost.com/lru_lfu_interview/" target="_blank" rel="noopener noreferrer">https://halfrost.com/lru_lfu_interview/</a></p>
+<p><a href="https://developer.aliyun.com/article/928903" target="_blank" rel="noopener noreferrer">https://developer.aliyun.com/article/928903</a></p>
+<p>使用 map + 双向链表的方式实现 LRU：</p>
+<p>双向链表存储数据</p>
+<p>map 存储链表的指针</p>
+<p>更新时，map 判断在不在链表里，在的话将该节点放到头部，使用双向指针找到前后的节点并连接起来。</p>]]></description>
+</item><item>
+    <title>map-reduce</title>
+    <link>https://zzkrix.com/tech/map-reduce/</link>
+    <pubDate>Thu, 27 Apr 2023 17:01:23 &#43;0000</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/map-reduce/</guid>
+    <description><![CDATA[<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230427170648499.png'     ></p>]]></description>
+</item></channel>
+</rss>

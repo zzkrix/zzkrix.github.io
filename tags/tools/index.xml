@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tools - 标签 - 避风港</title>
+        <link>https://zzkrix.com/tags/tools/</link>
+        <description>Tools - 标签 - 避风港</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 24 Jun 2024 09:47:05 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/tools/" rel="self" type="application/rss+xml" /><item>
+    <title>虚拟机中使用 Mac 快捷键</title>
+    <link>https://zzkrix.com/tech/mac-windows-autohotkey/</link>
+    <pubDate>Mon, 24 Jun 2024 09:47:05 &#43;0800</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/mac-windows-autohotkey/</guid>
+    <description><![CDATA[<p>Mac 上使用虚拟机安装了 Windows，若想正常使用<code>cmd + c</code>、<code>cmd + v</code>等快捷键，按以下步骤操作。</p>
+<p>安装 <a href="https://www.autohotkey.com/" target="_blank" rel="noopener noreferrer">AutoHotkey</a>，这里选择下载 v1 版本，因为下面的脚本只支持 v1。</p>]]></description>
+</item></channel>
+</rss>

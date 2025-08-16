@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Windows - 标签 - 避风港</title>
+        <link>https://zzkrix.com/tags/windows/</link>
+        <description>Windows - 标签 - 避风港</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Sun, 04 Aug 2024 12:34:11 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/windows/" rel="self" type="application/rss+xml" /><item>
+    <title>Mac 安装 Windows 双系统</title>
+    <link>https://zzkrix.com/tech/mac-win10/</link>
+    <pubDate>Sun, 04 Aug 2024 12:34:11 &#43;0800</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/mac-win10/</guid>
+    <description><![CDATA[<p>使用 Mac 的”启动转换助理“安装 windows 双系统时，走到最后一步了，出现如下错误：</p>
+<p>Windows 无法更新计算机的启动配置，安装无法继续。</p>
+<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-40-pyYSEB.png'   alt="2024-08-04-12-40-pyYSEB"  ></p>
+<p>搜索了一圈，有说需要重置 SMC 的，有说打电话问 Apple 客服的，这两个方案都试了，无效。</p>]]></description>
+</item></channel>
+</rss>

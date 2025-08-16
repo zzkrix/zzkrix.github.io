@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Cloudflare - 标签 - 避风港</title>
+        <link>https://zzkrix.com/tags/cloudflare/</link>
+        <description>Cloudflare - 标签 - 避风港</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 07 Apr 2025 15:00:08 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/cloudflare/" rel="self" type="application/rss+xml" /><item>
+    <title>借助 Cloudflare 实现高速内网穿透</title>
+    <link>https://zzkrix.com/tech/cloudflare-zero-trust/</link>
+    <pubDate>Mon, 07 Apr 2025 15:00:08 &#43;0800</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/cloudflare-zero-trust/</guid>
+    <description><![CDATA[<h2 id="背景" class="headerLink">
+    <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><p>之前做内网穿透都是用 <a href="https://github.com/fatedier/frp" target="_blank" rel="noopener noreferrer">frp</a>，架构如下：</p>
+<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-04-07-15-10-nQi19R.png'   alt="2025-04-07-15-10-nQi19R"  ></p>
+<p>但前提是你需要有一个具备公网 IP 的服务器用来部署服务端。</p>
+<p>并且想高速上传下载的的话，还得花不少钱买云厂商的带宽。</p>]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Lua - 标签 - 避风港</title>
+        <link>https://zzkrix.com/tags/lua/</link>
+        <description>Lua - 标签 - 避风港</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Wed, 30 Jul 2025 12:04:39 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/lua/" rel="self" type="application/rss+xml" /><item>
+    <title>lua 包管理工具 luarocks</title>
+    <link>https://zzkrix.com/tech/lua-luarocks/</link>
+    <pubDate>Wed, 30 Jul 2025 12:04:39 &#43;0800</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/lua-luarocks/</guid>
+    <description><![CDATA[<h2 id="介绍" class="headerLink">
+    <a href="#%e4%bb%8b%e7%bb%8d" class="header-mark"></a>介绍</h2><p>luarocks 是 lua 的包管理工具。</p>
+<p>可以搜索和安装第三方依赖包。</p>
+<p>但是不支持导出当前项目依赖的包版本到项目依赖文件 - 垃圾😒~</p>
+<h2 id="安装" class="headerLink">
+    <a href="#%e5%ae%89%e8%a3%85" class="header-mark"></a>安装</h2><p>MacOS： <code>brew install luarocks</code></p>
+<p>其他平台： <a href="https://github.com/luarocks/luarocks/wiki/Download" target="_blank" rel="noopener noreferrer">https://github.com/luarocks/luarocks/wiki/Download</a></p>
+<h2 id="使用" class="headerLink">
+    <a href="#%e4%bd%bf%e7%94%a8" class="header-mark"></a>使用</h2><p>搜索依赖：<code>luarocks search &lt;package-name&gt;</code></p>
+<p>安装依赖：<code>luarocks install &lt;package-name&gt; &lt;package-version&gt; --tree &lt;save-path&gt;</code></p>]]></description>
+</item></channel>
+</rss>

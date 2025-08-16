@@ -1,0 +1,141 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Docker - 标签 - 避风港</title>
+        <link>https://zzkrix.com/tags/docker/</link>
+        <description>Docker - 标签 - 避风港</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 11 Dec 2023 14:45:57 &#43;0000</lastBuildDate><atom:link href="https://zzkrix.com/tags/docker/" rel="self" type="application/rss+xml" /><item>
+    <title>docker compose</title>
+    <link>https://zzkrix.com/tech/docker-compose/</link>
+    <pubDate>Mon, 11 Dec 2023 14:45:57 &#43;0000</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/docker-compose/</guid>
+    <description><![CDATA[<blockquote>
+  <p>docker 命令里已经集成了 compose，所以尽量使用 docker compose 而不是 docker-compose</p>
+</blockquote><p>出于数据安全考虑，<code>docker compose</code> 和 <code>docker</code>一样，默认不会删除存储卷，如果想删除，可以使用以下命令
+删除镜像和存储卷</p>]]></description>
+</item><item>
+    <title>释放 docker 占用空间</title>
+    <link>https://zzkrix.com/tech/docker-prune/</link>
+    <pubDate>Sat, 09 Dec 2023 22:43:23 &#43;0000</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/docker-prune/</guid>
+    <description><![CDATA[<h2 id="前言" class="headerLink">
+    <a href="#%e5%89%8d%e8%a8%80" class="header-mark"></a>前言</h2><p>使用下面的命令可以释放 docker 产生的无用的空间。</p>
+<h2 id="清理未使用的构建缓存" class="headerLink">
+    <a href="#%e6%b8%85%e7%90%86%e6%9c%aa%e4%bd%bf%e7%94%a8%e7%9a%84%e6%9e%84%e5%bb%ba%e7%bc%93%e5%ad%98" class="header-mark"></a>清理未使用的构建缓存</h2><p><code>docker builder prune -a</code></p>
+<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    
+    tw-flex 
+    tw-flex-row
+    tw-flex-1 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        code-block-button
+        tw-mx-2 
+        tw-flex
+        tw-flex-row
+        tw-flex-1"
+      aria-hidden="true">
+          <div class="group-[.is-open]:tw-rotate-90 tw-transition-[transform] tw-duration-500 tw-ease-in-out print:!tw-hidden tw-w-min tw-h-min tw-my-1 tw-mx-1"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></div>
+          <p class="tw-select-none !tw-my-1">bash</p>]]></description>
+</item><item>
+    <title>docker 使用</title>
+    <link>https://zzkrix.com/tech/docker-tips/</link>
+    <pubDate>Fri, 08 Dec 2023 10:00:39 &#43;0000</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/docker-tips/</guid>
+    <description><![CDATA[<h2 id="操作镜像" class="headerLink">
+    <a href="#%e6%93%8d%e4%bd%9c%e9%95%9c%e5%83%8f" class="header-mark"></a>操作镜像</h2><p>一些时候，我们可能只是对表格的结构不满意，希望自己组织列；或者不希望有标题，这样方便其它程序解析结果等，这就用到了 <a href="https://gohugo.io/templates/introduction/" target="_blank" rel="noopener noreferrer">Go 的模板语法</a>。</p>
+<p>下面的命令会直接列出镜像结果，并且只包含镜像 ID 和仓库名：</p>
+<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    
+    tw-flex 
+    tw-flex-row
+    tw-flex-1 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        code-block-button
+        tw-mx-2 
+        tw-flex
+        tw-flex-row
+        tw-flex-1"
+      aria-hidden="true">
+          <div class="group-[.is-open]:tw-rotate-90 tw-transition-[transform] tw-duration-500 tw-ease-in-out print:!tw-hidden tw-w-min tw-h-min tw-my-1 tw-mx-1"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></div>
+          <p class="tw-select-none !tw-my-1">bash</p>]]></description>
+</item><item>
+    <title>dockerfile 使用</title>
+    <link>https://zzkrix.com/tech/dockerfile-tips/</link>
+    <pubDate>Thu, 07 Dec 2023 22:59:49 &#43;0000</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/dockerfile-tips/</guid>
+    <description><![CDATA[<h2 id="add-和-copy-区别" class="headerLink">
+    <a href="#add-%e5%92%8c-copy-%e5%8c%ba%e5%88%ab" class="header-mark"></a>ADD 和 COPY 区别</h2><p>如果 <code>《源路径》</code> 为一个 <code>tar</code> 压缩文件的话，压缩格式为 <code>gzip</code>, <code>bzip2</code> 以及 <code>xz</code> 的情况下，<code>ADD</code> 指令将会自动解压缩这个压缩文件到 <code>《目标路径》</code> 去。</p>
+<p>在某些情况下，这个自动解压缩的功能非常有用，比如官方镜像 <code>ubuntu</code> 中：</p>]]></description>
+</item><item>
+    <title>docker 安装</title>
+    <link>https://zzkrix.com/tech/docker-install/</link>
+    <pubDate>Thu, 07 Dec 2023 16:04:42 &#43;0000</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/docker-install/</guid>
+    <description><![CDATA[<p>安装 docker</p>
+<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    
+    tw-flex 
+    tw-flex-row
+    tw-flex-1 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        code-block-button
+        tw-mx-2 
+        tw-flex
+        tw-flex-row
+        tw-flex-1"
+      aria-hidden="true">
+          <div class="group-[.is-open]:tw-rotate-90 tw-transition-[transform] tw-duration-500 tw-ease-in-out print:!tw-hidden tw-w-min tw-h-min tw-my-1 tw-mx-1"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></div>
+          <p class="tw-select-none !tw-my-1">bash</p>]]></description>
+</item><item>
+    <title>docker 仓库</title>
+    <link>https://zzkrix.com/tech/docker-repo/</link>
+    <pubDate>Sat, 29 Jul 2023 22:01:35 &#43;0000</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/docker-repo/</guid>
+    <description><![CDATA[<h2 id="配置自定义仓库地址" class="headerLink">
+    <a href="#%e9%85%8d%e7%bd%ae%e8%87%aa%e5%ae%9a%e4%b9%89%e4%bb%93%e5%ba%93%e5%9c%b0%e5%9d%80" class="header-mark"></a>配置自定义仓库地址</h2><p>Linux 下创建并修改 <code>/etc/docker/daemon.json</code></p>
+<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    
+    tw-flex 
+    tw-flex-row
+    tw-flex-1 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        code-block-button
+        tw-mx-2 
+        tw-flex
+        tw-flex-row
+        tw-flex-1"
+      aria-hidden="true">
+          <div class="group-[.is-open]:tw-rotate-90 tw-transition-[transform] tw-duration-500 tw-ease-in-out print:!tw-hidden tw-w-min tw-h-min tw-my-1 tw-mx-1"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></div>
+          <p class="tw-select-none !tw-my-1">bash</p>]]></description>
+</item></channel>
+</rss>

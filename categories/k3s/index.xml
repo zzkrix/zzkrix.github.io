@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>K3s - 分类 - 避风港</title>
+        <link>https://zzkrix.com/categories/k3s/</link>
+        <description>K3s - 分类 - 避风港</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Thu, 31 Oct 2024 13:25:38 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/categories/k3s/" rel="self" type="application/rss+xml" /><item>
+    <title>k3s 镜像重写</title>
+    <link>https://zzkrix.com/tech/k3s-registries-image/</link>
+    <pubDate>Thu, 31 Oct 2024 13:25:38 &#43;0800</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/k3s-registries-image/</guid>
+    <description><![CDATA[<h2 id="背景" class="headerLink">
+    <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><p>在 k3s 中部署应用时，因为网络等原因，常遇到有些镜像拉不下来。</p>
+<p>如果有私有仓库的话，可以手动把镜像放入私有仓库，让 k3s 去私有仓库拉取。</p>
+<h2 id="方案" class="headerLink">
+    <a href="#%e6%96%b9%e6%a1%88" class="header-mark"></a>方案</h2><p>k3s 有一个镜像重写的配置，可以在不改变应用部署文件的情况下，自动修改镜像拉取地址。</p>]]></description>
+</item></channel>
+</rss>

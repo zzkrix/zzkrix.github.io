@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>TypeScript - 标签 - 避风港</title>
+        <link>https://zzkrix.com/tags/typescript/</link>
+        <description>TypeScript - 标签 - 避风港</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 10 Feb 2025 13:14:17 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/typescript/" rel="self" type="application/rss+xml" /><item>
+    <title>TypeScript - export 用法</title>
+    <link>https://zzkrix.com/tech/ts-export/</link>
+    <pubDate>Mon, 10 Feb 2025 13:14:17 &#43;0800</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/ts-export/</guid>
+    <description><![CDATA[<p>在 TypeScript 中，<code>import</code> 语句用于从其他模块引入功能。根据所导入内容的不同，<code>import</code> 语句的语法也有所区别，具体体现在是否使用花括号 <code>{}</code>。</p>
+<h2 id="默认导出default-export" class="headerLink">
+    <a href="#%e9%bb%98%e8%ae%a4%e5%af%bc%e5%87%badefault-export" class="header-mark"></a>默认导出（Default Export）</h2><p>当一个模块使用 <code>export default</code> 导出时，导入该模块时不需要使用花括号 <code>{}</code>。默认导出允许每个模块有一个主要导出。</p>]]></description>
+</item><item>
+    <title>TypeScript - 函数重载</title>
+    <link>https://zzkrix.com/tech/ts-overloading/</link>
+    <pubDate>Sat, 08 Feb 2025 16:18:57 &#43;0800</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/ts-overloading/</guid>
+    <description><![CDATA[<h2 id="函数重载function-overloading" class="headerLink">
+    <a href="#%e5%87%bd%e6%95%b0%e9%87%8d%e8%bd%bdfunction-overloading" class="header-mark"></a>函数重载（Function Overloading）</h2><p><strong>函数重载</strong> 是 TypeScript 提供的一种 <strong>在同一个函数名下定义多个函数签名</strong> 的能力。它允许一个函数根据不同的参数类型或数量，执行不同的逻辑，从而提高代码的灵活性和可读性。</p>]]></description>
+</item></channel>
+</rss>
