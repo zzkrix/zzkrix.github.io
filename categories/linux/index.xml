@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Sun, 30 Jun 2024 23:17:03 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/categories/linux/" rel="self" type="application/rss+xml" /><item>
     <title>Linux 作业控制</title>
-    <link>https://zzkrix.com/tech/linux-jobs/</link>
+    <link>https://zzkrix.com/linux-jobs/</link>
     <pubDate>Sun, 30 Jun 2024 23:17:03 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/linux-jobs/</guid>
+    </author><guid>https://zzkrix.com/linux-jobs/</guid>
     <description><![CDATA[<h2 id="暂停当前的前台进程" class="headerLink">
     <a href="#%e6%9a%82%e5%81%9c%e5%bd%93%e5%89%8d%e7%9a%84%e5%89%8d%e5%8f%b0%e8%bf%9b%e7%a8%8b" class="header-mark"></a>暂停当前的前台进程</h2><div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -33,10 +33,10 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>Linux &amp; iterm2 常用快捷键</title>
-    <link>https://zzkrix.com/tech/linux-shortkeys/</link>
+    <link>https://zzkrix.com/linux-shortkeys/</link>
     <pubDate>Tue, 02 Apr 2024 17:53:53 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/linux-shortkeys/</guid>
+    </author><guid>https://zzkrix.com/linux-shortkeys/</guid>
     <description><![CDATA[<p>Linux 命令行快捷键：</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -60,10 +60,10 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>reset-ssh-key</title>
-    <link>https://zzkrix.com/tech/reset-ssh-key/</link>
+    <link>https://zzkrix.com/reset-ssh-key/</link>
     <pubDate>Sun, 14 Jan 2024 20:20:24 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/reset-ssh-key/</guid>
+    </author><guid>https://zzkrix.com/reset-ssh-key/</guid>
     <description><![CDATA[<p>如果服务器端 ssh 看起来一切正常，22 端口也正常，但是客户端 ssh 连接不上，通常报错类似下面这样：</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -87,10 +87,10 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>Linux 命令备忘录</title>
-    <link>https://zzkrix.com/tech/linux-cmd/</link>
+    <link>https://zzkrix.com/linux-cmd/</link>
     <pubDate>Fri, 22 Dec 2023 16:17:59 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/linux-cmd/</guid>
+    </author><guid>https://zzkrix.com/linux-cmd/</guid>
     <description><![CDATA[<h2 id="awk" class="headerLink">
     <a href="#awk" class="header-mark"></a>awk</h2><p>awk 指定多个分隔符 <code>awk -F '[;:]'</code>（使用<code>;</code>或<code>:</code>进行分割）</p>
 <p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231212230106796.png'     ></p>
@@ -116,19 +116,19 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>iptables</title>
-    <link>https://zzkrix.com/tech/iptables/</link>
+    <link>https://zzkrix.com/iptables/</link>
     <pubDate>Fri, 15 Dec 2023 11:03:42 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/iptables/</guid>
+    </author><guid>https://zzkrix.com/iptables/</guid>
     <description><![CDATA[<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231215113408197.png'     ></p>
 <p><a href="https://tinychen.com/20200414-iptables-principle-introduction/" target="_blank" rel="noopener noreferrer">https://tinychen.com/20200414-iptables-principle-introduction/</a></p>
 <p><a href="https://blog.csdn.net/qq_29344757/article/details/81128150" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/qq_29344757/article/details/81128150</a></p>]]></description>
 </item><item>
     <title>查找虚拟设备对对端位置</title>
-    <link>https://zzkrix.com/tech/linux-veth-locate/</link>
+    <link>https://zzkrix.com/linux-veth-locate/</link>
     <pubDate>Thu, 14 Dec 2023 10:33:04 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/linux-veth-locate/</guid>
+    </author><guid>https://zzkrix.com/linux-veth-locate/</guid>
     <description><![CDATA[<p>主要依赖两个文件，这两个文件在宿主机和容器内都有</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -152,10 +152,10 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>文件权限</title>
-    <link>https://zzkrix.com/tech/linux-file-perm/</link>
+    <link>https://zzkrix.com/linux-file-perm/</link>
     <pubDate>Tue, 12 Dec 2023 16:03:29 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/linux-file-perm/</guid>
+    </author><guid>https://zzkrix.com/linux-file-perm/</guid>
     <description><![CDATA[<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231212164637559.png'     ></p>
 <p>文件类型 &ndash; 属主 &ndash; 属组 &ndash; 其他用户</p>
 <p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231212165251576.png'     ></p>
@@ -169,28 +169,28 @@
 可执行（x）</p>]]></description>
 </item><item>
     <title>查看机器上的网卡</title>
-    <link>https://zzkrix.com/tech/linux-net-show/</link>
+    <link>https://zzkrix.com/linux-net-show/</link>
     <pubDate>Mon, 11 Dec 2023 13:59:45 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/linux-net-show/</guid>
+    </author><guid>https://zzkrix.com/linux-net-show/</guid>
     <description><![CDATA[<p>使用<code>ip a</code>或者<code>ifconfig</code>区分不出来网卡和网桥。</p>
 <p>使用<code>ls -l /sys/class/net</code>可以判断
 包含<code>virtual</code>的应该都是虚拟网桥。
 包含<code>pci</code>的都是物理网卡。</p>]]></description>
 </item><item>
     <title>Linux 修改磁盘大小</title>
-    <link>https://zzkrix.com/tech/linux-disk-change/</link>
+    <link>https://zzkrix.com/linux-disk-change/</link>
     <pubDate>Thu, 07 Dec 2023 15:03:34 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/linux-disk-change/</guid>
+    </author><guid>https://zzkrix.com/linux-disk-change/</guid>
     <description><![CDATA[<p>根目录下可用磁盘大小为 22G，实际物理磁盘有 46.58G，vgs 可看到还有 21.76（50%）的空间没被使用。</p>
 <p>扩展逻辑卷，并将<code>VFree</code>的空间全部分配逻辑卷<code>/dev/mapper/ubuntu--vg-ubuntu--lv</code></p>]]></description>
 </item><item>
     <title>tcp 保活</title>
-    <link>https://zzkrix.com/tech/tcp-keepalive/</link>
+    <link>https://zzkrix.com/tcp-keepalive/</link>
     <pubDate>Mon, 04 Dec 2023 20:11:39 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/tcp-keepalive/</guid>
+    </author><guid>https://zzkrix.com/tcp-keepalive/</guid>
     <description><![CDATA[<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
     
@@ -292,10 +292,10 @@
 <p><a href="https://juejin.cn/post/7142654287493988359" target="_blank" rel="noopener noreferrer">https://juejin.cn/post/7142654287493988359</a></p>]]></description>
 </item><item>
     <title>用户和用户组</title>
-    <link>https://zzkrix.com/tech/linux-user/</link>
+    <link>https://zzkrix.com/linux-user/</link>
     <pubDate>Fri, 01 Dec 2023 23:03:26 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/linux-user/</guid>
+    </author><guid>https://zzkrix.com/linux-user/</guid>
     <description><![CDATA[<h2 id="参考" class="headerLink">
     <a href="#%e5%8f%82%e8%80%83" class="header-mark"></a>参考</h2><p><a href="https://www.runoob.com/linux/linux-user-manage.html" target="_blank" rel="noopener noreferrer">https://www.runoob.com/linux/linux-user-manage.html</a>
 <a href="https://www.cnblogs.com/carriezhangyan/p/10552496.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/carriezhangyan/p/10552496.html</a></p>
@@ -303,10 +303,10 @@
 adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的界面，提供选项让用户填写和选择，这个命令比起 useradd 来说比较简单，也比较傻瓜。</p>]]></description>
 </item><item>
     <title>rsync 文件同步</title>
-    <link>https://zzkrix.com/tech/rsync-tips/</link>
+    <link>https://zzkrix.com/rsync-tips/</link>
     <pubDate>Sun, 19 Nov 2023 11:33:08 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/rsync-tips/</guid>
+    </author><guid>https://zzkrix.com/rsync-tips/</guid>
     <description><![CDATA[<p>rsync(remote sync)，即远程同步，不过也可用于本地文件同步，通常在增量更新的场景下比 scp 更快更方便。</p>
 <p>rsync 常用参数：</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
@@ -331,10 +331,10 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
           <p class="tw-select-none !tw-my-1">shell</p>]]></description>
 </item><item>
     <title>临时修改网卡地址</title>
-    <link>https://zzkrix.com/tech/linux-ip-addr/</link>
+    <link>https://zzkrix.com/linux-ip-addr/</link>
     <pubDate>Wed, 01 Nov 2023 13:03:49 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/linux-ip-addr/</guid>
+    </author><guid>https://zzkrix.com/linux-ip-addr/</guid>
     <description><![CDATA[<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
     
@@ -434,10 +434,10 @@ adduser 是一个 perl 脚本，在使用的时候会出现类似人机交互的
 </div>]]></description>
 </item><item>
     <title>systemctl</title>
-    <link>https://zzkrix.com/tech/systemctl/</link>
+    <link>https://zzkrix.com/systemctl/</link>
     <pubDate>Tue, 18 Apr 2023 16:12:56 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/systemctl/</guid>
+    </author><guid>https://zzkrix.com/systemctl/</guid>
     <description><![CDATA[<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
     

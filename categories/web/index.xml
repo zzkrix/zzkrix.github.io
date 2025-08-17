@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Thu, 13 Feb 2025 09:37:57 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/categories/web/" rel="self" type="application/rss+xml" /><item>
     <title>HTTP Cookie 笔记</title>
-    <link>https://zzkrix.com/tech/web-cookie/</link>
+    <link>https://zzkrix.com/web-cookie/</link>
     <pubDate>Thu, 13 Feb 2025 09:37:57 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/web-cookie/</guid>
+    </author><guid>https://zzkrix.com/web-cookie/</guid>
     <description><![CDATA[<h2 id="简介" class="headerLink">
     <a href="#%e7%ae%80%e4%bb%8b" class="header-mark"></a>简介</h2><p>每个会话可以使用多个 Cookie（实测 Chrome 保存 1000 多个也可以，但正常人没这么干的）。</p>
 <p>一般业务就能用到 10 个以内的 Cookie，大型网站可能会用到 20 到 30 个。</p>
@@ -17,10 +17,10 @@
 <p>Cookie 由服务端生成，并通过响应的 Header（Set-Cookie 字段）返回给客户端。</p>]]></description>
 </item><item>
     <title>浏览器跨域请求机制</title>
-    <link>https://zzkrix.com/tech/web-cross-origin/</link>
+    <link>https://zzkrix.com/web-cross-origin/</link>
     <pubDate>Tue, 11 Feb 2025 14:27:28 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/web-cross-origin/</guid>
+    </author><guid>https://zzkrix.com/web-cross-origin/</guid>
     <description><![CDATA[<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-11-17-16-XR4S9O.png'   alt="2025-02-11-17-16-XR4S9O"  ></p>
 <h2 id="浏览器同源策略" class="headerLink">
     <a href="#%e6%b5%8f%e8%a7%88%e5%99%a8%e5%90%8c%e6%ba%90%e7%ad%96%e7%95%a5" class="header-mark"></a>浏览器同源策略</h2><p>同源策略是浏览器的一个安全功能。简单来说，它是一种限制不同“源”之间相互访问资源的规则。“源”主要包括协议（比如 http、https）、域名（如 example.com、another - site.com）和端口号（像 80、443 等）。如果这三个要素都相同，就被认为是同源的。</p>]]></description>

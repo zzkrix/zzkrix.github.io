@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Wed, 17 May 2023 21:35:01 &#43;0000</lastBuildDate><atom:link href="https://zzkrix.com/tags/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
     <title>LRU</title>
-    <link>https://zzkrix.com/tech/lru/</link>
+    <link>https://zzkrix.com/lru/</link>
     <pubDate>Wed, 17 May 2023 21:35:01 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/lru/</guid>
+    </author><guid>https://zzkrix.com/lru/</guid>
     <description><![CDATA[<p>参考：</p>
 <p><a href="https://halfrost.com/lru_lfu_interview/" target="_blank" rel="noopener noreferrer">https://halfrost.com/lru_lfu_interview/</a></p>
 <p><a href="https://developer.aliyun.com/article/928903" target="_blank" rel="noopener noreferrer">https://developer.aliyun.com/article/928903</a></p>
@@ -19,10 +19,10 @@
 <p>更新时，map 判断在不在链表里，在的话将该节点放到头部，使用双向指针找到前后的节点并连接起来。</p>]]></description>
 </item><item>
     <title>map-reduce</title>
-    <link>https://zzkrix.com/tech/map-reduce/</link>
+    <link>https://zzkrix.com/map-reduce/</link>
     <pubDate>Thu, 27 Apr 2023 17:01:23 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/map-reduce/</guid>
+    </author><guid>https://zzkrix.com/map-reduce/</guid>
     <description><![CDATA[<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230427170648499.png'     ></p>]]></description>
 </item></channel>
 </rss>

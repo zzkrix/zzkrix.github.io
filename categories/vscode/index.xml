@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Fri, 26 Jan 2024 09:53:02 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/categories/vscode/" rel="self" type="application/rss+xml" /><item>
     <title>解决 vscode 终端乱码</title>
-    <link>https://zzkrix.com/tech/vscode-terminal-settings/</link>
+    <link>https://zzkrix.com/vscode-terminal-settings/</link>
     <pubDate>Fri, 26 Jan 2024 09:53:02 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/vscode-terminal-settings/</guid>
+    </author><guid>https://zzkrix.com/vscode-terminal-settings/</guid>
     <description><![CDATA[<p>我的终端使用的是 zsh，在 vscode 里打开时显示有乱码。</p>
 <p>解决办法是在 <code>settings.json</code> 中加入：</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">

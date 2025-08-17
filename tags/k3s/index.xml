@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Thu, 31 Oct 2024 13:25:38 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/k3s/" rel="self" type="application/rss+xml" /><item>
     <title>k3s 镜像重写</title>
-    <link>https://zzkrix.com/tech/k3s-registries-image/</link>
+    <link>https://zzkrix.com/k3s-registries-image/</link>
     <pubDate>Thu, 31 Oct 2024 13:25:38 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/k3s-registries-image/</guid>
+    </author><guid>https://zzkrix.com/k3s-registries-image/</guid>
     <description><![CDATA[<h2 id="背景" class="headerLink">
     <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><p>在 k3s 中部署应用时，因为网络等原因，常遇到有些镜像拉不下来。</p>
 <p>如果有私有仓库的话，可以手动把镜像放入私有仓库，让 k3s 去私有仓库拉取。</p>
@@ -17,10 +17,10 @@
     <a href="#%e6%96%b9%e6%a1%88" class="header-mark"></a>方案</h2><p>k3s 有一个镜像重写的配置，可以在不改变应用部署文件的情况下，自动修改镜像拉取地址。</p>]]></description>
 </item><item>
     <title>离线部署 k3s 集群</title>
-    <link>https://zzkrix.com/tech/k3s-offline-install/</link>
+    <link>https://zzkrix.com/k3s-offline-install/</link>
     <pubDate>Fri, 29 Dec 2023 14:22:11 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/k3s-offline-install/</guid>
+    </author><guid>https://zzkrix.com/k3s-offline-install/</guid>
     <description><![CDATA[<h2 id="环境初始化" class="headerLink">
     <a href="#%e7%8e%af%e5%a2%83%e5%88%9d%e5%a7%8b%e5%8c%96" class="header-mark"></a>环境初始化</h2><h3 id="参考文档" class="headerLink">
     <a href="#%e5%8f%82%e8%80%83%e6%96%87%e6%a1%a3" class="header-mark"></a>参考文档</h3><p>k3s 离线部署：<a href="https://docs.k3s.io/zh/installation/airgap" target="_blank" rel="noopener noreferrer">https://docs.k3s.io/zh/installation/airgap</a></p>

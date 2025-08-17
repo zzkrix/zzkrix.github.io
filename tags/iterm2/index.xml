@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 28 Jul 2025 13:43:39 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/iterm2/" rel="self" type="application/rss+xml" /><item>
     <title>命令行 vi 模式快捷键冲突解决</title>
-    <link>https://zzkrix.com/tech/iterm2-vim-mode/</link>
+    <link>https://zzkrix.com/iterm2-vim-mode/</link>
     <pubDate>Mon, 28 Jul 2025 13:43:39 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/iterm2-vim-mode/</guid>
+    </author><guid>https://zzkrix.com/iterm2-vim-mode/</guid>
     <description><![CDATA[<p>默认配置了 vi 模式后，<code>ctrl + a / ctrl + e / ctrl + r</code> 这三个命令是不生效的。需在<code>~/.zshrc</code>中配置下面的内容：</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -33,10 +33,10 @@
           <p class="tw-select-none !tw-my-1">zsh</p>]]></description>
 </item><item>
     <title>Linux &amp; iterm2 常用快捷键</title>
-    <link>https://zzkrix.com/tech/linux-shortkeys/</link>
+    <link>https://zzkrix.com/linux-shortkeys/</link>
     <pubDate>Tue, 02 Apr 2024 17:53:53 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/linux-shortkeys/</guid>
+    </author><guid>https://zzkrix.com/linux-shortkeys/</guid>
     <description><![CDATA[<p>Linux 命令行快捷键：</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -60,10 +60,10 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>Mac 下使用 iterm2 配置 ssh</title>
-    <link>https://zzkrix.com/tech/mac-iterm2-ssh/</link>
+    <link>https://zzkrix.com/mac-iterm2-ssh/</link>
     <pubDate>Sun, 21 Jan 2024 22:24:12 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/mac-iterm2-ssh/</guid>
+    </author><guid>https://zzkrix.com/mac-iterm2-ssh/</guid>
     <description><![CDATA[<h2 id="前言" class="headerLink">
     <a href="#%e5%89%8d%e8%a8%80" class="header-mark"></a>前言</h2><p>连接远程服务器的工具有很多，使用人数最多的两款非 xshell 和 SecureCRT 莫属，但是这两款一个不支持 Mac，一个收费，破解版又不敢装。</p>
 <p>比较简单的替代方案是使用<a href="https://iterm2.com/" target="_blank" rel="noopener noreferrer">iterm2</a>。</p>

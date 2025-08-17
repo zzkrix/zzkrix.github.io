@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Fri, 05 Jan 2024 15:02:35 &#43;0000</lastBuildDate><atom:link href="https://zzkrix.com/categories/k8s/" rel="self" type="application/rss+xml" /><item>
     <title>将 helm chart 推送到 harbor</title>
-    <link>https://zzkrix.com/tech/helm-chart-to-harbor/</link>
+    <link>https://zzkrix.com/helm-chart-to-harbor/</link>
     <pubDate>Fri, 05 Jan 2024 15:02:35 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/helm-chart-to-harbor/</guid>
+    </author><guid>https://zzkrix.com/helm-chart-to-harbor/</guid>
     <description><![CDATA[<p>将 helm chart 推送到指定的仓库下，默认会推送到&quot;library&quot;下的“helm chart“</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -33,10 +33,10 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>离线部署 k3s 集群</title>
-    <link>https://zzkrix.com/tech/k3s-offline-install/</link>
+    <link>https://zzkrix.com/k3s-offline-install/</link>
     <pubDate>Fri, 29 Dec 2023 14:22:11 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/k3s-offline-install/</guid>
+    </author><guid>https://zzkrix.com/k3s-offline-install/</guid>
     <description><![CDATA[<h2 id="环境初始化" class="headerLink">
     <a href="#%e7%8e%af%e5%a2%83%e5%88%9d%e5%a7%8b%e5%8c%96" class="header-mark"></a>环境初始化</h2><h3 id="参考文档" class="headerLink">
     <a href="#%e5%8f%82%e8%80%83%e6%96%87%e6%a1%a3" class="header-mark"></a>参考文档</h3><p>k3s 离线部署：<a href="https://docs.k3s.io/zh/installation/airgap" target="_blank" rel="noopener noreferrer">https://docs.k3s.io/zh/installation/airgap</a></p>

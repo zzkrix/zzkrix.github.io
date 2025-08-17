@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Sun, 21 Jan 2024 22:24:12 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/ssh/" rel="self" type="application/rss+xml" /><item>
     <title>Mac 下使用 iterm2 配置 ssh</title>
-    <link>https://zzkrix.com/tech/mac-iterm2-ssh/</link>
+    <link>https://zzkrix.com/mac-iterm2-ssh/</link>
     <pubDate>Sun, 21 Jan 2024 22:24:12 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/mac-iterm2-ssh/</guid>
+    </author><guid>https://zzkrix.com/mac-iterm2-ssh/</guid>
     <description><![CDATA[<h2 id="前言" class="headerLink">
     <a href="#%e5%89%8d%e8%a8%80" class="header-mark"></a>前言</h2><p>连接远程服务器的工具有很多，使用人数最多的两款非 xshell 和 SecureCRT 莫属，但是这两款一个不支持 Mac，一个收费，破解版又不敢装。</p>
 <p>比较简单的替代方案是使用<a href="https://iterm2.com/" target="_blank" rel="noopener noreferrer">iterm2</a>。</p>

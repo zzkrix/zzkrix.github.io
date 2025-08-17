@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Sun, 30 Mar 2025 21:24:50 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/chrome/" rel="self" type="application/rss+xml" /><item>
     <title>浏览器插件 - kimi 历史会话清理助手</title>
-    <link>https://zzkrix.com/tech/chrome-extensions-kimi/</link>
+    <link>https://zzkrix.com/chrome-extensions-kimi/</link>
     <pubDate>Sun, 30 Mar 2025 21:24:50 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/chrome-extensions-kimi/</guid>
+    </author><guid>https://zzkrix.com/chrome-extensions-kimi/</guid>
     <description><![CDATA[<h2 id="背景" class="headerLink">
     <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><p><a href="https://kimi.ai/" target="_blank" rel="noopener noreferrer">kimi</a> 是一个国内的 AI 工具，平时用的比较多。</p>
 <p>但是，历史会话只能一个一个删除，没有批量删除的功能。</p>

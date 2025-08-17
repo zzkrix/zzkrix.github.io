@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 05 Aug 2024 22:07:13 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/categories/comfyui/" rel="self" type="application/rss+xml" /><item>
     <title>CPU 模式下 comfyUI 运行 flux</title>
-    <link>https://zzkrix.com/tech/comfyui-flux-demo/</link>
+    <link>https://zzkrix.com/comfyui-flux-demo/</link>
     <pubDate>Mon, 05 Aug 2024 22:07:13 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/comfyui-flux-demo/</guid>
+    </author><guid>https://zzkrix.com/comfyui-flux-demo/</guid>
     <description><![CDATA[<h2 id="下载-comfyui" class="headerLink">
     <a href="#%e4%b8%8b%e8%bd%bd-comfyui" class="header-mark"></a>下载 comfyUI</h2><div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="

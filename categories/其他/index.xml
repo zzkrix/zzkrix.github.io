@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Thu, 09 Nov 2023 21:26:54 &#43;0000</lastBuildDate><atom:link href="https://zzkrix.com/categories/%E5%85%B6%E4%BB%96/" rel="self" type="application/rss+xml" /><item>
     <title>命令行内容输出到剪贴板</title>
-    <link>https://zzkrix.com/tech/linux-cmd-clip/</link>
+    <link>https://zzkrix.com/linux-cmd-clip/</link>
     <pubDate>Thu, 09 Nov 2023 21:26:54 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/linux-cmd-clip/</guid>
+    </author><guid>https://zzkrix.com/linux-cmd-clip/</guid>
     <description><![CDATA[<p>Mac:</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -33,10 +33,10 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>hping3 使用</title>
-    <link>https://zzkrix.com/tech/hping3-tips/</link>
+    <link>https://zzkrix.com/hping3-tips/</link>
     <pubDate>Sat, 04 Nov 2023 11:39:44 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/hping3-tips/</guid>
+    </author><guid>https://zzkrix.com/hping3-tips/</guid>
     <description><![CDATA[<p>发送伪造 syn 握手包：</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -60,10 +60,10 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>命令行启动 wireshark 抓包</title>
-    <link>https://zzkrix.com/tech/wireshark-cmdline/</link>
+    <link>https://zzkrix.com/wireshark-cmdline/</link>
     <pubDate>Wed, 06 Sep 2023 12:15:41 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/wireshark-cmdline/</guid>
+    </author><guid>https://zzkrix.com/wireshark-cmdline/</guid>
     <description><![CDATA[<p>只启动 wireshark</p>
 <blockquote>
   <p>Mac 下启动多个 wireshark 实例时使用，但可能不稳定</p>
@@ -89,10 +89,10 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>开源协议区别</title>
-    <link>https://zzkrix.com/tech/opensource-license/</link>
+    <link>https://zzkrix.com/opensource-license/</link>
     <pubDate>Tue, 04 Jul 2023 09:55:25 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/opensource-license/</guid>
+    </author><guid>https://zzkrix.com/opensource-license/</guid>
     <description><![CDATA[<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230704101710661.png'     ></p>]]></description>
 </item></channel>
 </rss>

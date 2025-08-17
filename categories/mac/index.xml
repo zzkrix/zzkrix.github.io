@@ -6,28 +6,28 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Sun, 04 Aug 2024 12:34:11 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/categories/mac/" rel="self" type="application/rss+xml" /><item>
     <title>Mac 安装 Windows 双系统</title>
-    <link>https://zzkrix.com/tech/mac-win10/</link>
+    <link>https://zzkrix.com/mac-win10/</link>
     <pubDate>Sun, 04 Aug 2024 12:34:11 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/mac-win10/</guid>
+    </author><guid>https://zzkrix.com/mac-win10/</guid>
     <description><![CDATA[<p>使用 Mac 的”启动转换助理“安装 windows 双系统时，走到最后一步了，出现如下错误：</p>
 <p>Windows 无法更新计算机的启动配置，安装无法继续。</p>
 <p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-40-pyYSEB.png'   alt="2024-08-04-12-40-pyYSEB"  ></p>
 <p>搜索了一圈，有说需要重置 SMC 的，有说打电话问 Apple 客服的，这两个方案都试了，无效。</p>]]></description>
 </item><item>
     <title>虚拟机中使用 Mac 快捷键</title>
-    <link>https://zzkrix.com/tech/mac-windows-autohotkey/</link>
+    <link>https://zzkrix.com/mac-windows-autohotkey/</link>
     <pubDate>Mon, 24 Jun 2024 09:47:05 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/mac-windows-autohotkey/</guid>
+    </author><guid>https://zzkrix.com/mac-windows-autohotkey/</guid>
     <description><![CDATA[<p>Mac 上使用虚拟机安装了 Windows，若想正常使用<code>cmd + c</code>、<code>cmd + v</code>等快捷键，按以下步骤操作。</p>
 <p>安装 <a href="https://www.autohotkey.com/" target="_blank" rel="noopener noreferrer">AutoHotkey</a>，这里选择下载 v1 版本，因为下面的脚本只支持 v1。</p>]]></description>
 </item><item>
     <title>Mac 下为 Python 安装 mysqlclinet</title>
-    <link>https://zzkrix.com/tech/mac-python-mysqlclinet/</link>
+    <link>https://zzkrix.com/mac-python-mysqlclinet/</link>
     <pubDate>Mon, 06 May 2024 14:24:49 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/mac-python-mysqlclinet/</guid>
+    </author><guid>https://zzkrix.com/mac-python-mysqlclinet/</guid>
     <description><![CDATA[<p>如果直接执行<code>pip install mysqlclient</code>，会报错，需要先安装依赖：</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -51,18 +51,18 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>Mac 原生输入法配置</title>
-    <link>https://zzkrix.com/tech/mac-input-shift/</link>
+    <link>https://zzkrix.com/mac-input-shift/</link>
     <pubDate>Fri, 22 Mar 2024 15:19:35 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/mac-input-shift/</guid>
+    </author><guid>https://zzkrix.com/mac-input-shift/</guid>
     <description><![CDATA[<h2 id="背景" class="headerLink">
     <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><p>出于信任问题，手机上切换成 iPhone 自带输入法好多年了，无奈因为使用习惯问题 Mac 上一直用的搜狗输入法（实际上只是自带输入法无法实现 shift 切换中英文的小问题）。今天终于研究了下，完美解决。</p>]]></description>
 </item><item>
     <title>Mac 下使用 iterm2 配置 ssh</title>
-    <link>https://zzkrix.com/tech/mac-iterm2-ssh/</link>
+    <link>https://zzkrix.com/mac-iterm2-ssh/</link>
     <pubDate>Sun, 21 Jan 2024 22:24:12 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/mac-iterm2-ssh/</guid>
+    </author><guid>https://zzkrix.com/mac-iterm2-ssh/</guid>
     <description><![CDATA[<h2 id="前言" class="headerLink">
     <a href="#%e5%89%8d%e8%a8%80" class="header-mark"></a>前言</h2><p>连接远程服务器的工具有很多，使用人数最多的两款非 xshell 和 SecureCRT 莫属，但是这两款一个不支持 Mac，一个收费，破解版又不敢装。</p>
 <p>比较简单的替代方案是使用<a href="https://iterm2.com/" target="_blank" rel="noopener noreferrer">iterm2</a>。</p>
