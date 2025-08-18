@@ -93,8 +93,8 @@ $ cat ~/.local/autorun/kcptun-client.sh
 #!/bin/env zsh
 
 /opt/homebrew/bin/kcptun_client \
-  --localaddr :<SERVER-PORT>\
-  --remoteaddr <SERVER-IP>:<SERVER-PORT>\
+  --localaddr :<LINSTEN-PORT> \
+  --remoteaddr <SERVER-IP>:<SERVER-PORT> \
   --key <YOUR-PRIVATE-KEY> \
   --crypt salsa20 \
   --mode fast2 \
@@ -104,6 +104,16 @@ $ launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.user.kcptun-client
 
 # ⚠️ 如果之前有同名脚本的话，需要先 bootout 一下
 $ launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.user.kcptun-client.plist
+```
+
+## 如何使用
+
+这时候 ssh 的目的地址换成本地地址以及本地端口即可：
+
+```bash
+ssh -p <LINSTEN-PORT> <USER>@127.0.0.1
+
+例如： ssh -p 2222 opc@127.0.0.1
 ```
 
 ## 参考资料
