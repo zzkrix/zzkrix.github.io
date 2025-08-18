@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Tue, 15 Apr 2025 14:21:03 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/javascript/" rel="self" type="application/rss+xml" /><item>
     <title>JS 学习 - 细碎知识点</title>
-    <link>https://zzkrix.com/js-case/</link>
+    <link>https://zzkrix.com/tech/js-case/</link>
     <pubDate>Tue, 15 Apr 2025 14:21:03 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/js-case/</guid>
+    </author><guid>https://zzkrix.com/tech/js-case/</guid>
     <description><![CDATA[<h2 id="参考资料" class="headerLink">
     <a href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" class="header-mark"></a>参考资料</h2><p>阮一峰 JavaScript 教程：<a href="https://wangdoc.com/javascript/" target="_blank" rel="noopener noreferrer">https://wangdoc.com/javascript/</a></p>
 <h2 id="标识符" class="headerLink">
@@ -38,10 +38,10 @@
           <p class="tw-select-none !tw-my-1">text</p>]]></description>
 </item><item>
     <title>JS 学习 - 函数立即执行</title>
-    <link>https://zzkrix.com/js-iife/</link>
+    <link>https://zzkrix.com/tech/js-iife/</link>
     <pubDate>Thu, 10 Apr 2025 21:41:42 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/js-iife/</guid>
+    </author><guid>https://zzkrix.com/tech/js-iife/</guid>
     <description><![CDATA[<blockquote>
   <p>学习前端中，不停的遇到新姿势，充满“惊喜”🤷。</p>
 </blockquote><h2 id="普通函数" class="headerLink">

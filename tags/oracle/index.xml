@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Wed, 19 Feb 2025 21:09:36 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/oracle/" rel="self" type="application/rss+xml" /><item>
     <title>Oracle 服务器使用块存储</title>
-    <link>https://zzkrix.com/oracle-block-volume/</link>
+    <link>https://zzkrix.com/tech/oracle-block-volume/</link>
     <pubDate>Wed, 19 Feb 2025 21:09:36 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/oracle-block-volume/</guid>
+    </author><guid>https://zzkrix.com/tech/oracle-block-volume/</guid>
     <description><![CDATA[<h2 id="背景" class="headerLink">
     <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><p>之前用<a href="https://www.oracle.com/cn/cloud/free/" target="_blank" rel="noopener noreferrer">Oracle 永久免费套餐</a>申请到一台服务器，默认只有 40G 的磁盘存储空间。</p>
 <p>注意到免费套餐里有块存储，研究了一下怎么挂载到服务器里，记录如下。</p>
@@ -17,10 +17,10 @@
     <a href="#%e5%88%9b%e5%bb%ba%e5%9d%97%e5%ad%98%e5%82%a8" class="header-mark"></a>创建块存储</h2><p>控制台 -&gt; 存储 -&gt; 块存储卷：</p>]]></description>
 </item><item>
     <title>Oracle 服务器使用 netboot 重装系统</title>
-    <link>https://zzkrix.com/oracle-server-netboot/</link>
+    <link>https://zzkrix.com/tech/oracle-server-netboot/</link>
     <pubDate>Thu, 07 Dec 2023 13:30:25 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/oracle-server-netboot/</guid>
+    </author><guid>https://zzkrix.com/tech/oracle-server-netboot/</guid>
     <description><![CDATA[<h2 id="简介" class="headerLink">
     <a href="#%e7%ae%80%e4%bb%8b" class="header-mark"></a>简介</h2><p>oracle 免费服务器不支持在界面上更换操作系统，这里借助第三方工具<a href="https://boot.netboot.xyz" target="_blank" rel="noopener noreferrer">boot.netboot.xyz</a>重装。</p>
 <p>对于不能 ssh 登录的机器参考这个：<a href="https://ooly.cc/archives/linux/361/" target="_blank" rel="noopener noreferrer">https://ooly.cc/archives/linux/361/</a></p>]]></description>

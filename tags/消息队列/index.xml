@@ -6,19 +6,19 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Sun, 14 May 2023 12:30:46 &#43;0000</lastBuildDate><atom:link href="https://zzkrix.com/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/" rel="self" type="application/rss+xml" /><item>
     <title>rocketmq 事务消息</title>
-    <link>https://zzkrix.com/rocketmq-tx/</link>
+    <link>https://zzkrix.com/tech/rocketmq-tx/</link>
     <pubDate>Sun, 14 May 2023 12:30:46 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/rocketmq-tx/</guid>
+    </author><guid>https://zzkrix.com/tech/rocketmq-tx/</guid>
     <description><![CDATA[<p>参考：<a href="https://rocketmq.apache.org/zh/docs/featureBehavior/04transactionmessage/" target="_blank" rel="noopener noreferrer">https://rocketmq.apache.org/zh/docs/featureBehavior/04transactionmessage/</a></p>
 <p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230514113814225.png'     ></p>
 <p>简单讲，业务上的事务包含（数据库事务 + 消息事务），原先生产者只能控制数据库事务的提交或回滚，RocketMQ 使用消息确认的机制将这两者进行了关联，大致代码执行逻辑为：</p>]]></description>
 </item><item>
     <title>本地消息表</title>
-    <link>https://zzkrix.com/rocketmq-message-cache/</link>
+    <link>https://zzkrix.com/tech/rocketmq-message-cache/</link>
     <pubDate>Sun, 14 May 2023 09:02:01 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/rocketmq-message-cache/</guid>
+    </author><guid>https://zzkrix.com/tech/rocketmq-message-cache/</guid>
     <description><![CDATA[<p>参考：</p>
 <p><a href="https://www.tizi365.com/question/4832.html" target="_blank" rel="noopener noreferrer">https://www.tizi365.com/question/4832.html</a></p>
 <p><a href="https://www.cnblogs.com/FlyAway2013/p/10124283.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/FlyAway2013/p/10124283.html</a></p>

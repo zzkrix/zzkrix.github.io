@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Fri, 22 Mar 2024 15:19:35 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/%E8%BE%93%E5%85%A5%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
     <title>Mac 原生输入法配置</title>
-    <link>https://zzkrix.com/mac-input-shift/</link>
+    <link>https://zzkrix.com/tech/mac-input-shift/</link>
     <pubDate>Fri, 22 Mar 2024 15:19:35 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/mac-input-shift/</guid>
+    </author><guid>https://zzkrix.com/tech/mac-input-shift/</guid>
     <description><![CDATA[<h2 id="背景" class="headerLink">
     <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><p>出于信任问题，手机上切换成 iPhone 自带输入法好多年了，无奈因为使用习惯问题 Mac 上一直用的搜狗输入法（实际上只是自带输入法无法实现 shift 切换中英文的小问题）。今天终于研究了下，完美解决。</p>]]></description>
 </item></channel>

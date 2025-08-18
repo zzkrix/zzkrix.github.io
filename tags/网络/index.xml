@@ -6,19 +6,19 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Fri, 15 Dec 2023 11:03:42 &#43;0000</lastBuildDate><atom:link href="https://zzkrix.com/tags/%E7%BD%91%E7%BB%9C/" rel="self" type="application/rss+xml" /><item>
     <title>iptables</title>
-    <link>https://zzkrix.com/iptables/</link>
+    <link>https://zzkrix.com/tech/iptables/</link>
     <pubDate>Fri, 15 Dec 2023 11:03:42 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/iptables/</guid>
+    </author><guid>https://zzkrix.com/tech/iptables/</guid>
     <description><![CDATA[<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231215113408197.png'     ></p>
 <p><a href="https://tinychen.com/20200414-iptables-principle-introduction/" target="_blank" rel="noopener noreferrer">https://tinychen.com/20200414-iptables-principle-introduction/</a></p>
 <p><a href="https://blog.csdn.net/qq_29344757/article/details/81128150" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/qq_29344757/article/details/81128150</a></p>]]></description>
 </item><item>
     <title>查找虚拟设备对对端位置</title>
-    <link>https://zzkrix.com/linux-veth-locate/</link>
+    <link>https://zzkrix.com/tech/linux-veth-locate/</link>
     <pubDate>Thu, 14 Dec 2023 10:33:04 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/linux-veth-locate/</guid>
+    </author><guid>https://zzkrix.com/tech/linux-veth-locate/</guid>
     <description><![CDATA[<p>主要依赖两个文件，这两个文件在宿主机和容器内都有</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -42,20 +42,20 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>查看机器上的网卡</title>
-    <link>https://zzkrix.com/linux-net-show/</link>
+    <link>https://zzkrix.com/tech/linux-net-show/</link>
     <pubDate>Mon, 11 Dec 2023 13:59:45 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/linux-net-show/</guid>
+    </author><guid>https://zzkrix.com/tech/linux-net-show/</guid>
     <description><![CDATA[<p>使用<code>ip a</code>或者<code>ifconfig</code>区分不出来网卡和网桥。</p>
 <p>使用<code>ls -l /sys/class/net</code>可以判断
 包含<code>virtual</code>的应该都是虚拟网桥。
 包含<code>pci</code>的都是物理网卡。</p>]]></description>
 </item><item>
     <title>tcp 保活</title>
-    <link>https://zzkrix.com/tcp-keepalive/</link>
+    <link>https://zzkrix.com/tech/tcp-keepalive/</link>
     <pubDate>Mon, 04 Dec 2023 20:11:39 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tcp-keepalive/</guid>
+    </author><guid>https://zzkrix.com/tech/tcp-keepalive/</guid>
     <description><![CDATA[<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
     
@@ -157,10 +157,10 @@
 <p><a href="https://juejin.cn/post/7142654287493988359" target="_blank" rel="noopener noreferrer">https://juejin.cn/post/7142654287493988359</a></p>]]></description>
 </item><item>
     <title>临时修改网卡地址</title>
-    <link>https://zzkrix.com/linux-ip-addr/</link>
+    <link>https://zzkrix.com/tech/linux-ip-addr/</link>
     <pubDate>Wed, 01 Nov 2023 13:03:49 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/linux-ip-addr/</guid>
+    </author><guid>https://zzkrix.com/tech/linux-ip-addr/</guid>
     <description><![CDATA[<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
     

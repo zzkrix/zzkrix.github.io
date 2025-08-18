@@ -6,20 +6,20 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Fri, 23 Aug 2024 15:05:38 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/categories/ai/" rel="self" type="application/rss+xml" /><item>
     <title>AI Agent 和 workflow 介绍</title>
-    <link>https://zzkrix.com/ai-agent-workflow/</link>
+    <link>https://zzkrix.com/tech/ai-agent-workflow/</link>
     <pubDate>Fri, 23 Aug 2024 15:05:38 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/ai-agent-workflow/</guid>
+    </author><guid>https://zzkrix.com/tech/ai-agent-workflow/</guid>
     <description><![CDATA[<h2 id="概念" class="headerLink">
     <a href="#%e6%a6%82%e5%bf%b5" class="header-mark"></a>概念</h2><blockquote>
   <p>首先明确一点，AI 输出内容存在随机性。</p>
 </blockquote><p>AI 推理是指人工智能在处理问题时，根据已有的数据和模型，进行逻辑推断和生成答案的过程。这个过程包括了从大量的数据中抽取有用信息、应用已学的规则或模式、并最终得出一个可能的回答。由于 AI 生成的结果有时会有所不同，主要有以下几个原因：</p>]]></description>
 </item><item>
     <title>CPU 模式下 comfyUI 运行 flux</title>
-    <link>https://zzkrix.com/comfyui-flux-demo/</link>
+    <link>https://zzkrix.com/tech/comfyui-flux-demo/</link>
     <pubDate>Mon, 05 Aug 2024 22:07:13 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/comfyui-flux-demo/</guid>
+    </author><guid>https://zzkrix.com/tech/comfyui-flux-demo/</guid>
     <description><![CDATA[<h2 id="下载-comfyui" class="headerLink">
     <a href="#%e4%b8%8b%e8%bd%bd-comfyui" class="header-mark"></a>下载 comfyUI</h2><div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -43,10 +43,10 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>本地部署大模型</title>
-    <link>https://zzkrix.com/ollama-llama/</link>
+    <link>https://zzkrix.com/tech/ollama-llama/</link>
     <pubDate>Thu, 25 Jul 2024 16:10:28 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/ollama-llama/</guid>
+    </author><guid>https://zzkrix.com/tech/ollama-llama/</guid>
     <description><![CDATA[<h2 id="部署-ollama" class="headerLink">
     <a href="#%e9%83%a8%e7%bd%b2-ollama" class="header-mark"></a>部署 ollama</h2><p>ollama 是一个运行大模型的框架，这里选择使用 docker 的方式启动 ollama:</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">

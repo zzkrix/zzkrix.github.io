@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Fri, 22 Dec 2023 16:17:59 &#43;0000</lastBuildDate><atom:link href="https://zzkrix.com/tags/%E5%91%BD%E4%BB%A4/" rel="self" type="application/rss+xml" /><item>
     <title>Linux 命令备忘录</title>
-    <link>https://zzkrix.com/linux-cmd/</link>
+    <link>https://zzkrix.com/tech/linux-cmd/</link>
     <pubDate>Fri, 22 Dec 2023 16:17:59 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/linux-cmd/</guid>
+    </author><guid>https://zzkrix.com/tech/linux-cmd/</guid>
     <description><![CDATA[<h2 id="awk" class="headerLink">
     <a href="#awk" class="header-mark"></a>awk</h2><p>awk 指定多个分隔符 <code>awk -F '[;:]'</code>（使用<code>;</code>或<code>:</code>进行分割）</p>
 <p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231212230106796.png'     ></p>

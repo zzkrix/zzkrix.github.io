@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Fri, 30 Aug 2024 14:23:24 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/categories/conda/" rel="self" type="application/rss+xml" /><item>
     <title>Conda 安装和使用</title>
-    <link>https://zzkrix.com/conda/</link>
+    <link>https://zzkrix.com/tech/conda/</link>
     <pubDate>Fri, 30 Aug 2024 14:23:24 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/conda/</guid>
+    </author><guid>https://zzkrix.com/tech/conda/</guid>
     <description><![CDATA[<h2 id="介绍" class="headerLink">
     <a href="#%e4%bb%8b%e7%bb%8d" class="header-mark"></a>介绍</h2><p><a href="https://docs.anaconda.com/" target="_blank" rel="noopener noreferrer">Conda</a> 可以用来在一台机器上管理不同的 Python 版本。</p>
 <p>比如项目 A 使用 python3.10，项目 B 使用 python3.12。</p>

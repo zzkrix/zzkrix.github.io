@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 15 Jan 2024 20:20:42 &#43;0000</lastBuildDate><atom:link href="https://zzkrix.com/categories/severless/" rel="self" type="application/rss+xml" /><item>
     <title>serverless 基础</title>
-    <link>https://zzkrix.com/serverless/</link>
+    <link>https://zzkrix.com/tech/serverless/</link>
     <pubDate>Mon, 15 Jan 2024 20:20:42 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/serverless/</guid>
+    </author><guid>https://zzkrix.com/tech/serverless/</guid>
     <description><![CDATA[<p>参考资料：</p>
 <p>什么是 serverless：h<a href="https://jimmysong.io/kubernetes-handbook/usecases/understanding-serverless.html" target="_blank" rel="noopener noreferrer">https://jimmysong.io/kubernetes-handbook/usecases/understanding-serverless.html</a></p>
 <p>serverless 具体是怎么运行的：h<a href="https://www.cnblogs.com/serverlesscloud/p/13141645.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/serverlesscloud/p/13141645.html</a></p>

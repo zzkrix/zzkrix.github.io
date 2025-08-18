@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Fri, 30 Aug 2024 14:23:24 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/python/" rel="self" type="application/rss+xml" /><item>
     <title>Conda 安装和使用</title>
-    <link>https://zzkrix.com/conda/</link>
+    <link>https://zzkrix.com/tech/conda/</link>
     <pubDate>Fri, 30 Aug 2024 14:23:24 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/conda/</guid>
+    </author><guid>https://zzkrix.com/tech/conda/</guid>
     <description><![CDATA[<h2 id="介绍" class="headerLink">
     <a href="#%e4%bb%8b%e7%bb%8d" class="header-mark"></a>介绍</h2><p><a href="https://docs.anaconda.com/" target="_blank" rel="noopener noreferrer">Conda</a> 可以用来在一台机器上管理不同的 Python 版本。</p>
 <p>比如项目 A 使用 python3.10，项目 B 使用 python3.12。</p>
@@ -17,10 +17,10 @@
 <p>一般选择 Miniconda 就可以了，Anaconda 只是多了一些科学计算相关的包。</p>]]></description>
 </item><item>
     <title>Mac 下为 Python 安装 mysqlclinet</title>
-    <link>https://zzkrix.com/mac-python-mysqlclinet/</link>
+    <link>https://zzkrix.com/tech/mac-python-mysqlclinet/</link>
     <pubDate>Mon, 06 May 2024 14:24:49 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/mac-python-mysqlclinet/</guid>
+    </author><guid>https://zzkrix.com/tech/mac-python-mysqlclinet/</guid>
     <description><![CDATA[<p>如果直接执行<code>pip install mysqlclient</code>，会报错，需要先安装依赖：</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -44,10 +44,10 @@
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>Python 语法糖</title>
-    <link>https://zzkrix.com/python-tips/</link>
+    <link>https://zzkrix.com/tech/python-tips/</link>
     <pubDate>Sun, 21 Jan 2024 22:46:01 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/python-tips/</guid>
+    </author><guid>https://zzkrix.com/tech/python-tips/</guid>
     <description><![CDATA[<h2 id="前言" class="headerLink">
     <a href="#%e5%89%8d%e8%a8%80" class="header-mark"></a>前言</h2><p>作为一门优秀的脚本语言，Python 在语法层面提供了很多好玩又实用的语法，俗称<code>语法糖</code>，正确的使用这些技巧能让代码看起来更优雅，更 Pythonic，这里列举几个。</p>
 <h2 id="简化-if--else" class="headerLink">

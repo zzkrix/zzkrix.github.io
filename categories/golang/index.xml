@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Thu, 10 Jul 2025 16:17:27 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/categories/golang/" rel="self" type="application/rss+xml" /><item>
     <title>Gin 框架中的 c.Next 的作用</title>
-    <link>https://zzkrix.com/go-gin-next/</link>
+    <link>https://zzkrix.com/tech/go-gin-next/</link>
     <pubDate>Thu, 10 Jul 2025 16:17:27 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/go-gin-next/</guid>
+    </author><guid>https://zzkrix.com/tech/go-gin-next/</guid>
     <description><![CDATA[<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
     
@@ -137,10 +137,10 @@
 <p>访问 <code>curl localhost:8080/hello</code> 控制台输出为：</p>]]></description>
 </item><item>
     <title>Go 依赖注入</title>
-    <link>https://zzkrix.com/go-di/</link>
+    <link>https://zzkrix.com/tech/go-di/</link>
     <pubDate>Sat, 23 Sep 2023 11:20:06 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/go-di/</guid>
+    </author><guid>https://zzkrix.com/tech/go-di/</guid>
     <description><![CDATA[<h2 id="文章" class="headerLink">
     <a href="#%e6%96%87%e7%ab%a0" class="header-mark"></a>文章</h2><p><a href="https://www.bennhuang.com/posts/wire/" target="_blank" rel="noopener noreferrer">https://www.bennhuang.com/posts/wire/</a></p>
 <p><a href="https://www.51cto.com/article/720059.html" target="_blank" rel="noopener noreferrer">https://www.51cto.com/article/720059.html</a></p>
@@ -148,20 +148,20 @@
     <a href="#%e6%84%9f%e5%8f%97" class="header-mark"></a>感受</h2><p>大型项目，依赖很多的时候才会有用。</p>]]></description>
 </item><item>
     <title>Go 时区问题</title>
-    <link>https://zzkrix.com/go-timezone/</link>
+    <link>https://zzkrix.com/tech/go-timezone/</link>
     <pubDate>Sun, 17 Sep 2023 13:44:09 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/go-timezone/</guid>
+    </author><guid>https://zzkrix.com/tech/go-timezone/</guid>
     <description><![CDATA[<h2 id="utc" class="headerLink">
     <a href="#utc" class="header-mark"></a>UTC</h2><p>UTC（Coordinated Universal Time），即协调世界时，对应的是格林尼治标准时间。
 国内位于东八区，和 UTC 相差 8 小时，所以时间转换时需要考虑时区问题。</p>
 <p>字符串格式的时间 （比如 &ldquo;2023-09-01 11:22:33&rdquo;），转换成 golang 的 <code>time.Time</code>时默认得到的是 UTC 时间。</p>]]></description>
 </item><item>
     <title>Golang 的 generate stringer</title>
-    <link>https://zzkrix.com/go-generate-stringr/</link>
+    <link>https://zzkrix.com/tech/go-generate-stringr/</link>
     <pubDate>Sun, 03 Sep 2023 17:07:06 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/go-generate-stringr/</guid>
+    </author><guid>https://zzkrix.com/tech/go-generate-stringr/</guid>
     <description><![CDATA[<h2 id="普通代码" class="headerLink">
     <a href="#%e6%99%ae%e9%80%9a%e4%bb%a3%e7%a0%81" class="header-mark"></a>普通代码</h2><div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -185,10 +185,10 @@
           <p class="tw-select-none !tw-my-1">golang</p>]]></description>
 </item><item>
     <title>Go 竞态检测</title>
-    <link>https://zzkrix.com/go-race/</link>
+    <link>https://zzkrix.com/tech/go-race/</link>
     <pubDate>Thu, 27 Jul 2023 19:04:14 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/go-race/</guid>
+    </author><guid>https://zzkrix.com/tech/go-race/</guid>
     <description><![CDATA[<h2 id="方法" class="headerLink">
     <a href="#%e6%96%b9%e6%b3%95" class="header-mark"></a>方法</h2><p><a href="https://www.pengrl.com/p/41755/" target="_blank" rel="noopener noreferrer">https://www.pengrl.com/p/41755/</a></p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
@@ -213,10 +213,10 @@
           <p class="tw-select-none !tw-my-1">go</p>]]></description>
 </item><item>
     <title>Go 编译 tips</title>
-    <link>https://zzkrix.com/go-cc-tips/</link>
+    <link>https://zzkrix.com/tech/go-cc-tips/</link>
     <pubDate>Thu, 27 Jul 2023 09:00:19 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/go-cc-tips/</guid>
+    </author><guid>https://zzkrix.com/tech/go-cc-tips/</guid>
     <description><![CDATA[<h2 id="go-build--ldflags" class="headerLink">
     <a href="#go-build--ldflags" class="header-mark"></a><code>go build -ldflags</code></h2><p>有如下示例代码：</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
@@ -241,18 +241,18 @@
           <p class="tw-select-none !tw-my-1">Go</p>]]></description>
 </item><item>
     <title>Go 的 gc</title>
-    <link>https://zzkrix.com/go-gc/</link>
+    <link>https://zzkrix.com/tech/go-gc/</link>
     <pubDate>Mon, 19 Jun 2023 23:04:12 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/go-gc/</guid>
+    </author><guid>https://zzkrix.com/tech/go-gc/</guid>
     <description><![CDATA[<p><a href="https://segmentfault.com/a/1190000022030353" target="_blank" rel="noopener noreferrer">https://segmentfault.com/a/1190000022030353</a></p>
 <p><a href="https://www.51cto.com/article/678037.html" target="_blank" rel="noopener noreferrer">https://www.51cto.com/article/678037.html</a></p>]]></description>
 </item><item>
     <title>Go 的 GPM 模型</title>
-    <link>https://zzkrix.com/go-gpm/</link>
+    <link>https://zzkrix.com/tech/go-gpm/</link>
     <pubDate>Wed, 17 May 2023 21:30:24 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/go-gpm/</guid>
+    </author><guid>https://zzkrix.com/tech/go-gpm/</guid>
     <description><![CDATA[<p>参考：<a href="https://learnku.com/articles/41728" target="_blank" rel="noopener noreferrer">https://learnku.com/articles/41728</a></p>
 <p>G：协程
 P：调度器
@@ -262,10 +262,10 @@ M：操作系统线程</p>
 <p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517223732075.png'     ></p>]]></description>
 </item><item>
     <title>Go 内存逃逸</title>
-    <link>https://zzkrix.com/go-heap/</link>
+    <link>https://zzkrix.com/tech/go-heap/</link>
     <pubDate>Mon, 15 May 2023 11:33:20 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/go-heap/</guid>
+    </author><guid>https://zzkrix.com/tech/go-heap/</guid>
     <description><![CDATA[<h2 id="概念" class="headerLink">
     <a href="#%e6%a6%82%e5%bf%b5" class="header-mark"></a>概念</h2><p>所谓内存逃逸，指的是原来应该分配在栈上的变量，被分配到了堆上。</p>
 <p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230515165225898.png'     ></p>
@@ -302,10 +302,10 @@ M：操作系统线程</p>
           <p class="tw-select-none !tw-my-1">go</p>]]></description>
 </item><item>
     <title>Go sync map 实现</title>
-    <link>https://zzkrix.com/go-sync-map/</link>
+    <link>https://zzkrix.com/tech/go-sync-map/</link>
     <pubDate>Thu, 16 Mar 2023 21:20:16 &#43;0000</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/go-sync-map/</guid>
+    </author><guid>https://zzkrix.com/tech/go-sync-map/</guid>
     <description><![CDATA[<p>参考：<a href="https://www.cnblogs.com/qcrao-2018/p/12833787.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/qcrao-2018/p/12833787.html</a></p>]]></description>
 </item></channel>
 </rss>
