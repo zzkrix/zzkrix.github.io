@@ -2,16 +2,22 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://zzkrix.com/categories/</loc><lastmod>2025-08-13T19:23:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/categories/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/tags/kcp/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/categories/linux/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/tags/linux/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/tags/oracle/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/tags/ssh/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/tags/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/tech/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/tech/kcp/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/categories/clash/</loc><lastmod>2025-08-13T19:23:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/tags/clash/</loc><lastmod>2025-08-13T19:23:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/tags/dns/</loc><lastmod>2025-08-13T19:23:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://zzkrix.com/tags/</loc><lastmod>2025-08-13T19:23:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://zzkrix.com/tech/</loc><lastmod>2025-08-13T19:23:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/categories/vpn/</loc><lastmod>2025-08-13T19:23:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/tags/vpn/</loc><lastmod>2025-08-13T19:23:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/tech/clash-tun-lan-dns/</loc><lastmod>2025-08-13T19:23:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://zzkrix.com/</loc><lastmod>2025-08-13T19:23:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/tags/lazyvim/</loc><lastmod>2025-08-03T14:03:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>https://zzkrix.com/tech/lazyvim-init/</loc><lastmod>2025-08-03T14:03:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>https://zzkrix.com/categories/vim/</loc><lastmod>2025-08-03T14:03:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
@@ -43,7 +49,6 @@
             <loc>https://zzkrix.com/tags/chrome/</loc><lastmod>2025-03-30T21:24:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tech/chrome-extensions-kimi/</loc><lastmod>2025-03-30T21:24:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/categories/oracle/</loc><lastmod>2025-02-19T21:09:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://zzkrix.com/tags/oracle/</loc><lastmod>2025-02-19T21:09:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tech/oracle-block-volume/</loc><lastmod>2025-02-19T21:09:36&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tech/web-cookie/</loc><lastmod>2025-02-13T09:37:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/categories/web/</loc><lastmod>2025-02-13T09:37:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -87,8 +92,6 @@
             <loc>https://zzkrix.com/categories/windows/</loc><lastmod>2024-08-04T12:34:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tags/windows/</loc><lastmod>2024-08-04T12:34:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tech/ollama-llama/</loc><lastmod>2024-07-25T16:10:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://zzkrix.com/categories/linux/</loc><lastmod>2024-06-30T23:17:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://zzkrix.com/tags/linux/</loc><lastmod>2024-06-30T23:17:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tech/linux-jobs/</loc><lastmod>2024-06-30T23:17:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/categories/git/</loc><lastmod>2024-06-24T15:22:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tags/git/</loc><lastmod>2024-06-24T15:22:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -107,7 +110,6 @@
             <loc>https://zzkrix.com/tech/vscode-terminal-settings/</loc><lastmod>2024-01-26T09:53:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tech/python-tips/</loc><lastmod>2024-01-21T22:46:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tech/mac-iterm2-ssh/</loc><lastmod>2024-01-21T22:24:12&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://zzkrix.com/tags/ssh/</loc><lastmod>2024-01-21T22:24:12&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/categories/blog/</loc><lastmod>2024-01-21T00:23:12&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tags/blog/</loc><lastmod>2024-01-21T00:23:12&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tags/github/</loc><lastmod>2024-01-21T00:23:12&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
