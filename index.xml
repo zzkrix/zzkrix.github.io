@@ -8,10 +8,10 @@
             <atom:link href="https://zzkrix.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>使用 kcptun 拯救我的 Oracle</title>
-    <link>https://zzkrix.com/tech/kcp/</link>
+    <link>https://zzkrix.com/tech/kcptun-ssh/</link>
     <pubDate>Mon, 18 Aug 2025 21:51:03 &#43;0800</pubDate><author>
         <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/kcp/</guid>
+    </author><guid>https://zzkrix.com/tech/kcptun-ssh/</guid>
     <description><![CDATA[<h2 id="背景" class="headerLink">
     <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><p>有一个首尔的甲骨文云服务器，ssh 访问超级慢，甚至连不上。</p>
 <p>搭了一个 kcptun 服务，用 scp 传文件测试，速度提升了 3 倍，记录一下。</p>
