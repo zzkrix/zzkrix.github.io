@@ -81,8 +81,8 @@ Windows 无法更新计算机的启动配置，安装无法继续。
             }
         }
       } else { 
-        if ('auto' === 'light' || 'auto' === 'dark') 
-            setTheme('auto'), saveTheme('auto'); 
+        if ('light' === 'light' || 'light' === 'dark') 
+            setTheme('light'), saveTheme('light'); 
         else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');
     }
     let metaColors = {'light': '#f8f8f8','dark': '#161b22'}
