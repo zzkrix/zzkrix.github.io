@@ -27,18 +27,6 @@
 | [Vimium C](https://chromewebstore.google.com/detail/vimium-c-%E5%85%A8%E9%94%AE%E7%9B%98%E6%93%8D%E4%BD%9C%E6%B5%8F%E8%A7%88%E5%99%A8/hfjbmagddngcpeloejdejnfgbamkjaeg?hl=zh-CN) | vim 模式操作浏览器 （识别的更准些） |
 | ~~❌[Vimium](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)~~                                                                                 | ~~vim 模式操作浏览器~~              |
 
-### 硬件
-
-电脑：Macbook Air M4（14/ 32G+512G）
-
-键盘：Leopold FC660MBT
-
-手机：iPhone 11 Pro（256G）
-
-软路由：R2S + [Kwrt](https://github.com/kiddin9/Kwrt) + OpenClash
-
-~~鼠标：罗技 M750 （5 年用坏了四个罗技鼠标，垃圾）~~
-
 ### 打赏
 
 <div style="display: flex; gap: 0; justify-content: flex-start; align-items: flex-start;">
