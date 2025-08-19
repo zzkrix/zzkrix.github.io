@@ -125,9 +125,11 @@ comment = true
 
 然后在 channel 里随便发一条消息。
 
-访问 `https://api.telegram.org/bot<token>/getUpdates`, 将`token`替换为机器人 token。
+访问 `https://api.telegram.org/bot<token>/getUpdates`（将`token`替换为机器人 token）。
 
-其中的 chat.id 就是 valine 配置文件里的 `TG_CHAT_ID`。
+相应内容中的 chat.id 就是 valine 配置文件里的 `TG_CHAT_ID`。
+
+然后在 docker-compose 中填写上两个环境变量 `TG_BOT_TOKEN`和`TG_CHAT_ID`即可。
 
 ```json
 {
@@ -154,6 +156,4 @@ comment = true
   ]
 }
 ```
-
-然后在 docker-compose 中填写上两个环境变量 `TG_BOT_TOKEN`和`TG_CHAT_ID`即可。
 
