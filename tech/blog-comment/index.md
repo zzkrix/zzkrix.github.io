@@ -86,7 +86,7 @@ docker compose up -d
 
 ## 使用
 
-> 需要暴露评论系统到公网，这里使用的是[cloudflre 的内网穿透](https://www.zzkrix.com/tech/cloudflare-zero-trust/)。
+> 需要暴露评论系统到公网，这里使用的是[cloudflare 的内网穿透](https://www.zzkrix.com/tech/cloudflare-zero-trust/)。
 
 在自己的博客配置文件中找到 waline 配置项，一般只需要填写评论系统的地址即可。
 
@@ -117,7 +117,7 @@ comment = true
 
 这里以 tg 为例，创建和使用 tg 机器人：[waline 官方文档](https://waline.js.org/guide/features/notification.html#telegram-%E9%80%9A%E7%9F%A5)。
 
-访问 [BotFather](https://t.me/BotFather)，依次按提示输入`/newbot` -- `bot 名称（随意可修改）`-- `bot 标识（全网唯一，不可修改，以 Bot 或_bot 结尾）`。
+访问 [BotFather](https://t.me/BotFather)，依次按提示输入`/newbot` -- `bot 名称（随意，可修改）`-- `bot 标识（全网唯一，不可修改，以 Bot 或_bot 结尾）`。
 
 然后就能拿到新建的机器人 api token（valine 配置中的 `TG_BOT_TOKEN`），类似如下形式： `12345678:asdhASDH_aahjJUSKLJHGH`
 
