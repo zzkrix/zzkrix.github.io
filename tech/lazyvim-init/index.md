@@ -1,4 +1,4 @@
-# lazyvim 简介
+# lazyvim 备忘录
 
 
 ## 预览

@@ -5,7 +5,7 @@
         <description>Ssh - 标签 - 避风港</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 18 Aug 2025 21:51:03 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/ssh/" rel="self" type="application/rss+xml" /><item>
-    <title>使用 kcptun 拯救我的 Oracle</title>
+    <title>使用 kcptun 拯救我的 Oracle 服务器</title>
     <link>https://zzkrix.com/tech/kcptun-ssh/</link>
     <pubDate>Mon, 18 Aug 2025 21:51:03 &#43;0800</pubDate><author>
         <name>zzkrix</name>
