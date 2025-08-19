@@ -39,6 +39,8 @@ services:
       PG_DB: waline
       PG_USER: postgres
       PG_PASSWORD: 123456
+      TG_BOT_TOKEN: "" # telegram 消息通知机器人 token
+      TG_CHAT_ID: "" # telegram 消息通知 channel/group 等的 ID
     depends_on:
       - postgres
 
@@ -108,4 +110,50 @@ comment = true
 自己编译镜像[参考文档](https://github.com/walinejs/waline/blob/main/docs/src/guide/deploy/vps.md)。
 
 更多配置参考[官方文档](https://waline.js.org/)。
+
+## 评论通知
+
+当有新增评论时，waline 支持邮件、微信、telegram 等通知。
+
+这里以 tg 为例，创建和使用 tg 机器人：[waline 官方文档](https://waline.js.org/guide/features/notification.html#telegram-%E9%80%9A%E7%9F%A5)。
+
+访问 [BotFather](https://t.me/BotFather)，依次按提示输入`/newbot` -- `bot 名称（随意可修改）`-- `bot 标识（全网唯一，不可修改，以 Bot 或_bot 结尾）`。
+
+然后就能拿到新建的机器人 api token（valine 配置中的 `TG_BOT_TOKEN`），类似如下形式： `12345678:asdhASDH_aahjJUSKLJHGH`
+
+创建 channel，将刚创建的机器人添加为该 channel 管理员。
+
+然后在 channel 里随便发一条消息。
+
+访问 `https://api.telegram.org/bot<token>/getUpdates`, 将`token`替换为机器人 token。
+
+其中的 chat.id 就是 valine 配置文件里的 `TG_CHAT_ID`。
+
+```json
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 41000699,
+      "channel_post": {
+        "message_id": 2,
+        "sender_chat": {
+          "id": -1001212121212,
+          "title": "评论通知",
+          "type": "channel"
+        },
+        "chat": {
+          "id": -1001212121212,
+          "title": "评论通知",
+          "type": "channel"
+        },
+        "date": 1755573595,
+        "text": "88888888"
+      }
+    }
+  ]
+}
+```
+
+然后在 docker-compose 中填写上两个环境变量 `TG_BOT_TOKEN`和`TG_CHAT_ID`即可。
 
