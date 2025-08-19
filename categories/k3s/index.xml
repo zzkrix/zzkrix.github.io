@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>K3s - 分类 - 避风港</title>
+        <title>k3s - 分类 - 避风港</title>
         <link>https://zzkrix.com/categories/k3s/</link>
-        <description>K3s - 分类 - 避风港</description>
+        <description>k3s - 分类 - 避风港</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Thu, 31 Oct 2024 13:25:38 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/categories/k3s/" rel="self" type="application/rss+xml" /><item>
     <title>k3s 镜像重写</title>

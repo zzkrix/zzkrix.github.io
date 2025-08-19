@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Severless - 分类 - 避风港</title>
+        <title>severless - 分类 - 避风港</title>
         <link>https://zzkrix.com/categories/severless/</link>
-        <description>Severless - 分类 - 避风港</description>
+        <description>severless - 分类 - 避风港</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 15 Jan 2024 20:20:42 &#43;0000</lastBuildDate><atom:link href="https://zzkrix.com/categories/severless/" rel="self" type="application/rss+xml" /><item>
     <title>serverless 基础</title>

@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>ComfyUI - 标签 - 避风港</title>
+        <title>comfyUI - 标签 - 避风港</title>
         <link>https://zzkrix.com/tags/comfyui/</link>
-        <description>ComfyUI - 标签 - 避风港</description>
+        <description>comfyUI - 标签 - 避风港</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 05 Aug 2024 22:07:13 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/comfyui/" rel="self" type="application/rss+xml" /><item>
     <title>CPU 模式下 comfyUI 运行 flux</title>

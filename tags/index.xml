@@ -1,116 +1,116 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - 标签 - 避风港</title>
+        <title>tags - 标签 - 避风港</title>
         <link>https://zzkrix.com/tags/</link>
-        <description>Tags - 标签 - 避风港</description>
+        <description>tags - 标签 - 避风港</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Tue, 19 Aug 2025 09:40:58 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Blog</title>
+    <title>blog</title>
     <link>https://zzkrix.com/tags/blog/</link>
     <pubDate>Tue, 19 Aug 2025 09:40:58 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/blog/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Comment</title>
+    <title>comment</title>
     <link>https://zzkrix.com/tags/comment/</link>
     <pubDate>Tue, 19 Aug 2025 09:40:58 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/comment/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Waline</title>
+    <title>waline</title>
     <link>https://zzkrix.com/tags/waline/</link>
     <pubDate>Tue, 19 Aug 2025 09:40:58 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/waline/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Kcp</title>
+    <title>kcp</title>
     <link>https://zzkrix.com/tags/kcp/</link>
     <pubDate>Mon, 18 Aug 2025 21:51:03 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/kcp/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Linux</title>
+    <title>linux</title>
     <link>https://zzkrix.com/tags/linux/</link>
     <pubDate>Mon, 18 Aug 2025 21:51:03 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/linux/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Oracle</title>
+    <title>oracle</title>
     <link>https://zzkrix.com/tags/oracle/</link>
     <pubDate>Mon, 18 Aug 2025 21:51:03 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/oracle/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Ssh</title>
+    <title>ssh</title>
     <link>https://zzkrix.com/tags/ssh/</link>
     <pubDate>Mon, 18 Aug 2025 21:51:03 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/ssh/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Clash</title>
+    <title>clash</title>
     <link>https://zzkrix.com/tags/clash/</link>
     <pubDate>Wed, 13 Aug 2025 19:23:43 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/clash/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Dns</title>
+    <title>dns</title>
     <link>https://zzkrix.com/tags/dns/</link>
     <pubDate>Wed, 13 Aug 2025 19:23:43 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/dns/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Vpn</title>
+    <title>vpn</title>
     <link>https://zzkrix.com/tags/vpn/</link>
     <pubDate>Wed, 13 Aug 2025 19:23:43 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/vpn/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Lazyvim</title>
+    <title>lazyvim</title>
     <link>https://zzkrix.com/tags/lazyvim/</link>
     <pubDate>Sun, 03 Aug 2025 14:03:11 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/lazyvim/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Vim</title>
+    <title>vim</title>
     <link>https://zzkrix.com/tags/vim/</link>
     <pubDate>Sun, 03 Aug 2025 14:03:11 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/vim/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Lua</title>
+    <title>lua</title>
     <link>https://zzkrix.com/tags/lua/</link>
     <pubDate>Wed, 30 Jul 2025 12:04:39 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/lua/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Iterm2</title>
+    <title>iterm2</title>
     <link>https://zzkrix.com/tags/iterm2/</link>
     <pubDate>Mon, 28 Jul 2025 13:43:39 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/iterm2/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Gin</title>
+    <title>gin</title>
     <link>https://zzkrix.com/tags/gin/</link>
     <pubDate>Thu, 10 Jul 2025 16:17:27 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/gin/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Golang</title>
+    <title>golang</title>
     <link>https://zzkrix.com/tags/golang/</link>
     <pubDate>Thu, 10 Jul 2025 16:17:27 &#43;0800</pubDate><author>
         <name>zzkrix</name>
@@ -131,7 +131,7 @@
     </author><guid>https://zzkrix.com/tags/%E6%96%87%E5%AD%A6/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Cloudflare</title>
+    <title>cloudflare</title>
     <link>https://zzkrix.com/tags/cloudflare/</link>
     <pubDate>Mon, 07 Apr 2025 15:00:08 &#43;0800</pubDate><author>
         <name>zzkrix</name>

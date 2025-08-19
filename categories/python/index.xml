@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Python - 分类 - 避风港</title>
+        <title>python - 分类 - 避风港</title>
         <link>https://zzkrix.com/categories/python/</link>
-        <description>Python - 分类 - 避风港</description>
+        <description>python - 分类 - 避风港</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Fri, 30 Aug 2024 14:23:24 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/categories/python/" rel="self" type="application/rss+xml" /><item>
     <title>Conda 安装和使用</title>

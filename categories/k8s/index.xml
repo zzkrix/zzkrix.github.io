@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>K8s - 分类 - 避风港</title>
+        <title>k8s - 分类 - 避风港</title>
         <link>https://zzkrix.com/categories/k8s/</link>
-        <description>K8s - 分类 - 避风港</description>
+        <description>k8s - 分类 - 避风港</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Fri, 05 Jan 2024 15:02:35 &#43;0000</lastBuildDate><atom:link href="https://zzkrix.com/categories/k8s/" rel="self" type="application/rss+xml" /><item>
     <title>将 helm chart 推送到 harbor</title>

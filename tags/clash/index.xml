@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Clash - 标签 - 避风港</title>
+        <title>clash - 标签 - 避风港</title>
         <link>https://zzkrix.com/tags/clash/</link>
-        <description>Clash - 标签 - 避风港</description>
+        <description>clash - 标签 - 避风港</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Wed, 13 Aug 2025 19:23:43 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/clash/" rel="self" type="application/rss+xml" /><item>
     <title>保持局域网 dns 在 clash tun 模式中有效</title>

@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Cloudflare - 分类 - 避风港</title>
+        <title>cloudflare - 分类 - 避风港</title>
         <link>https://zzkrix.com/categories/cloudflare/</link>
-        <description>Cloudflare - 分类 - 避风港</description>
+        <description>cloudflare - 分类 - 避风港</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
             <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 07 Apr 2025 15:00:08 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/categories/cloudflare/" rel="self" type="application/rss+xml" /><item>
     <title>借助 Cloudflare 实现高速内网穿透</title>
