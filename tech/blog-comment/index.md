@@ -7,7 +7,7 @@
 
 - gitalk：依托 github issue，评论者需要登陆 github 账号。
 - disqus： php 的，不喜欢。
-- valine：不开源，主要是需要实名认证，垃圾。
+- valine：不开源，需要实名认证，垃圾。
 - waline：支持私有化部署 & 开源👍。
 
 这里选择使用自部署的[waline](https://waline.js.org/)作为博客评论系统。
