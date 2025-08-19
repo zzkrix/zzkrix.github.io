@@ -105,5 +105,7 @@ comment = true
 
 访问`https://<SERVER>/ui` 可以登陆到管理后台，管理评论（删除、审核、置顶等操作）。
 
+自己编译镜像[参考文档](https://github.com/walinejs/waline/blob/main/docs/src/guide/deploy/vps.md)。
+
 更多配置参考[官方文档](https://waline.js.org/)。
 
