@@ -4,9 +4,24 @@
         <link>https://zzkrix.com/</link>
         <description>避风港</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
-            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 18 Aug 2025 21:51:03 &#43;0800</lastBuildDate>
+            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Tue, 19 Aug 2025 09:40:58 &#43;0800</lastBuildDate>
             <atom:link href="https://zzkrix.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>为博客添加评论系统</title>
+    <link>https://zzkrix.com/tech/blog-comment/</link>
+    <pubDate>Tue, 19 Aug 2025 09:40:58 &#43;0800</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/blog-comment/</guid>
+    <description><![CDATA[<h2 id="介绍" class="headerLink">
+    <a href="#%e4%bb%8b%e7%bb%8d" class="header-mark"></a>介绍</h2><p>一般的博客主题都支持添加评论系统，常见方案如下：</p>
+<ul>
+<li>gitalk：依托 github issue，评论者需要登陆 github 账号。</li>
+<li>disqus： php 的，不喜欢。</li>
+<li>valine：不开源，主要是需要实名认证，垃圾。</li>
+<li>waline：支持私有化部署 &amp; 开源👍。</li>
+</ul>
+<p>这里选择使用自部署的<a href="https://waline.js.org/" target="_blank" rel="noopener noreferrer">waline</a>作为博客评论系统。</p>]]></description>
+</item><item>
     <title>使用 kcptun 拯救我的 Oracle</title>
     <link>https://zzkrix.com/tech/kcptun-ssh/</link>
     <pubDate>Mon, 18 Aug 2025 21:51:03 &#43;0800</pubDate><author>
@@ -844,15 +859,5 @@
 <p>sharkd 是 wireshark 里用来解析数据包的模块，可以单独编译和使用。</p>
 <p>sharkd 可执行文件未包含在标准 Wireshark 二进制包（Windows MSI 等）中，因此必须从源代码构建。</p>
 <p>sharkd 提供了接口用于数据查询（使用 tcp 或本地 socket）。</p>]]></description>
-</item><item>
-    <title>AI Agent 和 workflow 介绍</title>
-    <link>https://zzkrix.com/tech/ai-agent-workflow/</link>
-    <pubDate>Fri, 23 Aug 2024 15:05:38 &#43;0800</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/ai-agent-workflow/</guid>
-    <description><![CDATA[<h2 id="概念" class="headerLink">
-    <a href="#%e6%a6%82%e5%bf%b5" class="header-mark"></a>概念</h2><blockquote>
-  <p>首先明确一点，AI 输出内容存在随机性。</p>
-</blockquote><p>AI 推理是指人工智能在处理问题时，根据已有的数据和模型，进行逻辑推断和生成答案的过程。这个过程包括了从大量的数据中抽取有用信息、应用已学的规则或模式、并最终得出一个可能的回答。由于 AI 生成的结果有时会有所不同，主要有以下几个原因：</p>]]></description>
 </item></channel>
 </rss>

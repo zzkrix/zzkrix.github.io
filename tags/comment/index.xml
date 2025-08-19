@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Comment - 标签 - 避风港</title>
+        <link>https://zzkrix.com/tags/comment/</link>
+        <description>Comment - 标签 - 避风港</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Tue, 19 Aug 2025 09:40:58 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/comment/" rel="self" type="application/rss+xml" /><item>
+    <title>为博客添加评论系统</title>
+    <link>https://zzkrix.com/tech/blog-comment/</link>
+    <pubDate>Tue, 19 Aug 2025 09:40:58 &#43;0800</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tech/blog-comment/</guid>
+    <description><![CDATA[<h2 id="介绍" class="headerLink">
+    <a href="#%e4%bb%8b%e7%bb%8d" class="header-mark"></a>介绍</h2><p>一般的博客主题都支持添加评论系统，常见方案如下：</p>
+<ul>
+<li>gitalk：依托 github issue，评论者需要登陆 github 账号。</li>
+<li>disqus： php 的，不喜欢。</li>
+<li>valine：不开源，主要是需要实名认证，垃圾。</li>
+<li>waline：支持私有化部署 &amp; 开源👍。</li>
+</ul>
+<p>这里选择使用自部署的<a href="https://waline.js.org/" target="_blank" rel="noopener noreferrer">waline</a>作为博客评论系统。</p>]]></description>
+</item></channel>
+</rss>

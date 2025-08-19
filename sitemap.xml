@@ -2,15 +2,20 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://zzkrix.com/categories/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/categories/blog/</loc><lastmod>2025-08-19T09:40:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/tags/blog/</loc><lastmod>2025-08-19T09:40:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/categories/</loc><lastmod>2025-08-19T09:40:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/tags/comment/</loc><lastmod>2025-08-19T09:40:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/tags/</loc><lastmod>2025-08-19T09:40:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/tech/</loc><lastmod>2025-08-19T09:40:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/tags/waline/</loc><lastmod>2025-08-19T09:40:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/</loc><lastmod>2025-08-19T09:40:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zzkrix.com/tech/blog-comment/</loc><lastmod>2025-08-19T09:40:58&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/tags/kcp/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/categories/linux/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/tags/linux/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/tags/oracle/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/tags/ssh/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://zzkrix.com/tags/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://zzkrix.com/tech/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://zzkrix.com/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/tech/kcptun-ssh/</loc><lastmod>2025-08-18T21:51:03&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/categories/clash/</loc><lastmod>2025-08-13T19:23:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://zzkrix.com/tags/clash/</loc><lastmod>2025-08-13T19:23:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
@@ -110,8 +115,6 @@
             <loc>https://zzkrix.com/tech/vscode-terminal-settings/</loc><lastmod>2024-01-26T09:53:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tech/python-tips/</loc><lastmod>2024-01-21T22:46:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tech/mac-iterm2-ssh/</loc><lastmod>2024-01-21T22:24:12&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://zzkrix.com/categories/blog/</loc><lastmod>2024-01-21T00:23:12&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://zzkrix.com/tags/blog/</loc><lastmod>2024-01-21T00:23:12&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tags/github/</loc><lastmod>2024-01-21T00:23:12&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tags/hugo/</loc><lastmod>2024-01-21T00:23:12&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://zzkrix.com/tech/hugo-github-pages/</loc><lastmod>2024-01-21T00:23:12&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

@@ -4,7 +4,28 @@
         <link>https://zzkrix.com/tags/</link>
         <description>Tags - 标签 - 避风港</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
-            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 18 Aug 2025 21:51:03 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Tue, 19 Aug 2025 09:40:58 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Blog</title>
+    <link>https://zzkrix.com/tags/blog/</link>
+    <pubDate>Tue, 19 Aug 2025 09:40:58 &#43;0800</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tags/blog/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Comment</title>
+    <link>https://zzkrix.com/tags/comment/</link>
+    <pubDate>Tue, 19 Aug 2025 09:40:58 &#43;0800</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tags/comment/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Waline</title>
+    <link>https://zzkrix.com/tags/waline/</link>
+    <pubDate>Tue, 19 Aug 2025 09:40:58 &#43;0800</pubDate><author>
+        <name>zzkrix</name>
+    </author><guid>https://zzkrix.com/tags/waline/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Kcp</title>
     <link>https://zzkrix.com/tags/kcp/</link>
     <pubDate>Mon, 18 Aug 2025 21:51:03 &#43;0800</pubDate><author>
@@ -122,27 +143,6 @@
     <pubDate>Mon, 07 Apr 2025 15:00:08 &#43;0800</pubDate><author>
         <name>zzkrix</name>
     </author><guid>https://zzkrix.com/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Chrome</title>
-    <link>https://zzkrix.com/tags/chrome/</link>
-    <pubDate>Sun, 30 Mar 2025 21:24:50 &#43;0800</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tags/chrome/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Web</title>
-    <link>https://zzkrix.com/tags/web/</link>
-    <pubDate>Thu, 13 Feb 2025 09:37:57 &#43;0800</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tags/web/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>TypeScript</title>
-    <link>https://zzkrix.com/tags/typescript/</link>
-    <pubDate>Mon, 10 Feb 2025 13:14:17 &#43;0800</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tags/typescript/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
