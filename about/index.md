@@ -47,8 +47,6 @@
 
 ### 联系
 
-WeChat: d3hpOG1wYmV6cTl0aTd6MAo=
-
 Email: [zzkrix56@gmail.com](mailto:zzkrix56@gmail.com)
 
 Github: [https://github.com/zzkrix](https://github.com/zzkrix)
