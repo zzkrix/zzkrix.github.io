@@ -1,16 +1,23 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>tools - 标签 - 避风港</title>
-        <link>https://zzkrix.com/tags/tools/</link>
-        <description>tools - 标签 - 避风港</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
-            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 24 Jun 2024 09:47:05 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/tools/" rel="self" type="application/rss+xml" /><item>
-    <title>虚拟机中使用 Mac 快捷键</title>
-    <link>https://zzkrix.com/tech/mac-windows-autohotkey/</link>
-    <pubDate>Mon, 24 Jun 2024 09:47:05 &#43;0800</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/mac-windows-autohotkey/</guid>
-    <description><![CDATA[<p>Mac 上使用虚拟机安装了 Windows，若想正常使用<code>cmd + c</code>、<code>cmd + v</code>等快捷键，按以下步骤操作。</p>
-<p>安装 <a href="https://www.autohotkey.com/" target="_blank" rel="noopener noreferrer">AutoHotkey</a>，这里选择下载 v1 版本，因为下面的脚本只支持 v1。</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools - 标签 - 避风港</title>
+    <link>https://zzkrix.com/tags/tools/</link>
+    <description>避风港</description>
+    <generator>Hugo 0.148.2 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
+    <language>zh-CN</language>
+    <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+    <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster>
+    <lastBuildDate>Thu, 21 Aug 2025 20:56:02 +0800</lastBuildDate>
+    <atom:link href="https://zzkrix.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>虚拟机中使用 Mac 快捷键</title>
+      <link>https://zzkrix.com/posts/mac-windows-autohotkey/</link>
+      <pubDate>Mon, 24 Jun 2024 09:47:05 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
+      <guid>https://zzkrix.com/posts/mac-windows-autohotkey/</guid>
+      <category domain="https://zzkrix.com/categories/mac/">mac</category>
+      <category domain="https://zzkrix.com/categories/tools/">tools</category>
+      <description>&lt;p&gt;Mac 上使用虚拟机安装了 Windows，若想正常使用&lt;code&gt;cmd + c&lt;/code&gt;、&lt;code&gt;cmd + v&lt;/code&gt;等快捷键，按以下步骤操作。&lt;/p&gt;&#xA;&lt;p&gt;安装 &lt;a href=&#34;https://www.autohotkey.com/&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;AutoHotkey&lt;/a&gt;，这里选择下载 v1 版本，因为下面的脚本只支持 v1。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

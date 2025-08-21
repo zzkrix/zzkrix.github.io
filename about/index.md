@@ -45,3 +45,9 @@ Github: [https://github.com/zzkrix](https://github.com/zzkrix)
 
 ![img](https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-07-23-15-25-27-gcX80x.jpg)
 
+
+---
+
+> 作者: [zzkrix](https://zzkrix.com)  
+> URL: https://zzkrix.com/about/  
+

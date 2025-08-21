@@ -1,28 +1,30 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>web - 分类 - 避风港</title>
-        <link>https://zzkrix.com/categories/web/</link>
-        <description>web - 分类 - 避风港</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
-            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Thu, 13 Feb 2025 09:37:57 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/categories/web/" rel="self" type="application/rss+xml" /><item>
-    <title>HTTP Cookie 笔记</title>
-    <link>https://zzkrix.com/tech/web-cookie/</link>
-    <pubDate>Thu, 13 Feb 2025 09:37:57 &#43;0800</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/web-cookie/</guid>
-    <description><![CDATA[<h2 id="简介" class="headerLink">
-    <a href="#%e7%ae%80%e4%bb%8b" class="header-mark"></a>简介</h2><p>每个会话可以使用多个 Cookie（实测 Chrome 保存 1000 多个也可以，但正常人没这么干的）。</p>
-<p>一般业务就能用到 10 个以内的 Cookie，大型网站可能会用到 20 到 30 个。</p>
-<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-13-10-39-C62V7N.png'   alt="2025-02-13-10-39-C62V7N"  ></p>
-<p>Cookie 由服务端生成，并通过响应的 Header（Set-Cookie 字段）返回给客户端。</p>]]></description>
-</item><item>
-    <title>浏览器跨域请求机制</title>
-    <link>https://zzkrix.com/tech/web-cross-origin/</link>
-    <pubDate>Tue, 11 Feb 2025 14:27:28 &#43;0800</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/web-cross-origin/</guid>
-    <description><![CDATA[<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-11-17-16-XR4S9O.png'   alt="2025-02-11-17-16-XR4S9O"  ></p>
-<h2 id="浏览器同源策略" class="headerLink">
-    <a href="#%e6%b5%8f%e8%a7%88%e5%99%a8%e5%90%8c%e6%ba%90%e7%ad%96%e7%95%a5" class="header-mark"></a>浏览器同源策略</h2><p>同源策略是浏览器的一个安全功能。简单来说，它是一种限制不同“源”之间相互访问资源的规则。“源”主要包括协议（比如 http、https）、域名（如 example.com、another - site.com）和端口号（像 80、443 等）。如果这三个要素都相同，就被认为是同源的。</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web - 分类 - 避风港</title>
+    <link>https://zzkrix.com/categories/web/</link>
+    <description>避风港</description>
+    <generator>Hugo 0.148.2 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
+    <language>zh-CN</language>
+    <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+    <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster>
+    <lastBuildDate>Thu, 21 Aug 2025 20:56:02 +0800</lastBuildDate>
+    <atom:link href="https://zzkrix.com/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTP Cookie 笔记</title>
+      <link>https://zzkrix.com/posts/web-cookie/</link>
+      <pubDate>Thu, 13 Feb 2025 09:37:57 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
+      <guid>https://zzkrix.com/posts/web-cookie/</guid>
+      <category domain="https://zzkrix.com/categories/web/">web</category>
+      <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;简介&#34;&gt;&lt;span&gt;简介&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e7%ae%80%e4%bb%8b&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;每个会话可以使用多个 Cookie（实测 Chrome 保存 1000 多个也可以，但正常人没这么干的）。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>浏览器跨域请求机制</title>
+      <link>https://zzkrix.com/posts/web-cross-origin/</link>
+      <pubDate>Tue, 11 Feb 2025 14:27:28 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
+      <guid>https://zzkrix.com/posts/web-cross-origin/</guid>
+      <category domain="https://zzkrix.com/categories/web/">web</category>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2025-02-11-17-16-XR4S9O.png&#39; alt=&#34;2025-02-11-17-16-XR4S9O&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 class=&#34;heading-element&#34; id=&#34;浏览器同源策略&#34;&gt;&lt;span&gt;浏览器同源策略&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e6%b5%8f%e8%a7%88%e5%99%a8%e5%90%8c%e6%ba%90%e7%ad%96%e7%95%a5&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;同源策略是浏览器的一个安全功能。简单来说，它是一种限制不同“源”之间相互访问资源的规则。“源”主要包括协议（比如 http、https）、域名（如 example.com、another - site.com）和端口号（像 80、443 等）。如果这三个要素都相同，就被认为是同源的。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

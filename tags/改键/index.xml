@@ -1,16 +1,22 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>改键 - 标签 - 避风港</title>
-        <link>https://zzkrix.com/tags/%E6%94%B9%E9%94%AE/</link>
-        <description>改键 - 标签 - 避风港</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
-            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Fri, 22 Mar 2024 15:19:35 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/%E6%94%B9%E9%94%AE/" rel="self" type="application/rss+xml" /><item>
-    <title>Mac 原生输入法配置</title>
-    <link>https://zzkrix.com/tech/mac-input-shift/</link>
-    <pubDate>Fri, 22 Mar 2024 15:19:35 &#43;0800</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/mac-input-shift/</guid>
-    <description><![CDATA[<h2 id="背景" class="headerLink">
-    <a href="#%e8%83%8c%e6%99%af" class="header-mark"></a>背景</h2><p>出于信任问题，手机上切换成 iPhone 自带输入法好多年了，无奈因为使用习惯问题 Mac 上一直用的搜狗输入法（实际上只是自带输入法无法实现 shift 切换中英文的小问题）。今天终于研究了下，完美解决。</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>改键 - 标签 - 避风港</title>
+    <link>https://zzkrix.com/tags/%E6%94%B9%E9%94%AE/</link>
+    <description>避风港</description>
+    <generator>Hugo 0.148.2 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
+    <language>zh-CN</language>
+    <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+    <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster>
+    <lastBuildDate>Thu, 21 Aug 2025 20:56:02 +0800</lastBuildDate>
+    <atom:link href="https://zzkrix.com/tags/%E6%94%B9%E9%94%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac 原生输入法配置</title>
+      <link>https://zzkrix.com/posts/mac-input-shift/</link>
+      <pubDate>Fri, 22 Mar 2024 15:19:35 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
+      <guid>https://zzkrix.com/posts/mac-input-shift/</guid>
+      <category domain="https://zzkrix.com/categories/mac/">mac</category>
+      <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;背景&#34;&gt;&lt;span&gt;背景&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e8%83%8c%e6%99%af&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;出于信任问题，手机上切换成 iPhone 自带输入法好多年了，无奈因为使用习惯问题 Mac 上一直用的搜狗输入法（实际上只是自带输入法无法实现 shift 切换中英文的小问题）。今天终于研究了下，完美解决。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

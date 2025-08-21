@@ -1,29 +1,30 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>消息队列 - 分类 - 避风港</title>
-        <link>https://zzkrix.com/categories/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</link>
-        <description>消息队列 - 分类 - 避风港</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
-            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Sun, 14 May 2023 12:30:46 &#43;0000</lastBuildDate><atom:link href="https://zzkrix.com/categories/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/" rel="self" type="application/rss+xml" /><item>
-    <title>rocketmq 事务消息</title>
-    <link>https://zzkrix.com/tech/rocketmq-tx/</link>
-    <pubDate>Sun, 14 May 2023 12:30:46 &#43;0000</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/rocketmq-tx/</guid>
-    <description><![CDATA[<p>参考：<a href="https://rocketmq.apache.org/zh/docs/featureBehavior/04transactionmessage/" target="_blank" rel="noopener noreferrer">https://rocketmq.apache.org/zh/docs/featureBehavior/04transactionmessage/</a></p>
-<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230514113814225.png'     ></p>
-<p>简单讲，业务上的事务包含（数据库事务 + 消息事务），原先生产者只能控制数据库事务的提交或回滚，RocketMQ 使用消息确认的机制将这两者进行了关联，大致代码执行逻辑为：</p>]]></description>
-</item><item>
-    <title>本地消息表</title>
-    <link>https://zzkrix.com/tech/rocketmq-message-cache/</link>
-    <pubDate>Sun, 14 May 2023 09:02:01 &#43;0000</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/rocketmq-message-cache/</guid>
-    <description><![CDATA[<p>参考：</p>
-<p><a href="https://www.tizi365.com/question/4832.html" target="_blank" rel="noopener noreferrer">https://www.tizi365.com/question/4832.html</a></p>
-<p><a href="https://www.cnblogs.com/FlyAway2013/p/10124283.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/FlyAway2013/p/10124283.html</a></p>
-<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230514090939232.png'     ></p>
-<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230514093611903.png'     ></p>
-<p>简单的讲，就是生产方需要多维护一个已发送消息的数据表（与业务表在一个库，方便执行业务事务），发送完 MQ 消息后等待消费方回调后再更新本地消息表。</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>消息队列 - 分类 - 避风港</title>
+    <link>https://zzkrix.com/categories/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</link>
+    <description>避风港</description>
+    <generator>Hugo 0.148.2 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
+    <language>zh-CN</language>
+    <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+    <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster>
+    <lastBuildDate>Thu, 21 Aug 2025 20:56:02 +0800</lastBuildDate>
+    <atom:link href="https://zzkrix.com/categories/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rocketmq 事务消息</title>
+      <link>https://zzkrix.com/posts/rocketmq-tx/</link>
+      <pubDate>Sun, 14 May 2023 12:30:46 +0000</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
+      <guid>https://zzkrix.com/posts/rocketmq-tx/</guid>
+      <category domain="https://zzkrix.com/categories/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/">消息队列</category>
+      <description>&lt;p&gt;参考：&lt;a href=&#34;https://rocketmq.apache.org/zh/docs/featureBehavior/04transactionmessage/&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;https://rocketmq.apache.org/zh/docs/featureBehavior/04transactionmessage/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230514113814225.png&#39; alt=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230514113814225.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;简单讲，业务上的事务包含（数据库事务 + 消息事务），原先生产者只能控制数据库事务的提交或回滚，RocketMQ 使用消息确认的机制将这两者进行了关联，大致代码执行逻辑为：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>本地消息表</title>
+      <link>https://zzkrix.com/posts/rocketmq-message-cache/</link>
+      <pubDate>Sun, 14 May 2023 09:02:01 +0000</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
+      <guid>https://zzkrix.com/posts/rocketmq-message-cache/</guid>
+      <category domain="https://zzkrix.com/categories/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/">消息队列</category>
+      <description>&lt;p&gt;参考：&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.tizi365.com/question/4832.html&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;https://www.tizi365.com/question/4832.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/FlyAway2013/p/10124283.html&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;https://www.cnblogs.com/FlyAway2013/p/10124283.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230514090939232.png&#39; alt=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230514090939232.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230514093611903.png&#39; alt=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230514093611903.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;简单的讲，就是生产方需要多维护一个已发送消息的数据表（与业务表在一个库，方便执行业务事务），发送完 MQ 消息后等待消费方回调后再更新本地消息表。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

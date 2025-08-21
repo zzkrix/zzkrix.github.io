@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>为博客添加评论系统 - 避风港</title><meta name="author" content="zzkrix">
+<meta name="description" content="介绍 一般的博客主题都支持添加评论系统，常见方案如下：
+"><meta name="keywords" content='blog, comment, waline'>
+  <meta itemprop="name" content="为博客添加评论系统">
+  <meta itemprop="description" content="介绍 一般的博客主题都支持添加评论系统，常见方案如下：">
+  <meta itemprop="datePublished" content="2025-08-19T09:40:58+08:00">
+  <meta itemprop="dateModified" content="2025-08-21T20:56:02+08:00">
+  <meta itemprop="wordCount" content="1162">
+  <meta itemprop="keywords" content="blog,comment,waline"><meta property="og:url" content="https://zzkrix.com/posts/blog-comment/">
+  <meta property="og:site_name" content="避风港">
+  <meta property="og:title" content="为博客添加评论系统">
+  <meta property="og:description" content="介绍 一般的博客主题都支持添加评论系统，常见方案如下：">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-08-19T09:40:58+08:00">
+    <meta property="article:modified_time" content="2025-08-21T20:56:02+08:00">
+    <meta property="article:tag" content="blog">
+    <meta property="article:tag" content="comment">
+    <meta property="article:tag" content="waline">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="为博客添加评论系统">
+  <meta name="twitter:description" content="介绍 一般的博客主题都支持添加评论系统，常见方案如下：">
+<meta name="application-name" content="zzkrix">
+<meta name="apple-mobile-web-app-title" content="zzkrix"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://zzkrix.com/posts/blog-comment/" title="为博客添加评论系统 - 避风港" /><link rel="prev" type="text/html" href="https://zzkrix.com/posts/kcptun-ssh/" title="使用 kcptun 拯救我的 Oracle 服务器" /><link rel="alternate" type="text/markdown" href="https://zzkrix.com/posts/blog-comment/index.md" title="为博客添加评论系统 - 避风港"><link rel="stylesheet" href="/css/config.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "为博客添加评论系统",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https:\/\/zzkrix.com\/posts\/blog-comment\/"
+    },"genre": "posts","keywords": "blog, comment, waline","wordcount":  1162 ,
+    "url": "https:\/\/zzkrix.com\/posts\/blog-comment\/","datePublished": "2025-08-19T09:40:58+08:00","dateModified": "2025-08-21T20:56:02+08:00","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "zzkrix"
+      },"description": ""
+  }
+  </script><script src="/js/head/color-scheme.min.js"></script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper" data-github-corner="right">
+    <div class="header-title">
+      <a href="/" title="避风港"><span class="header-title-text">避风港</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a class="menu-link" href="/posts/"><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 文章</a></li><li class="menu-item">
+              <a class="menu-link" href="/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a></li><li class="menu-item">
+              <a class="menu-link" href="/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a></li><li class="menu-item has-children">
+              <a class="menu-link" href="javascript:void(0);">🔧 工具</a><i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+                <ul class="sub-menu"><li class="menu-item">
+                        <a class="menu-link" href="https://github.com/zzkrix/kimi-history-cleaner" rel="noopener noreferrer" target="_blank">🧹 浏览器扩展</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/tools/car-cost-analysis">🚗 汽车用车成本分析</a>
+                      </li></ul></li><li class="menu-item">
+              <a class="menu-link" href="/about/">关于</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
+            <input type="text" placeholder="搜索文章标题或内容……" id="search-input-desktop">
+            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+              <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+              <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+            </a>
+            <span class="search-button search-loading" id="search-loading-desktop">
+              <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+            </span>
+          </li><li class="menu-item theme-switch" title="切换主题">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="避风港"><span class="header-title-text">避风港</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="search-wrapper">
+            <div class="search mobile" id="search-mobile">
+              <input type="text" placeholder="搜索文章标题或内容……" id="search-input-mobile">
+              <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+              </a>
+              <span class="search-button search-loading" id="search-loading-mobile">
+                <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+              </span>
+            </div>
+            <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+              取消
+            </a>
+          </li><li class="menu-item"><a class="menu-link" href="/posts/"><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 文章</a></li><li class="menu-item"><a class="menu-link" href="/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a></li><li class="menu-item"><a class="menu-link" href="/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a></li><li class="menu-item"><span class="nested-item">
+                  <a class="menu-link" href="javascript:void(0);">🔧 工具</a>
+                  <i class="dropdown-icon fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </span>
+                <ul class="sub-menu"><li class="menu-item">
+                        <a class="menu-link" href="https://github.com/zzkrix/kimi-history-cleaner"rel="noopener noreferrer" target="_blank">🧹 浏览器扩展</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/tools/car-cost-analysis">🚗 汽车用车成本分析</a>
+                      </li></ul></li><li class="menu-item"><a class="menu-link" href="/about/">关于</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="切换主题"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
+      </ul>
+    </nav>
+  </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+  </div>
+  <div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+  </div><main class="fi-container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="合集"></aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>为博客添加评论系统</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><a href="https://zzkrix.com" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img class="avatar" src='https://avatars.githubusercontent.com/u/173884861?v=4' alt="zzkrix" height="16" width="16">&nbsp;zzkrix</a></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/blog/" class="post-category" title="分类 - blog"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> blog</a></span></div><div class="post-meta-line"><span title="发布于 2025-08-19 09:40:58"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-08-19">2025-08-19</time></span>&nbsp;<span title="更新于 2025-08-21 20:56:02"><i class="fa-regular fa-calendar-check fa-fw me-1" aria-hidden="true"></i><time datetime="2025-08-21">2025-08-21</time></span>&nbsp;<span title="1162 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 1200 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 3 分钟</span>&nbsp;<span class="comment-visitors" data-flag-title="为博客添加评论系统"><i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span data-path="/posts/blog-comment/" class="waline-pageview-count">-</span>&nbsp;次阅读
+          </span>&nbsp;</div>
+    </div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>目录</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#介绍">介绍</a></li>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#使用">使用</a></li>
+    <li><a href="#评论通知">评论通知</a></li>
+  </ul>
+</nav></div>
+      </div><div class="content" id="content"><h2 class="heading-element" id="介绍"><span>介绍</span>
+  <a href="#%e4%bb%8b%e7%bb%8d" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>一般的博客主题都支持添加评论系统，常见方案如下：</p>
+<ul>
+<li>gitalk：依托 github issue，评论者需要登陆 github 账号。</li>
+<li>disqus： php 的，不喜欢。</li>
+<li>valine：不开源，需要实名认证，垃圾。</li>
+<li>waline：支持私有化部署 &amp; 开源👍。</li>
+</ul>
+<p>这里选择使用自部署的<a href="https://waline.js.org/"target="_blank" rel="external nofollow noopener noreferrer">waline</a>作为博客评论系统。</p>
+<h2 class="heading-element" id="安装"><span>安装</span>
+  <a href="#%e5%ae%89%e8%a3%85" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-dockerfile" data-lang="dockerfile"><span class="line"><span class="cl"><span class="c"># docker-compose.yml</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>version: <span class="s2">&#34;3&#34;</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>services:<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>  waline:<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>    image: lizheming/waline:latest<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>    restart: always<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>    ports:<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      - <span class="s2">&#34;127.0.0.1:8360:8360&#34;</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>    volumes:<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      - <span class="si">${</span><span class="nv">PWD</span><span class="si">}</span>/data:/app/data<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>    environment:<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      TZ: <span class="s2">&#34;Asia/Shanghai&#34;</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      SITE_NAME: <span class="s2">&#34;避风港&#34;</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      SITE_URL: <span class="s2">&#34;https://zzkrix.com&#34;</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      SECURE_DOMAINS: <span class="s2">&#34;zzkrix.com,www.zzkrix.com&#34;</span> <span class="c1"># 仅来自这些网站的评论</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      AUTHOR_EMAIL: <span class="s2">&#34;zzkrix56@gmail.com&#34;</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      LEVELS: <span class="s2">&#34;0,10,20,50,100,200&#34;</span> <span class="c1"># 按评论数划分用户等级</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      IPQPS: <span class="m">5</span> <span class="c1"># 基于 IP 的评论发布频率限制，单位为秒。设置为 0 不限制</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      PG_HOST: postgres<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      PG_PORT: <span class="m">5432</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      PG_DB: waline<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      PG_USER: postgres<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      PG_PASSWORD: <span class="m">123456</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      TG_BOT_TOKEN: <span class="s2">&#34;&#34;</span> <span class="c1"># telegram 消息通知机器人 token</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      TG_CHAT_ID: <span class="s2">&#34;&#34;</span> <span class="c1"># telegram 消息通知 channel/group 等的 ID</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>    depends_on:<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      - postgres<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>  postgres:<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>    image: postgres:9.6<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>    restart: unless-stopped<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>    volumes:<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      - ./init.sql:/docker-entrypoint-initdb.d/init.sql<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      - ./data/postgres:/var/lib/postgresql/data<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      - /etc/timezone:/etc/timezone<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      - /etc/localtime:/etc/localtime<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>    environment:<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      POSTGRES_PASSWORD: <span class="m">123456</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      POSTGRES_DB: waline<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      POSTGRES_USER: postgres<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>    expose:<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>      - <span class="s2">&#34;5432:5432&#34;</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>修改 docker-compose.yaml 中的配置，重点是下面几项：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">SITE_URL: <span class="s2">&#34;https://zzkrix.com&#34;</span>
+</span></span><span class="line"><span class="cl">SECURE_DOMAINS: <span class="s2">&#34;zzkrix.com,www.zzkrix.com&#34;</span>
+</span></span><span class="line"><span class="cl">AUTHOR_EMAIL: <span class="s2">&#34;zzkrix56@gmail.com&#34;</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>waline 评论数据持久化支持很多数据库：<a href="https://waline.js.org/guide/database.html"target="_blank" rel="external nofollow noopener noreferrer">官方文档</a>。</p>
+<p>我的是 arm 的服务器，用 mysql 有点问题：</p>
+<blockquote>
+<p>mysql8 报错：不支持的认证类型。</p>
+<p>mysql5.6 没有 arm 版本 docker 镜像。</p></blockquote>
+<p>所以这里选择 pg。将<a href="https://github.com/walinejs/waline/blob/main/assets/waline.pgsql"target="_blank" rel="external nofollow noopener noreferrer">waline.pgsql</a>下载到本地，命名为 <code>init.sql</code></p>
+<p>启动：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker compose up -d</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 class="heading-element" id="使用"><span>使用</span>
+  <a href="#%e4%bd%bf%e7%94%a8" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><blockquote>
+<p>需要暴露评论系统到公网，这里使用的是<a href="https://www.zzkrix.com/tech/cloudflare-zero-trust/"target="_blank" rel="external nofollow noopener noreferrer">cloudflare 的内网穿透</a>。</p></blockquote>
+<p>在自己的博客配置文件中找到 waline 配置项，一般只需要填写评论系统的地址即可。</p>
+<p>我用的是<a href="https://github.com/HEIGE-PCloud/DoIt"target="_blank" rel="external nofollow noopener noreferrer">DoIt</a>，关键配置如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">page</span><span class="p">.</span><span class="nx">comment</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">enable</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">params</span><span class="p">.</span><span class="nx">page</span><span class="p">.</span><span class="nx">comment</span><span class="p">.</span><span class="nx">waline</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">enable</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="nx">serverURL</span> <span class="p">=</span> <span class="s2">&#34;https://comment.zzkrix.com&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">pageview</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="nx">comment</span> <span class="p">=</span> <span class="kc">true</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>访问<code>https://&lt;SERVER&gt;/ui/register</code>可以进行评论系统用户注册，默认第一个注册的是管理员。</p>
+<p>访问<code>https://&lt;SERVER&gt;/ui</code> 可以登陆到管理后台，管理评论（删除、审核、置顶等操作）。</p>
+<p>自己编译镜像<a href="https://github.com/walinejs/waline/blob/main/docs/src/guide/deploy/vps.md"target="_blank" rel="external nofollow noopener noreferrer">参考文档</a>。</p>
+<p>更多配置参考<a href="https://waline.js.org/"target="_blank" rel="external nofollow noopener noreferrer">官方文档</a>。</p>
+<h2 class="heading-element" id="评论通知"><span>评论通知</span>
+  <a href="#%e8%af%84%e8%ae%ba%e9%80%9a%e7%9f%a5" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>当有新增评论时，waline 支持邮件、微信、telegram 等通知。</p>
+<p>这里以 tg 为例，创建和使用 tg 机器人：<a href="https://waline.js.org/guide/features/notification.html#telegram-%E9%80%9A%E7%9F%A5"target="_blank" rel="external nofollow noopener noreferrer">waline 官方文档</a>。</p>
+<p>访问 <a href="https://t.me/BotFather"target="_blank" rel="external nofollow noopener noreferrer">BotFather</a>，依次按提示输入<code>/newbot</code> &ndash; <code>bot 名称（随意，可修改）</code>&ndash; <code>bot 标识（全网唯一，不可修改，以 Bot 或_bot 结尾）</code>。</p>
+<p>然后就能拿到新建的机器人 api token（valine 配置中的 <code>TG_BOT_TOKEN</code>），类似如下形式： <code>12345678:asdhASDH_aahjJUSKLJHGH</code></p>
+<p>创建 channel，将刚创建的机器人添加为该 channel 管理员。</p>
+<p>然后在 channel 里随便发一条消息。</p>
+<p>访问 <code>https://api.telegram.org/bot&lt;token&gt;/getUpdates</code>（将<code>token</code>替换为机器人 token）。</p>
+<p>相应内容中的 chat.id 就是 valine 配置文件里的 <code>TG_CHAT_ID</code>。</p>
+<p>然后在 docker-compose 中填写上两个环境变量 <code>TG_BOT_TOKEN</code>和<code>TG_CHAT_ID</code>即可。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;ok&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;result&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;update_id&#34;</span><span class="p">:</span> <span class="mi">41000699</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;channel_post&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;message_id&#34;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;sender_chat&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;id&#34;</span><span class="p">:</span> <span class="mi">-1001212121212</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;title&#34;</span><span class="p">:</span> <span class="s2">&#34;评论通知&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;channel&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;chat&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;id&#34;</span><span class="p">:</span> <span class="mi">-1001212121212</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;title&#34;</span><span class="p">:</span> <span class="s2">&#34;评论通知&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;channel&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;date&#34;</span><span class="p">:</span> <span class="mi">1755573595</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;text&#34;</span><span class="p">:</span> <span class="s2">&#34;88888888&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod"><span title="更新于 2025-08-21 20:56:02">更新于 2025-08-21&nbsp;</span>
+      </div><div class="post-info-license">
+            <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+          </div></div><div class="post-info-line">
+        <div class="post-info-md"><span><a href="/posts/blog-comment/index.md" title="阅读原始文档" class="link-to-markdown">阅读原始文档</a></span></div>
+        <div class="post-info-share">
+          <span><a href="javascript:void(0);" title="分享到 X" data-sharer="twitter" data-url="https://zzkrix.com/posts/blog-comment/" data-title="为博客添加评论系统" data-hashtags="blog,comment,waline"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://zzkrix.com/posts/blog-comment/" data-hashtag="blog"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Tumblr" data-sharer="tumblr" data-url="https://zzkrix.com/posts/blog-comment/" data-title="为博客添加评论系统" data-tags="blog,comment,waline"><i class="fa-brands fa-tumblr fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Reddit" data-sharer="reddit" data-url="https://zzkrix.com/posts/blog-comment/"><i class="fa-brands fa-reddit fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://zzkrix.com/posts/blog-comment/" data-title="为博客添加评论系统"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  </span>
+        </div>
+      </div></div>
+
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href="/tags/blog/" class="post-tag" title="标签 - blog">blog</a><a href="/tags/comment/" class="post-tag" title="标签 - comment">comment</a><a href="/tags/waline/" class="post-tag" title="标签 - waline">waline</a></section>
+    <section><span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+    </section>
+  </div><div class="post-nav"><a href="/posts/kcptun-ssh/" class="post-nav-item" rel="next" title="使用 kcptun 拯救我的 Oracle 服务器">使用 kcptun 拯救我的 Oracle 服务器<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="waline" class="comment"></div><noscript>
+        Please enable JavaScript to view the comments powered by <a href="https://waline.js.org/" rel="external nofollow noopener noreferrer">Waline</a>.
+      </noscript></div></article>
+
+  <aside class="toc" id="toc-auto" aria-label="目录"><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.148.2">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.4.0-alpha-20250821081127-2d581efb">FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">1900 - 2025</span><span class="author" itemprop="copyrightHolder">
+              <a href="https://zzkrix.com"target="_blank" rel="external nofollow noopener noreferrer">zzkrix</a></span><span class="license footer-divider">non-ICP</span></div><div class="footer-line statistics"></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric">0%</span>
+        </div><div class="fixed-button view-comments d-none" role="button" aria-label="查看评论"><i class="fa-solid fa-comment fa-fw" aria-hidden="true"></i></div></div><a href="https://github.com/zzkrix" title="View source on GitHub"target="_blank" rel="external nofollow" class="github-corner right d-none-mobile"><svg viewBox="0 0 250 250" aria-hidden="true" width="56" height="56"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><div id="mask"></div><div class="reading-progress-bar" style="left: 0;top: 0;"></div><noscript>
+    <div class="noscript-warning">该网站在启用 JavaScript 的情况下效果最佳。</div>
+  </noscript>
+</div><link rel="stylesheet" href="/lib/waline/waline.css"><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/pace/themes/blue/pace-theme-minimal.css"><script src="/lib/waline/waline.umd.js" defer></script><script src="/lib/autocomplete/autocomplete.min.js" defer></script><script src="/lib/fuse/fuse.min.js" defer></script><script src="/lib/lightgallery/lightgallery.min.js" defer></script><script src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js" defer></script><script src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js" defer></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/pace/pace.min.js" async defer></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":999},"comment":{"enable":true,"expired":false,"waline":{"copyright":true,"dark":"html[data-theme='dark']","el":"#waline","emoji":["//unpkg.com/@waline/emojis@1.1.0/weibo"],"highlighter":true,"imageUploader":true,"lang":"zh-cn","login":"enable","meta":["nick","mail","link"],"pageSize":10,"pageview":true,"search":false,"serverURL":"https://comment.zzkrix.com","texRenderer":false}},"lightgallery":true,"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/search.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":30,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"version":"v0.4.0-alpha-20250821081127-2d581efb"};</script><script src="/js/theme.min.js" defer></script><script>
+      window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+      gtag('config', 'G-08NHB2EC4M', { 'anonymize_ip': true });
+    </script><script src="https://www.googletagmanager.com/gtag/js?id=G-08NHB2EC4M" async></script></body>
+</html>

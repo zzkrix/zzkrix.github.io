@@ -1,25 +1,30 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>TypeScript - 标签 - 避风港</title>
-        <link>https://zzkrix.com/tags/typescript/</link>
-        <description>TypeScript - 标签 - 避风港</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
-            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 10 Feb 2025 13:14:17 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/typescript/" rel="self" type="application/rss+xml" /><item>
-    <title>TypeScript - export 用法</title>
-    <link>https://zzkrix.com/tech/ts-export/</link>
-    <pubDate>Mon, 10 Feb 2025 13:14:17 &#43;0800</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/ts-export/</guid>
-    <description><![CDATA[<p>在 TypeScript 中，<code>import</code> 语句用于从其他模块引入功能。根据所导入内容的不同，<code>import</code> 语句的语法也有所区别，具体体现在是否使用花括号 <code>{}</code>。</p>
-<h2 id="默认导出default-export" class="headerLink">
-    <a href="#%e9%bb%98%e8%ae%a4%e5%af%bc%e5%87%badefault-export" class="header-mark"></a>默认导出（Default Export）</h2><p>当一个模块使用 <code>export default</code> 导出时，导入该模块时不需要使用花括号 <code>{}</code>。默认导出允许每个模块有一个主要导出。</p>]]></description>
-</item><item>
-    <title>TypeScript - 函数重载</title>
-    <link>https://zzkrix.com/tech/ts-overloading/</link>
-    <pubDate>Sat, 08 Feb 2025 16:18:57 &#43;0800</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/ts-overloading/</guid>
-    <description><![CDATA[<h2 id="函数重载function-overloading" class="headerLink">
-    <a href="#%e5%87%bd%e6%95%b0%e9%87%8d%e8%bd%bdfunction-overloading" class="header-mark"></a>函数重载（Function Overloading）</h2><p><strong>函数重载</strong> 是 TypeScript 提供的一种 <strong>在同一个函数名下定义多个函数签名</strong> 的能力。它允许一个函数根据不同的参数类型或数量，执行不同的逻辑，从而提高代码的灵活性和可读性。</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TypeScript - 标签 - 避风港</title>
+    <link>https://zzkrix.com/tags/typescript/</link>
+    <description>避风港</description>
+    <generator>Hugo 0.148.2 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
+    <language>zh-CN</language>
+    <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+    <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster>
+    <lastBuildDate>Thu, 21 Aug 2025 20:56:02 +0800</lastBuildDate>
+    <atom:link href="https://zzkrix.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TypeScript - export 用法</title>
+      <link>https://zzkrix.com/posts/ts-export/</link>
+      <pubDate>Mon, 10 Feb 2025 13:14:17 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
+      <guid>https://zzkrix.com/posts/ts-export/</guid>
+      <category domain="https://zzkrix.com/categories/typescript/">TypeScript</category>
+      <description>&lt;p&gt;在 TypeScript 中，&lt;code&gt;import&lt;/code&gt; 语句用于从其他模块引入功能。根据所导入内容的不同，&lt;code&gt;import&lt;/code&gt; 语句的语法也有所区别，具体体现在是否使用花括号 &lt;code&gt;{}&lt;/code&gt;。&lt;/p&gt;&#xA;&lt;h2 class=&#34;heading-element&#34; id=&#34;默认导出default-export&#34;&gt;&lt;span&gt;默认导出（Default Export）&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e9%bb%98%e8%ae%a4%e5%af%bc%e5%87%badefault-export&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;当一个模块使用 &lt;code&gt;export default&lt;/code&gt; 导出时，导入该模块时不需要使用花括号 &lt;code&gt;{}&lt;/code&gt;。默认导出允许每个模块有一个主要导出。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TypeScript - 函数重载</title>
+      <link>https://zzkrix.com/posts/ts-overloading/</link>
+      <pubDate>Sat, 08 Feb 2025 16:18:57 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
+      <guid>https://zzkrix.com/posts/ts-overloading/</guid>
+      <category domain="https://zzkrix.com/categories/typescript/">TypeScript</category>
+      <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;函数重载function-overloading&#34;&gt;&lt;span&gt;函数重载（Function Overloading）&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e5%87%bd%e6%95%b0%e9%87%8d%e8%bd%bdfunction-overloading&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;函数重载&lt;/strong&gt; 是 TypeScript 提供的一种 &lt;strong&gt;在同一个函数名下定义多个函数签名&lt;/strong&gt; 的能力。它允许一个函数根据不同的参数类型或数量，执行不同的逻辑，从而提高代码的灵活性和可读性。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

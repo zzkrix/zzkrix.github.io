@@ -1,37 +1,22 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>git - 标签 - 避风港</title>
-        <link>https://zzkrix.com/tags/git/</link>
-        <description>git - 标签 - 避风港</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
-            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 24 Jun 2024 15:22:41 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/git/" rel="self" type="application/rss+xml" /><item>
-    <title>批量修改 git 仓库提交人信息</title>
-    <link>https://zzkrix.com/tech/git-filter-branch/</link>
-    <pubDate>Mon, 24 Jun 2024 15:22:41 &#43;0800</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/git-filter-branch/</guid>
-    <description><![CDATA[<blockquote>
-  <p>仅限在可控状态下使用，否则会被别人打死。</p>
-</blockquote><p>批量修改 git 仓库提交人信息</p>
-<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
-  <div class="
-    
-    tw-flex 
-    tw-flex-row
-    tw-flex-1 
-    tw-justify-between 
-    tw-w-full tw-bg-bgColor-secondary
-    ">      
-    <button 
-      class="
-        code-block-button
-        tw-mx-2 
-        tw-flex
-        tw-flex-row
-        tw-flex-1"
-      aria-hidden="true">
-          <div class="group-[.is-open]:tw-rotate-90 tw-transition-[transform] tw-duration-500 tw-ease-in-out print:!tw-hidden tw-w-min tw-h-min tw-my-1 tw-mx-1"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></div>
-          <p class="tw-select-none !tw-my-1">bash</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git - 标签 - 避风港</title>
+    <link>https://zzkrix.com/tags/git/</link>
+    <description>避风港</description>
+    <generator>Hugo 0.148.2 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
+    <language>zh-CN</language>
+    <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+    <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster>
+    <lastBuildDate>Thu, 21 Aug 2025 20:56:02 +0800</lastBuildDate>
+    <atom:link href="https://zzkrix.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>批量修改 git 仓库提交人信息</title>
+      <link>https://zzkrix.com/posts/git-filter-branch/</link>
+      <pubDate>Mon, 24 Jun 2024 15:22:41 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
+      <guid>https://zzkrix.com/posts/git-filter-branch/</guid>
+      <category domain="https://zzkrix.com/categories/git/">git</category>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;仅限在可控状态下使用，否则会被别人打死。&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;批量修改 git 仓库提交人信息&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/sh&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git filter-branch --env-filter &lt;span class=&#34;s1&#34;&gt;&amp;#39;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    an=&amp;#34;$GIT_AUTHOR_NAME&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    am=&amp;#34;$GIT_AUTHOR_EMAIL&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    cn=&amp;#34;$GIT_COMMITTER_NAME&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    cm=&amp;#34;$GIT_COMMITTER_EMAIL&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    if [ &amp;#34;$GIT_COMMITTER_EMAIL&amp;#34; = &amp;#34;&amp;lt;old_user&amp;gt;@gmail.com&amp;#34; ]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    then&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;        cn=&amp;#34;&amp;lt;new_user&amp;gt;&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;        cm=&amp;#34;&amp;lt;new_user&amp;gt;@gmail.com&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    fi&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    if [ &amp;#34;$GIT_AUTHOR_EMAIL&amp;#34; = &amp;#34;&amp;lt;old_user&amp;gt;@outlook.com&amp;#34; ]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    then&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;        an=&amp;#34;&amp;lt;new_user&amp;gt;&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;        am=&amp;#34;&amp;lt;new_user&amp;gt;@gmail.com&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    fi&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    export GIT_AUTHOR_NAME=&amp;#34;$an&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    export GIT_AUTHOR_EMAIL=&amp;#34;$am&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    export GIT_COMMITTER_NAME=&amp;#34;$cn&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;    export GIT_COMMITTER_EMAIL=&amp;#34;$cm&amp;#34;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;修改完以后 &lt;code&gt;git push --force&lt;/code&gt;。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

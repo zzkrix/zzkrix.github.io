@@ -1,19 +1,22 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>历史 - 标签 - 避风港</title>
-        <link>https://zzkrix.com/tags/%E5%8E%86%E5%8F%B2/</link>
-        <description>历史 - 标签 - 避风港</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
-            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Thu, 05 Sep 2024 17:39:02 &#43;0800</lastBuildDate><atom:link href="https://zzkrix.com/tags/%E5%8E%86%E5%8F%B2/" rel="self" type="application/rss+xml" /><item>
-    <title>霍去病关系图谱</title>
-    <link>https://zzkrix.com/life/history-huoqubing/</link>
-    <pubDate>Thu, 05 Sep 2024 17:39:02 &#43;0800</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/life/history-huoqubing/</guid>
-    <description><![CDATA[<p>无意中看到战神的这段介绍时懵逼了。
-<img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-45-0FpAiy.png'   alt="2024-09-05-17-45-0FpAiy"  ></p>
-<p>所以理了下人物关系图谱，嗯，清晰很多。
-<img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-38-6ITZ97.png'   alt="2024-09-05-17-38-6ITZ97"  ></p>
-<p><img class="tw-inline" loading="lazy" src='https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-43-SsgDDY.png'   alt="2024-09-05-17-43-SsgDDY"  ></p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>历史 - 标签 - 避风港</title>
+    <link>https://zzkrix.com/tags/%E5%8E%86%E5%8F%B2/</link>
+    <description>避风港</description>
+    <generator>Hugo 0.148.2 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
+    <language>zh-CN</language>
+    <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+    <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster>
+    <lastBuildDate>Thu, 21 Aug 2025 20:56:02 +0800</lastBuildDate>
+    <atom:link href="https://zzkrix.com/tags/%E5%8E%86%E5%8F%B2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>霍去病关系图谱</title>
+      <link>https://zzkrix.com/posts/history-huoqubing/</link>
+      <pubDate>Thu, 05 Sep 2024 17:39:02 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
+      <guid>https://zzkrix.com/posts/history-huoqubing/</guid>
+      <category domain="https://zzkrix.com/categories/%E5%8E%86%E5%8F%B2/">历史</category>
+      <description>&lt;p&gt;无意中看到战神的这段介绍时懵逼了。&#xA;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-45-0FpAiy.png&#39; alt=&#34;2024-09-05-17-45-0FpAiy&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;所以理了下人物关系图谱，嗯，清晰很多。&#xA;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-38-6ITZ97.png&#39; alt=&#34;2024-09-05-17-38-6ITZ97&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-09-05-17-43-SsgDDY.png&#39; alt=&#34;2024-09-05-17-43-SsgDDY&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

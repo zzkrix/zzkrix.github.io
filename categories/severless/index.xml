@@ -1,20 +1,22 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>severless - 分类 - 避风港</title>
-        <link>https://zzkrix.com/categories/severless/</link>
-        <description>severless - 分类 - 避风港</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
-            <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster><lastBuildDate>Mon, 15 Jan 2024 20:20:42 &#43;0000</lastBuildDate><atom:link href="https://zzkrix.com/categories/severless/" rel="self" type="application/rss+xml" /><item>
-    <title>serverless 基础</title>
-    <link>https://zzkrix.com/tech/serverless/</link>
-    <pubDate>Mon, 15 Jan 2024 20:20:42 &#43;0000</pubDate><author>
-        <name>zzkrix</name>
-    </author><guid>https://zzkrix.com/tech/serverless/</guid>
-    <description><![CDATA[<p>参考资料：</p>
-<p>什么是 serverless：h<a href="https://jimmysong.io/kubernetes-handbook/usecases/understanding-serverless.html" target="_blank" rel="noopener noreferrer">https://jimmysong.io/kubernetes-handbook/usecases/understanding-serverless.html</a></p>
-<p>serverless 具体是怎么运行的：h<a href="https://www.cnblogs.com/serverlesscloud/p/13141645.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com/serverlesscloud/p/13141645.html</a></p>
-<p>serverless 开发指南：h<a href="https://cn.serverless.com/blog/sls-dev-suggest-1" target="_blank" rel="noopener noreferrer">https://cn.serverless.com/blog/sls-dev-suggest-1</a></p>
-<p>关键字：
-<code>无状态</code> 、<code>函数计算</code> 、 <code>极致微服务</code>、<code>冷启动</code> 、<code>热启动</code></p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>severless - 分类 - 避风港</title>
+    <link>https://zzkrix.com/categories/severless/</link>
+    <description>避风港</description>
+    <generator>Hugo 0.148.2 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
+    <language>zh-CN</language>
+    <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
+    <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster>
+    <lastBuildDate>Thu, 21 Aug 2025 20:56:02 +0800</lastBuildDate>
+    <atom:link href="https://zzkrix.com/categories/severless/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>serverless 基础</title>
+      <link>https://zzkrix.com/posts/serverless/</link>
+      <pubDate>Mon, 15 Jan 2024 20:20:42 +0000</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
+      <guid>https://zzkrix.com/posts/serverless/</guid>
+      <category domain="https://zzkrix.com/categories/severless/">severless</category>
+      <description>&lt;p&gt;参考资料：&lt;/p&gt;&#xA;&lt;p&gt;什么是 serverless：h&lt;a href=&#34;https://jimmysong.io/kubernetes-handbook/usecases/understanding-serverless.html&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;https://jimmysong.io/kubernetes-handbook/usecases/understanding-serverless.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;serverless 具体是怎么运行的：h&lt;a href=&#34;https://www.cnblogs.com/serverlesscloud/p/13141645.html&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;https://www.cnblogs.com/serverlesscloud/p/13141645.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;serverless 开发指南：h&lt;a href=&#34;https://cn.serverless.com/blog/sls-dev-suggest-1&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;https://cn.serverless.com/blog/sls-dev-suggest-1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;关键字：&#xA;&lt;code&gt;无状态&lt;/code&gt; 、&lt;code&gt;函数计算&lt;/code&gt; 、 &lt;code&gt;极致微服务&lt;/code&gt;、&lt;code&gt;冷启动&lt;/code&gt; 、&lt;code&gt;热启动&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

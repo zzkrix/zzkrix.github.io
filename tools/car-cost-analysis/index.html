@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>车辆费用对比计算器</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>🚗 车辆费用对比计算器</h1>
+
+        <h2>⚙️ 车辆参数配置</h2>
+        <div class="config-container">
+            <div class="vehicle-config">
+                <h3>⛽ 油车配置</h3>
+                <form>
+                    <label>
+                        车辆价格 （含购置税，元）:
+                        <input type="number" v-model.number="gasoline.price" min="0">
+                    </label>
+                    <label>
+                        残值 （元）:
+                        <input type="number" v-model.number="gasoline.residualValue" min="0">
+                    </label>
+                    <label>
+                        年里程 （公里）:
+                        <input type="number" v-model.number="gasoline.annualMileage" min="0">
+                    </label>
+                    <label>
+                        油费/公里 （元）:
+                        <input type="number" v-model.number="gasoline.fuelCostPerKm" min="0" step="0.01">
+                    </label>
+                    <label>
+                        高速里程/年 （公里）:
+                        <input type="number" v-model.number="gasoline.highwayMileage" min="0">
+                    </label>
+                    <label>
+                        高速费用 （元/公里）:
+                        <input type="number" v-model.number="gasoline.highwayCostPerKm" min="0" step="0.01">
+                    </label>
+                    <label>
+                        保养间隔 （公里）:
+                        <input type="number" v-model.number="gasoline.maintenanceInterval" min="1">
+                    </label>
+                    <label>
+                        保养费用 （元）:
+                        <input type="number" v-model.number="gasoline.maintenanceCost" min="0">
+                    </label>
+                    <label>
+                        保险/年 （元）:
+                        <input type="number" v-model.number="gasoline.insuranceCost" min="0">
+                    </label>
+                    <label>
+                        停车/年 （元）:
+                        <input type="number" v-model.number="gasoline.parkingCost" min="0">
+                    </label>
+                    <label>
+                        使用年限：
+                        <input type="number" v-model.number="gasoline.years" min="1">
+                    </label>
+                </form>
+            </div>
+
+            <div class="vehicle-config">
+                <h3>🔋 电车配置</h3>
+                <form>
+                    <label>
+                        车辆价格 （含购置税，元）:
+                        <input type="number" v-model.number="electric.price" min="0">
+                    </label>
+                    <label>
+                        残值 （元）:
+                        <input type="number" v-model.number="electric.residualValue" min="0">
+                    </label>
+                    <label>
+                        年里程 （公里）:
+                        <input type="number" v-model.number="electric.annualMileage" min="0">
+                    </label>
+                    <label>
+                        电费/公里 （元）:
+                        <input type="number" v-model.number="electric.fuelCostPerKm" min="0" step="0.01">
+                    </label>
+                    <label>
+                        高速里程/年 （公里）:
+                        <input type="number" v-model.number="electric.highwayMileage" min="0">
+                    </label>
+                    <label>
+                        高速费用 （元/公里）:
+                        <input type="number" v-model.number="electric.highwayCostPerKm" min="0" step="0.01">
+                    </label>
+                    <label>
+                        保养间隔 （公里）:
+                        <input type="number" v-model.number="electric.maintenanceInterval" min="1">
+                    </label>
+                    <label>
+                        保养费用 （元）:
+                        <input type="number" v-model.number="electric.maintenanceCost" min="0">
+                    </label>
+                    <label>
+                        保险/年 （元）:
+                        <input type="number" v-model.number="electric.insuranceCost" min="0">
+                    </label>
+                    <label>
+                        停车/年 （元）:
+                        <input type="number" v-model.number="electric.parkingCost" min="0">
+                    </label>
+                    <label>
+                        使用年限：
+                        <input type="number" v-model.number="electric.years" min="1">
+                    </label>
+                </form>
+            </div>
+        </div>
+
+        <div class="summary">
+            {{ lowerCostVehicle }} 节省{{ formatNumber(savingsPercentage, 1) }}% 约¥{{ formatNumber(costDifference) }}
+            <br>
+            电车回本年限：{{ breakevenPoint.year }} 年
+        </div>
+
+        <h2>📊 费用对比详情</h2>
+        <table>
+            <tr>
+                <th>项目</th>
+                <th>油车</th>
+                <th>电车</th>
+                <th>差额</th>
+            </tr>
+            <tr>
+                <td>折旧费用</td>
+                <td>¥{{ formatNumber(gasolineDepreciation) }}</td>
+                <td>¥{{ formatNumber(electricDepreciation) }}</td>
+                <td>{{ gasolineDepreciation > electricDepreciation ? '-' : '+' }}¥{{ formatNumber(Math.abs(gasolineDepreciation - electricDepreciation)) }}</td>
+            </tr>
+            <tr>
+                <td>燃料/电费</td>
+                <td>¥{{ formatNumber(gasolineFuelCost) }}</td>
+                <td>¥{{ formatNumber(electricFuelCost) }}</td>
+                <td>{{ gasolineFuelCost > electricFuelCost ? '-' : '+' }}¥{{ formatNumber(Math.abs(gasolineFuelCost - electricFuelCost)) }}</td>
+            </tr>
+            <tr>
+                <td>高速费用</td>
+                <td>¥{{ formatNumber(gasolineHighwayCost) }}</td>
+                <td>¥{{ formatNumber(electricHighwayCost) }}</td>
+                <td>{{ gasolineHighwayCost > electricHighwayCost ? '-' : '+' }}¥{{ formatNumber(Math.abs(gasolineHighwayCost - electricHighwayCost)) }}</td>
+            </tr>
+            <tr>
+                <td>保养费用</td>
+                <td>¥{{ formatNumber(gasolineMaintenanceCost) }}</td>
+                <td>¥{{ formatNumber(electricMaintenanceCost) }}</td>
+                <td>{{ gasolineMaintenanceCost > electricMaintenanceCost ? '-' : '+' }}¥{{ formatNumber(Math.abs(gasolineMaintenanceCost - electricMaintenanceCost)) }}</td>
+            </tr>
+            <tr>
+                <td>保险费用</td>
+                <td>¥{{ formatNumber(gasoline.insuranceCost) }}</td>
+                <td>¥{{ formatNumber(electric.insuranceCost) }}</td>
+                <td>{{ gasoline.insuranceCost > electric.insuranceCost ? '-' : '+' }}¥{{ formatNumber(Math.abs(gasoline.insuranceCost - electric.insuranceCost)) }}</td>
+            </tr>
+            <tr>
+                <td>停车费用</td>
+                <td>¥{{ formatNumber(gasoline.parkingCost) }}</td>
+                <td>¥{{ formatNumber(electric.parkingCost) }}</td>
+                <td>{{ gasoline.parkingCost > electric.parkingCost ? '-' : '+' }}¥{{ formatNumber(Math.abs(gasoline.parkingCost - electric.parkingCost)) }}</td>
+            </tr>
+            <tr>
+                <td>年度总成本</td>
+                <td>¥{{ formatNumber(gasolineAverageYearlyCost) }}</td>
+                <td>¥{{ formatNumber(electricAverageYearlyCost) }}</td>
+                <td>{{ gasolineAverageYearlyCost > electricAverageYearlyCost ? '-' : '+' }}¥{{ formatNumber(Math.abs(gasolineAverageYearlyCost - electricAverageYearlyCost)) }}</td>
+            </tr>
+            <tr>
+                <td>总使用成本</td>
+                <td>¥{{ formatNumber(gasolineTotalCost) }}</td>
+                <td>¥{{ formatNumber(electricTotalCost) }}</td>
+                <td>{{ gasolineTotalCost > electricTotalCost ? '-' : '+' }}¥{{ formatNumber(Math.abs(gasolineTotalCost - electricTotalCost)) }}</td>
+            </tr>
+            <tr>
+                <td>每公里成本</td>
+                <td>¥{{ formatNumber(gasolineCostPerKmTotal, 2) }}</td>
+                <td>¥{{ formatNumber(electricCostPerKmTotal, 2) }}</td>
+                <td>{{ gasolineCostPerKmTotal > electricCostPerKmTotal ? '-' : '+' }}¥{{ formatNumber(Math.abs(gasolineCostPerKmTotal - electricCostPerKmTotal), 2) }}</td>
+            </tr>
+        </table>
+
+        <h2>📈 每公里成本趋势分析</h2>
+        <div class="chart-container">
+            <canvas id="costChart"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+	<footer class="footer">
+		<div class="footer-container">
+  		  <div class="footer-line">
+  		    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  		      <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248
+  		               248 248 248-111.033 248-248S392.967 8 256 8zm0
+  		               448c-110.532 0-200-89.451-200-200 0-110.531
+  		               89.451-200 200-200 110.532 0 200 89.451 200
+  		               200 0 110.532-89.451 200-200 200zm107.351-101.064
+  		               c-9.614 9.712-45.53 41.396-104.065 41.396-82.43
+  		               0-140.484-61.425-140.484-141.567 0-79.152
+  		               60.275-139.401 139.762-139.401 55.531 0
+  		               88.738 26.62 97.593 34.779a11.965 11.965 0 0
+  		               1 1.936 15.322l-18.155 28.113c-3.841 5.95-11.966
+  		               7.282-17.499 2.921-8.595-6.776-31.814-22.538-61.708
+  		               -22.538-48.303 0-77.916 35.33-77.916 80.082 0
+  		               41.589 26.888 83.692 78.277 83.692 32.657 0
+  		               56.843-19.039 65.726-27.225 5.27-4.857
+  		               13.596-4.039 17.82 1.738l19.865 27.17a11.947
+  		               11.947 0 0 1-1.152 15.518z">
+  		      </path>
+  		    </svg>
+  		    <span class="year">1900 - 2099</span>
+  		    <span class="author">
+  		      &nbsp;<a href="https://zzkrix.com" target="_blank" rel="noopener noreferrer">
+  		        https://zzkrix.com
+  		      </a>
+  		    </span>
+  		    &nbsp;|&nbsp;
+  		    <span class="icp">non-ICP</span>
+  		  </div>
+  		</div>
+	</footer>
+
+</body>
+</html>
