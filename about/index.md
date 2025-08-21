@@ -3,6 +3,8 @@
 
 💥 当做一个在线备忘录，记录平时遇到的问题、学到的知识，如果恰好对你有帮助，那就太好了。
 
+![eureka](https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-01-22-14-51-MgyDly.jpg)
+
 ### 常用工具推荐
 
 | 名称                                              | 用途                                                         |
