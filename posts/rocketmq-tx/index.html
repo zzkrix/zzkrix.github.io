@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>rocketmq 事务消息 - 避风港</title><meta name="author" content="zzkrix">
+    <title>rocketmq 事务消息 - 💥避风港</title><meta name="author" content="zzkrix">
 <meta name="description" content="参考：https://rocketmq.apache.org/zh/docs/featureBehavior/04transactionmessage/
 简单讲，业务上的事务包含（数据库事务 &#43; 消息事务），原先生产者只能控制数据库事务的提交或回滚，RocketMQ 使用消息确认的机制将这两者进行了关联，大致代码执行逻辑为：
 "><meta name="keywords" content='消息队列'>
@@ -15,7 +15,7 @@
   <meta itemprop="dateModified" content="2025-08-21T20:56:02+08:00">
   <meta itemprop="wordCount" content="226">
   <meta itemprop="keywords" content="消息队列"><meta property="og:url" content="https://zzkrix.com/posts/rocketmq-tx/">
-  <meta property="og:site_name" content="避风港">
+  <meta property="og:site_name" content="💥避风港">
   <meta property="og:title" content="rocketmq 事务消息">
   <meta property="og:description" content="参考：https://rocketmq.apache.org/zh/docs/featureBehavior/04transactionmessage/
 简单讲，业务上的事务包含（数据库事务 &#43; 消息事务），原先生产者只能控制数据库事务的提交或回滚，RocketMQ 使用消息确认的机制将这两者进行了关联，大致代码执行逻辑为：">
@@ -33,7 +33,7 @@
 <meta name="application-name" content="zzkrix">
 <meta name="apple-mobile-web-app-title" content="zzkrix"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://zzkrix.com/posts/rocketmq-tx/" title="rocketmq 事务消息 - 避风港" /><link rel="prev" type="text/html" href="https://zzkrix.com/posts/rocketmq-message-cache/" title="本地消息表" /><link rel="next" type="text/html" href="https://zzkrix.com/posts/go-heap/" title="Go 内存逃逸" /><link rel="alternate" type="text/markdown" href="https://zzkrix.com/posts/rocketmq-tx/index.md" title="rocketmq 事务消息 - 避风港"><link rel="stylesheet" href="/css/config.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://zzkrix.com/posts/rocketmq-tx/" title="rocketmq 事务消息 - 💥避风港" /><link rel="prev" type="text/html" href="https://zzkrix.com/posts/rocketmq-message-cache/" title="本地消息表" /><link rel="next" type="text/html" href="https://zzkrix.com/posts/go-heap/" title="Go 内存逃逸" /><link rel="alternate" type="text/markdown" href="https://zzkrix.com/posts/rocketmq-tx/index.md" title="rocketmq 事务消息 - 💥避风港"><link rel="stylesheet" href="/css/config.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
   {
@@ -56,7 +56,7 @@
   <body data-header-desktop="sticky" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
   <div class="header-wrapper" data-github-corner="right">
     <div class="header-title">
-      <a href="/" title="避风港"><span class="header-title-text">避风港</span></a><span class="header-subtitle"></span></div>
+      <a href="/" title="💥避风港"><span class="header-title-text">💥避风港</span></a><span class="header-subtitle"></span></div>
     <nav>
       <ul class="menu"><li class="menu-item">
               <a class="menu-link" href="/posts/"><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 文章</a></li><li class="menu-item">
@@ -88,7 +88,7 @@
   <div class="header-container">
     <div class="header-wrapper">
       <div class="header-title">
-        <a href="/" title="避风港"><span class="header-title-text">避风港</span></a><span class="header-subtitle"></span></div>
+        <a href="/" title="💥避风港"><span class="header-title-text">💥避风港</span></a><span class="header-subtitle"></span></div>
       <div class="menu-toggle" id="menu-toggle-mobile">
         <span></span><span></span><span></span>
       </div>
@@ -128,7 +128,15 @@
   </div>
   <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
-  </div><main class="fi-container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="合集"></aside>
+  </div><main class="fi-container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="合集"><div class="details related-details open">
+      <div class="details-summary related-summary">
+        <i class="fa-solid fa-fire fa-fade text-danger fa-fw" aria-hidden="true"></i>
+        <span class="related-title">相关内容</span><i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></div>
+      <div class="details-content related-content">
+        <ul class="related-list"><li class="related-item">
+              <a href="/posts/rocketmq-message-cache/" title="本地消息表">本地消息表</a></li></ul>
+      </div>
+    </div></aside>
 
   <article class="page single">
     <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>rocketmq 事务消息</span>
