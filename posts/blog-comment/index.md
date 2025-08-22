@@ -7,7 +7,7 @@
 
 - gitalk：依托 github issue，评论者需要登陆 github 账号。
 - disqus： php 的，不喜欢。
-- valine：不开源，需要实名认证，垃圾。
+- valine：不开源，还需要实名认证，垃圾。
 - waline：支持私有化部署 & 开源👍。
 
 这里选择使用自部署的[waline](https://waline.js.org/)作为博客评论系统。
@@ -28,9 +28,9 @@ services:
       - ${PWD}/data:/app/data
     environment:
       TZ: "Asia/Shanghai"
-      SITE_NAME: "避风港"
+      SITE_NAME: "💥避风港"
       SITE_URL: "https://zzkrix.com"
-      SECURE_DOMAINS: "zzkrix.com,www.zzkrix.com" # 仅来自这些网站的评论
+      SECURE_DOMAINS: "zzkrix.com,www.zzkrix.com" # 仅允许来自这些网站的评论
       AUTHOR_EMAIL: "zzkrix56@gmail.com"
       LEVELS: "0,10,20,50,100,200" # 按评论数划分用户等级
       IPQPS: 5 # 基于 IP 的评论发布频率限制，单位为秒。设置为 0 不限制
@@ -86,21 +86,18 @@ docker compose up -d
 
 ## 使用
 
-> 需要暴露评论系统到公网，这里使用的是[cloudflare 的内网穿透](https://www.zzkrix.com/tech/cloudflare-zero-trust/)。
+> 需要暴露评论系统到公网，这里使用的是[cloudflare 的内网穿透](https://www.zzkrix.com/posts/cloudflare-zero-trust/)。
 
 在自己的博客配置文件中找到 waline 配置项，一般只需要填写评论系统的地址即可。
 
-我用的是[DoIt](https://github.com/HEIGE-PCloud/DoIt)，关键配置如下：
+我用的是[FixIt](https://github.com/hugo-fixit/FixIt)，关键配置如下：
 
 ```toml
 [params.page.comment]
 enable = true
-
 [params.page.comment.waline]
 enable = true
 serverURL = "https://comment.zzkrix.com"
-pageview = true
-comment = true
 ```
 
 访问`https://<SERVER>/ui/register`可以进行评论系统用户注册，默认第一个注册的是管理员。
