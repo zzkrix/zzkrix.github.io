@@ -3,7 +3,7 @@
   <channel>
     <title>其他 - 分类 - 💥避风港</title>
     <link>https://zzkrix.com/categories/%E5%85%B6%E4%BB%96/</link>
-    <description>💥避风港</description>
+    <description>个人笔记</description>
     <generator>Hugo 0.148.2 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
     <language>zh-CN</language>
     <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
@@ -40,7 +40,7 @@
       <pubDate>Tue, 04 Jul 2023 09:55:25 +0000</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
       <guid>https://zzkrix.com/posts/opensource-license/</guid>
       <category domain="https://zzkrix.com/categories/%E5%85%B6%E4%BB%96/">其他</category>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230704101710661.png&#39; alt=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230704101710661.png&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a class=&#34;lightgallery&#34; href=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230704101710661.png&#34; title=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230704101710661.png&#34; data-thumbnail=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230704101710661.png&#34; data-sub-html=&#34;&lt;h2&gt;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230704101710661.png&lt;/h2&gt;&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230704101710661.png&#39; alt=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230704101710661.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

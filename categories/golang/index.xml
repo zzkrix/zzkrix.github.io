@@ -3,7 +3,7 @@
   <channel>
     <title>golang - 分类 - 💥避风港</title>
     <link>https://zzkrix.com/categories/golang/</link>
-    <description>💥避风港</description>
+    <description>个人笔记</description>
     <generator>Hugo 0.148.2 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
     <language>zh-CN</language>
     <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
@@ -72,7 +72,7 @@
       <pubDate>Wed, 17 May 2023 21:30:24 +0000</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
       <guid>https://zzkrix.com/posts/go-gpm/</guid>
       <category domain="https://zzkrix.com/categories/golang/">golang</category>
-      <description>&lt;p&gt;参考：&lt;a href=&#34;https://learnku.com/articles/41728&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;https://learnku.com/articles/41728&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;G：协程&#xA;P：调度器&#xA;M：操作系统线程&lt;/p&gt;&#xA;&lt;p&gt;个数关系：&#xA;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517214627949.png&#39; alt=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517214627949.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517223732075.png&#39; alt=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517223732075.png&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;参考：&lt;a href=&#34;https://learnku.com/articles/41728&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;https://learnku.com/articles/41728&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;G：协程&#xA;P：调度器&#xA;M：操作系统线程&lt;/p&gt;&#xA;&lt;p&gt;个数关系：&#xA;&lt;a class=&#34;lightgallery&#34; href=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517214627949.png&#34; title=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517214627949.png&#34; data-thumbnail=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517214627949.png&#34; data-sub-html=&#34;&lt;h2&gt;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517214627949.png&lt;/h2&gt;&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517214627949.png&#39; alt=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517214627949.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a class=&#34;lightgallery&#34; href=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517223732075.png&#34; title=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517223732075.png&#34; data-thumbnail=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517223732075.png&#34; data-sub-html=&#34;&lt;h2&gt;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517223732075.png&lt;/h2&gt;&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517223732075.png&#39; alt=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20230517223732075.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Go 内存逃逸</title>
