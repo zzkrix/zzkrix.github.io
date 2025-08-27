@@ -10,8 +10,8 @@
   <meta itemprop="name" content="MySQL 事务">
   <meta itemprop="description" content="参考 讲的比较清晰的：https://www.51cto.com/article/679914.html">
   <meta itemprop="datePublished" content="2023-03-19T21:15:03+00:00">
-  <meta itemprop="dateModified" content="2025-08-21T20:56:02+08:00">
-  <meta itemprop="wordCount" content="695">
+  <meta itemprop="dateModified" content="2025-08-27T13:50:00+08:00">
+  <meta itemprop="wordCount" content="716">
   <meta itemprop="keywords" content="mysql"><meta property="og:url" content="https://zzkrix.com/posts/mysql-transaction/">
   <meta property="og:site_name" content="💥避风港">
   <meta property="og:title" content="MySQL 事务">
@@ -20,7 +20,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2023-03-19T21:15:03+00:00">
-    <meta property="article:modified_time" content="2025-08-21T20:56:02+08:00">
+    <meta property="article:modified_time" content="2025-08-27T13:50:00+08:00">
     <meta property="article:tag" content="mysql">
 
   <meta name="twitter:card" content="summary">
@@ -40,8 +40,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https:\/\/zzkrix.com\/posts\/mysql-transaction\/"
-    },"genre": "posts","keywords": "mysql","wordcount":  695 ,
-    "url": "https:\/\/zzkrix.com\/posts\/mysql-transaction\/","datePublished": "2023-03-19T21:15:03+00:00","dateModified": "2025-08-21T20:56:02+08:00","publisher": {
+    },"genre": "posts","keywords": "mysql","wordcount":  716 ,
+    "url": "https:\/\/zzkrix.com\/posts\/mysql-transaction\/","datePublished": "2023-03-19T21:15:03+00:00","dateModified": "2025-08-27T13:50:00+08:00","publisher": {
       "@type": "Organization",
       "name": ""},"author": {
         "@type": "Person",
@@ -130,18 +130,18 @@
         <span class="related-title">相关内容</span><i class="details-icon fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></div>
       <div class="details-content related-content">
         <ul class="related-list"><li class="related-item">
+              <a href="/posts/docker-prune/" title="释放 docker 占用空间">释放 docker 占用空间</a></li><li class="related-item">
               <a href="/posts/linux-user/" title="用户和用户组">用户和用户组</a></li><li class="related-item">
               <a href="/posts/mysql-lock/" title="间隙锁和死锁">间隙锁和死锁</a></li><li class="related-item">
               <a href="/posts/mysql-count/" title="MySQL count(*)、count(1)、count（列） 的区别">MySQL count(*)、count(1)、count（列） 的区别</a></li><li class="related-item">
-              <a href="/posts/mysql-create-user-auth/" title="MySQL8 创建用户和授权">MySQL8 创建用户和授权</a></li><li class="related-item">
-              <a href="/posts/mysql-remote-root/" title="MySQL 允许 root 远程访问">MySQL 允许 root 远程访问</a></li></ul>
+              <a href="/posts/mysql-create-user-auth/" title="MySQL8 创建用户和授权">MySQL8 创建用户和授权</a></li></ul>
       </div>
     </div></aside>
 
   <article class="page single">
     <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>MySQL 事务</span>
       </h1></div><div class="post-meta">
-      <div class="post-meta-line"><span class="post-author"><a href="https://zzkrix.com" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img class="avatar" src='https://avatars.githubusercontent.com/u/173884861' alt="zzkrix" height="16" width="16">&nbsp;zzkrix</a></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/mysql/" class="post-category" title="分类 - mysql"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> mysql</a></span></div><div class="post-meta-line"><span title="发布于 2023-03-19 21:15:03"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2023-03-19">2023-03-19</time></span>&nbsp;<span title="更新于 2025-08-21 20:56:02"><i class="fa-regular fa-calendar-check fa-fw me-1" aria-hidden="true"></i><time datetime="2025-08-21">2025-08-21</time></span>&nbsp;<span title="695 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 700 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 2 分钟</span>&nbsp;<span class="comment-visitors" data-flag-title="MySQL 事务"><i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span data-path="/posts/mysql-transaction/" class="waline-pageview-count">-</span>&nbsp;次阅读
+      <div class="post-meta-line"><span class="post-author"><a href="https://zzkrix.com" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img class="avatar" src='https://avatars.githubusercontent.com/u/173884861' alt="zzkrix" height="16" width="16">&nbsp;zzkrix</a></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/mysql/" class="post-category" title="分类 - mysql"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> mysql</a></span></div><div class="post-meta-line"><span title="发布于 2023-03-19 21:15:03"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2023-03-19">2023-03-19</time></span>&nbsp;<span title="更新于 2025-08-27 13:50:00"><i class="fa-regular fa-calendar-check fa-fw me-1" aria-hidden="true"></i><time datetime="2025-08-27">2025-08-27</time></span>&nbsp;<span title="716 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 800 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 2 分钟</span>&nbsp;<span class="comment-visitors" data-flag-title="MySQL 事务"><i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span data-path="/posts/mysql-transaction/" class="waline-pageview-count">-</span>&nbsp;次阅读
           </span>&nbsp;</div>
     </div><div class="details toc" id="toc-static" data-kept="false">
         <div class="details-summary toc-title">
@@ -153,6 +153,7 @@
     <li><a href="#参考">参考</a></li>
     <li><a href="#理论">理论</a></li>
     <li><a href="#qa">Q&amp;A</a></li>
+    <li><a href="#其他">其他</a></li>
   </ul>
 </nav></div>
       </div><div class="content" id="content"><h2 class="heading-element" id="参考"><span>参考</span>
@@ -195,10 +196,22 @@
 <blockquote>
 <p>Q: 在可重复读隔离级别下，快照是什么时候生成的？</p>
 <p>A: 事务开始的时候。</p></blockquote>
-</div><div class="post-footer" id="post-footer">
+<h2 class="heading-element" id="其他"><span>其他</span>
+  <a href="#%e5%85%b6%e4%bb%96" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>查询当前数据库运行中的事务：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">information_schema</span><span class="p">.</span><span class="n">innodb_trx</span></span></span></code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
   <div class="post-info">
     <div class="post-info-line">
-      <div class="post-info-mod"><span title="更新于 2025-08-21 20:56:02">更新于 2025-08-21&nbsp;<a class="git-hash" href="https://github.com/zzkrix/blog/commit/dc7dbdf9f4c0dfca4b70e1d42d1272a42784e77c" rel="external nofollow noopener noreferrer" target="_blank" title="to FixIt&#10&#10Commit: dc7dbdf9f4c0dfca4b70e1d42d1272a42784e77c [dc7dbdf]&#10Author: zzkrix&#10Date: 2025-08-21 20:56:02"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i>dc7dbdf</a></span>
+      <div class="post-info-mod"><span title="更新于 2025-08-27 13:50:00">更新于 2025-08-27&nbsp;<a class="git-hash" href="https://github.com/zzkrix/blog/commit/107ec72d35725816c04bd8f312ea428431d9b459" rel="external nofollow noopener noreferrer" target="_blank" title="Update mysql-transaction.md&#10&#10Commit: 107ec72d35725816c04bd8f312ea428431d9b459 [107ec72]&#10Author: zzZ&#10Date: 2025-08-27 13:50:00"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i>107ec72</a></span>
       </div><div class="post-info-license">
             <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
           </div></div><div class="post-info-line">

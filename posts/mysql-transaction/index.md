@@ -49,6 +49,15 @@ READ UNCOMMITTED 提供了事务之间最小限度的隔离。除了容易产生
 >
 > A: 事务开始的时候。
 
+## 其他
+
+查询当前数据库运行中的事务：
+
+```sql
+SELECT * FROM information_schema.innodb_trx
+```
+
+
 
 ---
 
