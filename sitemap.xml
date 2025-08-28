@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://zzkrix.com/</loc>
-    <lastmod>2025-08-27T14:50:09+08:00</lastmod>
+    <lastmod>2025-08-28T13:27:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1095,6 +1095,12 @@
   <url>
     <loc>https://zzkrix.com/posts/redis-tips/</loc>
     <lastmod>2025-08-21T20:56:02+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zzkrix.com/chatroom/</loc>
+    <lastmod>2025-08-28T13:27:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
