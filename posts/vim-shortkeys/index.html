@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>vim 实用快捷键备忘录📕 - 💥避风港</title><meta name="author" content="zzkrix">
+    <title>vim 实用快捷键备忘录📕 - 💥Zzz&#39;s Notes</title><meta name="author" content="zzkrix">
 <meta name="description" content="快捷键 快捷键 描述 i 在光标前进入插入模式 a 在光标后进入插入模式 o 在光标下一行进入插入模式 shift i 在当前行首进入插入模式 shifit a 在当前行尾进入插入模式 shift o 在上一行进入插入模式 gi 进入上一次进行插入的位置继续 数字&#43;G 跳转到指定行，示例：99G : &#43; 数字 跳转到指定行 vim &#43;数字 filename 打开文件并跳到指定行，示例：vim &#43;999 main. c 0 跳到当前行行首 $ 跳到当前行行尾 ^ 跳到当前行第一个非空字符 g_ 跳到当前行最后一个非空字符 f &#43; 字符 跳转到当前位置之后第一个出现的某字符 （; 往后查找， ,往前查找） F &#43; 字符 跳转到当前位置之前第一个出现的某字符 （; 往后查找， ,往前查找） w 跳到下一个单词的开头，可以前面加数字跳到第 N 个位置 b 跳到上一个单词的开头，可以前面加数字跳到第 N 个位置 e 跳到下一个单词的结尾，可以前面加数字跳到第 N 个位置 W、B、E 和小写类似，只是以空格作为分隔符 D or d$ 删除当前光标到行尾的内容 d0 删除当前光标到行首的内容 d^ 删除当前光标到行首非空字符的内容 dw 删除当前位置到单词末尾 dW 删除当前位置所属内容到下一个空格处 dip 删除当前段落，即上一个空行到下一个空行之间的内容。p：段落 diw 删除当前单词 diW 删除当前内容（前后两空格之间的内容） di&quot; 删除当前位置被双引号包围起来的内容 di&#39; 删除当前位置被单引号包围起来的内容 di{ 删除当前位置所属的{}范围内的内容 di( 删除当前位置所属的 () 范围内的内容 yi[pwW&quot;&#39;{}()] 区域复制，同 di[x] vi[pwW&quot;&#39;{}()] 区域选择，同 di[x] ci[pwW&quot;&#39;{}()] 区域替换，同 di[x]，但自动进入插入模式。 y[0^$wW] 行内复制，同 d[0^$wW] v[0^$wW] 行内选择，同 d[0^$wW] c[0^$wW] 行内替换，同 d[0^$wW]，但自动进入插入模式。 宏录制 q 表示宏录制的开始和结束。 @ 表示执行某个名称的宏。
 "><meta name="keywords" content='vim'>
   <meta itemprop="name" content="vim 实用快捷键备忘录📕">
@@ -13,7 +13,7 @@
   <meta itemprop="dateModified" content="2025-08-21T20:56:02+08:00">
   <meta itemprop="wordCount" content="863">
   <meta itemprop="keywords" content="vim"><meta property="og:url" content="https://zzkrix.com/posts/vim-shortkeys/">
-  <meta property="og:site_name" content="💥避风港">
+  <meta property="og:site_name" content="💥Zzz&#39;s Notes">
   <meta property="og:title" content="vim 实用快捷键备忘录📕">
   <meta property="og:description" content="快捷键 快捷键 描述 i 在光标前进入插入模式 a 在光标后进入插入模式 o 在光标下一行进入插入模式 shift i 在当前行首进入插入模式 shifit a 在当前行尾进入插入模式 shift o 在上一行进入插入模式 gi 进入上一次进行插入的位置继续 数字&#43;G 跳转到指定行，示例：99G : &#43; 数字 跳转到指定行 vim &#43;数字 filename 打开文件并跳到指定行，示例：vim &#43;999 main. c 0 跳到当前行行首 $ 跳到当前行行尾 ^ 跳到当前行第一个非空字符 g_ 跳到当前行最后一个非空字符 f &#43; 字符 跳转到当前位置之后第一个出现的某字符 （; 往后查找， ,往前查找） F &#43; 字符 跳转到当前位置之前第一个出现的某字符 （; 往后查找， ,往前查找） w 跳到下一个单词的开头，可以前面加数字跳到第 N 个位置 b 跳到上一个单词的开头，可以前面加数字跳到第 N 个位置 e 跳到下一个单词的结尾，可以前面加数字跳到第 N 个位置 W、B、E 和小写类似，只是以空格作为分隔符 D or d$ 删除当前光标到行尾的内容 d0 删除当前光标到行首的内容 d^ 删除当前光标到行首非空字符的内容 dw 删除当前位置到单词末尾 dW 删除当前位置所属内容到下一个空格处 dip 删除当前段落，即上一个空行到下一个空行之间的内容。p：段落 diw 删除当前单词 diW 删除当前内容（前后两空格之间的内容） di&#34; 删除当前位置被双引号包围起来的内容 di&#39; 删除当前位置被单引号包围起来的内容 di{ 删除当前位置所属的{}范围内的内容 di( 删除当前位置所属的 () 范围内的内容 yi[pwW&#34;&#39;{}()] 区域复制，同 di[x] vi[pwW&#34;&#39;{}()] 区域选择，同 di[x] ci[pwW&#34;&#39;{}()] 区域替换，同 di[x]，但自动进入插入模式。 y[0^$wW] 行内复制，同 d[0^$wW] v[0^$wW] 行内选择，同 d[0^$wW] c[0^$wW] 行内替换，同 d[0^$wW]，但自动进入插入模式。 宏录制 q 表示宏录制的开始和结束。 @ 表示执行某个名称的宏。">
   <meta property="og:locale" content="zh_CN">
@@ -29,7 +29,7 @@
 <meta name="application-name" content="zzkrix">
 <meta name="apple-mobile-web-app-title" content="zzkrix"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" type="text/html" href="https://zzkrix.com/posts/vim-shortkeys/" title="vim 实用快捷键备忘录📕 - 💥避风港" /><link rel="prev" type="text/html" href="https://zzkrix.com/posts/go-gin-next/" title="Gin 框架中的 c.Next 的作用" /><link rel="next" type="text/html" href="https://zzkrix.com/posts/iterm2-vim-mode/" title="命令行 vi 模式快捷键冲突解决" /><link rel="alternate" type="text/markdown" href="https://zzkrix.com/posts/vim-shortkeys/index.md" title="vim 实用快捷键备忘录📕 - 💥避风港"><link rel="stylesheet" href="/css/config.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" type="text/html" href="https://zzkrix.com/posts/vim-shortkeys/" title="vim 实用快捷键备忘录📕 - 💥Zzz&#39;s Notes" /><link rel="prev" type="text/html" href="https://zzkrix.com/posts/go-gin-next/" title="Gin 框架中的 c.Next 的作用" /><link rel="next" type="text/html" href="https://zzkrix.com/posts/iterm2-vim-mode/" title="命令行 vi 模式快捷键冲突解决" /><link rel="alternate" type="text/markdown" href="https://zzkrix.com/posts/vim-shortkeys/index.md" title="vim 实用快捷键备忘录📕 - 💥Zzz's Notes"><link rel="stylesheet" href="/css/config.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
   {
@@ -52,7 +52,7 @@
   <body data-header-desktop="sticky" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
   <div class="header-wrapper" data-github-corner="left">
     <div class="header-title">
-      <a href="/" title="💥避风港"><span class="header-title-text">💥避风港</span></a><span class="header-subtitle"></span></div>
+      <a href="/" title="💥Zzz&#39;s Notes"><span class="header-title-text">💥Zzz&#39;s Notes</span></a><span class="header-subtitle"></span></div>
     <nav>
       <ul class="menu"><li class="menu-item">
               <a class="menu-link" href="/posts/"><i class="fa-fw fa-solid fa-book fa-fw fa-sm" aria-hidden="true"></i> 文章</a></li><li class="menu-item">
@@ -60,11 +60,13 @@
               <a class="menu-link" href="/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a></li><li class="menu-item has-children">
               <a class="menu-link" href="javascript:void(0);"><i class="fa-solid fa-hammer fa-fw fa-sm" aria-hidden="true"></i> 工具</a><i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
                 <ul class="sub-menu"><li class="menu-item">
-                        <a class="menu-link" href="https://github.com/zzkrix/kimi-history-cleaner" rel="noopener noreferrer" target="_blank">🧹 浏览器扩展</a>
+                        <a class="menu-link" href="https://github.com/zzkrix/kimi-history-cleaner" rel="noopener noreferrer" target="_blank">🧹 浏览器扩展-kimi会话清理助手</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="https://github.com/zzkrix/page-replacer" rel="noopener noreferrer" target="_blank">📝 浏览器扩展-网页内容替换助手</a>
                       </li><li class="menu-item">
                         <a class="menu-link" href="/tools/car-cost-analysis">🚗 汽车用车成本分析</a>
                       </li></ul></li><li class="menu-item">
-              <a class="menu-link" href="/chatroom/"><i class="fa-solid fa-comments fa-fw fa-sm" aria-hidden="true"></i> 聊天室</a></li><li class="menu-item">
+              <a class="menu-link" href="/quick-notes/"><i class="fa-solid fa-comments fa-fw fa-sm" aria-hidden="true"></i> 随手记</a></li><li class="menu-item">
               <a class="menu-link" href="/about/"><i class="fa-fw fa-solid fa-circle-info fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
             <input type="text" placeholder="搜索文章标题或内容……" id="search-input-desktop">
             <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
@@ -85,7 +87,7 @@
   <div class="header-container">
     <div class="header-wrapper">
       <div class="header-title">
-        <a href="/" title="💥避风港"><span class="header-title-text">💥避风港</span></a><span class="header-subtitle"></span></div>
+        <a href="/" title="💥Zzz&#39;s Notes"><span class="header-title-text">💥Zzz&#39;s Notes</span></a><span class="header-subtitle"></span></div>
       <div class="menu-toggle" id="menu-toggle-mobile">
         <span></span><span></span><span></span>
       </div>
@@ -112,10 +114,12 @@
                   <i class="dropdown-icon fa-solid fa-chevron-right" aria-hidden="true"></i>
                 </span>
                 <ul class="sub-menu"><li class="menu-item">
-                        <a class="menu-link" href="https://github.com/zzkrix/kimi-history-cleaner"rel="noopener noreferrer" target="_blank">🧹 浏览器扩展</a>
+                        <a class="menu-link" href="https://github.com/zzkrix/kimi-history-cleaner"rel="noopener noreferrer" target="_blank">🧹 浏览器扩展-kimi会话清理助手</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="https://github.com/zzkrix/page-replacer"rel="noopener noreferrer" target="_blank">📝 浏览器扩展-网页内容替换助手</a>
                       </li><li class="menu-item">
                         <a class="menu-link" href="/tools/car-cost-analysis">🚗 汽车用车成本分析</a>
-                      </li></ul></li><li class="menu-item"><a class="menu-link" href="/chatroom/"><i class="fa-solid fa-comments fa-fw fa-sm" aria-hidden="true"></i> 聊天室</a></li><li class="menu-item"><a class="menu-link" href="/about/"><i class="fa-fw fa-solid fa-circle-info fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item menu-system">
+                      </li></ul></li><li class="menu-item"><a class="menu-link" href="/quick-notes/"><i class="fa-solid fa-comments fa-fw fa-sm" aria-hidden="true"></i> 随手记</a></li><li class="menu-item"><a class="menu-link" href="/about/"><i class="fa-fw fa-solid fa-circle-info fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item menu-system">
           <span class="menu-system-item theme-switch" title="切换主题"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
       </ul>
     </nav>
@@ -427,7 +431,7 @@
 
   <aside class="toc" id="toc-auto" aria-label="目录"><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
       <div class="toc-content" id="toc-content-auto"></div></aside></main><footer class="footer">
-    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.149.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.4.0-alpha-20250821081127-2d581efb">FixIt</a>
+    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.149.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.4.0-alpha-20250821081127-2d581efb">FixIt</a>
         </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
             <span itemprop="copyrightYear">1900 - 2025</span><span class="author" itemprop="copyrightHolder">
               <a href="https://zzkrix.com"target="_blank" rel="external nofollow noopener noreferrer">zzkrix</a></span><span class="license footer-divider">non-ICP</span></div><div class="footer-line statistics"></div></div>
