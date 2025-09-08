@@ -17,6 +17,7 @@ awk '{print $NF}'
 `find . -type f -name "*.png" -exec ls -l {} \;`
 
 > `{}` 是一个替换符，表示前面找到的内容
+> 
 > `\;` 是`exec`的默认结尾标识符
 
 ![](https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/image-20231213090218543.png)
