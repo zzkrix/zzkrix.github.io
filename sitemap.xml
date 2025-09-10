@@ -2,7 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://zzkrix.com/</loc>
-    <lastmod>2025-09-08T14:16:14+08:00</lastmod>
+    <lastmod>2025-09-10T10:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zzkrix.com/categories/</loc>
+    <lastmod>2025-09-10T10:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zzkrix.com/tags/cookie/</loc>
+    <lastmod>2025-09-10T10:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zzkrix.com/posts/</loc>
+    <lastmod>2025-09-10T10:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zzkrix.com/tags/</loc>
+    <lastmod>2025-09-10T10:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zzkrix.com/posts/web-token/</loc>
+    <lastmod>2025-09-10T10:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zzkrix.com/categories/web/</loc>
+    <lastmod>2025-09-10T10:30:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zzkrix.com/tags/web/</loc>
+    <lastmod>2025-09-10T10:30:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -19,26 +61,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://zzkrix.com/categories/</loc>
-    <lastmod>2025-09-08T14:16:14+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://zzkrix.com/tags/comment/</loc>
     <lastmod>2025-08-22T16:33:34+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://zzkrix.com/posts/</loc>
-    <lastmod>2025-09-08T14:16:14+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://zzkrix.com/tags/</loc>
-    <lastmod>2025-09-08T14:16:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -314,18 +338,6 @@
   </url>
   <url>
     <loc>https://zzkrix.com/posts/web-cookie/</loc>
-    <lastmod>2025-08-21T20:56:02+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://zzkrix.com/categories/web/</loc>
-    <lastmod>2025-08-21T20:56:02+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://zzkrix.com/tags/web/</loc>
     <lastmod>2025-08-21T20:56:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

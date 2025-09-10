@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
   <head>
-	<meta name="generator" content="Hugo 0.149.1">
+	<meta name="generator" content="Hugo 0.150.0">
     <meta name="theme" content='FixIt v0.4.0-alpha-20250821081127-2d581efb'>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -10,8 +10,8 @@
 <meta name="description" content="个人笔记"><meta name="keywords" content='personal, notes, tech, programer, coding, lab'>
   <meta itemprop="name" content="💥Zzz&#39;s Notes">
   <meta itemprop="description" content="个人笔记">
-  <meta itemprop="datePublished" content="2025-08-19T09:40:58+08:00">
-  <meta itemprop="dateModified" content="2025-09-08T14:16:14+08:00"><meta property="og:url" content="https://zzkrix.com/">
+  <meta itemprop="datePublished" content="2025-09-10T09:24:05+08:00">
+  <meta itemprop="dateModified" content="2025-09-10T10:30:14+08:00"><meta property="og:url" content="https://zzkrix.com/">
   <meta property="og:site_name" content="💥Zzz&#39;s Notes">
   <meta property="og:title" content="💥Zzz&#39;s Notes">
   <meta property="og:description" content="个人笔记">
@@ -120,7 +120,10 @@
     </a><a href="mailto:zzkrix56@gmail.com" title="Email"target="_blank" rel="external nofollow noopener noreferrer me"><i class="fa-regular fa-envelope fa-fw" aria-hidden="true"></i>
     </a><a href="/index.xml" title="RSS"target="_blank" rel="external nofollow noopener noreferrer me"><i class="fa-solid fa-rss fa-fw" aria-hidden="true"></i>
     </a></div><h3 class="home-disclaimer"> </h3></div>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/redis-tips/">redis 备忘录</a>
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/go-sync-map/">Go sync map 实现</a>
+  </h2><div class="post-meta"><span class="post-author"><a href="https://zzkrix.com" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img class="avatar" src='https://avatars.githubusercontent.com/u/173884861' alt="zzkrix" height="16" width="16">&nbsp;zzkrix</a></span>&nbsp;<span class="post-publish" title='2023-03-16 21:20:16'>发布于 <time datetime="2023-03-16">2023-03-16</time></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/golang/" class="post-category" title="分类 - golang"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> golang</a></span></div><div class="content"><p>参考：<a href="https://www.cnblogs.com/qcrao-2018/p/12833787.html"target="_blank" rel="external nofollow noopener noreferrer">https://www.cnblogs.com/qcrao-2018/p/12833787.html</a></p></div><div class="post-footer">
+    <a href="/posts/go-sync-map/">阅读全文</a><div class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/golang/' class="post-tag">golang</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/redis-tips/">redis 备忘录</a>
   </h2><div class="post-meta"><span class="post-author"><a href="https://zzkrix.com" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img class="avatar" src='https://avatars.githubusercontent.com/u/173884861' alt="zzkrix" height="16" width="16">&nbsp;zzkrix</a></span>&nbsp;<span class="post-publish" title='2023-03-10 09:55:54'>发布于 <time datetime="2023-03-10">2023-03-10</time></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/redis/" class="post-category" title="分类 - redis"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> redis</a></span></div><div class="content"><h3 class="heading-element" id="哨兵"><span>哨兵</span>
   <a href="#%e5%93%a8%e5%85%b5" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
@@ -147,7 +150,7 @@
             <a href="/page/15/">15</a>
           </span>
         </li></ul></div></main><footer class="footer">
-    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.149.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.4.0-alpha-20250821081127-2d581efb">FixIt</a>
+    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.150.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.4.0-alpha-20250821081127-2d581efb">FixIt</a>
         </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
             <span itemprop="copyrightYear">1900 - 2025</span><span class="author" itemprop="copyrightHolder">
               <a href="https://zzkrix.com"target="_blank" rel="external nofollow noopener noreferrer">zzkrix</a></span><span class="license footer-divider">non-ICP</span></div><div class="footer-line statistics"></div></div>

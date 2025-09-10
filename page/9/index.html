@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
   <head>
-	<meta name="generator" content="Hugo 0.149.1">
+	<meta name="generator" content="Hugo 0.150.0">
     <meta name="theme" content='FixIt v0.4.0-alpha-20250821081127-2d581efb'>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -10,8 +10,8 @@
 <meta name="description" content="个人笔记"><meta name="keywords" content='personal, notes, tech, programer, coding, lab'>
   <meta itemprop="name" content="💥Zzz&#39;s Notes">
   <meta itemprop="description" content="个人笔记">
-  <meta itemprop="datePublished" content="2025-08-19T09:40:58+08:00">
-  <meta itemprop="dateModified" content="2025-09-08T14:16:14+08:00"><meta property="og:url" content="https://zzkrix.com/">
+  <meta itemprop="datePublished" content="2025-09-10T09:24:05+08:00">
+  <meta itemprop="dateModified" content="2025-09-10T10:30:14+08:00"><meta property="og:url" content="https://zzkrix.com/">
   <meta property="og:site_name" content="💥Zzz&#39;s Notes">
   <meta property="og:title" content="💥Zzz&#39;s Notes">
   <meta property="og:description" content="个人笔记">
@@ -120,7 +120,13 @@
     </a><a href="mailto:zzkrix56@gmail.com" title="Email"target="_blank" rel="external nofollow noopener noreferrer me"><i class="fa-regular fa-envelope fa-fw" aria-hidden="true"></i>
     </a><a href="/index.xml" title="RSS"target="_blank" rel="external nofollow noopener noreferrer me"><i class="fa-solid fa-rss fa-fw" aria-hidden="true"></i>
     </a></div><h3 class="home-disclaimer"> </h3></div>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/docker-prune/">释放 docker 占用空间</a>
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/linux-net-show/">查看机器上的网卡</a>
+  </h2><div class="post-meta"><span class="post-author"><a href="https://zzkrix.com" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img class="avatar" src='https://avatars.githubusercontent.com/u/173884861' alt="zzkrix" height="16" width="16">&nbsp;zzkrix</a></span>&nbsp;<span class="post-publish" title='2023-12-11 13:59:45'>发布于 <time datetime="2023-12-11">2023-12-11</time></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/linux/" class="post-category" title="分类 - linux"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> linux</a></span></div><div class="content"><p>使用<code>ip a</code>或者<code>ifconfig</code>区分不出来网卡和网桥。</p>
+<p>使用<code>ls -l /sys/class/net</code>可以判断
+包含<code>virtual</code>的应该都是虚拟网桥。
+包含<code>pci</code>的都是物理网卡。</p></div><div class="post-footer">
+    <a href="/posts/linux-net-show/">阅读全文</a><div class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/linux/' class="post-tag">linux</a><a href='/tags/%E7%BD%91%E7%BB%9C/' class="post-tag">网络</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/docker-prune/">释放 docker 占用空间</a>
   </h2><div class="post-meta"><span class="post-author"><a href="https://zzkrix.com" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img class="avatar" src='https://avatars.githubusercontent.com/u/173884861' alt="zzkrix" height="16" width="16">&nbsp;zzkrix</a></span>&nbsp;<span class="post-publish" title='2023-12-09 22:43:23'>发布于 <time datetime="2023-12-09">2023-12-09</time></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/docker/" class="post-category" title="分类 - docker"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> docker</a></span></div><div class="content"><h3 class="heading-element" id="前言"><span>前言</span>
   <a href="#%e5%89%8d%e8%a8%80" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
@@ -165,13 +171,6 @@
   </h2><div class="post-meta"><span class="post-author"><a href="https://zzkrix.com" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img class="avatar" src='https://avatars.githubusercontent.com/u/173884861' alt="zzkrix" height="16" width="16">&nbsp;zzkrix</a></span>&nbsp;<span class="post-publish" title='2023-12-07 15:03:34'>发布于 <time datetime="2023-12-07">2023-12-07</time></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/linux/" class="post-category" title="分类 - linux"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> linux</a></span></div><div class="content"><p>根目录下可用磁盘大小为 22G，实际物理磁盘有 46.58G，vgs 可看到还有 21.76（50%）的空间没被使用。</p>
 <p>扩展逻辑卷，并将<code>VFree</code>的空间全部分配逻辑卷<code>/dev/mapper/ubuntu--vg-ubuntu--lv</code></p></div><div class="post-footer">
     <a href="/posts/linux-disk-change/">阅读全文</a><div class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/linux/' class="post-tag">linux</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/oracle-server-netboot/">Oracle 服务器使用 netboot 重装系统</a>
-  </h2><div class="post-meta"><span class="post-author"><a href="https://zzkrix.com" title="作者"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img class="avatar" src='https://avatars.githubusercontent.com/u/173884861' alt="zzkrix" height="16" width="16">&nbsp;zzkrix</a></span>&nbsp;<span class="post-publish" title='2023-12-07 13:30:25'>发布于 <time datetime="2023-12-07">2023-12-07</time></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/oracle/" class="post-category" title="分类 - oracle"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> oracle</a></span></div><div class="content"><h3 class="heading-element" id="简介"><span>简介</span>
-  <a href="#%e7%ae%80%e4%bb%8b" class="heading-mark">
-    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
-  </a>
-</h3><p>oracle 免费服务器不支持在界面上更换操作系统，这里借助第三方工具<a href="https://boot.netboot.xyz"target="_blank" rel="external nofollow noopener noreferrer">boot.netboot.xyz</a>重装。</p></div><div class="post-footer">
-    <a href="/posts/oracle-server-netboot/">阅读全文</a><div class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/oracle/' class="post-tag">oracle</a></div></div>
 </article><ul class="pagination"><li class="page-item">
           <span class="page-link">
             <a href="/">1</a>
@@ -205,7 +204,7 @@
             <a href="/page/15/">15</a>
           </span>
         </li></ul></div></main><footer class="footer">
-    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.149.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.4.0-alpha-20250821081127-2d581efb">FixIt</a>
+    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.150.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.4.0-alpha-20250821081127-2d581efb">FixIt</a>
         </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
             <span itemprop="copyrightYear">1900 - 2025</span><span class="author" itemprop="copyrightHolder">
               <a href="https://zzkrix.com"target="_blank" rel="external nofollow noopener noreferrer">zzkrix</a></span><span class="license footer-divider">non-ICP</span></div><div class="footer-line statistics"></div></div>
