@@ -46,6 +46,15 @@ $ docker image ls -f label=com.example.version=0.1
 ...
 ```
 
+拉取不同平台的镜像版本：
+
+```bash
+docker pull --platform <linux/amd64 | linux/arm64 | windows/amd64>
+
+比如：
+docker pull --platform=linux/amd64 rancher/mirrored-library-traefik:3.3.6
+```
+
 ## 删除镜像和容器
 
 删除所有未使用的镜像`docker image prune -a`
