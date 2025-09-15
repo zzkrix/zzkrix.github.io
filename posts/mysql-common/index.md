@@ -116,6 +116,25 @@ explain 的输出结果 Extra 字段为 Using index 时，能够触发索引覆�
 
 不可重复读 是指 A 事务开始时读取一个结果 N，中间因为另一个事务 B 又提交了数据，导致 A 事务再次读取时拿到结果 N‘ ，造成前后数据不一致，这种称为不可重复读。
 
+## JOIN 查询
+
+> 笛卡尔积： 表 A 有 M 条数据， 表 B 有 N 条数据，笛卡尔积的结果就是 M ✖️ N 条结果。
+
+join 的种类：
+
+- inner join: 默认 join，只展示符合条件的
+- left join: 符合条件的所有左侧表的数据 + （ 符合条件的右侧表的数据，不符合条件的显示为 null）
+- right join：与 left join 相反
+- full join: mysql 不支持
+
+需要小表驱动大表，减少查询次数，提高查询效率。
+
+如 表 A 有 100 条数据，表 B 有 1 千万条数据，sql 应该这么写：
+
+```sql
+select * from A join B on A.id = B.id  where xxxxx ;
+```
+
 
 ---
 
