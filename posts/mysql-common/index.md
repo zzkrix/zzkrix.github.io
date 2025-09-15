@@ -124,15 +124,18 @@ join 的种类：
 
 - inner join: 默认 join，只展示符合条件的
 - left join: 符合条件的所有左侧表的数据 + （ 符合条件的右侧表的数据，不符合条件的显示为 null）
-- right join：与 left join 相反
-- full join: mysql 不支持
+- right join: 与 left join 相反
+- full join: 等价于 left join + right join。mysql 和 sqllite 不支持，postgreSQL、oracle、SQL Server 支持。
 
 需要小表驱动大表，减少查询次数，提高查询效率。
 
-如 表 A 有 100 条数据，表 B 有 1 千万条数据，sql 应该这么写：
+如 表 A 有 100 条数据，表 B、C 有 1 千万条数据，sql 应该这么写：
 
 ```sql
-select * from A join B on A.id = B.id  where xxxxx ;
+SELECT A.id, A.xxx, B.yyy, C.zzz
+FROM A
+JOIN B ON A.bid = B.id
+JOIN C ON A.cid = C.id;
 ```
 
 
