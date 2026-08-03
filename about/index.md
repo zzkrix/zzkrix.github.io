@@ -14,7 +14,7 @@
 | [iTerm2](https://iterm2.com/)                     | 替代 xshell                                                  |
 | [Karabiner](https://karabiner-elements.pqrs.org/) | 改键神器                                                     |
 | [uPic](https://github.com/gee1k/uPic)             | 图片上传到图床（github、阿里云...）                          |
-| [stats](https://github.cPm/exelban/stats)         | 状态栏显示系统信息（cpu、内存、风扇、网速...）               |
+| [stats](https://github.com/exelban/stats)         | 状态栏显示系统信息（cpu、内存、风扇、网速...）               |
 | [腾讯柠檬](https://lemon.qq.com/)                 | 清理系统垃圾、卸载软件                                       |
 | [Pixpin](https://pixpin.cn/)                      | 全能截图工具                                                 |
 | ~~❌ [Snipaste](https://zh.snipaste.com/)~~       | ~~截图贴图~~                                                 |

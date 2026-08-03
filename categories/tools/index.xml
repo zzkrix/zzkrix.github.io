@@ -4,7 +4,7 @@
     <title>tools - 分类 - 💥Zzz&#39;s Notes</title>
     <link>https://zzkrix.com/categories/tools/</link>
     <description>个人笔记</description>
-    <generator>Hugo 0.150.0 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
+    <generator>Hugo 0.153.0 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
     <language>zh-CN</language>
     <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
     <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster>
@@ -15,7 +15,7 @@
       <link>https://zzkrix.com/posts/mac-windows-autohotkey/</link>
       <pubDate>Mon, 24 Jun 2024 09:47:05 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
       <guid>https://zzkrix.com/posts/mac-windows-autohotkey/</guid>
-      <category domain="https://zzkrix.com/categories/mac/">mac</category>
+      <category domain="https://zzkrix.com/categories/mac/">Mac</category>
       <category domain="https://zzkrix.com/categories/tools/">tools</category>
       <description>&lt;p&gt;Mac 上使用虚拟机安装了 Windows，若想正常使用&lt;code&gt;cmd + c&lt;/code&gt;、&lt;code&gt;cmd + v&lt;/code&gt;等快捷键，按以下步骤操作。&lt;/p&gt;&#xA;&lt;p&gt;安装 &lt;a href=&#34;https://www.autohotkey.com/&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;AutoHotkey&lt;/a&gt;，这里选择下载 v1 版本，因为下面的脚本只支持 v1。&lt;/p&gt;</description>
     </item>

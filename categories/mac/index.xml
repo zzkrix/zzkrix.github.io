@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mac - 分类 - 💥Zzz&#39;s Notes</title>
+    <title>Mac - 分类 - 💥Zzz&#39;s Notes</title>
     <link>https://zzkrix.com/categories/mac/</link>
     <description>个人笔记</description>
-    <generator>Hugo 0.150.0 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
+    <generator>Hugo 0.153.0 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
     <language>zh-CN</language>
     <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
     <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster>
@@ -15,7 +15,7 @@
       <link>https://zzkrix.com/posts/mac-win10/</link>
       <pubDate>Sun, 04 Aug 2024 12:34:11 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
       <guid>https://zzkrix.com/posts/mac-win10/</guid>
-      <category domain="https://zzkrix.com/categories/mac/">mac</category>
+      <category domain="https://zzkrix.com/categories/mac/">Mac</category>
       <category domain="https://zzkrix.com/categories/windows/">windows</category>
       <description>&lt;p&gt;使用 Mac 的”启动转换助理“安装 windows 双系统时，走到最后一步了，出现如下错误：&lt;/p&gt;&#xA;&lt;p&gt;Windows 无法更新计算机的启动配置，安装无法继续。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a class=&#34;lightgallery&#34; href=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-40-pyYSEB.png&#34; title=&#34;2024-08-04-12-40-pyYSEB&#34; data-thumbnail=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-40-pyYSEB.png&#34; data-sub-html=&#34;&lt;h2&gt;2024-08-04-12-40-pyYSEB&lt;/h2&gt;&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-40-pyYSEB.png&#39; alt=&#34;2024-08-04-12-40-pyYSEB&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;搜索了一圈，有说需要重置 SMC 的，有说打电话问 Apple 客服的，这两个方案都试了，无效。&lt;/p&gt;</description>
     </item>
@@ -24,7 +24,7 @@
       <link>https://zzkrix.com/posts/mac-windows-autohotkey/</link>
       <pubDate>Mon, 24 Jun 2024 09:47:05 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
       <guid>https://zzkrix.com/posts/mac-windows-autohotkey/</guid>
-      <category domain="https://zzkrix.com/categories/mac/">mac</category>
+      <category domain="https://zzkrix.com/categories/mac/">Mac</category>
       <category domain="https://zzkrix.com/categories/tools/">tools</category>
       <description>&lt;p&gt;Mac 上使用虚拟机安装了 Windows，若想正常使用&lt;code&gt;cmd + c&lt;/code&gt;、&lt;code&gt;cmd + v&lt;/code&gt;等快捷键，按以下步骤操作。&lt;/p&gt;&#xA;&lt;p&gt;安装 &lt;a href=&#34;https://www.autohotkey.com/&#34;target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;AutoHotkey&lt;/a&gt;，这里选择下载 v1 版本，因为下面的脚本只支持 v1。&lt;/p&gt;</description>
     </item>
@@ -33,7 +33,7 @@
       <link>https://zzkrix.com/posts/mac-python-mysqlclinet/</link>
       <pubDate>Mon, 06 May 2024 14:24:49 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
       <guid>https://zzkrix.com/posts/mac-python-mysqlclinet/</guid>
-      <category domain="https://zzkrix.com/categories/mac/">mac</category>
+      <category domain="https://zzkrix.com/categories/mac/">Mac</category>
       <category domain="https://zzkrix.com/categories/python/">python</category>
       <description>&lt;p&gt;如果直接执行&lt;code&gt;pip install mysqlclient&lt;/code&gt;，会报错，需要先安装依赖：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install mysql-client&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 必须加这个环境变量，否则后面 pip 安装还是会报错，可以将这个加到 ~/.bash_profile 或者 ～/.zshrc 中&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;PKG_CONFIG_PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;brew --prefix&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/opt/mysql-client/lib/pkgconfig&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;然后再执行：&lt;/p&gt;</description>
     </item>
@@ -42,7 +42,7 @@
       <link>https://zzkrix.com/posts/mac-input-shift/</link>
       <pubDate>Fri, 22 Mar 2024 15:19:35 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
       <guid>https://zzkrix.com/posts/mac-input-shift/</guid>
-      <category domain="https://zzkrix.com/categories/mac/">mac</category>
+      <category domain="https://zzkrix.com/categories/mac/">Mac</category>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;背景&#34;&gt;&lt;span&gt;背景&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e8%83%8c%e6%99%af&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;出于信任问题，手机上切换成 iPhone 自带输入法好多年了，无奈因为使用习惯问题 Mac 上一直用的搜狗输入法（实际上只是自带输入法无法实现 shift 切换中英文的小问题）。今天终于研究了下，完美解决。&lt;/p&gt;</description>
     </item>
     <item>
@@ -50,7 +50,7 @@
       <link>https://zzkrix.com/posts/mac-iterm2-ssh/</link>
       <pubDate>Sun, 21 Jan 2024 22:24:12 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
       <guid>https://zzkrix.com/posts/mac-iterm2-ssh/</guid>
-      <category domain="https://zzkrix.com/categories/mac/">mac</category>
+      <category domain="https://zzkrix.com/categories/mac/">Mac</category>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;前言&#34;&gt;&lt;span&gt;前言&lt;/span&gt;&#xA;  &lt;a href=&#34;#%e5%89%8d%e8%a8%80&#34; class=&#34;heading-mark&#34;&gt;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&lt;p&gt;连接远程服务器的工具有很多，使用人数最多的两款非 xshell 和 SecureCRT 莫属，但是这两款一个不支持 Mac，一个收费，破解版又不敢装。&lt;/p&gt;</description>
     </item>
   </channel>

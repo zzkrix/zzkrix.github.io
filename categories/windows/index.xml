@@ -4,7 +4,7 @@
     <title>windows - 分类 - 💥Zzz&#39;s Notes</title>
     <link>https://zzkrix.com/categories/windows/</link>
     <description>个人笔记</description>
-    <generator>Hugo 0.150.0 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
+    <generator>Hugo 0.153.0 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
     <language>zh-CN</language>
     <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
     <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster>
@@ -15,7 +15,7 @@
       <link>https://zzkrix.com/posts/mac-win10/</link>
       <pubDate>Sun, 04 Aug 2024 12:34:11 +0800</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
       <guid>https://zzkrix.com/posts/mac-win10/</guid>
-      <category domain="https://zzkrix.com/categories/mac/">mac</category>
+      <category domain="https://zzkrix.com/categories/mac/">Mac</category>
       <category domain="https://zzkrix.com/categories/windows/">windows</category>
       <description>&lt;p&gt;使用 Mac 的”启动转换助理“安装 windows 双系统时，走到最后一步了，出现如下错误：&lt;/p&gt;&#xA;&lt;p&gt;Windows 无法更新计算机的启动配置，安装无法继续。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a class=&#34;lightgallery&#34; href=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-40-pyYSEB.png&#34; title=&#34;2024-08-04-12-40-pyYSEB&#34; data-thumbnail=&#34;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-40-pyYSEB.png&#34; data-sub-html=&#34;&lt;h2&gt;2024-08-04-12-40-pyYSEB&lt;/h2&gt;&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#39;https://raw.githubusercontent.com/zzkrix/blog-images/main/assets/2024-08-04-12-40-pyYSEB.png&#39; alt=&#34;2024-08-04-12-40-pyYSEB&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;搜索了一圈，有说需要重置 SMC 的，有说打电话问 Apple 客服的，这两个方案都试了，无效。&lt;/p&gt;</description>
     </item>

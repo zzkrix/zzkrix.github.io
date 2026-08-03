@@ -4,7 +4,7 @@
     <title>docker - 标签 - 💥Zzz&#39;s Notes</title>
     <link>https://zzkrix.com/tags/docker/</link>
     <description>个人笔记</description>
-    <generator>Hugo 0.150.0 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
+    <generator>Hugo 0.153.0 &amp; FixIt v0.4.0-alpha-20250821081127-2d581efb</generator>
     <language>zh-CN</language>
     <managingEditor>zzkrix56@gmail.com (zzkrix)</managingEditor>
     <webMaster>zzkrix56@gmail.com (zzkrix)</webMaster>
@@ -16,7 +16,7 @@
       <pubDate>Mon, 11 Dec 2023 14:45:57 +0000</pubDate><author>zzkrix56@gmail.com (zzkrix)</author>
       <guid>https://zzkrix.com/posts/docker-compose/</guid>
       <category domain="https://zzkrix.com/categories/docker/">docker</category>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;docker 命令里已经集成了 compose，所以尽量使用 docker compose 而不是 docker-compose&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;出于数据安全考虑，&lt;code&gt;docker compose&lt;/code&gt; 和 &lt;code&gt;docker&lt;/code&gt;一样，默认不会删除存储卷，如果想删除，可以使用以下命令&#xA;删除镜像和存储卷&lt;/p&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;docker 命令里已经集成了 compose，所以尽量使用 docker compose 而不是 docker-compose&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;出于数据安全考虑，&lt;code&gt;docker compose&lt;/code&gt; 和 &lt;code&gt;docker&lt;/code&gt;一样，默认不会删除存储卷，如果想删除，可以使用以下命令&#xA;删除镜像和存储卷&lt;/p&gt;</description>
     </item>
     <item>
       <title>释放 docker 占用空间</title>
